@@ -68,141 +68,85 @@ ul.hover-block li {
 .b-orange {
     background: #fe781e;
     color: #fff;
-    margin: 3px 0px;
+    margin: 3px 0;
     display: inline-block;
-    -webkit-transition: background 1s ease;
-    -moz-transition: background 1s ease;
-    -o-transition: background 1s ease;
-    transition: background 1s ease;
     cursor: default;
 }
 
 .b-orange:hover {
     background: #e66d1c;
-    -webkit-transition: background 1s ease;
-    -moz-transition: background 1s ease;
-    -o-transition: background 1s ease;
-    transition: background 1s ease;
 }
 
 .b-purple {
     background: #9b59bb;
     color: #fff;
-    margin: 3px 0px;
+    margin: 3px 0;
     display: inline-block;
-    -webkit-transition: background 1s ease;
-    -moz-transition: background 1s ease;
-    -o-transition: background 1s ease;
-    transition: background 1s ease;
     cursor: default;
 }
 
 .b-purple:hover {
     background: #81499c;
-    -webkit-transition: background 1s ease;
-    -moz-transition: background 1s ease;
-    -o-transition: background 1s ease;
-    transition: background 1s ease;
 }
 
 .b-blue {
     background: #1570a6;
     color: #fff;
-    margin: 3px 0px;
+    margin: 3px 0;
     display: inline-block;
-    -webkit-transition: background 1s ease;
-    -moz-transition: background 1s ease;
-    -o-transition: background 1s ease;
-    transition: background 1s ease;
     cursor: default;
 }
 
 .b-blue:hover {
     background: #11608f;
-    -webkit-transition: background 1s ease;
-    -moz-transition: background 1s ease;
-    -o-transition: background 1s ease;
-    transition: background 1s ease;
 }
 
 .b-green {
     background: #41bb19;
     color: #fff;
-    margin: 3px 0px;
+    margin: 3px 0;
     display: inline-block;
-    -webkit-transition: background 1s ease;
-    -moz-transition: background 1s ease;
-    -o-transition: background 1s ease;
-    transition: background 1s ease;
     cursor: default;
 }
 
 .b-green:hover {
     background: #379e15;
-    -webkit-transition: background 1s ease;
-    -moz-transition: background 1s ease;
-    -o-transition: background 1s ease;
-    transition: background 1s ease;
 }
 
 .b-black {
     background: #333333;
     color: #fff;
-    margin: 3px 0px;
+    margin: 3px 0;
     display: inline-block;
-    -webkit-transition: background 1s ease;
-    -moz-transition: background 1s ease;
-    -o-transition: background 1s ease;
-    transition: background 1s ease;
     cursor: default;
 }
 
 .b-black:hover {
     background: #000000;
-    -webkit-transition: background 1s ease;
-    -moz-transition: background 1s ease;
-    -o-transition: background 1s ease;
-    transition: background 1s ease;
 }
 
 .b-lblue {
     background: #1ba1e2;
     color: #fff;
-    margin: 3px 0px;
+    margin: 3px 0;
     display: inline-block;
-    -webkit-transition: background 1s ease;
-    -moz-transition: background 1s ease;
-    -o-transition: background 1s ease;
-    transition: background 1s ease;
     cursor: default;
 }
 
 .b-lblue:hover {
     background: #1789c1;
-    -webkit-transition: background 1s ease;
-    -moz-transition: background 1s ease;
-    -o-transition: background 1s ease;
-    transition: background 1s ease;
 }
 
 .b-red {
     background: #ff3738;
     color: #fff;
-    margin: 3px 0px;
+    margin: 3px 0;
     display: inline-block;
-    -webkit-transition: background 1s ease;
-    -moz-transition: background 1s ease;
-    -o-transition: background 1s ease;
-    transition: background 1s ease;
     cursor: default;
 }
 
 .b-red:hover {
     background: #e33031;
-    -webkit-transition: background 1s ease;
-    -moz-transition: background 1s ease;
-    -o-transition: background 1s ease;
-    transition: background 1s ease;
 }
 
 .content ul {
@@ -212,4 +156,76 @@ ul.hover-block li {
 
 ul, ol {
     padding: 0;
+}
+
+/* Colors */
+.orange {
+    color: #fe781e !important;
+}
+
+.purple {
+    color: #9b59bb !important;
+}
+
+.blue {
+    color: #1570a6 !important;
+}
+
+.green {
+    color: #41bb19 !important;
+}
+
+.lblue {
+    color: #1da4e5 !important;
+}
+
+.red {
+    color: #ff3738 !important;
+}
+
+.jumbotron {
+    margin-bottom: 10px !important;
+}
+
+.bs-footer {
+    text-align: left;
+}
+
+.bs-footer {
+    border-top: 1px solid #E5E5E5;
+    color: #777777;
+    text-align: center;
+}
+
+.bs-social {
+    text-align: left;
+}
+
+.bs-social {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.bs-social-buttons {
+    display: inline-block;
+    list-style: none outside none;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+.bs-social-buttons li {
+    display: inline-block;
+    line-height: 1;
+    padding: 5px 8px;
+}
+
+.footer-links {
+    margin: 10px 0;
+    padding-left: 0;
+}
+
+.footer-links li {
+    display: inline;
+    padding: 0 2px;
 }

@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="bootstrap/css/bootstrap-theme.css">
     <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="bootstrap/css/style.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap-responsive.css">
 </head>
 <body style="background-color:#fffbd8;">
 <header class="navbar navbar-inverse navbar-fixed-top bs-docs-nav" role="banner">
@@ -29,47 +30,49 @@
         <nav class="navbar-collapse bs-navbar-collapse collapse" role="navigation" style="height: 1px;">
             <ul class="nav navbar-nav">
                 <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">SAISON 13-14 <b class="caret"></b></a>
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="icon-folder-open">&nbsp;</i>SAISON
+                        13-14 <b class="caret"></b></a>
                     <ul class="dropdown-menu">
-                        <li><a href="#">Classement</a></li>
-                        <li><a href="#">Calendrier</a></li>
+                        <li><a href="#"><i class="icon-list-ol orange">&nbsp;</i>Classement</a></li>
+                        <li><a href="#"><i class="icon-calendar green">&nbsp;</i>Calendrier</a></li>
                         <li class="divider"></li>
-                        <li><a href="#">Dernier Match</a></li>
+                        <li><a href="#"><i class="icon-info-sign red">&nbsp;</i>Dernier Match</a></li>
                     </ul>
                 </li>
                 <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">ARCHIVES<b class="caret"></b></a>
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="icon-briefcase">&nbsp;</i>ARCHIVES<b
+                            class="caret"></b></a>
                     <ul class="dropdown-menu">
-                        <li><a href="#">Sondages</a></li>
-                        <li><a href="#">Interviews</a></li>
+                        <li><a href="#"><i class="icon-signal purple">&nbsp;</i>Sondages</a></li>
+                        <li><a href="#"><i class="icon-eye-open lblue">&nbsp;</i>Interviews</a></li>
                         <li class="divider"></li>
-                        <li><a href="#">Classement 12-13</a></li>
-                        <li><a href="#">Calendrier 12-13</a></li>
+                        <li><a href="#"><i class="icon-list-ol green">&nbsp;</i>Classement 12-13</a></li>
+                        <li><a href="#"><i class="icon-calendar red">&nbsp;</i>Calendrier 12-13</a></li>
                     </ul>
                 </li>
                 <li>
-                    <a href="#">PHOTOS</a>
+                    <a href="#"><i class="icon-camera">&nbsp;</i>PHOTOS</a>
                 </li>
                 <li>
-                    <a href="#">TROMBI</a>
+                    <a href="#"><i class="icon-user">&nbsp;</i>TROMBI</a>
                 </li>
                 <li>
-                    <a href="#">SONDAGES</a>
+                    <a href="#"><i class="icon-signal">&nbsp;</i>SONDAGES</a>
                 </li>
                 <li>
-                    <a href="#">INTERVIEWS</a>
+                    <a href="#"><i class="icon-eye-open">&nbsp;</i>INTERVIEWS</a>
                 </li>
                 <li>
-                    <a href="#">CONTACT</a>
+                    <a href="#"><i class="icon-envelope">&nbsp;</i>CONTACT</a>
                 </li>
             </ul>
         </nav>
     </div>
 </header>
-<div class="container" style="margin-top: 100px;">
+<div class="container" style="margin-top: 70px; margin-bottom: -10px;">
     <div class="row">
         <div class="col-md-12">
-            <div class="jumbotron" id="test">
+            <div class="jumbotron">
                 <h1>Taoupats De Daux</h1>
 
                 <p>Club de foot des Taoupats de Daux!!</p>
@@ -78,35 +81,35 @@
                     <div class="col-md-12">
                         <div class="bor"></div>
                         <ul class="hover-block">
-                            <li><a href="calendrier.php"> <img
+                            <li><a href="#"> <img
                                         src="images/calendrier.jpg" alt="" width="100%"/>
 
                                     <div class="hover-content b-red">
-                                        <h6>Calendrier</h6>
+                                        <h5>Calendrier</h5>
                                         Consulter le calendrier de la saison 2013-2014 des Taoupats.
                                     </div>
                                 </a></li>
-                            <li><a href="classement.php"> <img
+                            <li><a href="#"> <img
                                         src="images/podium.jpg" alt="" width="100%"/>
 
                                     <div class="hover-content b-purple">
-                                        <h6>Classement</h6>
+                                        <h5>Classement</h5>
                                         Consulter le classement de la poule D division 2.
                                     </div>
                                 </a></li>
-                            <li><a href="photos.php"> <!-- Image --> <img
+                            <li><a href="#"> <!-- Image --> <img
                                         src="images/camera.jpg" alt="" width="100%"/>
                                     <!-- Content with background color Class -->
                                     <div class="hover-content b-orange">
-                                        <h6>Photos</h6>
+                                        <h5>Photos</h5>
                                         Consulter les Photos des Taoupats.
                                     </div>
                                 </a></li>
-                            <li class="visible-desktop"><a href="sondage.php"> <img
+                            <li class="visible-desktop"><a href="#"> <img
                                         src="images/sondage.jpg" alt="" width="100%"/>
 
                                     <div class="hover-content b-lblue">
-                                        <h6>Sondages</h6>
+                                        <h5>Sondages</h5>
                                         Retrouver un sondage par semaine dans cette section.
                                     </div>
                                 </a></li>
@@ -133,10 +136,10 @@
                         <span class="time" id="secondes"></span>
                     </li>
                     <li class="list-group-item">
-                        Article du <span class="label label-default">19 Avril 2012</span> :
+                        Article La Dépêche du <span class="label label-default">25 Juin 2013</span> :
                         <a target="_blank"
-                           href="http://www.ladepeche.fr/article/2012/04/19/1334214-daux-les-taoupats-terminent-leur-en-bonne-position.html">
-                            "Les Taoupats terminent leur saison en bonne position."</a>
+                           href="http://www.ladepeche.fr/article/2013/06/25/1657389-daux-foobtall-fin-de-saison-en-beaute.html#xtor=EPR-1">
+                            "Daux : Fin de saison en beauté."</a>
                     </li>
                     <li class="list-group-item">Bilan saison 2012-2013, MJ : <span
                             class="label label-primary">35</span>, V : <span
@@ -144,30 +147,32 @@
                             class="label label-warning">4</span>, D : <span
                             class="label label-danger">14</span></li>
                     <li class="list-group-item">
-                        Article du <span class="label label-default">25 Juin 2013</span> :
+                        Article La Dépêche du <span class="label label-default">19 Avril 2012</span> :
                         <a target="_blank"
-                           href="http://www.ladepeche.fr/article/2013/06/25/1657389-daux-foobtall-fin-de-saison-en-beaute.html#xtor=EPR-1">
-                            "Daux : Fin de saison en beauté."</a>
+                           href="http://www.ladepeche.fr/article/2012/04/19/1334214-daux-les-taoupats-terminent-leur-en-bonne-position.html">
+                            "Les Taoupats terminent leur saison en bonne position."</a>
                     </li>
                 </ul>
             </div>
         </div>
     </div>
-</div>
-</div>
-</div>
-<footer>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="copy">
-                    <p>Réalisé par julien, @jujupiwi.</p>
-                </div>
+    <footer class="bs-footer" role="contentinfo">
+        <div class="container">
+            <div class="bs-social">
+                <a target="_blank" href="http://www.facebook.com" style="text-decoration: none"><span
+                        class="label label-default"><i class="icon icon-facebook">
+                            &nbsp;&nbsp;</i>FACEBOOK</span></a>
+                <a target="_blank" href="http://www.twitter.com" style="text-decoration: none"><span
+                        class="label label-default"><i class="icon icon-twitter">&nbsp;&nbsp;</i>TWITTER</span></a>
+                <a target="_blank" href="http://www.googleplus.com" style="text-decoration: none"><span
+                        class="label label-default"><i class="icon icon-google-plus">&nbsp;&nbsp;</i>GOOGLE +</span></a>
             </div>
-        </div>
-        <div class="clearfix"></div>
-    </div>
-</footer>
+    </footer>
+
+    <p class="pull-right text-muted"><I>Réalisé par Julien, @Jujupiwi.</I></p>
+
+</div>
+
 </body>
 <script src="bootstrap/js/jQuery.js"></script>
 <script src="bootstrap/js/bootstrap.min.js"></script>
@@ -196,7 +201,7 @@
             + date_actuelle.getFullYear() + "</strong>,"
             + " et il est <strong>" + date_actuelle.getHours() + "h"
             + date_actuelle.getMinutes() + "</strong>.<br />";
-        texte += "<strong>Premier Match de la Saison le <span class='label label-default'>07 Septembre 2013 à 20h</span> :</strong>";
+        texte += "<strong>Premier Match de la Saison <span class='label label-primary'>Nailloux</span> le <span class='label label-default'> Samedi 07 Septembre 2013 à 20h</span> :</strong>";
         document.getElementById("affichage").innerHTML = texte;
         document.getElementById("jours").innerHTML = "<strong><span class='badge'>"
             + d_restants + "</span> Jours</strong>";

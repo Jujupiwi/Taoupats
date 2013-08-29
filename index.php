@@ -33,8 +33,8 @@
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="icon-folder-open">&nbsp;</i>SAISON
                         13-14 <b class="caret"></b></a>
                     <ul class="dropdown-menu">
-                        <li><a href="#"><i class="icon-list-ol orange">&nbsp;</i>Classement</a></li>
-                        <li><a href="#"><i class="icon-calendar green">&nbsp;</i>Calendrier</a></li>
+                        <li><a href="classement.php"><i class="icon-list-ol orange">&nbsp;</i>Classement</a></li>
+                        <li><a href="calendrier.php"><i class="icon-calendar green">&nbsp;</i>Calendrier</a></li>
                         <li class="divider"></li>
                         <li><a href="#"><i class="icon-info-sign red">&nbsp;</i>Dernier Match</a></li>
                     </ul>
@@ -60,10 +60,10 @@
                     <a href="#"><i class="icon-signal">&nbsp;</i>SONDAGES</a>
                 </li>
                 <li>
-                    <a href="#"><i class="icon-eye-open">&nbsp;</i>INTERVIEWS</a>
+                    <a href="interviews.php"><i class="icon-eye-open">&nbsp;</i>INTERVIEWS</a>
                 </li>
                 <li>
-                    <a href="#"><i class="icon-envelope">&nbsp;</i>CONTACT</a>
+                    <a href="contact.php"><i class="icon-envelope">&nbsp;</i>CONTACT</a>
                 </li>
             </ul>
         </nav>
@@ -81,7 +81,8 @@
                     <div class="col-md-12">
                         <div class="bor"></div>
                         <ul class="hover-block">
-                            <li><a href="#"> <img
+                            <li><a href="#" data-toggle="tooltip" data-placement="bottom" class="popup"
+                                   data-original-title="Calendrier de la saison 2013-2014"> <img
                                         src="images/calendrier.jpg" alt="" width="100%"/>
 
                                     <div class="hover-content b-red">
@@ -89,7 +90,8 @@
                                         Consulter le calendrier de la saison 2013-2014 des Taoupats.
                                     </div>
                                 </a></li>
-                            <li><a href="#"> <img
+                            <li><a href="#" class="popup" data-toggle="tooltip" data-placement="bottom"
+                                   data-original-title="Classement de la saison 2013-2014"> <img
                                         src="images/podium.jpg" alt="" width="100%"/>
 
                                     <div class="hover-content b-purple">
@@ -97,7 +99,8 @@
                                         Consulter le classement de la poule D division 2.
                                     </div>
                                 </a></li>
-                            <li><a href="#"> <!-- Image --> <img
+                            <li><a href="#" class="popup" data-toggle="tooltip" data-placement="bottom"
+                                   data-original-title="Photos des Taoupats"> <!-- Image --> <img
                                         src="images/camera.jpg" alt="" width="100%"/>
                                     <!-- Content with background color Class -->
                                     <div class="hover-content b-orange">
@@ -105,7 +108,9 @@
                                         Consulter les Photos des Taoupats.
                                     </div>
                                 </a></li>
-                            <li class="visible-desktop"><a href="#"> <img
+                            <li class="visible-desktop"><a href="#" class="popup" data-toggle="tooltip"
+                                                           data-placement="bottom"
+                                                           data-original-title="Sondage de la semaine"> <img
                                         src="images/sondage.jpg" alt="" width="100%"/>
 
                                     <div class="hover-content b-lblue">
@@ -129,11 +134,21 @@
                 </div>
                 <ul class="list-group">
                     <li class="list-group-item">
+                        <p id="affichageDate"></p>
+                    </li>
+                    <li class="list-group-item">
                         <p id="affichage"></p>
                         <span class="time" id="jours"></span>
                         <span class="time" id="heures"></span>
                         <span class="time" id="minutes"></span>
                         <span class="time" id="secondes"></span>
+                    </li>
+                    <li class="list-group-item">
+                        <p id="affichage-amical"></p>
+                        <span class="time" id="jours-amical"></span>
+                        <span class="time" id="heures-amical"></span>
+                        <span class="time" id="minutes-amical"></span>
+                        <span class="time" id="secondes-amical"></span>
                     </li>
                     <li class="list-group-item">
                         Article La Dépêche du <span class="label label-default">25 Juin 2013</span> :
@@ -151,6 +166,16 @@
                         <a target="_blank"
                            href="http://www.ladepeche.fr/article/2012/04/19/1334214-daux-les-taoupats-terminent-leur-en-bonne-position.html">
                             "Les Taoupats terminent leur saison en bonne position."</a>
+                    </li>
+                    <li class="list-group-item">
+                        <span
+                            class="label label-default">Nos sponsors :</span>
+                        <a target="_blank"
+                           href="http://www.domainedepeyrolade.com/">
+                            Domaine de Peyrolade</a> , <a target="_blank"
+                                                          href="http://www.maconnerie-massot.com/">
+                            Massot Multi-Services</a>,
+                        Pépinières Caussat
                     </li>
                 </ul>
             </div>
@@ -176,7 +201,7 @@
 </body>
 <script src="bootstrap/js/jQuery.js"></script>
 <script src="bootstrap/js/bootstrap.min.js"></script>
-<script>
+<script type="text/javascript">
     function CompteARebours() {
         var date_actuelle = new Date(); // On déclare la date d'aujourd'hui.
         var annee = date_actuelle.getFullYear();
@@ -196,13 +221,14 @@
         var mois_fr = new Array('Janvier', 'Février', 'Mars', 'Avril',
             'Mai', 'Juin', 'Juillet', 'Août', 'Septembre', 'Octobre',
             'Novembre', 'Décembre');
-        var texte = "Nous sommes le <strong>" + date_actuelle.getDate()
+        var texteDate = "Nous sommes le <strong>" + date_actuelle.getDate()
             + " " + mois_fr[date_actuelle.getMonth()] + " "
             + date_actuelle.getFullYear() + "</strong>,"
             + " et il est <strong>" + date_actuelle.getHours() + "h"
-            + date_actuelle.getMinutes() + "</strong>.<br />";
-        texte += "<strong>Premier Match de la Saison <span class='label label-primary'>Nailloux</span> le <span class='label label-default'> Samedi 07 Septembre 2013 à 20h</span> :</strong>";
+            + date_actuelle.getMinutes() + "</strong>.";
+        var texte = "<strong>Match championnat <span class='label label-primary'>Nailloux</span> le <span class='label label-default'> Samedi 07 Septembre 2013 à 20h</span> :</strong>";
         document.getElementById("affichage").innerHTML = texte;
+        document.getElementById("affichageDate").innerHTML = texteDate;
         document.getElementById("jours").innerHTML = "<strong><span class='badge'>"
             + d_restants + "</span> Jours</strong>";
         document.getElementById("heures").innerHTML = "<strong><span class='badge'>"
@@ -212,6 +238,40 @@
         document.getElementById("secondes").innerHTML = "<strong><span class='badge'>"
             + s_restantes + "</span> Secondes</strong>";
     }
+    function CompteRebours() {
+        var date_actuelle = new Date(); // On déclare la date d'aujourd'hui.
+        var annee = date_actuelle.getFullYear();
+        var match = new Date(annee, 7, 31, 18, 0, 0); // On déclare la date de Noël.
+        if (match.getTime() < date_actuelle.getTime()) // Si Noël est dépassé, on passe au Noël suivant !
+            match = new Date(annee, 7, 31, 18, 0, 0); // On re-déclare Noël pour qu'il ne soit pas passé.
+        var tps_restant = match.getTime() - date_actuelle.getTime(); // Temps restant en millisecondes
+        //============ CONVERSIONS
+        var s_restantes = tps_restant / 1000; // On convertit en secondes
+        var i_restantes = s_restantes / 60;
+        var H_restantes = i_restantes / 60;
+        var d_restants = H_restantes / 24;
+        s_restantes = Math.floor(s_restantes % 60); // Secondes restantes
+        i_restantes = Math.floor(i_restantes % 60); // Minutes restantes
+        H_restantes = Math.floor(H_restantes % 24); // Heures restantes
+        d_restants = Math.floor(d_restants); // Jours restants
+        var mois_fr = new Array('Janvier', 'Février', 'Mars', 'Avril',
+            'Mai', 'Juin', 'Juillet', 'Août', 'Septembre', 'Octobre',
+            'Novembre', 'Décembre');
+        var texte = "<strong>Match amical <span class='label label-primary'>Cologne</span> le <span class='label label-default'> Samedi 31 Aout 2013 à 18h</span> :</strong>";
+        document.getElementById("affichage-amical").innerHTML = texte;
+        document.getElementById("jours-amical").innerHTML = "<strong><span class='badge'>"
+            + d_restants + "</span> Jours</strong>";
+        document.getElementById("heures-amical").innerHTML = "<strong><span class='badge'>"
+            + H_restantes + "</span> Heures</strong>";
+        document.getElementById("minutes-amical").innerHTML = "<strong><span class='badge'>"
+            + i_restantes + "</span> Minutes</strong>";
+        document.getElementById("secondes-amical").innerHTML = "<strong><span class='badge'>"
+            + s_restantes + "</span> Secondes</strong>";
+    }
+    setInterval(CompteRebours, 1000);
     setInterval(CompteARebours, 1000);
+</script>
+<script>
+    $('.popup').tooltip();
 </script>
 </html>

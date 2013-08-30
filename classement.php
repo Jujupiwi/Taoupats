@@ -180,7 +180,7 @@
                                         (79 buts marqués).</p>
                                     <!-- Button -->
                                     <div class="button">
-                                        <a href="#"><i class="icon-circle-arrow-down"></i> Voir le
+                                        <a href="archive-classement.php"><i class="icon-circle-arrow-down"></i> Voir le
                                             Classement</a>
                                     </div>
                                 </div>

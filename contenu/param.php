@@ -1,7 +1,7 @@
 <?php
 
 /*********************************************************
-Connexion � la base
+Connexion à la base
  *********************************************************/
 $serv = 'localhost';
 $login = 'root';
@@ -25,6 +25,17 @@ $joueur11 = 'Gaetan';
 $joueur12 = 'Enzo';
 $joueur13 = 'Micka';
 $joueur14 = 'MaximeS';
+/*********************************************************
+Liste des autres joueurs
+ *********************************************************/
+$joueur15 = 'Joffrey';
+$joueur16 = 'JulienG';
+$joueur17 = 'Lionel';
+$joueur18 = 'Olivier';
+$joueur19 = 'Paul';
+$joueur20 = 'Thomas';
+$joueur21 = 'Tony';
+
 $nbJoueurs = 14;
 $array = array($joueur1, $joueur2, $joueur3, $joueur4, $joueur5, $joueur6, $joueur7, $joueur8, $joueur9, $joueur10, $joueur11, $joueur12, $joueur13, $joueur14);
 
@@ -44,7 +55,7 @@ $np = 'JC';
 $age = '25';
 
 /*********************************************************
-D�but des questions
+Début des questions
  *********************************************************/
 $poste = 'Poste : euh bonne question ( attaquant ;) ) ';
 $q1 = 'Touche pas a mon poste, canal football club , how i met your mother';
@@ -70,4 +81,3 @@ $q20 = "Das et d'ailleurs continue a etre sérieux l'année prochaine aussi...";
 $q21 = 'Papy';
 $q22 = "La bave du crapeau n'atteint pas la blanche colombe ";
 $q23 = "Continuons sur cette lancer ca fait du bien de pouvoir jouer au ballon un peu et avec du sérieux dans ce que nous faisons nous allons prendre du plaisir par la meme occase c'est tout con :) ^^ ca serait sympa de garder le meme groupe l'année prochaine avec les memes joueurs... en plus de quelques uns et d'avoir de l'ambition si possible donc essayer de faire en sorte que l'on puisse realiser ceci pour l'année prochaine ^^  PS : ce match de Mondonville faut le gagner :) bisous et derien ce fut un plaisir d'avoir repondu a tes questions julien ;) ";
-?>

@@ -179,7 +179,7 @@ include 'contenu/param.php';
                                         (79 buts marqués).</p>
                                     <!-- Button -->
                                     <div class="button">
-                                        <a href="classement.php"><i class="icon-circle-arrow-down"></i> Voir le
+                                        <a href="archive-classement.php"><i class="icon-circle-arrow-down"></i> Voir le
                                             Classement</a>
                                     </div>
                                 </div>
@@ -307,14 +307,14 @@ include 'contenu/param.php';
                 <center>
                     <div class="offset3 span6 offset3">
                         <form class="form-horizontal well" id="formulaire" method="POST"
-                              action="/test/contact_content.php">
+                              action="contenu/contact_content.php">
                             <fieldset>
                                 <legend>
                                     <i class="icon-comment"> </i> Si vous voulez laisser un
                                     message
                                 </legend>
                                 <label id="votre_message" for="textarea">Votre Nom :</label> <input
-                                    type="text" id="text" name="from"></input> <br> <label
+                                    type="text" id="text" name="from"/> <br> <label
                                     id="votre_message" for="textarea">Votre message :</label>
                                 <textarea id="textarea" rows="3" name="message"></textarea>
                                 <br> <br> <input type="submit" name="valider" value="Envoyer"

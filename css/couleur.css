@@ -1,0 +1,134 @@
+a {
+    color: #FEC301;
+}
+
+a:hover {
+    color: #E1AC01;
+}
+
+blockquote {
+    border-left: 4px solid #FEC301;
+}
+
+.color {
+    color: #E1AC01;
+}
+
+header {
+    border-top: 2px solid #FEC301;
+}
+
+.navbar .btn {
+    background: none repeat scroll 0 0 #FEC301 !important;
+}
+
+.navbar .btn:hover {
+    background: none repeat scroll 0 0 #E1AC01 !important;
+}
+
+.da-slider {
+    border-bottom: 3px solid #FEC301;
+    border-top: 3px solid #FEC301;
+}
+
+.da-slide h2 span {
+    background: url("../img/border-l.png") no-repeat scroll left bottom transparent;
+}
+
+.da-slide .da-link {
+    background: none repeat scroll 0 0 #FEC301;
+}
+
+.da-slide .da-link:hover {
+    background: none repeat scroll 0 0 #E1AC01;
+}
+
+.da-dots span {
+    background: none repeat scroll 0 0 #FEC301;
+}
+
+.da-arrows span {
+    background: none repeat scroll 0 0 #FEC301;
+}
+
+.full-slider {
+    background: none repeat scroll 0 0 #FEC301;
+    border-top: 5px solid #E1AC01;
+}
+
+.full-slider .button a {
+    background: none repeat scroll 0 0 #E1AC01;
+}
+
+.full-slider .button a:hover {
+    background: none repeat scroll 0 0 #E1AC01;
+}
+
+.flex-back {
+    background: none repeat scroll 0 0 #E1AC01;
+}
+
+.home-product {
+    background: none repeat scroll 0 0 #FEC301;
+}
+
+.home-product .home-prod-img {
+    border: 1px solid #E1AC01;
+}
+
+#portfolio .element {
+    background: none repeat scroll 0 0 #E1AC01;
+}
+
+#portfolio .pcap {
+    background: none repeat scroll 0 0 #FEC301;
+    border-top: 2px solid #E1AC01;
+}
+
+.events .accordion-heading h5 {
+    background: none repeat scroll 0 0 #FEC301;
+}
+
+.social-links {
+    background: none repeat scroll 0 0 #FEC301;
+}
+
+.social-links i {
+    background: none repeat scroll 0 0 #E1AC01;
+}
+
+.formy {
+    background: none repeat scroll 0 0 #FEC301;
+}
+
+.service-two i {
+    color: #FEC301;
+}
+
+.features-two .feat i, .features-three i {
+    color: #FEC301;
+}
+
+.about-two .asocial i {
+    background: none repeat scroll 0 0 #FEC301;
+}
+
+.career .nav-tabs > li > a:hover {
+    background: none repeat scroll 0 0 #FEC301;
+}
+
+.button a {
+    background: none repeat scroll 0 0 #FEC301;
+}
+
+.button a:hover {
+    background: none repeat scroll 0 0 #E1AC01;
+}
+
+.paging a:hover {
+    background: none repeat scroll 0 0 #FEC301;
+}
+
+.paging .current {
+    background: none repeat scroll 0 0 #E1AC01;
+}

@@ -19,11 +19,6 @@ include 'param.php';
     <script type="text/javascript" src="/js/jquery.js"></script>
     <script type="text/javascript" src="/js/bootstrap.js"></script>
     <style>
-
-        #progress4 td.progressBar-value {
-            color: yellow;
-        }
-
         #stylee {
             color: red;
             font-weight: bold;
@@ -71,9 +66,7 @@ if (mail($destinataire, $sujet, $message, $headers)) {
 </div>
 <center>
     <br><br>
-    <?php
-    header("Refresh: 3;URL=../sondage.php");
-    ?>
+
 </center>
 </body>
 </html>

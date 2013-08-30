@@ -234,98 +234,111 @@ include 'contenu/param.php';
             <center>
                 <br>
 
-                <p>
-                    <b><big>President:
-
-                    </b></big><br> BIRELLO JEAN-LOUIS<br> Adresse : CHEMIN DE LA
-                    TUILERIE<br> 31700 DAUX<br> Tel pro : 06 73 89 27 65<br> E-mail
-                    principal : jl.birello@orange.fr <br>
-                </p>
-
-                <p>
-                    <b><big>Correspondant:
-
-                    </b></big><br> BENEDET JOSEPH<br> Adresse : 46 A RUE LUCIEN
-                    BABONNEAU<br> 31700 DAUX<br> Telephone domicile. : 05 61 85 99 51<br>
-                    Mobile personnel : 06 12 52 70 04<br> E-mail principal :
-                    josephbenedet@yahoo.fr <br>
-                </p>
-
-                <p>
-                    <b><big>Secretaire:
-
-                    </b></big><br> BENEDET JOSEPH<br> Adresse: 46 A RUE LUCIEN
-                    BABONNEAU<br> 31700 DAUX<br> Telephone domicile. : 05 61 85 99 51<br>
-                    Mobile personnel : 06 12 52 70 04<br> E-mail principal :
-                    josephbenedet@yahoo.fr<br> <br>
-                </p>
-
-                <p>
-                    <b><big>Tresorier:
-
-                    </b></big><br> BONNEFOUS MICHEL<br> Adresse: LOTISSEMENT LE PARC
-                    VILLA N 3<br> 31330 LAUNAC<br> Telephone domicile. : 05 61 85 44
-                    33<br> E-mail principal : bonnefousmichel@orange.fr<br> <br>
-                </p>
-
-                <p>
-                    <b><big>Vice-President:
-
-                    </b></big><br> CARRARA CHRISTOPHE<br> Adresse: 6 CHEMIN DE LA
-                    RIVIERE<br> 31700 DAUX<br> Telephone domicile. : 05 34 52 90 08<br>
-                    E-mail principal : carrarra.chris@orange.fr<br> <br>
-                </p>
-
-                <p>
-                    <b><big>Vice-President:
-
-                    </b></big><br> DARDENNE CLAUDE<br> Adresse: 102 CHEMIN DE LA
-                    MOULINE<br> 31700 DAUX<br> Telephone domicile. : 05 61 85 22 97<br>
-                    E-mail principal : dardenne.claude@wanadoo.fr<br> <br>
-                </p>
-            </center>
-            <center>
                 <div class="row-fluid">
-                    <div class="span12">
+                    <div class="span6">
                         <p>
-                            <b><big>Adresse du stade :
+                            <b><big>President:
 
-                            </b></big>
+                            </b></big><br> BIRELLO JEAN-LOUIS<br> <i class="icon-home"></i> : CHEMIN DE LA
+                            TUILERIE<br> 31700 DAUX<br> <i class="icon-phone"></i> : 06 73 89 27 65<br> <i
+                                class="icon-envelope-alt"></i> : jl.birello@orange.fr <br>
                         </p>
-                        <address>
-                            <strong>Club de Daux</strong><br> ROUTE DU STADE<br> 31700 DAUX<br>
-                        </address>
-                        <br>
-                        <iframe width="625" class="visible-desktop" height="350"
-                                frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
-                                src="https://maps.google.fr/maps?f=q&amp;source=s_q&amp;hl=fr&amp;geocode=&amp;q=Route+du+Stade,+Daux&amp;aq=0&amp;oq=route+du+stadedaux&amp;sll=43.691056,1.267977&amp;sspn=0.023553,0.055747&amp;ie=UTF8&amp;hq=&amp;hnear=Route+du+Stade,+31700+Daux,+Haute-Garonne,+Midi-Pyr%C3%A9n%C3%A9es&amp;ll=43.692659,1.262813&amp;spn=0.023552,0.055747&amp;t=m&amp;z=14&amp;output=embed"></iframe>
-                        <br/>
+                    </div>
+                    <div class="span6">
+                        <p>
+                            <b><big>Correspondant:
+
+                            </b></big><br> BENEDET JOSEPH<br> <i class="icon-home"></i> : 46 A RUE LUCIEN
+                            BABONNEAU<br> 31700 DAUX<br> <i class="icon-phone"></i> : 05 61 85 99 51<br>
+                            <i class="icon-phone"></i> : 06 12 52 70 04<br> <i class="icon-envelope-alt"></i> :
+                            josephbenedet@yahoo.fr <br>
+                        </p>
                     </div>
                 </div>
-            </center>
-            <div class="row-fluid">
-                <center>
-                    <div class="offset3 span6 offset3">
-                        <form class="form-horizontal well" id="formulaire" method="POST"
-                              action="contenu/contact_content.php">
-                            <fieldset>
-                                <legend>
-                                    <i class="icon-comment"> </i> Si vous voulez laisser un
-                                    message
-                                </legend>
-                                <label id="votre_message" for="textarea">Votre Nom :</label> <input
-                                    type="text" id="text" name="from"/> <br> <label
-                                    id="votre_message" for="textarea">Votre message :</label>
-                                <textarea id="textarea" rows="3" name="message"></textarea>
-                                <br> <br> <input type="submit" name="valider" value="Envoyer"
-                                                 class="btn btn-warning"/>
-                            </fieldset>
-                        </form>
+                <div class="row-fluid">
+                    <div class="span6">
+                        <p>
+                            <b><big>Secretaire:
+
+                            </b></big><br> BENEDET JOSEPH<br> <i class="icon-home"></i>: 46 A RUE LUCIEN
+                            BABONNEAU<br> 31700 DAUX<br> <i class="icon-phone"></i> : 05 61 85 99 51<br>
+                            <i class="icon-phone"></i> : 06 12 52 70 04<br> <i class="icon-envelope-alt"></i> :
+                            josephbenedet@yahoo.fr<br> <br>
+                        </p>
                     </div>
-                </center>
+                    <div class="span6">
+                        <p>
+                            <b><big>Tresorier:
+
+                            </b></big><br> BONNEFOUS MICHEL<br> <i class="icon-home"></i>: LOTISSEMENT LE PARC
+                            VILLA N 3<br> 31330 LAUNAC<br> <i class="icon-phone"></i> : 05 61 85 44
+                            33<br> <i class="icon-envelope-alt"></i> : bonnefousmichel@orange.fr<br> <br>
+                        </p>
+                    </div>
+                </div>
+                <div class="row-fluid">
+                    <div class="span6">
+                        <p>
+                            <b><big>Vice-President:
+
+                            </b></big><br> CARRARA CHRISTOPHE<br> <i class="icon-home"></i>: 6 CHEMIN DE LA
+                            RIVIERE<br> 31700 DAUX<br> <i class="icon-phone"></i> : 05 34 52 90 08<br>
+                            <i class="icon-envelope-alt"></i> : carrarra.chris@orange.fr<br> <br>
+                        </p>
+                    </div>
+                    <div class="span6">
+                        <p>
+                            <b><big>Vice-President:
+
+                            </b></big><br> DARDENNE CLAUDE<br> <i class="icon-home"></i>: 102 CHEMIN DE LA
+                            MOULINE<br> 31700 DAUX<br> <i class="icon-phone"></i> : 05 61 85 22 97<br>
+                            <i class="icon-envelope-alt"></i> : dardenne.claude@wanadoo.fr<br> <br>
+                        </p>
+                    </div>
+                </div>
+        </div>
+        <center>
+            <div class="row-fluid">
+                <div class="span12">
+                    <p>
+                        <b><big>Adresse du stade :
+
+                        </b></big>
+                    </p>
+                    <address>
+                        <strong>Club de Daux</strong><br> ROUTE DU STADE<br> 31700 DAUX<br>
+                    </address>
+                    <br>
+                    <iframe width="625" class="visible-desktop" height="350"
+                            frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
+                            src="https://maps.google.fr/maps?f=q&amp;source=s_q&amp;hl=fr&amp;geocode=&amp;q=Route+du+Stade,+Daux&amp;aq=0&amp;oq=route+du+stadedaux&amp;sll=43.691056,1.267977&amp;sspn=0.023553,0.055747&amp;ie=UTF8&amp;hq=&amp;hnear=Route+du+Stade,+31700+Daux,+Haute-Garonne,+Midi-Pyr%C3%A9n%C3%A9es&amp;ll=43.692659,1.262813&amp;spn=0.023552,0.055747&amp;t=m&amp;z=14&amp;output=embed"></iframe>
+                    <br/>
+                </div>
             </div>
+        </center>
+        <div class="row-fluid">
+            <center>
+                <div class="offset3 span6 offset3">
+                    <form class="form-horizontal well" id="formulaire" method="POST"
+                          action="contenu/contact_content.php">
+                        <fieldset>
+                            <legend>
+                                <i class="icon-comment"> </i> Laisser un
+                                message
+                            </legend>
+                            <label id="votre_message" for="textarea">Votre Nom :</label> <input
+                                type="text" id="text" name="from"/> <br> <label
+                                id="votre_message" for="textarea">Votre message :</label>
+                            <textarea id="textarea" rows="3" name="message"></textarea>
+                            <br> <br> <input type="submit" name="valider" value="Envoyer"
+                                             class="btn btn-warning"/>
+                        </fieldset>
+                    </form>
+                </div>
+            </center>
         </div>
     </div>
+</div>
 </div>
 <!-- Social -->
 <div class="social-links">

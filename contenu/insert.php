@@ -18,30 +18,12 @@ include 'param.php';
           href="/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css"
           href="/css/style.css">
-    <link type="text/css" rel="stylesheet"
-          href="/css/progressBar.jQuery.css"/>
 
     <!-- Scripts
         +++++++++++++ -->
-    <script type="text/javascript" src="/test/bootstrap/js/jQuery.js"></script>
-    <script type="text/javascript" src="/test/bootstrap/js/bootstrap.min.js"></script>
-    <script type="text/javascript"
-            src="/test/bootstrap/js/bootstrap-dropdown.js"></script>
-    <script type="text/javascript"
-            src="/test/bootstrap/js/progressBar.jQuery.js"></script>
+    <script type="text/javascript" src="/js/jquery.js"></script>
+    <script type="text/javascript" src="/js/bootstrap.js"></script>
     <style>
-        #progress4 td.progressBar-off {
-            background-color: yellow;
-        }
-
-        #progress4 td.progressBar-on {
-            background-color: black;
-        }
-
-        #progress4 td.progressBar-value {
-            color: yellow;
-        }
-
         #stylee {
             color: red;
             font-weight: bold;
@@ -49,26 +31,6 @@ include 'param.php';
             font-size: 120%;
         }
     </style>
-    <script>
-        <!--
-        var compteur = 0;
-        function update_progressBar(valeur) {
-            /* params are name:default
-             orientation:'vertical', // 'vertical' ou 'horizontal' -> orientation de la progress bar
-             value:0 // valeur par d�faut de la progress bar
-             max:100 // valeur maximum possible
-             rows:30 // nombre de lignes pour l'affichage
-             */
-            $('#progress4').progressBar({ value: valeur, orientation: 'horizontal'});
-            if (compteur <= 100) {
-                window.setTimeout("update_progressBar(" + compteur++ + ")", 20); // toute les second
-            }
-        }
-        $(document).ready(function () {
-            window.setTimeout("update_progressBar(compteur)", 20); // toute les second
-        });
-        //-->
-    </script>
 </head>
 <body>
 <?php

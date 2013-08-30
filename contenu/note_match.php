@@ -63,6 +63,8 @@ if ($isVoted == 1) {
     <p>Notez l'équipe pour le Match face à <?php echo strtoupper($match); ?></p>
     <p>Merci pour eux...</p>
     <form class="form-horizontal well" action="contenu/note.php" method="post">
+        <br><br>
+
         <div class="styled-select">
             <select name="note">
                 <option VALUE="0">0</option>

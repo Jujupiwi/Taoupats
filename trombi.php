@@ -237,9 +237,7 @@
             <p>
 
 
-            <h6><i class="icon-user icon-white"> </i> Gar
-
-                diens
+            <h6><i class="icon-user icon-white"> </i> Gardiens
             </h6>
 
 

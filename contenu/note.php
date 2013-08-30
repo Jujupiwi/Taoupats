@@ -66,7 +66,9 @@ if (mail($destinataire, $sujet, $message, $headers)) {
 </div>
 <center>
     <br><br>
-
+    <?php
+    header("Refresh: 3;URL=../sondage.php");
+    ?>
 </center>
 </body>
 </html>

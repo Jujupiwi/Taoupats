@@ -24,7 +24,7 @@ $nbComment = $row[0];?>
     <br><br>
 <?php if ($nbComment != 0) {
     $res = $mysqli->query("SELECT * FROM `commentaires` WHERE `match`='$commentMatch';");
-    echo "<table class='table table-bordered table-striped table-condensed table-hover'>";
+    echo "<table id='table_comment' class='table table-bordered table-striped table-condensed table-hover'>";
     echo "<thead>";
     echo "<th width='25%'>Nom</th>";
     echo "<th width='75%'>Commentaire</th>";

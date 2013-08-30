@@ -31,7 +31,7 @@ for ($i = 0; $i < $nbJoueurs; $i++) {
 // ***************************************************************************************************************************
 if ($isVoted == 1) {
     ?>
-    <p>Vous avez d�j� r�pondu au sondage</p>
+    <p>Vous avez déjà répondu au sondage</p>
     <p>Voici les resultats</p>
     <br>
     <table
@@ -73,7 +73,7 @@ if ($isVoted == 1) {
         </tbody>
     </table>
 <?php } else { ?>
-    <form class="form-horizontal well" action="/test/insert.php"
+    <form class="form-horizontal well" action="contenu/insert.php"
           method="post">
         <table
             class="table table-bordered table-striped table-condensed table-hover"

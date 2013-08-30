@@ -1,5 +1,13 @@
 * {
-    border-radius: 0px !important;
+    border-radius: 0 !important;
+}
+
+#note {
+    margin-bottom: 500px;
+}
+
+#table_comment {
+    margin-bottom: 200px;
 }
 
 .modal {
@@ -28,8 +36,8 @@ body {
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Open Sans', sans-serif;
     font-weight: normal !important;
-    margin: 2px 0px 5px 0px;
-    padding: 2px 0px;
+    margin: 2px 0 5px 0;
+    padding: 2px 0;
     color: #666;
 }
 
@@ -127,7 +135,7 @@ h6 {
 }
 
 p {
-    margin: 2px 0px;
+    margin: 2px 0;
 }
 
 a:hover, a:active, a:focus {
@@ -135,7 +143,7 @@ a:hover, a:active, a:focus {
 }
 
 hr {
-    margin: 20px 0px;
+    margin: 20px 0;
 }
 
 .centrage {
@@ -152,9 +160,8 @@ hr {
 }
 
 .border {
-    background: url("../img/dots.png") repeat;
     height: 5px;
-    margin: 30px 0px !important;
+    margin: 30px 0 !important;
 }
 
 .bor {
@@ -207,8 +214,8 @@ a.btn {
 
 /* Form */
 .form {
-    margin: 20px 0px;
-    margin-bottom: 0px;
+    margin: 20px 0;
+    margin-bottom: 0;
 }
 
 .form-horizontal input[type="text"], .form-horizontal input[type="password"], .form-horizontal textarea {
@@ -234,7 +241,7 @@ a.btn {
 .form-actions {
     padding: 10px 20px 11px;
     background: transparent;
-    border-top: 0px;
+    border-top: 0;
 }
 
 /* Button */
@@ -288,7 +295,7 @@ a.btn {
 .b-orange {
     background: #fe781e;
     color: #fff;
-    margin: 3px 0px;
+    margin: 3px 0;
     display: inline-block;
     -webkit-transition: background 1s ease;
     -moz-transition: background 1s ease;
@@ -308,7 +315,7 @@ a.btn {
 .b-purple {
     background: #9b59bb;
     color: #fff;
-    margin: 3px 0px;
+    margin: 3px 0;
     display: inline-block;
     -webkit-transition: background 1s ease;
     -moz-transition: background 1s ease;
@@ -328,7 +335,7 @@ a.btn {
 .b-blue {
     background: #1570a6;
     color: #fff;
-    margin: 3px 0px;
+    margin: 3px 0;
     display: inline-block;
     -webkit-transition: background 1s ease;
     -moz-transition: background 1s ease;
@@ -348,7 +355,7 @@ a.btn {
 .b-green {
     background: #41bb19;
     color: #fff;
-    margin: 3px 0px;
+    margin: 3px 0;
     display: inline-block;
     -webkit-transition: background 1s ease;
     -moz-transition: background 1s ease;
@@ -368,7 +375,7 @@ a.btn {
 .b-black {
     background: #333333;
     color: #fff;
-    margin: 3px 0px;
+    margin: 3px 0;
     display: inline-block;
     -webkit-transition: background 1s ease;
     -moz-transition: background 1s ease;
@@ -388,7 +395,7 @@ a.btn {
 .b-lblue {
     background: #1ba1e2;
     color: #fff;
-    margin: 3px 0px;
+    margin: 3px 0;
     display: inline-block;
     -webkit-transition: background 1s ease;
     -moz-transition: background 1s ease;
@@ -408,7 +415,7 @@ a.btn {
 .b-red {
     background: #ff3738;
     color: #fff;
-    margin: 3px 0px;
+    margin: 3px 0;
     display: inline-block;
     -webkit-transition: background 1s ease;
     -moz-transition: background 1s ease;
@@ -473,7 +480,7 @@ header {
 }
 
 header .logo {
-    padding: 15px 0px;
+    padding: 15px 0;
 }
 
 header .logo h1 {
@@ -505,19 +512,19 @@ header .form {
 }
 
 .navbar {
-    margin-bottom: 0px;
+    margin-bottom: 0;
 }
 
 .navbar *, .nav-collapse * {
     box-shadow: none !important;
     text-shadow: none !important;
-    border-radius: 0px !important;
+    border-radius: 0 !important;
     font-weight: normal !important;
     font-size: 14px !important;
 }
 
 .navbar-inner {
-    padding-left: 0px;
+    padding-left: 0;
     background: #fafafa;
     filter: none !important;
 }
@@ -553,15 +560,15 @@ header .form {
 }
 
 .dropdown-menu {
-    border-radius: 0px !important;
+    border-radius: 0 !important;
     box-shadow: none !important;
     border: none !important;
-    padding: 0px;
-    margin: 0px;
+    padding: 0;
+    margin: 0;
     z-index: 3000;
     background: #fafafa;
     border: 1px solid #eee !important;
-    border-top: 0px !important;
+    border-top: 0 !important;
 }
 
 .dropdown-menu a {
@@ -583,13 +590,13 @@ header .form {
 
 /* Accordion */
 .accordion-group {
-    border-radius: 0px;
-    margin: 10px 0px;
+    border-radius: 0;
+    margin: 10px 0;
 }
 
 .accordion-heading .accordion-toggle {
     display: block;
-    padding: 0px;
+    padding: 0;
 }
 
 .accordion li {
@@ -623,7 +630,7 @@ blockquote small {
 /* Support */
 #slist p {
     display: none;
-    margin: 5px 0px;
+    margin: 5px 0;
     padding: 5px 10px;
     background: #fff;
     line-height: 30px;
@@ -703,7 +710,7 @@ blockquote small {
 .portfolio li a, .portfolio li a:visited {
     color: #fff;
     padding: 5px 10px;
-    margin: 0px 5px;
+    margin: 0 5px;
 }
 
 .portfolio li a:hover {
@@ -715,13 +722,13 @@ blockquote small {
 }
 
 #portfolio .element {
-    margin: 20px 10px 10px 0px;
+    margin: 20px 10px 10px 0;
     padding: 5px;
 }
 
 #portfolio h4 {
-    margin: 4px 0px;
-    padding: 0px;
+    margin: 4px 0;
+    padding: 0;
     color: #fff;
     font-size: 16px;
 }
@@ -729,7 +736,7 @@ blockquote small {
 #portfolio .pcap {
     background: #370a19;
     border-top: 2px solid #e9004d;
-    padding: 3px 0px;
+    padding: 3px 0;
 }
 
 #portfolio a, #portfolio a:visited, #portfolio a:hover {
@@ -738,7 +745,7 @@ blockquote small {
 }
 
 #portfolio .pcap p {
-    padding: 0px 6px 10px 6px;
+    padding: 0 6px 10px 6px;
     font-size: 13px;
 }
 
@@ -757,12 +764,12 @@ blockquote small {
 }
 
 #filters {
-    margin-left: 0px;
+    margin-left: 0;
 }
 
 #filters li {
     display: inline;
-    padding: 0px;
+    padding: 0;
     background: none;
 }
 
@@ -779,7 +786,7 @@ blockquote small {
 
 .nocolor .pcap {
     background: transparent !important;
-    border-top: 0px solid #379e15 !important;
+    border-top: 0 solid #379e15 !important;
 }
 
 /* Gallery */
@@ -818,7 +825,7 @@ blockquote small {
 .blog .meta {
     border-top: 1px solid #f7f7f7;
     border-bottom: 1px solid #f7f7f7;
-    margin: 8px 0px;
+    margin: 8px 0;
     padding: 5px 8px;
     color: #777;
     text-transform: uppercase;
@@ -836,9 +843,9 @@ blockquote small {
 }
 
 .blog .bthumb {
-    margin: 10px 0px 5px 0px;
+    margin: 10px 0 5px 0;
     padding: 1px;
-    box-shadow: 0px 0px 1px #777;
+    box-shadow: 0 0 1px #777;
 }
 
 .blog .bthumb2 {
@@ -849,7 +856,7 @@ blockquote small {
 }
 
 .blog .bthumb2 img {
-    margin: 0px;
+    margin: 0;
     width: 180px;
     min-width: 180px;
 }
@@ -863,7 +870,7 @@ blockquote small {
 }
 
 .blog .entry p {
-    margin: 0px 0px 4px 0px;
+    margin: 0 0 4px 0;
 }
 
 .blog .post-foot {
@@ -872,7 +879,7 @@ blockquote small {
 }
 
 .blog .post-foot .social {
-    margin-top: 0px;
+    margin-top: 0;
 }
 
 .sidebar {
@@ -907,7 +914,7 @@ blockquote small {
 }
 
 .sidebar ul li {
-    padding: 3px 0px;
+    padding: 3px 0;
 }
 
 /* Comments */
@@ -918,7 +925,7 @@ blockquote small {
 
 .comments>ul>li {
     background: none;
-    padding: 0px;
+    padding: 0;
 }
 
 .comments {
@@ -926,7 +933,7 @@ blockquote small {
 }
 
 .comments .comment {
-    margin: 15px 0px;
+    margin: 15px 0;
     padding: 13px 16px;
     background: #f8f8f8;
     border-left: 2px solid #ddd;
@@ -955,8 +962,8 @@ blockquote small {
 }
 
 .respond .title {
-    padding: 5px 0px;
-    margin-bottom: 0px;
+    padding: 5px 0;
+    margin-bottom: 0;
 }
 
 /* Pagination */
@@ -993,7 +1000,7 @@ blockquote small {
 /* Career */
 .career .nav>li {
     background: none;
-    padding: 0px;
+    padding: 0;
     list-style-type: none;
 }
 
@@ -1013,8 +1020,8 @@ blockquote small {
 
 .error-log ul {
     list-style-type: none;
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
 }
 
 .error-log .green {
@@ -1046,7 +1053,7 @@ blockquote small {
 /* Features three */
 .features-three .feat-inner {
     text-align: center;
-    margin: 20px 0px 20px 0px;
+    margin: 20px 0 20px 0;
 }
 
 .features-three .feat-inner {
@@ -1140,7 +1147,7 @@ blockquote small {
 }
 
 .service-three .row hr {
-    margin: 10px 0px;
+    margin: 10px 0;
 }
 
 .service-three .row .grey {
@@ -1200,7 +1207,7 @@ blockquote small {
     min-height: 100px;
     font-size: 16px;
     text-align: center;
-    padding: 10px 0px;
+    padding: 10px 0;
 }
 
 .c-block i {
@@ -1234,7 +1241,7 @@ blockquote small {
     height: 25px;
     width: 25px;
     line-height: 25px;
-    margin: 0px 5px 0px 0px;
+    margin: 0 5px 0 0;
     color: #fff;
     -webkit-transition: background 1s ease;
     -moz-transition: background 1s ease;
@@ -1278,7 +1285,7 @@ i.linkedin {
 
 /* Coming soon */
 .c-soon {
-    margin: 20px 0px;
+    margin: 20px 0;
     padding: 40px;
     text-align: center;
 }
@@ -1312,8 +1319,8 @@ i.linkedin {
 }
 
 .soon-tweet ul li {
-    padding: 0px;
-    margin: 0px;
+    padding: 0;
+    margin: 0;
     font-style: italic;
 }
 
@@ -1342,7 +1349,7 @@ i.linkedin {
 
 /* Make post */
 .make-post hr {
-    margin: 10px 0px;
+    margin: 10px 0;
 }
 
 /* About #2 */
@@ -1357,8 +1364,8 @@ i.linkedin {
 
 .about-two .details .name {
     line-height: 10px;
-    padding: 0px;
-    margin: 0px;
+    padding: 0;
+    margin: 0;
 }
 
 .about-two .details em {
@@ -1398,7 +1405,7 @@ i.linkedin {
 
 /* Slider 2 (Nivo slider) */
 .full-slider i {
-    margin: 0px;
+    margin: 0;
 }
 
 .full-slider .button {
@@ -1414,9 +1421,9 @@ i.linkedin {
 .flexslider {
     background: transparent;
     min-height: 300px;
-    margin: 0 0 0px;
-    border: 0px;
-    border-radius: 0px;
+    margin: 0 0 0;
+    border: 0;
+    border-radius: 0;
     box-shadow: none;
     color: #fff;
 }
@@ -1453,7 +1460,7 @@ i.linkedin {
 }
 
 .flex-caption {
-    margin: 60px 0px 40px 0px;
+    margin: 60px 0 40px 0;
 }
 
 .flex-caption h2, .flex-caption h5, .flex-caption h6 {
@@ -1473,9 +1480,9 @@ i.linkedin {
 
 /* Clients page */
 .cclient {
-    padding: 10px 0px 15px 0px;
+    padding: 10px 0 15px 0;
     border-bottom: 1px solid #eee;
-    margin: 10px 0px 15px 0px;
+    margin: 10px 0 15px 0;
 }
 
 .cimage img {
@@ -1535,11 +1542,11 @@ ul.hover-block li img {
 
 .content ul {
     list-style-type: none;
-    margin-left: 0px;
+    margin-left: 0;
 }
 
 .content ul li {
-    padding: 5px 0px;
+    padding: 5px 0;
 }
 
 /* Discover */
@@ -1553,7 +1560,7 @@ ul.hover-block li img {
 .dis-content div {
     display: none;
     padding: 15px 15px 20px 15px;
-    margin: 10px 0px;
+    margin: 10px 0;
     background: #f8f8f8;
     color: #777;
     border: 1px solid #eee;
@@ -1578,7 +1585,7 @@ ul.hover-block li img {
 .lp .lp-image {
     max-width: 600px;
     margin: 40px auto;
-    box-shadow: 0px 0px 30px #ccc;
+    box-shadow: 0 0 30px #ccc;
 }
 
 /* Task */
@@ -1625,7 +1632,7 @@ ul.hover-block li img {
 }
 
 .pricel .phead-top {
-    margin: 0px;
+    margin: 0;
     padding: 15px 10px;
 }
 
@@ -1638,7 +1645,7 @@ ul.hover-block li img {
     border-left: 1px solid #ddd;
     border-right: 1px solid #ddd;
     border-bottom: 1px solid #ddd;
-    margin: 0px;
+    margin: 0;
     padding: 10px 10px 5px 10px;
     color: #777;
     font-weight: 700;
@@ -1661,11 +1668,11 @@ ul.hover-block li img {
 .pricel .pbutton {
     background: #eee;
     border: 1px solid #ddd;
-    padding: 10px 0px 15px 0px;
+    padding: 10px 0 15px 0;
     color: #777;
     font-size: 20px;
     text-align: center;
-    margin-top: 0px;
+    margin-top: 0;
 }
 
 .pricel .plist {
@@ -1676,13 +1683,13 @@ ul.hover-block li img {
 
 .pricel .plist ul {
     list-style-type: none;
-    margin-left: 0px;
-    margin-bottom: 0px !important;
+    margin-left: 0;
+    margin-bottom: 0 !important;
 }
 
 .pricel .plist li {
     background: none;
-    padding: 13px 0px;
+    padding: 13px 0;
     font-size: 13px;
     border-bottom: 1px solid #e1e1e1;
 }
@@ -1701,8 +1708,8 @@ ul.hover-block li img {
 
 /* Products */
 .prod h3 {
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     font-size: 20px;
     line-height: 30px;
 }
@@ -1745,7 +1752,7 @@ ul.hover-block li img {
 /* Projects */
 .projects h3 {
     font-size: 20px;
-    margin-top: 0px;
+    margin-top: 0;
 }
 
 .projects .related-projects img {
@@ -1794,7 +1801,7 @@ ul.hover-block li img {
 .events .accordion-heading h5 {
     color: #fff;
     padding: 10px;
-    margin: 0px;
+    margin: 0;
 }
 
 .events .accordion-heading h5 span {
@@ -1803,7 +1810,7 @@ ul.hover-block li img {
 }
 
 .events .accordion-heading a, .events .accordion-heading a:visited, .events .accordion-heading a:hover {
-    margin: 0px;
+    margin: 0;
 }
 
 .events .accordion-inner span {
@@ -1817,7 +1824,7 @@ ul.hover-block li img {
 
 /* Product */
 .prod {
-    margin: 20px 0px 30px 0px;
+    margin: 20px 0 30px 0;
 }
 
 .home-product {
@@ -1842,7 +1849,7 @@ ul.hover-block li img {
 }
 
 .home-links a:hover {
-    clear: #444;
+    color: #000;
 }
 
 /* Timeline */
@@ -1851,7 +1858,7 @@ ul.hover-block li img {
     font-size: 13px;
     display: block;
     font-weight: bold;
-    margin-bottom: 0px;
+    margin-bottom: 0;
 }
 
 .timatter h5 {
@@ -1864,7 +1871,7 @@ ul.hover-block li img {
     margin-bottom: 20px;
     font-size: 13px;
     border: 1px solid #eee;
-    border-top: 0px;
+    border-top: 0;
 }
 
 /* Service */
@@ -1897,14 +1904,14 @@ ul.hover-block li img {
 /* Social */
 .social-links {
     margin-top: 20px;
-    padding: 20px 0px 10px 0px;
+    padding: 20px 0 10px 0;
     color: #fff;
     line-height: 30px;
 }
 
 .social-links a, .social-links a:visited, .social-links a:hover {
     font-size: 15px;
-    margin: 0px 15px;
+    margin: 0 15px;
     color: #fff;
     font-weight: 400;
     text-decoration: none;
@@ -1940,7 +1947,7 @@ ul.hover-block li img {
 .gmap iframe {
     width: 100%;
     margin-bottom: 10px;
-    padding-bottom: 0px !important;
+    padding-bottom: 0 !important;
 }
 
 /* 404 #2 */
@@ -1975,11 +1982,11 @@ footer h6 {
 
 footer ul {
     list-style-type: none;
-    margin-left: 0px;
+    margin-left: 0;
 }
 
 footer ul li {
-    padding: 3px 0px;
+    padding: 3px 0;
 }
 
 footer .widgets {
@@ -1988,7 +1995,7 @@ footer .widgets {
 
 footer .copy {
     border-top: 1px solid #ddd;
-    padding: 10px 0px;
+    padding: 10px 0;
     margin-top: 10px;
 }
 
@@ -1997,13 +2004,13 @@ footer .copy {
     .col-l {
         width: 100%;
         float: none;
-        margin: 10px 0px 5px 0px;
+        margin: 10px 0 5px 0;
     }
 
     .col-r {
         width: 100%;
         float: none;
-        margin: 10px 0px 5px 0px;
+        margin: 10px 0 5px 0;
     }
 
     .da-slide h2 {
@@ -2036,7 +2043,7 @@ footer .copy {
     .price-a {
         width: 100%;
         float: none;
-        margin-right: 0px;
+        margin-right: 0;
     }
 
     .price-b {
@@ -2051,7 +2058,7 @@ footer .copy {
 
 @media ( max-width : 767px) {
     .border {
-        margin: 10px 0px 5px 0px;
+        margin: 10px 0 5px 0;
     }
 
     header, .navbar, .social-links, .full-slider, footer {
@@ -2069,15 +2076,15 @@ footer .copy {
     }
 
     header .form {
-        padding-top: 0px;
+        padding-top: 0;
     }
 
     .dropdown-menu {
-        border: 0px !important;
+        border: 0 !important;
     }
 
     .dropdown-menu a {
-        border: 0px !important;
+        border: 0 !important;
     }
 
     .home-product {
@@ -2094,7 +2101,7 @@ footer .copy {
     }
 
     .flex-caption {
-        margin: 40px 0px 40px 0px;
+        margin: 40px 0 40px 0;
     }
 
     .formy {
@@ -2126,11 +2133,11 @@ footer .copy {
 
 @media ( min-width : 768px) and (max-width: 979px) {
     .dropdown-menu {
-        border: 0px !important;
+        border: 0 !important;
     }
 
     .dropdown-menu a {
-        border: 0px !important;
+        border: 0 !important;
     }
 }
 

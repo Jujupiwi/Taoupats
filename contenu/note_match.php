@@ -13,7 +13,7 @@ $arrayResult = array();
 $total = 0;
 
 // on envoie la requ�te
-$res = $mysqli->query("select ip from sondage where nom_sondage = '$match'");
+$res = $mysqli->query("select ip from sondage where nom_sondage = '$noteMatch'");
 while ($row = $res->fetch_assoc()) {
     if ($row['ip'] == $ip) {
         $isVoted = 1;
@@ -34,7 +34,7 @@ $nbVote = $row[0];
 
 if ($isVoted == 1) {
     ?>
-    <p>Vous avez d�j� donn� une note</p>
+    <p>Vous avez déjà donné une note</p>
     <p>Voici les resultats</p>
     <br>
     <table class="table table-bordered table-striped table-condensed table-hover">
@@ -60,7 +60,9 @@ if ($isVoted == 1) {
         </tbody>
     </table>
 <?php } else { ?>
-    <form class="form-horizontal well" action="/test/note.php" method="post">
+    <p>Notez l'équipe pour le Match face à <?php echo strtoupper($match); ?></p>
+    <p>Merci pour eux...</p>
+    <form class="form-horizontal well" action="contenu/note.php" method="post">
         <select name="note">
             <option VALUE="0">0</option>
             <option VALUE="1">1</option>

@@ -2,7 +2,7 @@
     <div class="span12">
         <blockquote>
             <p>
-                <i class="icon-signal icon-white"> </i> Note Rod�o?
+                <i class="icon-signal icon-white"> </i> Note Rodéo?
             </p>
         </blockquote>
     </div>

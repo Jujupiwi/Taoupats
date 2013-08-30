@@ -229,7 +229,7 @@
     <td>Daux</td>
     <td>Dimanche 26 mai a 15h</td>
     <td>Mondavezan</td>
-    <td>Annul�</td>
+    <td>Annulé</td>
     <td>D2</td>
 </tr>
 <tr>
@@ -240,9 +240,9 @@
     <td>D2</td>
 </tr>
 <tr>
-    <td>S�goufielle</td>
+    <td>Ségoufielle</td>
     <td>Jeudi 06 juin a 20h</td>
-    <td>S�goufielle</td>
+    <td>Ségoufielle</td>
     <td style="color:#5DAF6B;">2-1</td>
     <td>Amical</td>
 </tr>
@@ -263,7 +263,7 @@
 <tr>
     <td>Daux</td>
     <td>Vendredi 28 juin a 20h</td>
-    <td>V�t�rans</td>
+    <td>Vétérans</td>
     <td style="color:#5DAF6B;">6-4</td>
     <td>Amical</td>
 </tr>

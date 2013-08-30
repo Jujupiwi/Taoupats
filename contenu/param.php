@@ -62,12 +62,12 @@ $q12 = 'Liverpool, et hors europe argentine ^^';
 $q13 = 'Les italiens trop de simulation !!';
 $q14 = 'Liverpool milan ac 0-3 a la mitemps 3-3 et victoire des reds en finale ^^';
 $q15 = 'Batistuta une machine a but';
-$q16 = "Mes premiers pas en tant que joueur sous les nouvelles couleurs du club ( le fayot le fayot le fayot ) , la victoire a villaudric a l'arrach�";
+$q16 = "Mes premiers pas en tant que joueur sous les nouvelles couleurs du club ( le fayot le fayot le fayot ) , la victoire a villaudric a l'arraché";
 $q17 = 'Les tropiks et au match retour les coteaux';
-$q18 = 'JB  et son pull il aura marqu� la tendance du moment chez les taoupats';
+$q18 = 'JB  et son pull il aura marqué la tendance du moment chez les taoupats';
 $q19 = 'Alexy je crois ;) ';
-$q20 = "Das et d'ailleurs continue a etre s�rieux l'ann�e prochaine aussi...";
+$q20 = "Das et d'ailleurs continue a etre sérieux l'année prochaine aussi...";
 $q21 = 'Papy';
 $q22 = "La bave du crapeau n'atteint pas la blanche colombe ";
-$q23 = "Continuons sur cette lancer ca fait du bien de pouvoir jouer au ballon un peu et avec du s�rieux dans ce que nous faisons nous allons prendre du plaisir par la meme occase c'est tout con :) ^^ ca serait sympa de garder le meme groupe l'ann�e prochaine avec les memes joueurs... en plus de quelques uns et d'avoir de l'ambition si possible donc essayer de faire en sorte que l'on puisse realiser ceci pour l'ann�e prochaine ^^  PS : ce match de Mondonville faut le gagner :) bisous et derien ce fut un plaisir d'avoir repondu a tes questions julien ;) ";
+$q23 = "Continuons sur cette lancer ca fait du bien de pouvoir jouer au ballon un peu et avec du sérieux dans ce que nous faisons nous allons prendre du plaisir par la meme occase c'est tout con :) ^^ ca serait sympa de garder le meme groupe l'année prochaine avec les memes joueurs... en plus de quelques uns et d'avoir de l'ambition si possible donc essayer de faire en sorte que l'on puisse realiser ceci pour l'année prochaine ^^  PS : ce match de Mondonville faut le gagner :) bisous et derien ce fut un plaisir d'avoir repondu a tes questions julien ;) ";
 ?>

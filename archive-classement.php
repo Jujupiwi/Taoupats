@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=ansi">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta charset="ISO-8859-1">
     <title>Taoupats de Daux</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -112,7 +112,7 @@
                             <div class="flex-caption">
                                 <div class="col-l">
                                     <h2>Articles des Taoupats</h2>
-                                    <h6>Consulter les articles de la D�p�che du Midi sur les
+                                    <h6>Consulter les articles de la Dépêche du Midi sur les
                                         Taoupats de Daux.</h6>
                                 </div>
                                 <!-- Right column -->
@@ -137,7 +137,7 @@
                         <li>
                             <div class="flex-caption flex-center">
                                 <h2>District Haute-Garonne Midi Toulousain</h2>
-                                <h6>Rendez-vous sur le site du district pour les derni�res
+                                <h6>Rendez-vous sur le site du district pour les dernières
                                     infos du district.</h6>
                                 <!-- Button -->
                                 <div class="button">
@@ -164,15 +164,15 @@
                                 <!-- Left column -->
                                 <div class="col-l">
                                     <h2>Fin de la Saison 2012-2013</h2>
-                                    <h6>Les Taoupats terminent 6�me de la poule C en division 2.</h6>
+                                    <h6>Les Taoupats terminent 6ème de la poule C en division 2.</h6>
                                 </div>
                                 <div class="col-r">
                                     <h5>Les TROPIKs Champions</h5>
 
                                     <p>Les Tropiks terminent 1er de la poule avec 84 points et 19
-                                        victoires sur les 24 jou�s. Ils terminent meilleure d�fense
-                                        (26 buts encaiss�s) et 2�me meilleure attaque derri�re Rod�o
-                                        (79 buts marqu�s).</p>
+                                        victoires sur les 24 joués. Ils terminent meilleure défense
+                                        (26 buts encaissés) et 2ème meilleure attaque derrière Rodéo
+                                        (79 buts marqués).</p>
                                     <!-- Button -->
                                     <div class="button">
                                         <a href="#"><i class="icon-circle-arrow-down"></i> Voir le
@@ -186,11 +186,11 @@
                             <div class="flex-caption">
                                 <!-- Left column -->
                                 <div class="col-l">
-                                    <h2>Ma�onnerie � Daux</h2>
+                                    <h2>Maçonnerie à Daux</h2>
                                     <h6>Rendez-vous sur le Site</h6>
 
                                     <div class="button">
-                                        <a href="http://www.maconnerie-massot.com/" id="link-social"
+                                        <a href="http://www.maconnerie-massot.com/" class="link-social"
                                            target="_blank"><i class="icon-circle-arrow-down"></i>&nbsp;Massot
                                             Multiservice</a>
                                     </div>
@@ -198,11 +198,11 @@
                                 <!-- Right column -->
                                 <div class="col-r">
                                     <!-- Use the class "flex-back" to add background inside flex slider -->
-                                    <h2>Chambres d'h�tes et g�tes � Daux</h2>
+                                    <h2>Chambres d'hôtes et gîtes à Daux</h2>
                                     <h6>Plus de renseignements sur</h6>
 
                                     <div class="button">
-                                        <a href="http://www.domainedepeyrolade.com/" id="link-social"
+                                        <a href="http://www.domainedepeyrolade.com/" class="link-social"
                                            target="_blank"><i class="icon-circle-arrow-down"></i>&nbsp;Domaine
                                             de Peyrolade</a>
                                     </div>
@@ -219,227 +219,227 @@
 <!-- Slider Ends -->
 <!-- C O N T E N T -->
 <div class="container">
-    <div class="row-fluid">
-        <div class="span12">
-            <h2>CLASSEMENT</h2>
-            <h4>Saison 2012-2013</h4>
-            <br>
-            <table class="table table-bordered table-striped table-condensed table-hover">
-                <thead>
-                <tr>
-                    <th>Pl</th>
-                    <th>Equipe</th>
-                    <th>Pts</th>
-                    <th>Jo</th>
-                    <th>G</th>
-                    <th>N</th>
-                    <th>P</th>
-                    <th>F</th>
-                    <th>Bp</th>
-                    <th>Bc</th>
-                    <th>P&#xE9;</th>
-                    <th>Dif</th>
-                </tr>
-                </thead>
-                <tr>
-                    <td>1</td>
-                    <td>Tropik Fc</td>
-                    <td>82</td>
-                    <td>24</td>
-                    <td>19</td>
-                    <td>1</td>
-                    <td>4</td>
-                    <td>0</td>
-                    <td>79</td>
-                    <td>26</td>
-                    <td>0</td>
-                    <td>53</td>
-                </tr>
-                <tr>
-                    <td>2</td>
-                    <td>Rodeo Fc 2</td>
-                    <td>76</td>
-                    <td>24</td>
-                    <td>19</td>
-                    <td>1</td>
-                    <td>3</td>
-                    <td>1</td>
-                    <td>113</td>
-                    <td>47</td>
-                    <td>3</td>
-                    <td>66</td>
-                </tr>
-                <tr>
-                    <td>3</td>
-                    <td>Fronton Us</td>
-                    <td>67</td>
-                    <td>24</td>
-                    <td>11</td>
-                    <td>10</td>
-                    <td>3</td>
-                    <td>0</td>
-                    <td>70</td>
-                    <td>29</td>
-                    <td>0</td>
-                    <td>41</td>
-                </tr>
-                <tr>
-                    <td>4</td>
-                    <td>Villaudric Cij</td>
-                    <td>64</td>
-                    <td>24</td>
-                    <td>12</td>
-                    <td>4</td>
-                    <td>8</td>
-                    <td>0</td>
-                    <td>58</td>
-                    <td>44</td>
-                    <td>0</td>
-                    <td>14</td>
-                </tr>
-                <tr>
-                    <td>5</td>
-                    <td>C.O.Coteaux</td>
-                    <td>62</td>
-                    <td>24</td>
-                    <td>10</td>
-                    <td>8</td>
-                    <td>6</td>
-                    <td>0</td>
-                    <td>48</td>
-                    <td>39</td>
-                    <td>0</td>
-                    <td>9</td>
-                </tr>
-                <tr class="error">
-                    <td>6</td>
-                    <td>Taoupats De Daux</td>
-                    <td>57</td>
-                    <td>24</td>
-                    <td>10</td>
-                    <td>3</td>
-                    <td>11</td>
-                    <td>0</td>
-                    <td>50</td>
-                    <td>56</td>
-                    <td>0</td>
-                    <td>-6</td>
-                </tr>
-                <tr>
-                    <td>7</td>
-                    <td>Mondonville As 2</td>
-                    <td>57</td>
-                    <td>24</td>
-                    <td>10</td>
-                    <td>5</td>
-                    <td>8</td>
-                    <td>1</td>
-                    <td>36</td>
-                    <td>32</td>
-                    <td>0</td>
-                    <td>4</td>
-                </tr>
-                <tr>
-                    <td>8</td>
-                    <td>Toulouse Entente</td>
-                    <td>55</td>
-                    <td>24</td>
-                    <td>10</td>
-                    <td>5</td>
-                    <td>8</td>
-                    <td>1</td>
-                    <td>64</td>
-                    <td>57</td>
-                    <td>0</td>
-                    <td>7</td>
-                </tr>
-                <tr>
-                    <td>9</td>
-                    <td>Labastidette Us</td>
-                    <td>55</td>
-                    <td>24</td>
-                    <td>9</td>
-                    <td>5</td>
-                    <td>10</td>
-                    <td>0</td>
-                    <td>44</td>
-                    <td>57</td>
-                    <td>0</td>
-                    <td>-13</td>
-                </tr>
-                <tr>
-                    <td>10</td>
-                    <td>Gardouch Oc 2</td>
-                    <td>44</td>
-                    <td>24</td>
-                    <td>6</td>
-                    <td>6</td>
-                    <td>12</td>
-                    <td>0</td>
-                    <td>31</td>
-                    <td>50</td>
-                    <td>3</td>
-                    <td>-19</td>
-                </tr>
-                <tr>
-                    <td>11</td>
-                    <td>St Araille As</td>
-                    <td>30</td>
-                    <td>24</td>
-                    <td>2</td>
-                    <td>3</td>
-                    <td>18</td>
-                    <td>1</td>
-                    <td>25</td>
-                    <td>72</td>
-                    <td>0</td>
-                    <td>-47</td>
-                </tr>
-                <tr>
-                    <td>12</td>
-                    <td>St Leon As</td>
-                    <td>29</td>
-                    <td>24</td>
-                    <td>1</td>
-                    <td>2</td>
-                    <td>21</td>
-                    <td>0</td>
-                    <td>34</td>
-                    <td>103</td>
-                    <td>0</td>
-                    <td>-69</td>
-                </tr>
-                <tr>
-                    <td>13</td>
-                    <td>Mondavezan Fr</td>
-                    <td>26</td>
-                    <td>13</td>
-                    <td>4</td>
-                    <td>2</td>
-                    <td>7</td>
-                    <td>0</td>
-                    <td>24</td>
-                    <td>22</td>
-                    <td>0</td>
-                    <td>2</td>
-                </tr>
-                <tr>
-                    <td>14</td>
-                    <td>Auterive Sa 2</td>
-                    <td>18</td>
-                    <td>13</td>
-                    <td>2</td>
-                    <td>1</td>
-                    <td>9</td>
-                    <td>1</td>
-                    <td>16</td>
-                    <td>70</td>
-                    <td>0</td>
-                    <td>-54</td>
-                </tr>
-            </table>
-        </div>
-    </div>
+<div class="row-fluid">
+<div class="span12">
+<h2>CLASSEMENT</h2>
+<h4>Saison 2012-2013</h4>
+<br>
+<table class="table table-bordered table-striped table-condensed table-hover">
+<thead>
+<tr>
+    <th>Pl</th>
+    <th>Equipe</th>
+    <th>Pts</th>
+    <th>Jo</th>
+    <th>G</th>
+    <th>N</th>
+    <th>P</th>
+    <th>F</th>
+    <th>Bp</th>
+    <th>Bc</th>
+    <th>P&#xE9;</th>
+    <th>Dif</th>
+</tr>
+</thead>
+<tr>
+    <td>1</td>
+    <td>Tropik Fc</td>
+    <td>82</td>
+    <td>24</td>
+    <td>19</td>
+    <td>1</td>
+    <td>4</td>
+    <td>0</td>
+    <td>79</td>
+    <td>26</td>
+    <td>0</td>
+    <td>53</td>
+</tr>
+<tr>
+    <td>2</td>
+    <td>Rodeo Fc 2</td>
+    <td>76</td>
+    <td>24</td>
+    <td>19</td>
+    <td>1</td>
+    <td>3</td>
+    <td>1</td>
+    <td>113</td>
+    <td>47</td>
+    <td>3</td>
+    <td>66</td>
+</tr>
+<tr>
+    <td>3</td>
+    <td>Fronton Us</td>
+    <td>67</td>
+    <td>24</td>
+    <td>11</td>
+    <td>10</td>
+    <td>3</td>
+    <td>0</td>
+    <td>70</td>
+    <td>29</td>
+    <td>0</td>
+    <td>41</td>
+</tr>
+<tr>
+    <td>4</td>
+    <td>Villaudric Cij</td>
+    <td>64</td>
+    <td>24</td>
+    <td>12</td>
+    <td>4</td>
+    <td>8</td>
+    <td>0</td>
+    <td>58</td>
+    <td>44</td>
+    <td>0</td>
+    <td>14</td>
+</tr>
+<tr>
+    <td>5</td>
+    <td>C.O.Coteaux</td>
+    <td>62</td>
+    <td>24</td>
+    <td>10</td>
+    <td>8</td>
+    <td>6</td>
+    <td>0</td>
+    <td>48</td>
+    <td>39</td>
+    <td>0</td>
+    <td>9</td>
+</tr>
+<tr class="error">
+    <td>6</td>
+    <td>Taoupats De Daux</td>
+    <td>57</td>
+    <td>24</td>
+    <td>10</td>
+    <td>3</td>
+    <td>11</td>
+    <td>0</td>
+    <td>50</td>
+    <td>56</td>
+    <td>0</td>
+    <td>-6</td>
+</tr>
+<tr>
+    <td>7</td>
+    <td>Mondonville As 2</td>
+    <td>57</td>
+    <td>24</td>
+    <td>10</td>
+    <td>5</td>
+    <td>8</td>
+    <td>1</td>
+    <td>36</td>
+    <td>32</td>
+    <td>0</td>
+    <td>4</td>
+</tr>
+<tr>
+    <td>8</td>
+    <td>Toulouse Entente</td>
+    <td>55</td>
+    <td>24</td>
+    <td>10</td>
+    <td>5</td>
+    <td>8</td>
+    <td>1</td>
+    <td>64</td>
+    <td>57</td>
+    <td>0</td>
+    <td>7</td>
+</tr>
+<tr>
+    <td>9</td>
+    <td>Labastidette Us</td>
+    <td>55</td>
+    <td>24</td>
+    <td>9</td>
+    <td>5</td>
+    <td>10</td>
+    <td>0</td>
+    <td>44</td>
+    <td>57</td>
+    <td>0</td>
+    <td>-13</td>
+</tr>
+<tr>
+    <td>10</td>
+    <td>Gardouch Oc 2</td>
+    <td>44</td>
+    <td>24</td>
+    <td>6</td>
+    <td>6</td>
+    <td>12</td>
+    <td>0</td>
+    <td>31</td>
+    <td>50</td>
+    <td>3</td>
+    <td>-19</td>
+</tr>
+<tr>
+    <td>11</td>
+    <td>St Araille As</td>
+    <td>30</td>
+    <td>24</td>
+    <td>2</td>
+    <td>3</td>
+    <td>18</td>
+    <td>1</td>
+    <td>25</td>
+    <td>72</td>
+    <td>0</td>
+    <td>-47</td>
+</tr>
+<tr>
+    <td>12</td>
+    <td>St Leon As</td>
+    <td>29</td>
+    <td>24</td>
+    <td>1</td>
+    <td>2</td>
+    <td>21</td>
+    <td>0</td>
+    <td>34</td>
+    <td>103</td>
+    <td>0</td>
+    <td>-69</td>
+</tr>
+<tr>
+    <td>13</td>
+    <td>Mondavezan Fr</td>
+    <td>26</td>
+    <td>13</td>
+    <td>4</td>
+    <td>2</td>
+    <td>7</td>
+    <td>0</td>
+    <td>24</td>
+    <td>22</td>
+    <td>0</td>
+    <td>2</td>
+</tr>
+<tr>
+    <td>14</td>
+    <td>Auterive Sa 2</td>
+    <td>18</td>
+    <td>13</td>
+    <td>2</td>
+    <td>1</td>
+    <td>9</td>
+    <td>1</td>
+    <td>16</td>
+    <td>70</td>
+    <td>0</td>
+    <td>-54</td>
+</tr>
+</table>
+</div>
+</div>
 </div>
 
 <!-- Social -->
@@ -463,7 +463,7 @@
         <div class="row">
             <div class="span12">
                 <div class="copy">
-                    <p>R�alis� par julien, @jujupiwi.</p>
+                    <p>Réalisé par julien, @jujupiwi.</p>
                 </div>
             </div>
         </div>

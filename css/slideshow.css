@@ -6,6 +6,8 @@
 .slideshow {
     height: 720px;
     width: 900px;
+    left: 50%;
+    margin-left: -300px;
 }
 
 .slideshow-images img {
@@ -18,6 +20,8 @@
     overflow: hidden;
     height: 50px;
     width: 50px;
+    margin-left: -130px;
+    left: 50%;
 }
 
 .slideshow-images {

@@ -9,18 +9,17 @@ include 'param.php';
     <title>Taoupats de Daux</title>
     <!-- Styles
     +++++++++++++ -->
-    <link rel="stylesheet" type="text/css" href="/test/bootstrap/css/bootstrap.css">
-    <link rel="stylesheet" type="text/css" href="/test/bootstrap/css/bootstrap-responsive.min.css">
-    <link rel="stylesheet" type="text/css" href="/test/font-awesome/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="/test/bootstrap/css/style.css">
-    <link type="text/css" rel="stylesheet" href="/test/bootstrap/css/progressBar.jQuery.css"/>
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap-responsive.css">
+    <link rel="stylesheet" type="text/css" href="/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <link type="text/css" rel="stylesheet" href="/css/progressBar.jQuery.css"/>
 
     <!-- Scripts
     +++++++++++++ -->
-    <script type="text/javascript" src="/test/bootstrap/js/jQuery.js"></script>
-    <script type="text/javascript" src="/test/bootstrap/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="/test/bootstrap/js/bootstrap-dropdown.js"></script>
-    <script type="text/javascript" src="/test/bootstrap/js/progressBar.jQuery.js"></script>
+    <script type="text/javascript" src="/js/jquery.js"></script>
+    <script type="text/javascript" src="/js/bootstrap.js"></script>
+    <script type="text/javascript" src="/js/progressBar.jQuery.js"></script>
     <style>
         #progress4 td.progressBar-off {
             background-color: yellow;
@@ -105,7 +104,7 @@ if (mail($destinataire, $sujet, $message, $headers)) {
     <div id="progress4"></div>
 </center>
 <?php
-header("Refresh: 3;URL=/test/sondage.php");
+header("Refresh: 3;URL=../sondage.php");
 ?>
 </body>
 </html>

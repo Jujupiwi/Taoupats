@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=ansi">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta charset="ISO-8859-1">
     <title>Taoupats de Daux</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -107,9 +107,8 @@
         <div class="span12">
             <h2>PHOTOS</h2>
             <h4>Saison 2012-2013</h4>
-            <center>
-                <div id="show" class="slideshow"></div>
-            </center>
+
+            <div id="show" class="slideshow"></div>
         </div>
     </div>
 </div>
@@ -135,7 +134,7 @@
         <div class="row">
             <div class="span12">
                 <div class="copy">
-                    <p>R�alis� par julien, @jujupiwi.</p>
+                    <p>Réalisé par julien, @jujupiwi.</p>
                 </div>
             </div>
         </div>
@@ -158,11 +157,6 @@
 <script src="js/mootools.js"></script>
 <script src="js/slideshow.js"></script>
 <script src="js/slideshow.kenburns.js"></script>
-<script>
-    $(document).ready(function () {
-        $('.carousel').carousel({interval: 7000});
-    });
-</script>
 <script>
     //<![CDATA[
     window.addEvent('domready', function () {
@@ -198,9 +192,9 @@
             '29.JPG': {thumbnail: '29.JPG'},
             '30.JPG': {thumbnail: '30.JPG'},
             '31.JPG': {thumbnail: '31.JPG'},
-            '32.JPG': {thumbnail: '32.JPG'},
+            '32.JPG': {thumbnail: '32.JPG'}
         };
-        var myShow = new Slideshow.KenBurns('show', data, {delay: 2500, controller: true, height: 400, hu: '/images/carousel/', thumbnails: true, width: 600, captions: true, pan: 100, zoom: [0, 0]});
+        var myShow = new Slideshow.KenBurns('show', data, {delay: 2500, controller: true, height: 400, hu: 'images/carousel/', thumbnails: true, width: 600, captions: true, pan: 100, zoom: [0, 0]});
     });
     //]]>
 </script>

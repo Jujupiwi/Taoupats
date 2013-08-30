@@ -34,4 +34,4 @@ function checkaddslashes($str)
         return $str;
 }
 
-header("Refresh: 1;URL=/sondage.php");
+header("Refresh: 1;URL=../sondage.php");

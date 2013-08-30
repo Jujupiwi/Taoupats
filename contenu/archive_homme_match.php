@@ -2,7 +2,7 @@
     <div class="span12">
         <blockquote>
             <p>
-                <i class="icon-signal icon-white"> </i> Homme du match contre Rod�o?
+                <i class="icon-signal icon-white"> </i> Homme du match contre Rodéo?
             </p>
         </blockquote>
     </div>
@@ -628,7 +628,7 @@
     <div class="span12">
         <blockquote>
             <p>
-                <i class="icon-signal icon-white"> </i> Homme du match contre Rodeo
+                <i class="icon-signal icon-white"> </i> Homme du match contre Rodéo
             </p>
         </blockquote>
     </div>

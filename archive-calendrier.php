@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=ANSI">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta charset="ISO-8859-1">
     <title>Taoupats de Daux</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -125,15 +125,15 @@
                                 <!-- Left column -->
                                 <div class="col-l">
                                     <h2>Fin de la Saison 2012-2013</h2>
-                                    <h6>Les Taoupats terminent 6�me de la poule C en division 2.</h6>
+                                    <h6>Les Taoupats terminent 6ème de la poule C en division 2.</h6>
                                 </div>
                                 <div class="col-r">
                                     <h5>Les TROPIKs Champions</h5>
 
                                     <p>Les Tropiks terminent 1er de la poule avec 84 points et 19
-                                        victoires sur les 24 jou�s. Ils terminent meilleure d�fense
-                                        (26 buts encaiss�s) et 2�me meilleure attaque derri�re Rod�o
-                                        (79 buts marqu�s).</p>
+                                        victoires sur les 24 joués. Ils terminent meilleure défense
+                                        (26 buts encaissés) et 2ème meilleure attaque derrière Rodéo
+                                        (79 buts marqués).</p>
                                     <!-- Button -->
                                     <div class="button">
                                         <a href="archive-classement.php"><i class="icon-circle-arrow-down"></i> Voir le
@@ -147,7 +147,7 @@
                             <div class="flex-caption">
                                 <div class="col-l">
                                     <h2>Articles des Taoupats</h2>
-                                    <h6>Consulter les articles de la D�p�che du Midi sur les
+                                    <h6>Consulter les articles de la Dépêche du Midi sur les
                                         Taoupats de Daux.</h6>
                                 </div>
                                 <!-- Right column -->
@@ -172,7 +172,7 @@
                         <li>
                             <div class="flex-caption flex-center">
                                 <h2>District Haute-Garonne Midi Toulousain</h2>
-                                <h6>Rendez-vous sur le site du district pour les derni�res
+                                <h6>Rendez-vous sur le site du district pour les dernières
                                     infos du district.</h6>
                                 <!-- Button -->
                                 <div class="button">
@@ -186,11 +186,11 @@
                             <div class="flex-caption">
                                 <!-- Left column -->
                                 <div class="col-l">
-                                    <h2>Ma�onnerie � Daux</h2>
+                                    <h2>Maçonnerie à Daux</h2>
                                     <h6>Rendez-vous sur le Site</h6>
 
                                     <div class="button">
-                                        <a href="http://www.maconnerie-massot.com/" id="link-social"
+                                        <a href="http://www.maconnerie-massot.com/" class="link-social"
                                            target="_blank"><i class="icon-circle-arrow-down"></i>&nbsp;Massot
                                             Multiservice</a>
                                     </div>
@@ -198,11 +198,11 @@
                                 <!-- Right column -->
                                 <div class="col-r">
                                     <!-- Use the class "flex-back" to add background inside flex slider -->
-                                    <h2>Chambres d'h�tes et g�tes � Daux</h2>
+                                    <h2>Chambres d'hôtes et gîtes à Daux</h2>
                                     <h6>Plus de renseignements sur</h6>
 
                                     <div class="button">
-                                        <a href="http://www.domainedepeyrolade.com/" id="link-social"
+                                        <a href="http://www.domainedepeyrolade.com/" class="link-social"
                                            target="_blank"><i class="icon-circle-arrow-down"></i>&nbsp;Domaine
                                             de Peyrolade</a>
                                     </div>
@@ -230,24 +230,19 @@
             </table>
             <table
                 class="table table-bordered table-striped table-condensed table-hover">
-                <thead>
                 <tr>
-                    <th width="20%" style="text-align: center;" rowspan="2">Bilan</th>
-                    <th width="20%" style="text-align: center;">Nb Matchs Jou�s</th>
+                    <th rowspan="2" width="20%" style="text-align: center; vertical-align: middle">Bilan</th>
+                    <th width="20%" style="text-align: center;">Nb Matchs Joués</th>
                     <th width="20%" style="color: #5DAF6B; text-align: center;">Victoires</th>
                     <th width="20%" style="color: #4664C6; text-align: center;">Nuls</th>
-                    <th width="20%" style="color: #C64646; text-align: center;">D�faites</th>
+                    <th width="20%" style="color: #C64646; text-align: center;">Défaites</th>
                 </tr>
-                </thead>
-                <tbody>
                 <tr>
-                    <td style="text-align: center;"></td>
                     <td style="text-align: center;">35</td>
                     <td style="color: #5DAF6B; text-align: center;">17</td>
                     <td style="color: #4664C6; text-align: center;">4</td>
                     <td style="color: #C64646; text-align: center;">14</td>
                 </tr>
-                </tbody>
             </table>
         </div>
     </div>
@@ -274,7 +269,7 @@
         <div class="row">
             <div class="span12">
                 <div class="copy">
-                    <p>R�alis� par julien, @jujupiwi.</p>
+                    <p>Réalisé par julien, @jujupiwi.</p>
                 </div>
             </div>
         </div>

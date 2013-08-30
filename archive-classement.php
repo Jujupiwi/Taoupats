@@ -65,7 +65,7 @@
                         <ul class="dropdown-menu">
                             <li><a href="calendrier.php"><i class="icon-calendar">&nbsp;</i>Calendrier</a>
                             </li>
-                            <li><a href="#"><i class="icon-list-ol">&nbsp;</i>Classement</a>
+                            <li><a href="classement.php"><i class="icon-list-ol">&nbsp;</i>Classement</a>
                             </li>
                             <li><a href="match.php"><i class="icon-info-sign">&nbsp;</i>Dernier
                                     Match</a></li>
@@ -80,7 +80,7 @@
                             </li>
                             <li><a href="archive-calendrier.php"><i class="icon-calendar">&nbsp;</i>Calendrier 2012-2013</a>
                             </li>
-                            <li><a href="archive-classement.php"><i class="icon-list-ol">&nbsp;</i>Classement 2012-2013</a>
+                            <li><a href="#"><i class="icon-list-ol">&nbsp;</i>Classement 2012-2013</a>
                             </li>
                         </ul>
                     </li>

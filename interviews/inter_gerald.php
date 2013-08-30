@@ -202,7 +202,7 @@
 </tr>
 <tr>
     <td style="text-align: left;"><i class="icon-headphones"></i> GB :
-        Je ne vais pas etre original mais France Br&eacute;sil�Mais
+        Je ne vais pas etre original mais France Br&eacute;sil. Mais
         j&#146;ai le souvenir (bien que petit) d&#146;avoir eu des
         frisson lors du cassage de dents lors de France Allemagne, un
         cauchemar donc cette fois la
@@ -278,7 +278,7 @@
 </tr>
 <tr>
     <td style="text-align: left;"><i class="icon-headphones"></i> GB :
-        Sur un terrain et � l&#146;entrainement je trouve Lionel, Flo,
+        Sur un terrain et à l&#146;entrainement je trouve Lionel, Flo,
         Ziz et Julien G s&eacute;rieux Vous bossez sans faire de vagues
     </td>
 </tr>

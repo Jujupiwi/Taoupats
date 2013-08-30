@@ -233,7 +233,7 @@ include 'contenu/param.php';
     class="table table-bordered table-striped table-condensed table-hover">
     <thead>
     <tr>
-        <th>Interview De</th>
+        <th>Interview</th>
     </tr>
     </thead>
     <tbody>
@@ -311,7 +311,7 @@ include 'contenu/param.php';
 </table>
 <div id="olivier" class="modal hide fade" tabindex="-1">
     <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal">�</button>
+        <button type="button" class="close" data-dismiss="modal">x</button>
         <h3 id="myModalLabel">Interview Olivier</h3>
     </div>
     <div class="modal-body">
@@ -325,7 +325,7 @@ include 'contenu/param.php';
 </div>
 <div id="maxou" class="modal hide fade" tabindex="-1">
     <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal">�</button>
+        <button type="button" class="close" data-dismiss="modal">x</button>
         <h3 id="myModalLabel">Interview Maxime D</h3>
     </div>
     <div class="modal-body">
@@ -339,7 +339,7 @@ include 'contenu/param.php';
 </div>
 <div id="alexy" class="modal hide fade" tabindex="-1">
     <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal"></button>
+        <button type="button" class="close" data-dismiss="modal">x</button>
         <h3 id="myModalLabel">Interview Alexy</h3>
     </div>
     <div class="modal-body">
@@ -353,7 +353,7 @@ include 'contenu/param.php';
 </div>
 <div id="florent" class="modal hide fade" tabindex="-1">
     <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal">�</button>
+        <button type="button" class="close" data-dismiss="modal">x</button>
         <h3 id="myModalLabel">Interview Florent</h3>
     </div>
     <div class="modal-body">
@@ -367,7 +367,7 @@ include 'contenu/param.php';
 </div>
 <div id="jl" class="modal hide fade" tabindex="-1">
     <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal">�</button>
+        <button type="button" class="close" data-dismiss="modal">x</button>
         <h3 id="myModalLabel">Interview Jean-Louis Birello</h3>
     </div>
     <div class="modal-body">
@@ -381,7 +381,7 @@ include 'contenu/param.php';
 </div>
 <div id="gege" class="modal hide fade" tabindex="-1">
     <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal">�</button>
+        <button type="button" class="close" data-dismiss="modal">x</button>
         <h3 id="myModalLabel">Interview Gerald Blanchard</h3>
     </div>
     <div class="modal-body">
@@ -395,7 +395,7 @@ include 'contenu/param.php';
 </div>
 <div id="tony" class="modal hide fade" tabindex="-1">
     <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal">�</button>
+        <button type="button" class="close" data-dismiss="modal">x</button>
         <h3 id="myModalLabel">Interview Tony</h3>
     </div>
     <div class="modal-body">
@@ -409,7 +409,7 @@ include 'contenu/param.php';
 </div>
 <div id="tito" class="modal hide fade" tabindex="-1">
     <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal">�</button>
+        <button type="button" class="close" data-dismiss="modal">x</button>
         <h3 id="myModalLabel">Interview Tito</h3>
     </div>
     <div class="modal-body">
@@ -423,7 +423,7 @@ include 'contenu/param.php';
 </div>
 <div id="lolo" class="modal hide fade" tabindex="-1">
     <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal">�</button>
+        <button type="button" class="close" data-dismiss="modal">x</button>
         <h3 id="myModalLabel">Interview Laurent</h3>
     </div>
     <div class="modal-body">
@@ -437,7 +437,7 @@ include 'contenu/param.php';
 </div>
 <div id="guigui" class="modal hide fade" tabindex="-1">
     <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal">�</button>
+        <button type="button" class="close" data-dismiss="modal">x</button>
         <h3 id="myModalLabel">Interview Guillaume</h3>
     </div>
     <div class="modal-body">
@@ -459,8 +459,8 @@ include 'contenu/param.php';
             <div class="span12">
                 <p class="big">
                     <span>Rendez-vous sur</span> <a href="#"><i class="icon-facebook"></i>Facebook</a>
-                    <a href="#"><i class="icon-twitter"></i>Twitter</a> <a href="#"><i
-                            class="icon-google-plus"></i>Google Plus</a>
+                    <a href="#"><i class="icon-google-plus"></i>Google Plus</a> <a href="#"><i
+                            class="icon-twitter"></i>Twitter</a>
                 </p>
             </div>
         </div>

@@ -1,23 +1,23 @@
 <div class="row-fluid">
-<div class="span2">
-    <div class="row-fluid">
-        <div class="span12">
-            <blockquote>
-                <p>
-                    <i class="icon-eye-open icon-white"> </i> Interview de la semaine
-                    du 18 Mars
-                </p>
-                <small><cite title="Source Title">Nom : Massot</cite>
-                </small>
-                <small><cite title="Source Title">Prenom : Laurent</cite>
-                </small>
-                <small><cite title="Source Title">Age : 41 ans</cite>
-                </small>
-                <small><cite title="Source Title">Poste : Entraineur</cite>
-                </small>
-            </blockquote>
-        </div>
+    <div class="span12">
+        <blockquote>
+            <p>
+                <i class="icon-eye-open icon-white"> </i> Interview de la semaine
+                du 18 Mars
+            </p>
+            <small><cite title="Source Title">Nom : Massot</cite>
+            </small>
+            <small><cite title="Source Title">Prenom : Laurent</cite>
+            </small>
+            <small><cite title="Source Title">Age : 41 ans</cite>
+            </small>
+            <small><cite title="Source Title">Poste : Entraineur</cite>
+            </small>
+        </blockquote>
     </div>
+</div>
+<div class="row-fluid">
+<div class="span2">
     <img alt="120x180" data-src="bootstrap/js/bootstrap.js/120x180"
          style="width: 120px; height: 180px;" src="images/team/lolo.jpg">
 </div>

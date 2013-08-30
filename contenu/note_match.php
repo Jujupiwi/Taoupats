@@ -63,29 +63,31 @@ if ($isVoted == 1) {
     <p>Notez l'équipe pour le Match face à <?php echo strtoupper($match); ?></p>
     <p>Merci pour eux...</p>
     <form class="form-horizontal well" action="contenu/note.php" method="post">
-        <select name="note">
-            <option VALUE="0">0</option>
-            <option VALUE="1">1</option>
-            <option VALUE="2">2</option>
-            <option VALUE="3">3</option>
-            <option VALUE="4">4</option>
-            <option VALUE="5">5</option>
-            <option VALUE="6">6</option>
-            <option VALUE="7">7</option>
-            <option VALUE="8">8</option>
-            <option VALUE="9">9</option>
-            <option VALUE="10">10</option>
-            <option VALUE="11">11</option>
-            <option VALUE="12">12</option>
-            <option VALUE="13">13</option>
-            <option VALUE="14">14</option>
-            <option VALUE="15">15</option>
-            <option VALUE="16">16</option>
-            <option VALUE="17">17</option>
-            <option VALUE="18">18</option>
-            <option VALUE="19">19</option>
-            <option VALUE="20">20</option>
-        </select>
+        <div class="styled-select">
+            <select name="note">
+                <option VALUE="0">0</option>
+                <option VALUE="1">1</option>
+                <option VALUE="2">2</option>
+                <option VALUE="3">3</option>
+                <option VALUE="4">4</option>
+                <option VALUE="5">5</option>
+                <option VALUE="6">6</option>
+                <option VALUE="7">7</option>
+                <option VALUE="8">8</option>
+                <option VALUE="9">9</option>
+                <option VALUE="10">10</option>
+                <option VALUE="11">11</option>
+                <option VALUE="12">12</option>
+                <option VALUE="13">13</option>
+                <option VALUE="14">14</option>
+                <option VALUE="15">15</option>
+                <option VALUE="16">16</option>
+                <option VALUE="17">17</option>
+                <option VALUE="18">18</option>
+                <option VALUE="19">19</option>
+                <option VALUE="20">20</option>
+            </select>
+        </div>
         <br><br>
         <input type="submit" name="valider" value="Envoyer" class="btn btn-success"/>
     </form>

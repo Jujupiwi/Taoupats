@@ -1993,6 +1993,27 @@ footer .copy {
     border-top: 1px solid #ddd;
     padding: 10px 0;
     margin-top: 10px;
+    text-align: right;
+}
+
+.styled-select select {
+    background: none repeat scroll 0 0 transparent;
+    border: 0 none;
+    border-radius: 0 0 0 0;
+    font-size: 14px;
+    height: 34px;
+    line-height: 1;
+    padding: 5px;
+    width: 240px;
+    color: #555555;
+}
+
+.styled-select {
+    background: url(new_arrow.png) no-repeat scroll right center #DDDDDD;
+    border: 1px solid #CCCCCC;
+    height: 34px;
+    overflow: hidden;
+    width: 200px;
 }
 
 /* Responsive */

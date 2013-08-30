@@ -427,8 +427,8 @@
             <div class="span12">
                 <p class="big">
                     <span>Rendez-vous sur</span> <a href="#"><i class="icon-facebook"></i>Facebook</a>
-                    <a href="#"><i class="icon-twitter"></i>Twitter</a> <a href="#"><i
-                            class="icon-google-plus"></i>Google Plus</a>
+                    <a href="#"><i class="icon-google-plus"></i>Google Plus</a> <a href="#"><i
+                            class="icon-twitter"></i>Twitter</a>
                 </p>
             </div>
         </div>

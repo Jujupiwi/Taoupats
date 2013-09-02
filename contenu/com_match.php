@@ -15,9 +15,9 @@ $nbComment = $row[0];?>
 
     <form class="form-horizontal well" action="contenu/comment.php" method="post">
         Nom :<br>
-        <input type="text" name="name" width="300px"/>
+        <input type="text" name="name" placeholder="Nom" width="300px"/>
         <br>Commentaire :<br>
-        <textarea rows="3" cols="8000" name="commentary"></textarea>
+        <textarea rows="3" cols="8000" placeholder="Commentaire" name="commentary"></textarea>
         <br><br>
         <input type="submit" name="valider" value="Envoyer" class="btn btn-success"/>
     </form>

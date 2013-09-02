@@ -18,23 +18,22 @@ $joueur4 = 'MaximeD';
 $joueur5 = 'JB';
 $joueur6 = 'Jordan';
 $joueur7 = 'JulienB';
-$joueur8 = 'Florent';
-$joueur9 = 'Gerald';
+$joueur8 = 'Joffrey';
+$joueur9 = 'Thomas';
 $joueur10 = 'Zizou';
-$joueur11 = 'Gaetan';
+$joueur11 = 'Dédé';
 $joueur12 = 'Enzo';
-$joueur13 = 'Micka';
-$joueur14 = 'MaximeS';
+$joueur13 = 'Tony';
+$joueur14 = 'Paul';
 /*********************************************************
 Liste des autres joueurs
  *********************************************************/
-$joueur15 = 'Joffrey';
+$joueur15 = 'Florent';
 $joueur16 = 'JulienG';
 $joueur17 = 'Lionel';
 $joueur18 = 'Olivier';
-$joueur19 = 'Paul';
-$joueur20 = 'Thomas';
-$joueur21 = 'Tony';
+$joueur19 = 'MaximeS';
+$joueur20 = 'Gaetan';
 
 $nbJoueurs = 14;
 $array = array($joueur1, $joueur2, $joueur3, $joueur4, $joueur5, $joueur6, $joueur7, $joueur8, $joueur9, $joueur10, $joueur11, $joueur12, $joueur13, $joueur14);
@@ -42,9 +41,9 @@ $array = array($joueur1, $joueur2, $joueur3, $joueur4, $joueur5, $joueur6, $joue
 /*********************************************************
 Nom des sondages
  *********************************************************/
-$match = 'mondonville';
-$noteMatch = 'note-mondonville';
-$commentMatch = 'comment-mondonville';
+$match = 'cologne';
+$noteMatch = 'note-cologne';
+$commentMatch = 'comment-cologne';
 
 /*********************************************************
 Interview de la personne de la semaine

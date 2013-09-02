@@ -12,7 +12,7 @@
     <td>Cologne</td>
     <td>Samedi 31 Aout à 18h</td>
     <td>Cologne</td>
-    <td></td>
+    <td style="color: green;">3-0</td>
     <td>Amical</td>
 </tr>
 <tr>

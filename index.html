@@ -62,6 +62,8 @@
                         <ul class="dropdown-menu">
                             <li><a href="calendrier.php"><i class="icon-calendar">&nbsp;</i>Calendrier</a></li>
                             <li><a href="classement.php"><i class="icon-list-ol">&nbsp;</i>Classement</a></li>
+                            <li><a href="stats.php"><i class="icon-dribbble">&nbsp;</i>Buteurs</a>
+                            </li>
                             <li><a href="match.php"><i class="icon-info-sign">&nbsp;</i>Dernier
                                 Match</a></li>
                         </ul>
@@ -80,7 +82,7 @@
                                     class="icon-list-ol">&nbsp;</i>Classement 2012-2013</a></li>
                         </ul>
                     </li>
-                    <li><a href="photos.php"><i class="icon-camera">&nbsp;</i>Photos</a></li>
+                    <li class="hidden-phone"><a href="photos.php"><i class="icon-camera">&nbsp;</i>Photos</a></li>
                     <li><a href="trombi.php"><i class="icon-user">&nbsp;&nbsp;</i>Trombi</a></li>
                     <li class="visible-desktop"><a href="sondage.php"><i
                             class="icon-signal">&nbsp;</i>Sondages</a></li>
@@ -234,7 +236,7 @@
                             Consulter le classement de la poule D division 2.
                         </div>
                     </a></li>
-                    <li><a href="photos.php"> <!-- Image --> <img
+                    <li class="hidden-phone"><a href="photos.php"> <!-- Image --> <img
                             src="images/camera.jpg" alt=""/> <!-- Content with background color Class -->
                         <div class="hover-content b-orange">
                             <h6>Photos</h6>
@@ -307,7 +309,7 @@
                         <li><a href="interview.php">Interviews</a></li>
                         <li class="visible-desktop"><a href="sondage.php">Sondages</a></li>
                         <li><a href="trombi.php">Trombi</a></li>
-                        <li><a href="photos.php">Photos</a></li>
+                        <li class="hidden-phone"><a href="photos.php">Photos</a></li>
                         <li><a href="classement.php">Classement</a></li>
                     </ul>
                 </div>
@@ -415,7 +417,7 @@
                 + date_actuelle.getFullYear() + "</strong>,"
                 + " et il est <strong>" + date_actuelle.getHours() + "h"
                 + date_actuelle.getMinutes() + "</strong>.<br />";
-        texte += "<strong>Premier Match de la Saison Nailloux le Samedi 07 Septembre 2013 à 18h:</strong>";
+        texte += "<strong>Premier Match de la Saison Nailloux le Samedi 07 Septembre 2013 à 20h:</strong>";
         document.getElementById("affichage").innerHTML = texte;
         document.getElementById("jours").innerHTML = "<strong>"
                 + d_restants + "<br />Jours</strong>";

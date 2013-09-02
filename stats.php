@@ -1,6 +1,3 @@
-<?php
-include 'contenu/param.php';
-?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -70,7 +67,7 @@ include 'contenu/param.php';
                             </li>
                             <li><a href="classement.php"><i class="icon-list-ol">&nbsp;</i>Classement</a>
                             </li>
-                            <li><a href="stats.php"><i class="icon-dribbble">&nbsp;</i>Buteurs</a>
+                            <li><a href="#"><i class="icon-dribbble">&nbsp;</i>Buteurs</a>
                             </li>
                             <li><a href="match.php"><i class="icon-info-sign">&nbsp;</i>Dernier
                                     Match</a></li>
@@ -80,12 +77,15 @@ include 'contenu/param.php';
                                             data-toggle="dropdown"><i class="icon-briefcase">&nbsp;</i>Archives<b
                                 class="caret"></b> </a>
                         <ul class="dropdown-menu">
-                            <li><a href="#"><i class="icon-signal">&nbsp;</i>Sondages</a></li>
+                            <li><a href="archive-sondage.php"><i class="icon-signal">&nbsp;</i>Sondages</a>
+                            </li>
                             <li><a href="archive-inter.php"><i class="icon-eye-open">&nbsp;</i>Interviews</a>
                             </li>
-                            <li><a href="archive-calendrier.php"><i class="icon-calendar">&nbsp;</i>Calendrier 2012-2013</a>
+                            <li><a href="archive-calendrier.php"><i class="icon-calendar">&nbsp;</i>Calendrier
+                                    2012-2013</a>
                             </li>
-                            <li><a href="archive-classement.php"><i class="icon-list-ol">&nbsp;</i>Classement 2012-2013</a>
+                            <li><a href="archive-classement.php"><i class="icon-list-ol">&nbsp;</i>Classement
+                                    2012-2013</a>
                             </li>
                         </ul>
                     </li>
@@ -93,8 +93,8 @@ include 'contenu/param.php';
                     </li>
                     <li><a href="trombi.php"><i class="icon-user">&nbsp;&nbsp;</i>Trombi</a>
                     </li>
-                    <li class="visible-desktop"><a href="sondage.php"><i class="icon-signal">&nbsp;</i>Sondages</a>
-                    </li>
+                    <li class="visible-desktop"><a href="sondage.php"><i
+                                class="icon-signal">&nbsp;</i>Sondages</a></li>
                     <li><a href="interview.php"><i class="icon-eye-open">&nbsp;</i>Interviews</a>
                     </li>
                     <li><a href="contact.php"><i class="icon-envelope-alt">&nbsp;</i>Contact</a>
@@ -182,8 +182,8 @@ include 'contenu/param.php';
                                         (79 buts marqués).</p>
                                     <!-- Button -->
                                     <div class="button">
-                                        <a href="archive-classement.php"><i class="icon-circle-arrow-down"></i>
-                                            Voir le Classement</a>
+                                        <a href="archive-classement.php"><i class="icon-circle-arrow-down"></i> Voir le
+                                            Classement</a>
                                     </div>
                                 </div>
                             </div>
@@ -228,25 +228,123 @@ include 'contenu/param.php';
 <div class="container">
     <div class="row-fluid">
         <div class="span12">
-            <h2>ARCHIVES SONDAGES</h2>
-            <h4>Derniere Sondage : Rodéo</h4>
-            <br> <br>
-            <ul class="nav nav-tabs" id="myTab">
-                <li class="active"><a href="#homme" id="homme-match">Homme du match</a>
-                </li>
-                <li><a href="#note" id="note-match">Note du match</a></li>
-            </ul>
-            <div class="tab-content">
-                <div class="tab-pane active" id="homme">
-                    <?php include 'contenu/archive_homme_match.php'; ?>
-                </div>
-                <div class="tab-pane" id="note">
-                    <?php include 'contenu/archive_note_match.php'; ?>
-                </div>
-            </div>
+            <h2>STATS</h2>
+            <h4>Saison 2013-2014</h4>
+            <br>
+            <table
+                class="table table-bordered table-striped table-condensed table-hover">
+                <thead>
+                <tr>
+                    <th>Joueur</th>
+                    <th>Nb Matchs</th>
+                    <th>Buts</th>
+                </tr>
+                </thead>
+                <tr>
+                    <td>MaximeP</td>
+                    <td>1</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>Thomas</td>
+                    <td>1</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>Tito</td>
+                    <td>1</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td>Joffrey</td>
+                    <td>1</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>Dédé</td>
+                    <td>1</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>MaximeD</td>
+                    <td>1</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>JulienB</td>
+                    <td>1</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>Enzo</td>
+                    <td>1</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td>Alexy</td>
+                    <td>1</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>JB</td>
+                    <td>1</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>Tony</td>
+                    <td>1</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>Jordan</td>
+                    <td>1</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>Zizou</td>
+                    <td>1</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>Paul</td>
+                    <td>1</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>Laurent</td>
+                    <td>1</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>Olivier</td>
+                    <td>0</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>MaximeS</td>
+                    <td>0</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>Gaetan</td>
+                    <td>0</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>Florent</td>
+                    <td>0</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>JulienG</td>
+                    <td>0</td>
+                    <td>0</td>
+                </tr>
+            </table>
         </div>
     </div>
 </div>
+
 <!-- Social -->
 <div class="social-links">
     <div class="container">
@@ -287,11 +385,5 @@ include 'contenu/param.php';
 <script src="js/jquery.flexslider-min.js"></script>
 <script src="js/easing.js"></script>
 <script src="js/custom.js"></script>
-<script>
-    $('#myTab a').click(function (e) {
-        e.preventDefault();
-        $(this).tab('show');
-    });
-</script>
 </body>
 </html>

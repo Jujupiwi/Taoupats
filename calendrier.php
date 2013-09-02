@@ -65,6 +65,8 @@
                             </li>
                             <li><a href="classement.php"><i class="icon-list-ol">&nbsp;</i>Classement</a>
                             </li>
+                            <li><a href="stats.php"><i class="icon-dribbble">&nbsp;</i>Buteurs</a>
+                            </li>
                             <li><a href="match.php"><i class="icon-info-sign">&nbsp;</i>Dernier
                                     Match</a></li>
                         </ul>
@@ -82,7 +84,7 @@
                             </li>
                         </ul>
                     </li>
-                    <li><a href="photos.php"><i class="icon-camera">&nbsp;</i>Photos</a>
+                    <li class="hidden-phone"><a href="photos.php"><i class="icon-camera">&nbsp;</i>Photos</a>
                     </li>
                     <li><a href="trombi.php"><i class="icon-user">&nbsp;&nbsp;</i>Trombi</a></li>
                     <li class="visible-desktop"><a href="sondage.php"><i

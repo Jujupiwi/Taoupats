@@ -70,6 +70,8 @@ include 'contenu/param.php';
                             </li>
                             <li><a href="classement.php"><i class="icon-list-ol">&nbsp;</i>Classement</a>
                             </li>
+                            <li><a href="stats.php"><i class="icon-dribbble">&nbsp;</i>Buteurs</a>
+                            </li>
                             <li><a href="match.php"><i class="icon-info-sign">&nbsp;</i>Dernier
                                     Match</a></li>
                         </ul>
@@ -87,7 +89,7 @@ include 'contenu/param.php';
                             </li>
                         </ul>
                     </li>
-                    <li><a href="photos.php"><i class="icon-camera">&nbsp;</i>Photos</a>
+                    <li class="hidden-phone"><a href="photos.php"><i class="icon-camera">&nbsp;</i>Photos</a>
                     </li>
                     <li><a href="trombi.php"><i class="icon-user">&nbsp;&nbsp;</i>Trombi</a>
                     </li>
@@ -226,7 +228,7 @@ include 'contenu/param.php';
     <div class="row-fluid">
         <div class="span12">
             <h2>SONDAGES</h2>
-            <h4>Mondonville</h4>
+            <h4><?php echo strtoupper($match); ?></h4>
             <br>
             <ul class="nav nav-tabs" id="myTab">
                 <li class="active"><a href="#homme" id="homme-match">Homme du match</a></li>

@@ -67,7 +67,7 @@
                             </li>
                             <li><a href="classement.php"><i class="icon-list-ol">&nbsp;</i>Classement</a>
                             </li>
-                            <li><a href="stats.php"><i class="icon-dribbble">&nbsp;</i>Buteurs</a>
+                            <li><a href="stats.php"><i class="icon-dribbble">&nbsp;</i>Stats</a>
                             </li>
                             <li><a href="#"><i class="icon-info-sign">&nbsp;</i>Dernier
                                     Match</a></li>
@@ -93,7 +93,7 @@
                                 class="icon-signal">&nbsp;</i>Sondages</a></li>
                     <li><a href="interview.php"><i class="icon-eye-open">&nbsp;</i>Interviews</a>
                     </li>
-                    <li><a href="contact.php"><i class="icon-envelope-alt">&nbsp;</i>Contact</a>
+                    <li><a href="contact.php"><i class="icon-envelope">&nbsp;</i>Contact</a>
                     </li>
                 </ul>
             </div>
@@ -224,10 +224,10 @@
     <div class="row-fluid">
         <div class="span12">
             <h2>DERNIER MATCH</h2>
-            <h4>TAOUPATS 4-1 MONDONVILLE</h4>
+            <h4>COLOGNE 0-3 TAOUPATS</h4>
 
             <div class="centrage">
-                <img src="images/mondonville.png" width="800px" height="450px"/>
+                <img src="images/cologne.png" width="800px" height="450px"/>
             </div>
         </div>
     </div>

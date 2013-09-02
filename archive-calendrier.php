@@ -67,7 +67,7 @@
                             </li>
                             <li><a href="classement.php"><i class="icon-list-ol">&nbsp;</i>Classement</a>
                             </li>
-                            <li><a href="stats.php"><i class="icon-dribbble">&nbsp;</i>Buteurs</a>
+                            <li><a href="stats.php"><i class="icon-dribbble">&nbsp;</i>Stats</a>
                             </li>
                             <li><a href="match.php"><i class="icon-info-sign">&nbsp;</i>Dernier
                                     Match</a></li>
@@ -78,7 +78,7 @@
                                 class="caret"></b> </a>
                         <ul class="dropdown-menu">
                             <li><a href="archive-sondage.php"><i class="icon-signal">&nbsp;</i>Sondages</a></li>
-                            <li><a href="archive-inter.php"><i class="icon-eye-open">&nbsp;</i>Interviews</a>
+                            <li class="hidden-phone"><a href="archive-inter.php"><i class="icon-eye-open">&nbsp;</i>Interviews</a>
                             </li>
                             <li><a href="archive-calendrier.php"><i class="icon-calendar">&nbsp;</i>Calendrier 2012-2013</a>
                             </li>
@@ -93,7 +93,7 @@
                                 class="icon-signal">&nbsp;</i>Sondages</a></li>
                     <li><a href="interview.php"><i class="icon-eye-open">&nbsp;</i>Interviews</a>
                     </li>
-                    <li><a href="contact.php"><i class="icon-envelope-alt">&nbsp;</i>Contact</a>
+                    <li><a href="contact.php"><i class="icon-envelope">&nbsp;</i>Contact</a>
                     </li>
                 </ul>
             </div>

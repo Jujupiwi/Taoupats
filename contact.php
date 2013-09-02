@@ -70,7 +70,7 @@ include 'contenu/param.php';
                             </li>
                             <li><a href="classement.php"><i class="icon-list-ol">&nbsp;</i>Classement</a>
                             </li>
-                            <li><a href="stats.php"><i class="icon-dribbble">&nbsp;</i>Buteurs</a>
+                            <li><a href="stats.php"><i class="icon-dribbble">&nbsp;</i>Stats</a>
                             </li>
                             <li><a href="match.php"><i class="icon-info-sign">&nbsp;</i>Dernier
                                     Match</a></li>
@@ -97,7 +97,7 @@ include 'contenu/param.php';
                                 class="icon-signal">&nbsp;</i>Sondages</a></li>
                     <li><a href="interview.php"><i class="icon-eye-open">&nbsp;</i>Interviews</a>
                     </li>
-                    <li><a href="#"><i class="icon-envelope-alt">&nbsp;</i>Contact</a>
+                    <li><a href="#"><i class="icon-envelope">&nbsp;</i>Contact</a>
                     </li>
                 </ul>
             </div>
@@ -243,7 +243,7 @@ include 'contenu/param.php';
 
                             </b></big><br> BIRELLO JEAN-LOUIS<br> <i class="icon-home"></i> : CHEMIN DE LA
                             TUILERIE<br> 31700 DAUX<br> <i class="icon-phone"></i> : 06 73 89 27 65<br> <i
-                                class="icon-envelope-alt"></i> : jl.birello@orange.fr <br>
+                                class="icon-envelope"></i> : jl.birello@orange.fr <br>
                         </p>
                     </div>
                     <div class="span6">
@@ -252,7 +252,7 @@ include 'contenu/param.php';
 
                             </b></big><br> BENEDET JOSEPH<br> <i class="icon-home"></i> : 46 A RUE LUCIEN
                             BABONNEAU<br> 31700 DAUX<br> <i class="icon-phone"></i> : 05 61 85 99 51<br>
-                            <i class="icon-phone"></i> : 06 12 52 70 04<br> <i class="icon-envelope-alt"></i> :
+                            <i class="icon-phone"></i> : 06 12 52 70 04<br> <i class="icon-envelope"></i> :
                             josephbenedet@yahoo.fr <br>
                         </p>
                     </div>
@@ -264,7 +264,7 @@ include 'contenu/param.php';
 
                             </b></big><br> BENEDET JOSEPH<br> <i class="icon-home"></i>: 46 A RUE LUCIEN
                             BABONNEAU<br> 31700 DAUX<br> <i class="icon-phone"></i> : 05 61 85 99 51<br>
-                            <i class="icon-phone"></i> : 06 12 52 70 04<br> <i class="icon-envelope-alt"></i> :
+                            <i class="icon-phone"></i> : 06 12 52 70 04<br> <i class="icon-envelope"></i> :
                             josephbenedet@yahoo.fr<br> <br>
                         </p>
                     </div>
@@ -274,7 +274,7 @@ include 'contenu/param.php';
 
                             </b></big><br> BONNEFOUS MICHEL<br> <i class="icon-home"></i>: LOTISSEMENT LE PARC
                             VILLA N 3<br> 31330 LAUNAC<br> <i class="icon-phone"></i> : 05 61 85 44
-                            33<br> <i class="icon-envelope-alt"></i> : bonnefousmichel@orange.fr<br> <br>
+                            33<br> <i class="icon-envelope"></i> : bonnefousmichel@orange.fr<br> <br>
                         </p>
                     </div>
                 </div>
@@ -285,7 +285,7 @@ include 'contenu/param.php';
 
                             </b></big><br> CARRARA CHRISTOPHE<br> <i class="icon-home"></i>: 6 CHEMIN DE LA
                             RIVIERE<br> 31700 DAUX<br> <i class="icon-phone"></i> : 05 34 52 90 08<br>
-                            <i class="icon-envelope-alt"></i> : carrarra.chris@orange.fr<br> <br>
+                            <i class="icon-envelope"></i> : carrarra.chris@orange.fr<br> <br>
                         </p>
                     </div>
                     <div class="span6">
@@ -294,7 +294,7 @@ include 'contenu/param.php';
 
                             </b></big><br> DARDENNE CLAUDE<br> <i class="icon-home"></i>: 102 CHEMIN DE LA
                             MOULINE<br> 31700 DAUX<br> <i class="icon-phone"></i> : 05 61 85 22 97<br>
-                            <i class="icon-envelope-alt"></i> : dardenne.claude@wanadoo.fr<br> <br>
+                            <i class="icon-envelope"></i> : dardenne.claude@wanadoo.fr<br> <br>
                         </p>
                     </div>
                 </div>

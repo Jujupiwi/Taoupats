@@ -67,7 +67,7 @@
                             </li>
                             <li><a href="classement.php"><i class="icon-list-ol">&nbsp;</i>Classement</a>
                             </li>
-                            <li><a href="#"><i class="icon-dribbble">&nbsp;</i>Buteurs</a>
+                            <li><a href="#"><i class="icon-dribbble">&nbsp;</i>Stats</a>
                             </li>
                             <li><a href="match.php"><i class="icon-info-sign">&nbsp;</i>Dernier
                                     Match</a></li>
@@ -97,7 +97,7 @@
                                 class="icon-signal">&nbsp;</i>Sondages</a></li>
                     <li><a href="interview.php"><i class="icon-eye-open">&nbsp;</i>Interviews</a>
                     </li>
-                    <li><a href="contact.php"><i class="icon-envelope-alt">&nbsp;</i>Contact</a>
+                    <li><a href="contact.php"><i class="icon-envelope">&nbsp;</i>Contact</a>
                     </li>
                 </ul>
             </div>
@@ -226,123 +226,207 @@
 <!-- Slider Ends -->
 <!-- C O N T E N T -->
 <div class="container">
-    <div class="row-fluid">
-        <div class="span12">
-            <h2>STATS</h2>
-            <h4>Saison 2013-2014</h4>
-            <br>
-            <table
-                class="table table-bordered table-striped table-condensed table-hover">
-                <thead>
-                <tr>
-                    <th>Joueur</th>
-                    <th>Nb Matchs</th>
-                    <th>Buts</th>
-                </tr>
-                </thead>
-                <tr>
-                    <td>MaximeP</td>
-                    <td>1</td>
-                    <td>0</td>
-                </tr>
-                <tr>
-                    <td>Thomas</td>
-                    <td>1</td>
-                    <td>0</td>
-                </tr>
-                <tr>
-                    <td>Tito</td>
-                    <td>1</td>
-                    <td>1</td>
-                </tr>
-                <tr>
-                    <td>Joffrey</td>
-                    <td>1</td>
-                    <td>0</td>
-                </tr>
-                <tr>
-                    <td>Dédé</td>
-                    <td>1</td>
-                    <td>0</td>
-                </tr>
-                <tr>
-                    <td>MaximeD</td>
-                    <td>1</td>
-                    <td>0</td>
-                </tr>
-                <tr>
-                    <td>JulienB</td>
-                    <td>1</td>
-                    <td>0</td>
-                </tr>
-                <tr>
-                    <td>Enzo</td>
-                    <td>1</td>
-                    <td>2</td>
-                </tr>
-                <tr>
-                    <td>Alexy</td>
-                    <td>1</td>
-                    <td>0</td>
-                </tr>
-                <tr>
-                    <td>JB</td>
-                    <td>1</td>
-                    <td>0</td>
-                </tr>
-                <tr>
-                    <td>Tony</td>
-                    <td>1</td>
-                    <td>0</td>
-                </tr>
-                <tr>
-                    <td>Jordan</td>
-                    <td>1</td>
-                    <td>0</td>
-                </tr>
-                <tr>
-                    <td>Zizou</td>
-                    <td>1</td>
-                    <td>0</td>
-                </tr>
-                <tr>
-                    <td>Paul</td>
-                    <td>1</td>
-                    <td>0</td>
-                </tr>
-                <tr>
-                    <td>Laurent</td>
-                    <td>1</td>
-                    <td>0</td>
-                </tr>
-                <tr>
-                    <td>Olivier</td>
-                    <td>0</td>
-                    <td>0</td>
-                </tr>
-                <tr>
-                    <td>MaximeS</td>
-                    <td>0</td>
-                    <td>0</td>
-                </tr>
-                <tr>
-                    <td>Gaetan</td>
-                    <td>0</td>
-                    <td>0</td>
-                </tr>
-                <tr>
-                    <td>Florent</td>
-                    <td>0</td>
-                    <td>0</td>
-                </tr>
-                <tr>
-                    <td>JulienG</td>
-                    <td>0</td>
-                    <td>0</td>
-                </tr>
-            </table>
-        </div>
+<div class="row-fluid">
+    <div class="span12">
+        <h2>STATS</h2>
+        <h4>Saison 2013-2014</h4>
+        <br>
+        <table
+            class="table table-bordered table-striped table-condensed table-hover">
+            <thead>
+            <tr>
+                <th><i class="icon-user"></i> Joueur</th>
+                <th><i class="icon-bolt"></i>Nb Matchs</th>
+                <th><i class="icon-bolt"></i> Homme du match</th>
+                <th><i class="icon-dribbble"></i> Buts</th>
+                <th><i class="icon-star-half-full"></i> Ratio Buts/Match</th>
+                <th><i class="icon-dribbble"></i> Passes Décisives</th>
+                <th><i class="icon-star"></i> Ratio Passes/Match</th>
+            </tr>
+            </thead>
+            <tr>
+                <td>MaximeP</td>
+                <td>1</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td>Thomas</td>
+                <td>1</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td>Tito</td>
+                <td>1</td>
+                <td>0</td>
+                <td>1</td>
+                <td>1</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td>Joffrey</td>
+                <td>1</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td>Dédé</td>
+                <td>1</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td>MaximeD</td>
+                <td>1</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td>JulienB</td>
+                <td>1</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            <tr class="success">
+                <td><i class="icon-star"></i> Enzo</td>
+                <td>1</td>
+                <td>0</td>
+                <td><i class="icon-star"></i> 2</td>
+                <td>2</td>
+                <td>1</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>Alexy</td>
+                <td>1</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td>JB</td>
+                <td>1</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td>Tony</td>
+                <td>1</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td>Jordan</td>
+                <td>1</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td>Zizou</td>
+                <td>1</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td>Paul</td>
+                <td>1</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td>Laurent</td>
+                <td>1</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td>Olivier</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td>MaximeS</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td>Gaetan</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td>Florent</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td>JulienG</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+        </table>
     </div>
+</div>
 </div>
 
 <!-- Social -->

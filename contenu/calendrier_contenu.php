@@ -23,13 +23,6 @@
     <td>D2</td>
 </tr>
 <tr>
-    <td>Daux</td>
-    <td>Dimanche 22 Septembre à 15h</td>
-    <td>Villaudric</td>
-    <td></td>
-    <td>D2</td>
-</tr>
-<tr>
     <td>Fonsegrives</td>
     <td>Samedi 5 Octobre à 18h30</td>
     <td>Fonsegrives 2</td>
@@ -89,13 +82,6 @@
     <td>Labastidette</td>
     <td>Dimanche 19 Janvier à 15h</td>
     <td>Labastidette</td>
-    <td></td>
-    <td>D2</td>
-</tr>
-<tr>
-    <td>Villaudric</td>
-    <td>Dimanche 26 Janvier à 15h</td>
-    <td>Villaudric</td>
     <td></td>
     <td>D2</td>
 </tr>

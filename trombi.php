@@ -67,7 +67,7 @@
                             </li>
                             <li><a href="classement.php"><i class="icon-list-ol">&nbsp;</i>Classement</a>
                             </li>
-                            <li><a href="stats.php"><i class="icon-dribbble">&nbsp;</i>Buteurs</a>
+                            <li><a href="stats.php"><i class="icon-dribbble">&nbsp;</i>Stats</a>
                             </li>
                             <li><a href="match.php"><i class="icon-info-sign">&nbsp;</i>Dernier
                                     Match</a>
@@ -99,7 +99,7 @@
                     </li>
                     <li><a href="interview.php"><i class="icon-eye-open">&nbsp;</i>Interviews</a>
                     </li>
-                    <li><a href="contact.php"><i class="icon-envelope-alt">&nbsp;</i>Contact</a>
+                    <li><a href="contact.php"><i class="icon-envelope">&nbsp;</i>Contact</a>
                     </li>
                 </ul>
             </div>
@@ -366,13 +366,13 @@
                 <div class="thumbnail">
                     <img alt="120x180" data-src="bootstrap/js/bootstrap.js/120x180"
                          style="width: 110px; height: 170px;"
-                         src="images/team/hugo.jpg">
+                         src="images/team/dédé.jpg">
 
-                    <h3>Hugo</h3>
+                    <h3>Dédé</h3>
 
-                    <p>Postes: Defenseur, Milieu, Attaquant</p>
+                    <p>Postes: Defenseur</p>
 
-                    <p>Age: 22 ans</p>
+                    <p>Age: 21 ans</p>
                 </div>
             </li>
             <li class="span3">
@@ -478,19 +478,6 @@
                 <div class="thumbnail">
                     <img alt="120x180" data-src="bootstrap/js/bootstrap.js/120x180"
                          style="width: 100px; height: 160px;"
-                         src="images/team/Gerald.jpg">
-
-                    <h3>Gerald</h3>
-
-                    <p>Postes: Defenseur, Milieu</p>
-
-                    <p>Age: 40 ans</p>
-                </div>
-            </li>
-            <li class="span3">
-                <div class="thumbnail">
-                    <img alt="120x180" data-src="bootstrap/js/bootstrap.js/120x180"
-                         style="width: 100px; height: 160px;"
                          src="images/team/Florent.jpg">
 
                     <h3>Florent</h3>
@@ -571,25 +558,6 @@
                 <div class="thumbnail">
                     <img alt="120x180" data-src="bootstrap/js/bootstrap.js/120x180"
                          style="width: 100px; height: 170px;"
-                         src="images/team/Micka.jpg">
-
-                    <h3>Micka</h3>
-
-                    <p>Postes: Attaquant</p>
-
-                    <p>Age: 28 ans</p>
-                </div>
-            </li>
-        </ul>
-    </div>
-</div>
-<div class="row-fluid">
-    <div class="span12">
-        <ul class="thumbnails">
-            <li class="span3">
-                <div class="thumbnail">
-                    <img alt="120x180" data-src="bootstrap/js/bootstrap.js/120x180"
-                         style="width: 100px; height: 170px;"
                          src="images/team/MaximeS.jpg">
 
                     <h3>Maxime S</h3>
@@ -618,7 +586,7 @@
                 <div class="thumbnail">
                     <img alt="120x180" data-src="bootstrap/js/bootstrap.js/120x180"
                          style="width: 120px; height: 180px;"
-                         src="images/team/lolo.jpg">
+                         src="images/team/Laurent.jpg">
 
                     <h3>Laurent</h3>
 

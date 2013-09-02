@@ -25,18 +25,19 @@ $joueur11 = 'Dédé';
 $joueur12 = 'Enzo';
 $joueur13 = 'Tony';
 $joueur14 = 'Paul';
+$joueur15 = 'Laurent';
 /*********************************************************
 Liste des autres joueurs
  *********************************************************/
-$joueur15 = 'Florent';
 $joueur16 = 'JulienG';
 $joueur17 = 'Lionel';
 $joueur18 = 'Olivier';
 $joueur19 = 'MaximeS';
 $joueur20 = 'Gaetan';
+$joueur21 = 'Florent';
 
-$nbJoueurs = 14;
-$array = array($joueur1, $joueur2, $joueur3, $joueur4, $joueur5, $joueur6, $joueur7, $joueur8, $joueur9, $joueur10, $joueur11, $joueur12, $joueur13, $joueur14);
+$nbJoueurs = 15;
+$array = array($joueur1, $joueur2, $joueur3, $joueur4, $joueur5, $joueur6, $joueur7, $joueur8, $joueur9, $joueur10, $joueur11, $joueur12, $joueur13, $joueur14, $joueur15);
 
 /*********************************************************
 Nom des sondages

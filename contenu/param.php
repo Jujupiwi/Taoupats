@@ -3,9 +3,14 @@
 /*********************************************************
 Connexion à la base
  *********************************************************/
-$serv = 'localhost';
+/*$serv = 'localhost';
 $login = 'root';
 $pwd = '';
+$data = 'taoupats';*/
+
+$serv = 'mysql51-74.perso';
+$login = 'taoupats';
+$pwd = 'Audrey65';
 $data = 'taoupats';
 
 /*********************************************************
@@ -21,7 +26,7 @@ $joueur7 = 'JulienB';
 $joueur8 = 'Joffrey';
 $joueur9 = 'Thomas';
 $joueur10 = 'Zizou';
-$joueur11 = 'Dédé';
+$joueur11 = 'Dede';
 $joueur12 = 'Enzo';
 $joueur13 = 'Tony';
 $joueur14 = 'Paul';

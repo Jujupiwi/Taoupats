@@ -80,7 +80,7 @@
                         <ul class="dropdown-menu">
                             <li><a href="archive-sondage.php"><i class="icon-signal">&nbsp;</i>Sondages</a>
                             </li>
-                            <li><a href="archive-inter.php"><i class="icon-eye-open">&nbsp;</i>Interviews</a>
+                            <li class="hidden-phone"><a href="archive-inter.php"><i class="icon-eye-open">&nbsp;</i>Interviews</a>
                             </li>
                             <li><a href="archive-calendrier.php"><i class="icon-calendar">&nbsp;</i>Calendrier 2012-2013</a>
                             </li>
@@ -366,7 +366,7 @@
                 <div class="thumbnail">
                     <img alt="120x180" data-src="bootstrap/js/bootstrap.js/120x180"
                          style="width: 110px; height: 170px;"
-                         src="images/team/dédé.jpg">
+                         src="images/team/Dede.jpg">
 
                     <h3>Dédé</h3>
 

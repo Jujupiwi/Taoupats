@@ -79,7 +79,7 @@
                                 class="caret"></b> </a>
                         <ul class="dropdown-menu">
                             <li><a href="archive-sondage.php"><i class="icon-signal">&nbsp;</i>Sondages</a></li>
-                            <li><a href="archive-inter.php"><i class="icon-eye-open">&nbsp;</i>Interviews</a>
+                            <li class="hidden-phone"><a href="archive-inter.php"><i class="icon-eye-open">&nbsp;</i>Interviews</a>
                             </li>
                             <li><a href="archive-calendrier.php"><i class="icon-calendar">&nbsp;</i>Calendrier 2012-2013</a>
                             </li>

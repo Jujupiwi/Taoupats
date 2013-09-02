@@ -245,184 +245,184 @@
             </tr>
             </thead>
             <tr>
-                <td>MaximeP</td>
-                <td>1</td>
-                <td>0</td>
-                <td>0</td>
-                <td>0</td>
-                <td>0</td>
-                <td>0</td>
+                <td style="text-align: center">MaximeP</td>
+                <td style="text-align: center">1</td>
+                <td style="text-align: center">0</td>
+                <td style="text-align: center">0</td>
+                <td style="text-align: center">0</td>
+                <td style="text-align: center">0</td>
+                <td style="text-align: center">0</td>
             </tr>
             <tr>
-                <td>Thomas</td>
-                <td>1</td>
-                <td>0</td>
-                <td>0</td>
-                <td>0</td>
-                <td>0</td>
-                <td>0</td>
+                <td style="text-align: center">Thomas</td>
+                <td style="text-align: center">1</td>
+                <td style="text-align: center">0</td>
+                <td style="text-align: center">0</td>
+                <td style="text-align: center">0</td>
+                <td style="text-align: center">0</td>
+                <td style="text-align: center">0</td>
             </tr>
             <tr>
-                <td>Tito</td>
-                <td>1</td>
-                <td>0</td>
-                <td>1</td>
-                <td>1</td>
-                <td>0</td>
-                <td>0</td>
+                <td style="text-align: center">Tito</td>
+                <td style="text-align: center">1</td>
+                <td style="text-align: center">0</td>
+                <td style="text-align: center">1</td>
+                <td style="text-align: center">1</td>
+                <td style="text-align: center">0</td>
+                <td style="text-align: center">0</td>
             </tr>
             <tr>
-                <td>Joffrey</td>
-                <td>1</td>
-                <td>0</td>
-                <td>0</td>
-                <td>0</td>
-                <td>0</td>
-                <td>0</td>
+                <td style="text-align: center">Joffrey</td>
+                <td style="text-align: center">1</td>
+                <td style="text-align: center">0</td>
+                <td style="text-align: center">0</td>
+                <td style="text-align: center">0</td>
+                <td style="text-align: center">0</td>
+                <td style="text-align: center">0</td>
             </tr>
             <tr>
-                <td>Dédé</td>
-                <td>1</td>
-                <td>0</td>
-                <td>0</td>
-                <td>0</td>
-                <td>0</td>
-                <td>0</td>
+                <td style="text-align: center">Dédé</td>
+                <td style="text-align: center">1</td>
+                <td style="text-align: center">0</td>
+                <td style="text-align: center">0</td>
+                <td style="text-align: center">0</td>
+                <td style="text-align: center">0</td>
+                <td style="text-align: center">0</td>
             </tr>
             <tr>
-                <td>MaximeD</td>
-                <td>1</td>
-                <td>0</td>
-                <td>0</td>
-                <td>0</td>
-                <td>0</td>
-                <td>0</td>
+                <td style="text-align: center">MaximeD</td>
+                <td style="text-align: center">1</td>
+                <td style="text-align: center">0</td>
+                <td style="text-align: center">0</td>
+                <td style="text-align: center">0</td>
+                <td style="text-align: center">0</td>
+                <td style="text-align: center">0</td>
             </tr>
             <tr>
-                <td>JulienB</td>
-                <td>1</td>
-                <td>0</td>
-                <td>0</td>
-                <td>0</td>
-                <td>0</td>
-                <td>0</td>
+                <td style="text-align: center">JulienB</td>
+                <td style="text-align: center">1</td>
+                <td style="text-align: center">0</td>
+                <td style="text-align: center">0</td>
+                <td style="text-align: center">0</td>
+                <td style="text-align: center">0</td>
+                <td style="text-align: center">0</td>
             </tr>
             <tr class="success">
-                <td><i class="icon-star"></i> Enzo</td>
-                <td>1</td>
-                <td>0</td>
-                <td><i class="icon-star"></i> 2</td>
-                <td>2</td>
-                <td>1</td>
-                <td>1</td>
+                <td style="text-align: center"><i class="icon-star"></i> Enzo</td>
+                <td style="text-align: center">1</td>
+                <td style="text-align: center">0</td>
+                <td style="text-align: center"><i class="icon-star"></i> 2</td>
+                <td style="text-align: center">2</td>
+                <td style="text-align: center">1</td>
+                <td style="text-align: center">1</td>
             </tr>
             <tr>
-                <td>Alexy</td>
-                <td>1</td>
-                <td>0</td>
-                <td>0</td>
-                <td>0</td>
-                <td>0</td>
-                <td>0</td>
+                <td style="text-align: center">Alexy</td>
+                <td style="text-align: center">1</td>
+                <td style="text-align: center">0</td>
+                <td style="text-align: center">0</td>
+                <td style="text-align: center">0</td>
+                <td style="text-align: center">0</td>
+                <td style="text-align: center">0</td>
             </tr>
             <tr>
-                <td>JB</td>
-                <td>1</td>
-                <td>0</td>
-                <td>0</td>
-                <td>0</td>
-                <td>0</td>
-                <td>0</td>
+                <td style="text-align: center">JB</td>
+                <td style="text-align: center">1</td>
+                <td style="text-align: center">0</td>
+                <td style="text-align: center">0</td>
+                <td style="text-align: center">0</td>
+                <td style="text-align: center">0</td>
+                <td style="text-align: center">0</td>
             </tr>
             <tr>
-                <td>Tony</td>
-                <td>1</td>
-                <td>0</td>
-                <td>0</td>
-                <td>0</td>
-                <td>0</td>
-                <td>0</td>
+                <td style="text-align: center">Tony</td>
+                <td style="text-align: center">1</td>
+                <td style="text-align: center">0</td>
+                <td style="text-align: center">0</td>
+                <td style="text-align: center">0</td>
+                <td style="text-align: center">0</td>
+                <td style="text-align: center">0</td>
             </tr>
             <tr>
-                <td>Jordan</td>
-                <td>1</td>
-                <td>0</td>
-                <td>0</td>
-                <td>0</td>
-                <td>1</td>
-                <td>1</td>
+                <td style="text-align: center">Jordan</td>
+                <td style="text-align: center">1</td>
+                <td style="text-align: center">0</td>
+                <td style="text-align: center">0</td>
+                <td style="text-align: center">0</td>
+                <td style="text-align: center">1</td>
+                <td style="text-align: center">1</td>
             </tr>
             <tr>
-                <td>Zizou</td>
-                <td>1</td>
-                <td>0</td>
-                <td>0</td>
-                <td>0</td>
-                <td>0</td>
-                <td>0</td>
+                <td style="text-align: center">Zizou</td>
+                <td style="text-align: center">1</td>
+                <td style="text-align: center">0</td>
+                <td style="text-align: center">0</td>
+                <td style="text-align: center">0</td>
+                <td style="text-align: center">0</td>
+                <td style="text-align: center">0</td>
             </tr>
             <tr>
-                <td>Paul</td>
-                <td>1</td>
-                <td>0</td>
-                <td>0</td>
-                <td>0</td>
-                <td>0</td>
-                <td>0</td>
+                <td style="text-align: center">Paul</td>
+                <td style="text-align: center">1</td>
+                <td style="text-align: center">0</td>
+                <td style="text-align: center">0</td>
+                <td style="text-align: center">0</td>
+                <td style="text-align: center">0</td>
+                <td style="text-align: center">0</td>
             </tr>
             <tr>
-                <td>Laurent</td>
-                <td>1</td>
-                <td>0</td>
-                <td>0</td>
-                <td>0</td>
-                <td>0</td>
-                <td>0</td>
+                <td style="text-align: center">Laurent</td>
+                <td style="text-align: center">1</td>
+                <td style="text-align: center">0</td>
+                <td style="text-align: center">0</td>
+                <td style="text-align: center">0</td>
+                <td style="text-align: center">0</td>
+                <td style="text-align: center">0</td>
             </tr>
             <tr>
-                <td>Olivier</td>
-                <td>0</td>
-                <td>0</td>
-                <td>0</td>
-                <td>0</td>
-                <td>0</td>
-                <td>0</td>
+                <td style="text-align: center">Olivier</td>
+                <td style="text-align: center">0</td>
+                <td style="text-align: center">0</td>
+                <td style="text-align: center">0</td>
+                <td style="text-align: center">0</td>
+                <td style="text-align: center">0</td>
+                <td style="text-align: center">0</td>
             </tr>
             <tr>
-                <td>MaximeS</td>
-                <td>0</td>
-                <td>0</td>
-                <td>0</td>
-                <td>0</td>
-                <td>0</td>
-                <td>0</td>
+                <td style="text-align: center">MaximeS</td>
+                <td style="text-align: center">0</td>
+                <td style="text-align: center">0</td>
+                <td style="text-align: center">0</td>
+                <td style="text-align: center">0</td>
+                <td style="text-align: center">0</td>
+                <td style="text-align: center">0</td>
             </tr>
             <tr>
-                <td>Gaetan</td>
-                <td>0</td>
-                <td>0</td>
-                <td>0</td>
-                <td>0</td>
-                <td>0</td>
-                <td>0</td>
+                <td style="text-align: center">Gaetan</td>
+                <td style="text-align: center">0</td>
+                <td style="text-align: center">0</td>
+                <td style="text-align: center">0</td>
+                <td style="text-align: center">0</td>
+                <td style="text-align: center">0</td>
+                <td style="text-align: center">0</td>
             </tr>
             <tr>
-                <td>Florent</td>
-                <td>0</td>
-                <td>0</td>
-                <td>0</td>
-                <td>0</td>
-                <td>0</td>
-                <td>0</td>
+                <td style="text-align: center">Florent</td>
+                <td style="text-align: center">0</td>
+                <td style="text-align: center">0</td>
+                <td style="text-align: center">0</td>
+                <td style="text-align: center">0</td>
+                <td style="text-align: center">0</td>
+                <td style="text-align: center">0</td>
             </tr>
             <tr>
-                <td>JulienG</td>
-                <td>0</td>
-                <td>0</td>
-                <td>0</td>
-                <td>0</td>
-                <td>0</td>
-                <td>0</td>
+                <td style="text-align: center">JulienG</td>
+                <td style="text-align: center">0</td>
+                <td style="text-align: center">0</td>
+                <td style="text-align: center">0</td>
+                <td style="text-align: center">0</td>
+                <td style="text-align: center">0</td>
+                <td style="text-align: center">0</td>
             </tr>
         </table>
     </div>

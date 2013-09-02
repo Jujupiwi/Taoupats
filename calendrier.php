@@ -224,6 +224,8 @@
             <h2>CALENDRIER</h2>
             <h4>Saison 2013-2014</h4>
             <br>
+            <i class="icon-info-sign">&nbsp;</i> <i>Rappel : Tous les matchs à domicile se joueront le samedi soir vers
+                18h (En attente d'homologation).</i>
             <table
                 class="table table-bordered table-striped table-condensed table-hover">
                 <?php include 'contenu/calendrier_contenu.php'; ?>

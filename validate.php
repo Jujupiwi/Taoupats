@@ -1,5 +1,5 @@
 <?php
-include 'param.php';
+include 'contenu/param.php';
 ?>
 <html>
 <head>

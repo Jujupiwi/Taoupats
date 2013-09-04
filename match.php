@@ -91,6 +91,8 @@
                     <li><a href="trombi.php"><i class="icon-user">&nbsp;&nbsp;</i>Trombi</a></li>
                     <li class="visible-desktop"><a href="sondage.php"><i
                                 class="icon-signal">&nbsp;</i>Sondages</a></li>
+                    <li class="visible-phone visible-tablet"><a href="sondage-mobile.php"><i
+                                class="icon-signal">&nbsp;</i>Sondages</a></li>
                     <li><a href="interview.php"><i class="icon-eye-open">&nbsp;</i>Interviews</a>
                     </li>
                     <li><a href="contact.php"><i class="icon-envelope">&nbsp;</i>Contact</a>

@@ -11,12 +11,27 @@ $ip = $_SERVER['REMOTE_ADDR'];
 $isVoted = 0;
 $arrayResult = array();
 $total = 0;
+if (isset($_GET['user'])) {
+    $login_user = $_GET['user'];
+} else {
+    $login_user = '';
+}
 
-// on envoie la requ�te
-$res = $mysqli->query("select ip from sondage where nom_sondage = '$noteMatch'");
-while ($row = $res->fetch_assoc()) {
-    if ($row['ip'] == $ip) {
-        $isVoted = 1;
+if ($login_user == '') {
+    // on envoie la requ�te
+    $res = $mysqli->query("select ip from sondage where nom_sondage = '$noteMatch'");
+    while ($row = $res->fetch_assoc()) {
+        if ($row['ip'] == $ip) {
+            $isVoted = 1;
+        }
+    }
+} else {
+    // on envoie la requ�te
+    $res = $mysqli->query("select ip, login from sondage where nom_sondage = '$noteMatch'");
+    while ($row = $res->fetch_assoc()) {
+        if ($row['login'] == $login_user || $row['ip'] == $ip) {
+            $isVoted = 1;
+        }
     }
 }
 
@@ -33,8 +48,12 @@ $row = $requete->fetch_array();
 $nbVote = $row[0];
 
 if ($isVoted == 1) {
+    if ($login_user == '') {
+        echo "<p>Vous avez déjà répondu au sondage</p>";
+    } else {
+        echo "<p>Vous avez déjà répondu au sondage : $login_user</p>";
+    }
     ?>
-    <p>Vous avez déjà donné une note</p>
     <p>Voici les resultats</p>
     <br>
     <table class="table table-bordered table-striped table-condensed table-hover">
@@ -91,6 +110,11 @@ if ($isVoted == 1) {
             </select>
         </div>
         <br><br>
+        <?php
+        if ($login_user != '') {
+            echo "<input type='hidden' name='login' value='$login_user'/>";
+        }
+        ?>
         <input type="submit" name="valider" value="Envoyer" class="btn btn-success"/>
     </form>
 <?php } ?>

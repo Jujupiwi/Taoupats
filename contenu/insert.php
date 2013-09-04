@@ -34,25 +34,38 @@ include 'param.php';
 </head>
 <body>
 <?php
-// on se connecte � MySQL
-$db = mysql_connect($serv, $login, $pwd);
-
-// on s�lectionne la base
-mysql_select_db("taoupats");
-// on cr�e la requ�te SQL
-$sql = "INSERT INTO sondage (nom_sondage, choix, ip) VALUES ('$match','$_POST[optionsRadios]','$_SERVER[REMOTE_ADDR]');";
-
-// on envoie la requ�te
-$req = mysql_query($sql) or die('Erreur SQL !<br>' . $sql . '<br>' . mysql_error());
-$sujet = 'Vote effectue par : ';
-$sujet .= $_SERVER['REMOTE_ADDR'];
-$message = 'Vote effectue pour : ';
-$message .= $_POST['optionsRadios'];
-$destinataire = 'julien_guerrin@yahoo.fr';
-$headers = "Content-Type: text/html; charset=\"iso-8859-1\"";
-if (mail($destinataire, $sujet, $message, $headers)) {
+$mysqli = new mysqli($serv, $login, $pwd, $data);
+if ($mysqli->connect_errno) {
+    echo "Echec lors de la connexion � MySQL : (" . $mysqli->connect_errno . ") " . $mysqli->connect_error;
+}
+if (isset($_POST['login'])) {
+    $login_user = $_POST['login'];
 } else {
-    echo "Une erreur c'est produite lors de l'envois de l'email.";
+    $login_user = '';
+}
+
+// on cr�e la requ�te SQL
+if ($login_user == '') {
+    $sql = "INSERT INTO sondage (nom_sondage, choix, ip) VALUES ('$match','$_POST[optionsRadios]','$_SERVER[REMOTE_ADDR]');";
+} else {
+    $sql = "INSERT INTO sondage (nom_sondage, choix, ip, login) VALUES ('$match','$_POST[optionsRadios]','$_SERVER[REMOTE_ADDR]', '$login_user');";
+}
+
+
+// on envoie la requête
+$result = $mysqli->query($sql) or die('Erreur SQL !<br>' . $sql . '<br>' . mysql_error());
+if ($login == 'root') {
+} else {
+    $sujet = 'Vote effectue par : ';
+    $sujet .= $_SERVER['REMOTE_ADDR'];
+    $message = 'Vote effectue pour : ';
+    $message .= $_POST['optionsRadios'];
+    $destinataire = 'julien_guerrin@yahoo.fr';
+    $headers = "Content-Type: text/html; charset=\"iso-8859-1\"";
+    if (mail($destinataire, $sujet, $message, $headers)) {
+    } else {
+        echo "Une erreur c'est produite lors de l'envois de l'email.";
+    }
 }
 ?>
 <br>
@@ -73,7 +86,11 @@ if (mail($destinataire, $sujet, $message, $headers)) {
 
 <div id="progress4" class="centrage"></div>
 <?php
-header("Refresh: 3;URL=../sondage.php");
+if ($login_user == '') {
+    header("Refresh: 3;URL=../sondage.php");
+} else {
+    header("Refresh: 3;URL=../sondage.php?user=$login_user");
+}
 ?>
 </body>
 </html>

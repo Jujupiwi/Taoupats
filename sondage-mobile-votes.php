@@ -1,3 +1,6 @@
+<?php
+include 'contenu/param.php';
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -19,6 +22,8 @@
     <link href="css/couleur.css" rel="stylesheet">
     <link href="css/bootstrap-responsive.css" rel="stylesheet">
 
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="img/favicon/favicon.png">
 </head>
 <body>
 <!-- Header Starts -->
@@ -86,10 +91,11 @@
                     </li>
                     <li class="hidden-phone"><a href="photos.php"><i class="icon-camera">&nbsp;</i>Photos</a>
                     </li>
-                    <li><a href="trombi.php"><i class="icon-user">&nbsp;&nbsp;</i>Trombi</a></li>
-                    <li class="visible-desktop"><a href="sondage.php"><i
+                    <li><a href="trombi.php"><i class="icon-user">&nbsp;&nbsp;</i>Trombi</a>
+                    </li>
+                    <li class="visible-desktop"><a href="#"><i
                                 class="icon-signal">&nbsp;</i>Sondages</a></li>
-                    <li class="visible-phone visible-tablet"><a href="sondage-mobile.php"><i
+                    <li class="visible-phone visible-tablet"><a href="#"><i
                                 class="icon-signal">&nbsp;</i>Sondages</a></li>
                     <li><a href="interview.php"><i class="icon-eye-open">&nbsp;</i>Interviews</a>
                     </li>
@@ -109,41 +115,6 @@
             <div class="span12">
                 <div class="flexslider">
                     <ul class="slides">
-                        <li>
-                            <div class="flex-caption flex-center">
-                                <h2>Recrutement Taoupats</h2>
-                                <h6>Pour toutes demandes d'informations concernant le
-                                    recrutement des Taoupats de Daux, rendez-vous dans la section
-                                    Contact.</h6>
-                                <!-- Button -->
-                                <div class="button">
-                                    <a href="contact.php"><i class="icon-circle-arrow-down"></i>&nbsp;Contact</a>
-                                </div>
-                            </div>
-                        </li>
-                        <li>
-                            <!-- Slider content -->
-                            <div class="flex-caption">
-                                <!-- Left column -->
-                                <div class="col-l">
-                                    <h2>Fin de la Saison 2012-2013</h2>
-                                    <h6>Les Taoupats terminent 6ème de la poule C en division 2.</h6>
-                                </div>
-                                <div class="col-r">
-                                    <h5>Les TROPIKs Champions</h5>
-
-                                    <p>Les Tropiks terminent 1er de la poule avec 84 points et 19
-                                        victoires sur les 24 joués. Ils terminent meilleure défense
-                                        (26 buts encaissés) et 2ème meilleure attaque derrière Rodéo
-                                        (79 buts marqués).</p>
-                                    <!-- Button -->
-                                    <div class="button">
-                                        <a href="archive-classement.php"><i class="icon-circle-arrow-down"></i> Voir le
-                                            Classement</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
                         <li>
                             <!-- Slider content -->
                             <div class="flex-caption">
@@ -180,6 +151,41 @@
                                 <div class="button">
                                     <a href="http://foot31-dmt.fff.fr/cg/6509/www/index.shtml" target="_blank"><i
                                             class="icon-circle-arrow-down"></i>&nbsp;District HGMT</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="flex-caption flex-center">
+                                <h2>Recrutement Taoupats</h2>
+                                <h6>Pour toutes demandes d'informations concernant le
+                                    recrutement des Taoupats de Daux, rendez-vous dans la section
+                                    Contact.</h6>
+                                <!-- Button -->
+                                <div class="button">
+                                    <a href="contact.php"><i class="icon-circle-arrow-down"></i>&nbsp;Contact</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <!-- Slider content -->
+                            <div class="flex-caption">
+                                <!-- Left column -->
+                                <div class="col-l">
+                                    <h2>Fin de la Saison 2012-2013</h2>
+                                    <h6>Les Taoupats terminent 6ème de la poule C en division 2.</h6>
+                                </div>
+                                <div class="col-r">
+                                    <h5>Les TROPIKs Champions</h5>
+
+                                    <p>Les Tropiks terminent 1er de la poule avec 84 points et 19
+                                        victoires sur les 24 joués. Ils terminent meilleure défense
+                                        (26 buts encaissés) et 2ème meilleure attaque derrière Rodéo
+                                        (79 buts marqués).</p>
+                                    <!-- Button -->
+                                    <div class="button">
+                                        <a href="archive-classement.php"><i class="icon-circle-arrow-down"></i> Voir le
+                                            Classement</a>
+                                    </div>
                                 </div>
                             </div>
                         </li>
@@ -223,28 +229,21 @@
 <div class="container">
     <div class="row-fluid">
         <div class="span12">
-            <h2>CALENDRIER</h2>
-            <h4>Saison 2013-2014</h4>
+            <h2>SONDAGES</h2>
+            <h4><?php echo strtoupper($match); ?></h4>
             <br>
-            <i class="icon-info-sign">&nbsp;</i> <i>Rappel : Tous les matchs à domicile se joueront le samedi soir vers
-                18h (En attente d'homologation).</i>
-            <table
-                class="table table-bordered table-striped table-condensed table-hover">
-                <?php include 'contenu/calendrier_contenu.php'; ?>
-            </table>
+
         </div>
     </div>
 </div>
-
 <!-- Social -->
 <div class="social-links">
     <div class="container">
         <div class="row">
             <div class="span12">
                 <p class="big">
-                    <span>Rendez-vous sur</span> <a href="#"><i
-                            class="icon-facebook"></i>Facebook</a> <a href="#"><i
-                            class="icon-google-plus"></i>Google Plus</a> <a href="#"><i
+                    <span>Rendez-vous sur</span> <a href="#"><i class="icon-facebook"></i>Facebook</a>
+                    <a href="#"><i class="icon-google-plus"></i>Google Plus</a> <a href="#"><i
                             class="icon-twitter"></i>Twitter</a>
                 </p>
             </div>
@@ -277,6 +276,12 @@
 <script src="js/jquery.flexslider-min.js"></script>
 <script src="js/easing.js"></script>
 <script src="js/custom.js"></script>
+<script>
+    $('#myTab a').click(function (e) {
+        e.preventDefault();
+        $(this).tab('show');
+    });
+</script>
 <script type="text/javascript">
 
     var _gaq = _gaq || [];

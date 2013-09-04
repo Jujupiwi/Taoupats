@@ -1,3 +1,6 @@
+<?php
+include 'contenu/param.php';
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -19,6 +22,8 @@
     <link href="css/couleur.css" rel="stylesheet">
     <link href="css/bootstrap-responsive.css" rel="stylesheet">
 
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="img/favicon/favicon.png">
 </head>
 <body>
 <!-- Header Starts -->
@@ -86,10 +91,11 @@
                     </li>
                     <li class="hidden-phone"><a href="photos.php"><i class="icon-camera">&nbsp;</i>Photos</a>
                     </li>
-                    <li><a href="trombi.php"><i class="icon-user">&nbsp;&nbsp;</i>Trombi</a></li>
-                    <li class="visible-desktop"><a href="sondage.php"><i
+                    <li><a href="trombi.php"><i class="icon-user">&nbsp;&nbsp;</i>Trombi</a>
+                    </li>
+                    <li class="visible-desktop"><a href="#"><i
                                 class="icon-signal">&nbsp;</i>Sondages</a></li>
-                    <li class="visible-phone visible-tablet"><a href="sondage-mobile.php"><i
+                    <li class="visible-phone visible-tablet"><a href="#"><i
                                 class="icon-signal">&nbsp;</i>Sondages</a></li>
                     <li><a href="interview.php"><i class="icon-eye-open">&nbsp;</i>Interviews</a>
                     </li>
@@ -109,41 +115,6 @@
             <div class="span12">
                 <div class="flexslider">
                     <ul class="slides">
-                        <li>
-                            <div class="flex-caption flex-center">
-                                <h2>Recrutement Taoupats</h2>
-                                <h6>Pour toutes demandes d'informations concernant le
-                                    recrutement des Taoupats de Daux, rendez-vous dans la section
-                                    Contact.</h6>
-                                <!-- Button -->
-                                <div class="button">
-                                    <a href="contact.php"><i class="icon-circle-arrow-down"></i>&nbsp;Contact</a>
-                                </div>
-                            </div>
-                        </li>
-                        <li>
-                            <!-- Slider content -->
-                            <div class="flex-caption">
-                                <!-- Left column -->
-                                <div class="col-l">
-                                    <h2>Fin de la Saison 2012-2013</h2>
-                                    <h6>Les Taoupats terminent 6ème de la poule C en division 2.</h6>
-                                </div>
-                                <div class="col-r">
-                                    <h5>Les TROPIKs Champions</h5>
-
-                                    <p>Les Tropiks terminent 1er de la poule avec 84 points et 19
-                                        victoires sur les 24 joués. Ils terminent meilleure défense
-                                        (26 buts encaissés) et 2ème meilleure attaque derrière Rodéo
-                                        (79 buts marqués).</p>
-                                    <!-- Button -->
-                                    <div class="button">
-                                        <a href="archive-classement.php"><i class="icon-circle-arrow-down"></i> Voir le
-                                            Classement</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
                         <li>
                             <!-- Slider content -->
                             <div class="flex-caption">
@@ -180,6 +151,41 @@
                                 <div class="button">
                                     <a href="http://foot31-dmt.fff.fr/cg/6509/www/index.shtml" target="_blank"><i
                                             class="icon-circle-arrow-down"></i>&nbsp;District HGMT</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="flex-caption flex-center">
+                                <h2>Recrutement Taoupats</h2>
+                                <h6>Pour toutes demandes d'informations concernant le
+                                    recrutement des Taoupats de Daux, rendez-vous dans la section
+                                    Contact.</h6>
+                                <!-- Button -->
+                                <div class="button">
+                                    <a href="contact.php"><i class="icon-circle-arrow-down"></i>&nbsp;Contact</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <!-- Slider content -->
+                            <div class="flex-caption">
+                                <!-- Left column -->
+                                <div class="col-l">
+                                    <h2>Fin de la Saison 2012-2013</h2>
+                                    <h6>Les Taoupats terminent 6ème de la poule C en division 2.</h6>
+                                </div>
+                                <div class="col-r">
+                                    <h5>Les TROPIKs Champions</h5>
+
+                                    <p>Les Tropiks terminent 1er de la poule avec 84 points et 19
+                                        victoires sur les 24 joués. Ils terminent meilleure défense
+                                        (26 buts encaissés) et 2ème meilleure attaque derrière Rodéo
+                                        (79 buts marqués).</p>
+                                    <!-- Button -->
+                                    <div class="button">
+                                        <a href="archive-classement.php"><i class="icon-circle-arrow-down"></i> Voir le
+                                            Classement</a>
+                                    </div>
                                 </div>
                             </div>
                         </li>
@@ -223,28 +229,104 @@
 <div class="container">
     <div class="row-fluid">
         <div class="span12">
-            <h2>CALENDRIER</h2>
-            <h4>Saison 2013-2014</h4>
+            <h2>SONDAGES</h2>
+            <h4><?php echo strtoupper($match); ?></h4>
             <br>
-            <i class="icon-info-sign">&nbsp;</i> <i>Rappel : Tous les matchs à domicile se joueront le samedi soir vers
-                18h (En attente d'homologation).</i>
-            <table
-                class="table table-bordered table-striped table-condensed table-hover">
-                <?php include 'contenu/calendrier_contenu.php'; ?>
-            </table>
+
+            <div class="row">
+                <div class="span6" style="border-style:solid;border-width:1px;padding-left: 50px;padding-bottom: 10px;">
+                    <p>
+                        Déjà inscrit?
+                    </p>
+
+                    <form role="form" class="form" method="POST" action="contenu/login.php">
+                        <label for="user" class="control-label">Pseudo</label>
+                        <input type="text" id="user" name="user"/>
+                        <br>
+                        <label for="password" class="control-label">Mot de Passe</label>
+                        <input type="password" id="password" name="password"/>
+                        <br><br>
+                        <input type="submit" value="Valider" class="btn btn-warning"/>
+                    </form>
+                </div>
+                <div class="span6" style="border-style:solid;border-width:1px;padding-left: 50px;padding-bottom: 10px;">
+                    <p>
+                        Pas encore inscrit?
+                    </p>
+
+                    <form role="form" class="form" method="post" name="formNouveau" action="contenu/nouveau.php">
+                        <label for="nom" class="control-label"><span style="color: #ff0000">*</span> Nom</label>
+                        <input type="text" id="nom" required="true" name="nom"/>
+
+                        <div class="hide" style="width: 50%" id="error_nom">
+                            <button type="button" class="close" id="closeNT">×</button>
+                            <span style="color: #ff0000">Le Nom est obligatoire!</span>
+                        </div>
+                        <br>
+                        <label for="prenom" class="control-label"><span style="color: #ff0000">*</span>Prénom</label>
+                        <input type="text" id="prenom" required="true" name="prenom"/>
+
+                        <div class="hide" style="width: 50%" id="error_prenom">
+                            <button type="button" class="close" id="closePT">×</button>
+                            <span style="color: #ff0000">Le Prénom est obligatoire!</span>
+                        </div>
+                        <br>
+                        <label for="email" class="control-label"><span style="color: #ff0000">*</span>Email</label>
+                        <input type="email" id="email" required="true" name="email"/>
+
+                        <div class="hide" style="width: 50%" id="error_email">
+                            <button type="button" class="close" id="closeET">×</button>
+                            <span style="color: #ff0000">L'Email est obligatoire!</span>
+                        </div>
+                        <br>
+                        <label for="user-new" class="control-label"><span style="color: #ff0000">*</span>Pseudo</label>
+                        <input type="text" id="user-new" required="true" name="login_new"/>
+
+                        <div class="hide" style="width: 50%" id="error_login">
+                            <button type="button" class="close" id="closeLT">×</button>
+                            <span style="color: #ff0000">Le pseudo est obligatoire!</span>
+                        </div>
+                        <br>
+                        <label for="password-new" class="control-label"><span style="color: #ff0000">*</span>Mot de
+                            Passe</label>
+                        <input type="password" id="password-new" required="true" name="password_new"/>
+
+                        <div class="hide" style="width: 50%" id="error_password">
+                            <button type="button" class="close" id="closePA">×</button>
+                            <span style="color: #ff0000">Le mot de passe est obligatoire!</span>
+                        </div>
+                        <br>
+                        <label for="password2-new" class="control-label"><span style="color: #ff0000">*</span>Confirmer
+                            mot de Passe</label>
+                        <input type="password" required="true" id="password2-new"/>
+
+                        <div class="hide" style="width: 50%" id="error_password2">
+                            <button type="button" class="close" id="closePA2">×</button>
+                            <span style="color: #ff0000">Le mot de passe est obligatoire!</span>
+                        </div>
+                        <div class="hide" style="width: 50%" id="error_id_password">
+                            <button type="button" class="close" id="closeIDPA">×</button>
+                            <span style="color: #ff0000">Le mot de passe n'est pas identique!</span>
+                        </div>
+                        <br>
+                        <span style="color: #ff0000">*</span>Champ obligatoire.
+                        <br><br>
+                        <input id="validation" value="Valider" class="btn btn-warning"/>
+                    </form>
+                </div>
+            </div>
+
         </div>
     </div>
 </div>
-
 <!-- Social -->
 <div class="social-links">
     <div class="container">
         <div class="row">
             <div class="span12">
                 <p class="big">
-                    <span>Rendez-vous sur</span> <a href="#"><i
-                            class="icon-facebook"></i>Facebook</a> <a href="#"><i
-                            class="icon-google-plus"></i>Google Plus</a> <a href="#"><i
+                    <span>Rendez-vous sur</span> <a href="#"><i class="icon-facebook"></i>Facebook</a>
+                    <a href="#"><i class="icon-google-plus"></i>Google Plus</a> <a href="#"><i
                             class="icon-twitter"></i>Twitter</a>
                 </p>
             </div>
@@ -277,6 +359,71 @@
 <script src="js/jquery.flexslider-min.js"></script>
 <script src="js/easing.js"></script>
 <script src="js/custom.js"></script>
+<script>
+    $('#validation').click(function () {
+        var test = 0;
+        $("#error_nom").hide("slow");
+        $("#error_prenom").hide("slow");
+        $("#error_email").hide("slow");
+        $("#error_login").hide("slow");
+        $("#error_password").hide("slow");
+        $("#error_id_password").hide("slow");
+        $("#error_password2").hide("slow");
+        if ($('#nom').val().trim() == "") {
+            $('#error_nom').show("slow");
+            test = 1;
+        }
+        if ($('#prenom').val().trim() == "") {
+            $('#error_prenom').show("slow");
+            test = 0;
+        }
+        if ($('#email').val().trim() == "") {
+            $('#error_email').show("slow");
+            test = 1;
+        }
+        if ($('#user-new').val().trim() == "") {
+            $('#error_login').show("slow");
+            test = 1;
+        }
+        if ($('#password-new').val() == "") {
+            $('#error_password').show("slow");
+            test = 1;
+        }
+        if ($('#password2-new').val() == "") {
+            $('#error_password2').show("slow");
+            test = 1;
+        }
+        if ($('#password-new').val() != $('#password2-new').val()) {
+            $('#error_id_password').show("slow");
+            test = 1;
+        }
+        if (test == 0) {
+            document.formNouveau.submit();
+        }
+    });
+    $("#closeNT").click(function () {
+        $("#error_nom").hide("slow");
+    });
+    $("#closePT").click(function () {
+        $("#error_prenom").hide("slow");
+    });
+    $("#closeET").click(function () {
+        $("#error_email").hide("slow");
+    });
+    $("#closeLT").click(function () {
+        $("#error_login").hide("slow");
+    });
+    $("#closePA").click(function () {
+        $("#error_password").hide("slow");
+    });
+    $("#closePA2").click(function () {
+        $("#error_password2").hide("slow");
+    });
+    $("#closeIDPA").click(function () {
+        $("#error_id_password").hide("slow");
+    });
+</script>
+
 <script type="text/javascript">
 
     var _gaq = _gaq || [];
@@ -291,6 +438,7 @@
         var s = document.getElementsByTagName('script')[0];
         s.parentNode.insertBefore(ga, s);
     })();
+
 
 </script>
 </body>

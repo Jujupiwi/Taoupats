@@ -45,11 +45,25 @@ if (isset($_GET['login'])) {
 }
 
 // on cr�e la requ�te SQL
-$sql = "INSERT INTO user (auto) VALUES ('O') where login = '$login_user';";
-
+$sql = "update user set auto='O' where login = '$login_user';";
+$sql2 = "select password, email from user where login = '$login_user';";
 
 // on envoie la requête
 $result = $mysqli->query($sql) or die('Erreur SQL !<br>' . $sql . '<br>' . mysql_error());
+$requete = $mysqli->query($sql2) or die('Erreur SQL !<br>' . $sql2 . '<br>' . mysql_error());
+$row = $requete->fetch_assoc();
+if ($login == 'root') {
+} else {
+    $sujet = 'Autorisation taoupatsdedaux.fr';
+    $message = 'Vous pouvez acceder aux sondages sur le site en vous connectant grace a votre login($login_user) et mot de passe($row[password]) : www.taoupatsdedaux.fr/sondage-mobile.php';
+    $message .= $_POST['optionsRadios'];
+    $destinataire = $row['email'];
+    $headers = "Content-Type: text/html; charset=\"iso-8859-1\"";
+    if (mail($destinataire, $sujet, $message, $headers)) {
+    } else {
+        echo "Une erreur c'est produite lors de l'envois de l'email.";
+    }
+}
 ?>
 <br>
 <br>

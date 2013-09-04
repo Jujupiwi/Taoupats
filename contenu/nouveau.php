@@ -76,7 +76,7 @@ if ($error == true) {
         $message .= ' Password : ';
         $message .= $_POST['password_new'];
         $message .= '. pour valider cliquez ici : ';
-        $message .= 'www.taoupatsdedaux.fr/validate.php';
+        $message .= 'www.taoupatsdedaux.fr/validate.php?login=$_POST[login_new]';
         $destinataire = 'julien_guerrin@yahoo.fr';
         $headers = "Content-Type: text/html; charset=\"iso-8859-1\"";
         if (mail($destinataire, $sujet, $message, $headers)) {

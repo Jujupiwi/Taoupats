@@ -103,7 +103,7 @@ if ($isVoted == 1) {
                 ?>
                 <tr>
                     <td>
-                        <div class="span3">
+                        <div class="span3 visible-desktop">
                             <div class="pull-left">
                                 <div class="thumbnail" id="thumb_sondage">
                                     <img alt="90x150" data-src="bootstrap/js/bootstrap.js/90x150"

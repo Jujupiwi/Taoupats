@@ -6,6 +6,11 @@ if ($mysqli->connect_errno) {
     echo "Echec lors de la connexion � MySQL : (" . $mysqli->connect_errno . ") " . $mysqli->connect_error;
 }
 
+if (isset($_GET['user'])) {
+    $login_user = $_GET['user'];
+} else {
+    $login_user = '';
+}
 
 //Requete Nombre de Commentaires
 $sqlcount = "SELECT count(`comment`)FROM `commentaires` WHERE `match`='$commentMatch';";
@@ -19,6 +24,11 @@ $nbComment = $row[0];?>
         <br>Commentaire :<br>
         <textarea rows="3" cols="8000" placeholder="Commentaire" name="commentary"></textarea>
         <br><br>
+        <?php
+        if ($login_user != '') {
+            echo "<input type='hidden' name='login' value='$login_user'/>";
+        }
+        ?>
         <input type="submit" name="valider" value="Envoyer" class="btn btn-success"/>
     </form>
     <br><br>

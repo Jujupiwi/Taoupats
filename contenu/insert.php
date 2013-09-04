@@ -73,14 +73,16 @@ if ($login == 'root') {
 <br>
 <br>
 
-<div class="row-fluid centrage">
-    <div class="text-success">
-        <h4>
-            <strong>Votre vote est pris en compte!</strong> Merci d'avoir vote
-            pour <span id="stylee"><?php echo $_POST['optionsRadios']; ?> </span>.
-            <br> <br> <strong>Vous allez etre redirige dans 3 secondes ...</strong>
-        </h4>
-    </div>
+<div class="row-fluid">
+    <center>
+        <div class="text-success">
+            <h4>
+                <strong>Votre vote est pris en compte!</strong> Merci d'avoir vote
+                pour <span id="stylee"><?php echo $_POST['optionsRadios']; ?> </span>.
+                <br> <br> <strong>Vous allez etre redirige dans 3 secondes ...</strong>
+            </h4>
+        </div>
+    </center>
 </div>
 <br> <br>
 

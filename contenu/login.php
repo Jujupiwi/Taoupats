@@ -34,12 +34,14 @@ if ($row['password'] != $_POST['password'] || $row['login'] != $_POST['user']) {
     <div class="container">
         <div class="row-fluid">
             <div class="offset3 span6">
-                <div class="text-error">
-                    <h4>
-                        <strong><span id="stylee">Erreur</span> : Mauvais Login ou Mot de passe!!</strong>
-                        <strong>Vous allez etre redirige dans 3 secondes ...</strong>
-                    </h4>
-                </div>
+                <center>
+                    <div class="text-error">
+                        <h4>
+                            <strong><span id="stylee">Erreur</span> : Mauvais Login ou Mot de passe!!</strong>
+                            <strong>Vous allez etre redirige dans 3 secondes ...</strong>
+                        </h4>
+                    </div>
+                </center>
             </div>
         </div>
     </div>
@@ -63,12 +65,14 @@ if ($row['password'] != $_POST['password'] || $row['login'] != $_POST['user']) {
         <div class="container">
             <div class="row-fluid">
                 <div class="offset3 span6">
-                    <div class="text-success">
-                        <h4>
-                            <strong>Vous n'avez pas recu la confirmation par mail!! Veuillez patienter... </strong>
-                            <br> <br> <strong>Vous allez etre redirige dans 5 secondes ...</strong>
-                        </h4>
-                    </div>
+                    <center>
+                        <div class="text-success">
+                            <h4>
+                                <strong>Vous n'avez pas recu la confirmation par mail!! Veuillez patienter... </strong>
+                                <br> <br> <strong>Vous allez etre redirige dans 5 secondes ...</strong>
+                            </h4>
+                        </div>
+                    </center>
                 </div>
             </div>
         </div>
@@ -79,12 +83,14 @@ if ($row['password'] != $_POST['password'] || $row['login'] != $_POST['user']) {
         <div class="container">
             <div class="row-fluid">
                 <div class="offset3 span6">
-                    <div class="text-success">
-                        <h4>
-                            <strong>Bienvenue </strong><span id="stylee"><?php echo $row['prenom']; ?></span>.
-                            <br> <br> <strong>Vous allez etre redirige dans 3 secondes ...</strong>
-                        </h4>
-                    </div>
+                    <center>
+                        <div class="text-success">
+                            <h4>
+                                <strong>Bienvenue </strong><span id="stylee"><?php echo $row['prenom']; ?></span>.
+                                <br> <br> <strong>Vous allez etre redirige dans 3 secondes ...</strong>
+                            </h4>
+                        </div>
+                    </center>
                 </div>
             </div>
         </div>

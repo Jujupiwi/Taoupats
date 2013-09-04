@@ -43,12 +43,14 @@ while ($row = $result->fetch_assoc()) {
 if ($error == true) {
     ?>
     <div class="row-fluid centrage">
-        <div class="text-success">
-            <h4>
-                <strong>Erreur : Ce login existe déjà!!!</strong>
-                <br> <br> <strong>Vous allez être redirigé dans 5 secondes ...</strong>
-            </h4>
-        </div>
+        <center>
+            <div class="text-success">
+                <h4>
+                    <strong>Erreur : Ce login existe déjà!!!</strong>
+                    <br> <br> <strong>Vous allez être redirigé dans 5 secondes ...</strong>
+                </h4>
+            </div>
+        </center>
     </div>
     <?php
     header("Refresh: 5;URL=../sondage-mobile.php");
@@ -84,14 +86,16 @@ if ($error == true) {
     }
     ?>
     <div class="row-fluid centrage">
-        <div class="text-success">
-            <h4>
-                <strong>Bienvenue <?php echo $_POST['prenom']; ?>.</strong>
-                <br>
-                Vous allez recevoir une confirmation par mail!
-                <br> <br> <strong>Vous allez être redirigé dans 5 secondes ...</strong>
-            </h4>
-        </div>
+        <center>
+            <div class="text-success">
+                <h4>
+                    <strong>Bienvenue <?php echo $_POST['prenom']; ?>.</strong>
+                    <br>
+                    Vous allez recevoir une confirmation par mail!
+                    <br> <br> <strong>Vous allez être redirigé dans 5 secondes ...</strong>
+                </h4>
+            </div>
+        </center>
     </div>
     <?php
     header("Refresh: 5;URL=../sondage-mobile.php");

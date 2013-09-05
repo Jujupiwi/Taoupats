@@ -55,8 +55,11 @@ $row = $requete->fetch_assoc();
 if ($login == 'root') {
 } else {
     $sujet = 'Autorisation taoupatsdedaux.fr';
-    $message = 'Vous pouvez acceder aux sondages sur le site en vous connectant grace a votre login($login_user) et mot de passe($row[password]) : www.taoupatsdedaux.fr/sondage-mobile.php';
-    $message .= $_POST['optionsRadios'];
+    $message = 'Vous pouvez acceder aux sondages sur le site en vous connectant grace a votre login(';
+    $message .= $login_user;
+    $message .= 'et mot de passe(';
+    $message .= $row['password'];
+    $message .= ') : www.taoupatsdedaux.fr/sondage-mobile.php';
     $destinataire = $row['email'];
     $headers = "Content-Type: text/html; charset=\"iso-8859-1\"";
     if (mail($destinataire, $sujet, $message, $headers)) {

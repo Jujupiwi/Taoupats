@@ -113,9 +113,9 @@ if ($isVoted == 1) {
                             </div>
                         </div>
                         <div class="span3" id="name_sondage">
-                            <label class="radio"><input type="radio" name="optionsRadios"
-                                                        id="optionsRadios1" value="<?php echo $array[$i]; ?>"
-                                                        checked> <?php echo $array[$i]; ?>
+                            <label class="radio">
+                                <input type="radio" name="optionsRadios" id="optionsRadios1"
+                                       value="<?php echo $array[$i]; ?>" checked> <?php echo $array[$i]; ?>
                             </label>
                         </div>
                     </td>

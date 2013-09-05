@@ -234,7 +234,7 @@ include 'contenu/param.php';
             <br>
 
             <div class="row">
-                <div class="span6" style="border-style:solid;border-width:1px;padding-left: 50px;padding-bottom: 10px;">
+                <div class="span6" style="border-style:solid;border-width:1px;padding-left: 30px;padding-bottom: 10px;">
                     <p>
                         Déjà inscrit?
                     </p>
@@ -249,7 +249,7 @@ include 'contenu/param.php';
                         <input type="submit" value="Valider" class="btn btn-warning"/>
                     </form>
                 </div>
-                <div class="span6" style="border-style:solid;border-width:1px;padding-left: 50px;padding-bottom: 10px;">
+                <div class="span6" style="border-style:solid;border-width:1px;padding-left: 30px;padding-bottom: 10px;">
                     <p>
                         Pas encore inscrit?
                     </p>

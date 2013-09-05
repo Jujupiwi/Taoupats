@@ -437,9 +437,12 @@
     function CompteARebours() {
         var date_actuelle = new Date(); // On déclare la date d'aujourd'hui.
         var annee = date_actuelle.getFullYear();
+        var depasse1 = false;
         var match = new Date(annee, 8, 7, 20, 0, 0); // On déclare la date du match.
-        if (match.getTime() < date_actuelle.getTime()) // Si le match est dépassé, on passe au match suivant !
-            match = new Date(annee, 8, 22, 15, 0, 0); // On re-déclare le Match pour qu'il ne soit pas passé.
+        if (match.getTime() < date_actuelle.getTime()) { // Si le match est dépassé, on passe au match suivant !
+            match = new Date(annee, 8, 14, 19, 30, 0); // On re-déclare le Match pour qu'il ne soit pas passé.
+            depasse1 = true;
+        }
         var tps_restant = match.getTime() - date_actuelle.getTime(); // Temps restant en millisecondes
         //============ CONVERSIONS
         var s_restantes = tps_restant / 1000; // On convertit en secondes
@@ -458,7 +461,11 @@
                 + date_actuelle.getFullYear() + "</strong>,"
                 + " et il est <strong>" + date_actuelle.getHours() + "h"
                 + date_actuelle.getMinutes() + "</strong>.<br />";
-        texte += "<strong>Premier Match de la Saison Nailloux le Samedi 07 Septembre 2013 à 20h:</strong>";
+        if (depasse1) {
+            texte += "<strong>Match de Coupe Montaudran le Samedi 14 Septembre 2013 à 19h30:</strong>";
+        } else {
+            texte += "<strong>Premier Match de la Saison Nailloux le Samedi 07 Septembre 2013 à 20h:</strong>";
+        }
         document.getElementById("affichage").innerHTML = texte;
         document.getElementById("jours").innerHTML = "<strong>"
                 + d_restants + "<br />Jours</strong>";

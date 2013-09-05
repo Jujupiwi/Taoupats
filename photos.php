@@ -64,15 +64,11 @@
                                             data-toggle="dropdown"><i class="icon-folder-open">&nbsp;</i>Saison
                             2013-2014 <b class="caret"></b> </a>
                         <ul class="dropdown-menu">
-                            <li><a href="calendrier.php"><i class="icon-calendar">&nbsp;</i>Calendrier</a>
-                            </li>
+                            <li><a href="calendrier.php"><i class="icon-calendar">&nbsp;</i>Calendrie Taoupatsr</a></li>
                             <li><a href="resultats.php"><i class="icon-trophy">&nbsp;</i>Calendrier D2</a></li>
-                            <li><a href="classement.php"><i class="icon-list-ol">&nbsp;</i>Classement</a>
-                            </li>
-                            <li><a href="stats.php"><i class="icon-dribbble">&nbsp;</i>Stats</a>
-                            </li>
-                            <li><a href="match.php"><i class="icon-info-sign">&nbsp;</i>Dernier
-                                    Match</a></li>
+                            <li><a href="classement.php"><i class="icon-list-ol">&nbsp;</i>Classement</a></li>
+                            <li><a href="stats.php"><i class="icon-dribbble">&nbsp;</i>Stats</a></li>
+                            <li><a href="match.php"><i class="icon-info-sign">&nbsp;</i>Dernier Match</a></li>
                         </ul>
                     </li>
                     <li class="dropdown"><a href="#" class="dropdown-toggle"

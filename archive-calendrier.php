@@ -63,15 +63,11 @@
                                             data-toggle="dropdown"><i class="icon-folder-open">&nbsp;</i>Saison
                             2013-2014 <b class="caret"></b> </a>
                         <ul class="dropdown-menu">
-                            <li><a href="calendrier.php"><i class="icon-calendar">&nbsp;</i>Calendrier</a>
-                            </li>
+                            <li><a href="calendrier.php"><i class="icon-calendar">&nbsp;</i>Calendrier Taoupats</a></li>
                             <li><a href="resultats.php"><i class="icon-trophy">&nbsp;</i>Calendrier D2</a></li>
-                            <li><a href="classement.php"><i class="icon-list-ol">&nbsp;</i>Classement</a>
-                            </li>
-                            <li><a href="stats.php"><i class="icon-dribbble">&nbsp;</i>Stats</a>
-                            </li>
-                            <li><a href="match.php"><i class="icon-info-sign">&nbsp;</i>Dernier
-                                    Match</a></li>
+                            <li><a href="classement.php"><i class="icon-list-ol">&nbsp;</i>Classement</a></li>
+                            <li><a href="stats.php"><i class="icon-dribbble">&nbsp;</i>Stats</a></li>
+                            <li><a href="match.php"><i class="icon-info-sign">&nbsp;</i>Dernier Match</a></li>
                         </ul>
                     </li>
                     <li class="dropdown"><a href="#" class="dropdown-toggle"
@@ -87,17 +83,13 @@
                             </li>
                         </ul>
                     </li>
-                    <li class="hidden-phone"><a href="photos.php"><i class="icon-camera">&nbsp;</i>Photos</a>
-                    </li>
+                    <li class="hidden-phone"><a href="photos.php"><i class="icon-camera">&nbsp;</i>Photos</a></li>
                     <li><a href="trombi.php"><i class="icon-user">&nbsp;&nbsp;</i>Trombi</a></li>
-                    <li class="visible-desktop"><a href="sondage.php"><i
-                                class="icon-signal">&nbsp;</i>Sondages</a></li>
+                    <li class="visible-desktop"><a href="sondage.php"><i class="icon-signal">&nbsp;</i>Sondages</a></li>
                     <li class="visible-phone visible-tablet"><a href="sondage-mobile.php"><i
                                 class="icon-signal">&nbsp;</i>Sondages</a></li>
-                    <li><a href="interview.php"><i class="icon-eye-open">&nbsp;</i>Interviews</a>
-                    </li>
-                    <li><a href="contact.php"><i class="icon-envelope">&nbsp;</i>Contact</a>
-                    </li>
+                    <li><a href="interview.php"><i class="icon-eye-open">&nbsp;</i>Interviews</a></li>
+                    <li><a href="contact.php"><i class="icon-envelope">&nbsp;</i>Contact</a></li>
                 </ul>
             </div>
         </div>

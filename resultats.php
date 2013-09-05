@@ -68,7 +68,7 @@ include 'contenu/param.php';
                             Saison 2013-2014 <b class="caret"></b>
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a href="calendrier.php"><i class="icon-calendar">&nbsp;</i>Calendrier</a></li>
+                            <li><a href="calendrier.php"><i class="icon-calendar">&nbsp;</i>Calendrier Taoupats</a></li>
                             <li><a href="#"><i class="icon-trophy">&nbsp;</i>Calendrier D2</a></li>
                             <li><a href="classement.php"><i class="icon-list-ol">&nbsp;</i>Classement</a></li>
                             <li><a href="stats.php"><i class="icon-dribbble">&nbsp;</i>Stats</a></li>

@@ -93,9 +93,9 @@ include 'contenu/param.php';
                     </li>
                     <li><a href="trombi.php"><i class="icon-user">&nbsp;&nbsp;</i>Trombi</a>
                     </li>
-                    <li class="visible-desktop"><a href="#"><i
+                    <li class="visible-desktop"><a href="sondage.php"><i
                                 class="icon-signal">&nbsp;</i>Sondages</a></li>
-                    <li class="visible-phone visible-tablet"><a href="#"><i
+                    <li class="visible-phone visible-tablet"><a href="sondage-mobile.php"><i
                                 class="icon-signal">&nbsp;</i>Sondages</a></li>
                     <li><a href="interview.php"><i class="icon-eye-open">&nbsp;</i>Interviews</a>
                     </li>
@@ -232,94 +232,25 @@ include 'contenu/param.php';
             <h2>SONDAGES</h2>
             <h4><?php echo strtoupper($match); ?></h4>
             <br>
-
             <div class="row">
-                <div class="span6" style="border-style:solid;border-width:1px;padding-left: 30px;padding-bottom: 10px;">
+                <div class="span6"
+                     style="border-style:solid;border-width:1px;padding-left: 30px;padding-bottom: 10px;margin-bottom: 50px;">
                     <p>
-                        Déjà inscrit?
+                        Mot de passe oublié?<br>
+                        Votre mot de passe vous sera envoyé par mail.
                     </p>
 
-                    <form role="form" class="form" method="POST" action="contenu/login.php">
-                        <label for="user" class="control-label">Pseudo</label>
-                        <input type="text" id="user" name="user"/>
+                    <form role="form" class="form" method="POST" action="contenu/oublie.php">
+                        <label for="user" class="control-label">Email</label>
+                        <input type="email" id="email" name="email"/>
                         <br>
-                        <label for="password" class="control-label">Mot de Passe</label>
-                        <input type="password" id="password" name="password"/>
-                        <br>
-                        <a href="motdepasseoublie.php">Mot de passe oublié?</a>
-                        <br><br>
                         <input type="submit" value="Valider" class="btn btn-warning"/>
                     </form>
                 </div>
-                <div class="span6" style="border-style:solid;border-width:1px;padding-left: 30px;padding-bottom: 10px;">
-                    <p>
-                        Pas encore inscrit?
-                    </p>
-
-                    <form role="form" class="form" method="post" name="formNouveau" action="contenu/nouveau.php">
-                        <label for="nom" class="control-label"><span style="color: #ff0000">*</span> Nom</label>
-                        <input type="text" id="nom" required="true" name="nom"/>
-
-                        <div class="hide" style="width: 50%" id="error_nom">
-                            <button type="button" class="close" id="closeNT">×</button>
-                            <span style="color: #ff0000">Le Nom est obligatoire!</span>
-                        </div>
-                        <br>
-                        <label for="prenom" class="control-label"><span style="color: #ff0000">*</span>Prénom</label>
-                        <input type="text" id="prenom" required="true" name="prenom"/>
-
-                        <div class="hide" style="width: 50%" id="error_prenom">
-                            <button type="button" class="close" id="closePT">×</button>
-                            <span style="color: #ff0000">Le Prénom est obligatoire!</span>
-                        </div>
-                        <br>
-                        <label for="email" class="control-label"><span style="color: #ff0000">*</span>Email</label>
-                        <input type="email" id="email" required="true" name="email"/>
-
-                        <div class="hide" style="width: 50%" id="error_email">
-                            <button type="button" class="close" id="closeET">×</button>
-                            <span style="color: #ff0000">L'Email est obligatoire!</span>
-                        </div>
-                        <br>
-                        <label for="user-new" class="control-label"><span style="color: #ff0000">*</span>Pseudo</label>
-                        <input type="text" id="user-new" required="true" name="login_new"/>
-
-                        <div class="hide" style="width: 50%" id="error_login">
-                            <button type="button" class="close" id="closeLT">×</button>
-                            <span style="color: #ff0000">Le pseudo est obligatoire!</span>
-                        </div>
-                        <br>
-                        <label for="password-new" class="control-label"><span style="color: #ff0000">*</span>Mot de
-                            Passe</label>
-                        <input type="password" id="password-new" required="true" name="password_new"/>
-
-                        <div class="hide" style="width: 50%" id="error_password">
-                            <button type="button" class="close" id="closePA">×</button>
-                            <span style="color: #ff0000">Le mot de passe est obligatoire!</span>
-                        </div>
-                        <br>
-                        <label for="password2-new" class="control-label"><span style="color: #ff0000">*</span>Confirmer
-                            mot de Passe</label>
-                        <input type="password" required="true" id="password2-new"/>
-
-                        <div class="hide" style="width: 50%" id="error_password2">
-                            <button type="button" class="close" id="closePA2">×</button>
-                            <span style="color: #ff0000">Le mot de passe est obligatoire!</span>
-                        </div>
-                        <div class="hide" style="width: 50%" id="error_id_password">
-                            <button type="button" class="close" id="closeIDPA">×</button>
-                            <span style="color: #ff0000">Le mot de passe n'est pas identique!</span>
-                        </div>
-                        <br>
-                        <span style="color: #ff0000">*</span>Champ obligatoire.
-                        <br><br>
-                        <input id="validation" value="Valider" class="btn btn-warning"/>
-                    </form>
-                </div>
             </div>
-
         </div>
     </div>
+</div>
 </div>
 <!-- Social -->
 <div class="social-links">

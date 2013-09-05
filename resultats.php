@@ -109,15 +109,14 @@ include 'contenu/param.php';
             <h2>RESULTATS par journée</h2>
             <h4>Saison 2013-2014</h4>
             <br>
-            <center>
-                <?php
-                for ($i = 1; $i <= 22; $i++) {
-                    echo "<div class='hide' style='width: 50%' id='Journee$i'>";
-                    include 'journees/Journee' . $i . '.php';
-                    echo "</div>";
-                }
-                ?>
-            </center>
+            <?php
+            for ($i = 1; $i <= 22; $i++) {
+                echo "<div class='hide' style='width: 100%' id='Journee$i'>";
+                include 'journees/Journee' . $i . '.php';
+                echo "</div>";
+            }
+            ?>
+
             <div class="pagination" id="allers">
                 <ul>
                     <li class="disabled"><a href="#">Matchs Allers</a></li>

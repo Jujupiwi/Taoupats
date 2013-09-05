@@ -39,7 +39,7 @@
         <td style="text-align: center"></td>
         <td style="text-align: center"><?php echo $fenouillet; ?></td>
     </tr>
-    <tr>
+    <tr class="success">
         <td style="text-align: center"><?php echo $daux; ?></td>
         <td style="text-align: center"></td>
         <td style="text-align: center">-</td>

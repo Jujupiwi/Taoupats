@@ -11,7 +11,7 @@
     </tr>
     </thead>
     <tbody>
-    <tr>
+    <tr class="success">
         <td style="text-align: center"><?php echo $leguevin; ?></td>
         <td style="text-align: center"></td>
         <td style="text-align: center">-</td>

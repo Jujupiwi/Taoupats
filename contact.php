@@ -68,6 +68,7 @@ include 'contenu/param.php';
                         <ul class="dropdown-menu">
                             <li><a href="calendrier.php"><i class="icon-calendar">&nbsp;</i>Calendrier</a>
                             </li>
+                            <li><a href="resultats.php"><i class="icon-trophy">&nbsp;</i>Calendrier D2</a></li>
                             <li><a href="classement.php"><i class="icon-list-ol">&nbsp;</i>Classement</a>
                             </li>
                             <li><a href="stats.php"><i class="icon-dribbble">&nbsp;</i>Stats</a>

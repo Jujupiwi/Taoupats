@@ -1,6 +1,6 @@
 <h5>Journée 1 : 07 Septembre 2013</h5>
 <br>
-<table class="table table-bordered table-striped table-condensed table-hover" style="margin-bottom: 100px;">
+<table class="table table-bordered table-striped table-condensed table-hover" style="margin-bottom: 100px; left: 0px;">
     <thead>
     <tr>
         <th style="text-align: center">Domicile</th>
@@ -12,46 +12,46 @@
     </thead>
     <tbody>
     <tr>
-        <td style="text-align: center">Cadours</td>
+        <td style="text-align: center"><?php echo $cadours; ?></td>
         <td style="text-align: center"></td>
         <td style="text-align: center">-</td>
         <td style="text-align: center"></td>
-        <td style="text-align: center">Labastidette</td>
+        <td style="text-align: center"><?php echo $labastidette; ?></td>
     </tr>
     <tr>
-        <td style="text-align: center">Fonsegrives</td>
+        <td style="text-align: center"><?php echo $fonsegrives; ?></td>
         <td style="text-align: center"></td>
         <td style="text-align: center">-</td>
         <td style="text-align: center"></td>
-        <td style="text-align: center">Fenouillet</td>
+        <td style="text-align: center"><?php echo $fenouillet; ?></td>
+    </tr>
+    <tr class="success">
+        <td style="text-align: center"><?php echo $nailloux; ?></td>
+        <td style="text-align: center"></td>
+        <td style="text-align: center">-</td>
+        <td style="text-align: center"></td>
+        <td style="text-align: center"><?php echo $daux; ?></td>
     </tr>
     <tr>
-        <td style="text-align: center">Nailloux</td>
+        <td style="text-align: center"><?php echo $labege; ?></td>
         <td style="text-align: center"></td>
         <td style="text-align: center">-</td>
         <td style="text-align: center"></td>
-        <td style="text-align: center">Taoupats de Daux</td>
+        <td style="text-align: center"><?php echo $pompertuzat; ?></td>
     </tr>
     <tr>
-        <td style="text-align: center">Labege</td>
+        <td style="text-align: center"><?php echo $toulouseentente; ?></td>
         <td style="text-align: center"></td>
         <td style="text-align: center">-</td>
         <td style="text-align: center"></td>
-        <td style="text-align: center">Pompertuzat</td>
-    </tr>
-    <tr>
-        <td style="text-align: center">Toulouse Entente</td>
-        <td style="text-align: center"></td>
-        <td style="text-align: center">-</td>
-        <td style="text-align: center"></td>
-        <td style="text-align: center">Leguevin</td>
+        <td style="text-align: center"><?php echo $leguevin; ?></td>
     </tr>
     <tr class="error">
-        <td style="text-align: center">Villaudric Forfait</td>
+        <td style="text-align: center"><?php echo $villaudric; ?></td>
         <td style="text-align: center"></td>
         <td style="text-align: center">-</td>
         <td style="text-align: center"></td>
-        <td style="text-align: center">Roquette</td>
+        <td style="text-align: center"><?php echo $roquette; ?></td>
     </tr>
     </tbody>
 </table>

@@ -46,7 +46,7 @@
         <td style="text-align: center"></td>
         <td style="text-align: center"><?php echo $nailloux; ?></td>
     </tr>
-    <tr>
+    <tr class="success">
         <td style="text-align: center"><?php echo $toulouseentente; ?></td>
         <td style="text-align: center"></td>
         <td style="text-align: center">-</td>

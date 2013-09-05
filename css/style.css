@@ -16,6 +16,10 @@
 
 }
 
+.navbar .nav {
+    width: 1200px;
+}
+
 .modal-body {
     max-height: 500px !important;
 }
@@ -677,6 +681,11 @@ blockquote small {
     -ms-transition-property: -ms-transform, opacity;
     -o-transition-property: -o-transform, opacity;
     transition-property: transform, opacity;
+}
+
+.pagination ul >.disabled>span, .pagination ul >.disabled>a, .pagination ul >.disabled>a:hover {
+    pointer-events: none;
+    cursor: default;
 }
 
 /**** disabling Isotope CSS3 transitions ****/

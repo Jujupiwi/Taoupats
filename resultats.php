@@ -33,7 +33,7 @@ include 'contenu/param.php';
             <div class="span6">
                 <div class="logo">
                     <h1>
-                        <a href="index.html">TAOUPATS <span class="color">DE DAUX</span>
+                        <a href="index.php">TAOUPATS <span class="color">DE DAUX</span>
                         </a>
                     </h1>
 
@@ -59,7 +59,7 @@ include 'contenu/param.php';
 
             <div class="nav-collapse collapse">
                 <ul class="nav">
-                    <li><a href="index.html"><i class="icon-home">&nbsp;</i>Accueil</a>
+                    <li><a href="index.php"><i class="icon-home">&nbsp;</i>Accueil</a>
                     </li>
                     <!-- Refer Bootstrap navbar doc -->
                     <li class="dropdown">
@@ -118,36 +118,36 @@ include 'contenu/param.php';
             ?>
 
             <div class="pagination" id="allers">
-                <ul>
+                <ul class="matchs">
                     <li class="disabled"><a href="#">Matchs Allers</a></li>
-                    <li id="Jou1"><a href="#" id="J1">1</a></li>
-                    <li id="Jou2"><a href="#" id="J2">2</a></li>
-                    <li id="Jou3"><a href="#" id="J3">3</a></li>
-                    <li id="Jou4"><a href="#" id="J4">4</a></li>
-                    <li id="Jou5"><a href="#" id="J5">5</a></li>
-                    <li id="Jou6"><a href="#" id="J6">6</a></li>
-                    <li id="Jou7"><a href="#" id="J7">7</a></li>
-                    <li id="Jou8"><a href="#" id="J8">8</a></li>
-                    <li id="Jou9"><a href="#" id="J9">9</a></li>
-                    <li id="Jou10"><a href="#" id="J10">10</a></li>
-                    <li id="Jou11"><a href="#" id="J11">11</a></li>
+                    <li id="Jou1"><a href="#" id="J1">J1</a></li>
+                    <li id="Jou2"><a href="#" id="J2">J2</a></li>
+                    <li id="Jou3"><a href="#" id="J3">J3</a></li>
+                    <li id="Jou4"><a href="#" id="J4">J4</a></li>
+                    <li id="Jou5"><a href="#" id="J5">J5</a></li>
+                    <li id="Jou6"><a href="#" id="J6">J6</a></li>
+                    <li id="Jou7"><a href="#" id="J7">J7</a></li>
+                    <li id="Jou8"><a href="#" id="J8">J8</a></li>
+                    <li id="Jou9"><a href="#" id="J9">J9</a></li>
+                    <li id="Jou10"><a href="#" id="J10">J10</a></li>
+                    <li id="Jou11"><a href="#" id="J11">J11</a></li>
                     <li><a href="#" id="retour">Matchs Retours</a></li>
                 </ul>
             </div>
             <div class="pagination hide" id="retours">
-                <ul>
+                <ul class="matchs">
                     <li><a href="#" id="aller">Matchs Allers</a></li>
-                    <li id="Jou12"><a href="#" id="J12">12</a></li>
-                    <li id="Jou13"><a href="#" id="J13">13</a></li>
-                    <li id="Jou14"><a href="#" id="J14">14</a></li>
-                    <li id="Jou15"><a href="#" id="J15">15</a></li>
-                    <li id="Jou16"><a href="#" id="J16">16</a></li>
-                    <li id="Jou17"><a href="#" id="J17">17</a></li>
-                    <li id="Jou18"><a href="#" id="J18">18</a></li>
-                    <li id="Jou19"><a href="#" id="J19">19</a></li>
-                    <li id="Jou20"><a href="#" id="J20">20</a></li>
-                    <li id="Jou21"><a href="#" id="J21">21</a></li>
-                    <li id="Jou22"><a href="#" id="J22">22</a></li>
+                    <li id="Jou12"><a href="#" id="J12">J12</a></li>
+                    <li id="Jou13"><a href="#" id="J13">J13</a></li>
+                    <li id="Jou14"><a href="#" id="J14">J14</a></li>
+                    <li id="Jou15"><a href="#" id="J15">J15</a></li>
+                    <li id="Jou16"><a href="#" id="J16">J16</a></li>
+                    <li id="Jou17"><a href="#" id="J17">J17</a></li>
+                    <li id="Jou18"><a href="#" id="J18">J18</a></li>
+                    <li id="Jou19"><a href="#" id="J19">J19</a></li>
+                    <li id="Jou20"><a href="#" id="J20">J20</a></li>
+                    <li id="Jou21"><a href="#" id="J21">J21</a></li>
+                    <li id="Jou22"><a href="#" id="J22">J22</a></li>
                     <li class="disabled"><a href="#" id="retour">Matchs Retours</a></li>
                 </ul>
             </div>
@@ -231,137 +231,143 @@ $('#aller').click(function () {
     hideClassJou();
     $('#Jou1').addClass("disabled");
 });
-$('#J1').click(function () {
-    hideJournees();
-    $('#Journee1').show("fast");
-    $('#Jou1').addClass("disabled");
+
+$('.matchs').find('li').click(function (e) {
+
+    console.log($(e.target).attr('id'));
 });
-$('#J2').click(function () {
-    hideJournees();
-    $('#Journee2').show("fast");
-    hideClassJou();
-    $('#Jou2').addClass("disabled");
-});
-$('#J3').click(function () {
-    hideJournees();
-    $('#Journee3').show("fast");
-    hideClassJou();
-    $('#Jou3').addClass("disabled");
-});
-$('#J4').click(function () {
-    hideJournees();
-    $('#Journee4').show("fast");
-    hideClassJou();
-    $('#Jou4').addClass("disabled");
-});
-$('#J5').click(function () {
-    hideJournees();
-    $('#Journee5').show("fast");
-    hideClassJou();
-    $('#Jou5').addClass("disabled");
-});
-$('#J6').click(function () {
-    hideJournees();
-    $('#Journee6').show("fast");
-    hideClassJou();
-    $('#Jou6').addClass("disabled");
-});
-$('#J7').click(function () {
-    hideJournees();
-    $('#Journee7').show("fast");
-    hideClassJou();
-    $('#Jou7').addClass("disabled");
-});
-$('#J8').click(function () {
-    hideJournees();
-    $('#Journee8').show("fast");
-    hideClassJou();
-    $('#Jou8').addClass("disabled");
-});
-$('#J9').click(function () {
-    hideJournees();
-    $('#Journee9').show("fast");
-    hideClassJou();
-    $('#Jou9').addClass("disabled");
-});
-$('#J10').click(function () {
-    hideJournees();
-    $('#Journee10').show("fast");
-    hideClassJou();
-    $('#Jou10').addClass("disabled");
-});
-$('#J11').click(function () {
-    hideJournees();
-    $('#Journee11').show("fast");
-    hideClassJou();
-    $('#Jou11').addClass("disabled");
-});
-$('#J12').click(function () {
-    hideJournees();
-    $('#Journee12').show("fast");
-    hideClassJou();
-    $('#Jou12').addClass("disabled");
-});
-$('#J13').click(function () {
-    hideJournees();
-    $('#Journee13').show("fast");
-    hideClassJou();
-    $('#Jou13').addClass("disabled");
-});
-$('#J14').click(function () {
-    hideJournees();
-    $('#Journee14').show("fast");
-    hideClassJou();
-    $('#Jou14').addClass("disabled");
-});
-$('#J15').click(function () {
-    hideJournees();
-    $('#Journee15').show("fast");
-    hideClassJou();
-    $('#Jou15').addClass("disabled");
-});
-$('#J16').click(function () {
-    hideJournees();
-    $('#Journee16').show("fast");
-    hideClassJou();
-    $('#Jou16').addClass("disabled");
-});
-$('#J17').click(function () {
-    hideJournees();
-    $('#Journee17').show("fast");
-    hideClassJou();
-    $('#Jou17').addClass("disabled");
-});
-$('#J18').click(function () {
-    hideJournees();
-    $('#Journee18').show("fast");
-    hideClassJou();
-    $('#Jou18').addClass("disabled");
-});
-$('#J19').click(function () {
-    hideJournees();
-    $('#Journee19').show("fast");
-    hideClassJou();
-    $('#Jou19').addClass("disabled");
-});
-$('#J20').click(function () {
-    hideJournees();
-    $('#Journee20').show("fast");
-    hideClassJou();
-    $('#Jou20').addClass("disabled");
-});
-$('#J21').click(function () {
-    hideJournees();
-    $('#Journee21').show("fast");
-    hideClassJou();
-    $('#Jou21').addClass("disabled");
-});
-$('#J22').click(function () {
-    hideJournees();
-    $('#Journee22').show("fast");
-    hideClassJou();
-    $('#Jou22').addClass("disabled");
-});
+/*$('#J1').click(function () {
+ hideJournees();
+ $('#Journee1').show("fast");
+ hideClassJou();
+ $('#Jou1').addClass("disabled");
+ });
+ $('#J2').click(function () {
+ hideJournees();
+ $('#Journee2').show("fast");
+ hideClassJou();
+ $('#Jou2').addClass("disabled");
+ });
+ $('#J3').click(function () {
+ hideJournees();
+ $('#Journee3').show("fast");
+ hideClassJou();
+ $('#Jou3').addClass("disabled");
+ });
+ $('#J4').click(function () {
+ hideJournees();
+ $('#Journee4').show("fast");
+ hideClassJou();
+ $('#Jou4').addClass("disabled");
+ });
+ $('#J5').click(function () {
+ hideJournees();
+ $('#Journee5').show("fast");
+ hideClassJou();
+ $('#Jou5').addClass("disabled");
+ });
+ $('#J6').click(function () {
+ hideJournees();
+ $('#Journee6').show("fast");
+ hideClassJou();
+ $('#Jou6').addClass("disabled");
+ });
+ $('#J7').click(function () {
+ hideJournees();
+ $('#Journee7').show("fast");
+ hideClassJou();
+ $('#Jou7').addClass("disabled");
+ });
+ $('#J8').click(function () {
+ hideJournees();
+ $('#Journee8').show("fast");
+ hideClassJou();
+ $('#Jou8').addClass("disabled");
+ });
+ $('#J9').click(function () {
+ hideJournees();
+ $('#Journee9').show("fast");
+ hideClassJou();
+ $('#Jou9').addClass("disabled");
+ });
+ $('#J10').click(function () {
+ hideJournees();
+ $('#Journee10').show("fast");
+ hideClassJou();
+ $('#Jou10').addClass("disabled");
+ });
+ $('#J11').click(function () {
+ hideJournees();
+ $('#Journee11').show("fast");
+ hideClassJou();
+ $('#Jou11').addClass("disabled");
+ });
+ $('#J12').click(function () {
+ hideJournees();
+ $('#Journee12').show("fast");
+ hideClassJou();
+ $('#Jou12').addClass("disabled");
+ });
+ $('#J13').click(function () {
+ hideJournees();
+ $('#Journee13').show("fast");
+ hideClassJou();
+ $('#Jou13').addClass("disabled");
+ });
+ $('#J14').click(function () {
+ hideJournees();
+ $('#Journee14').show("fast");
+ hideClassJou();
+ $('#Jou14').addClass("disabled");
+ });
+ $('#J15').click(function () {
+ hideJournees();
+ $('#Journee15').show("fast");
+ hideClassJou();
+ $('#Jou15').addClass("disabled");
+ });
+ $('#J16').click(function () {
+ hideJournees();
+ $('#Journee16').show("fast");
+ hideClassJou();
+ $('#Jou16').addClass("disabled");
+ });
+ $('#J17').click(function () {
+ hideJournees();
+ $('#Journee17').show("fast");
+ hideClassJou();
+ $('#Jou17').addClass("disabled");
+ });
+ $('#J18').click(function () {
+ hideJournees();
+ $('#Journee18').show("fast");
+ hideClassJou();
+ $('#Jou18').addClass("disabled");
+ });
+ $('#J19').click(function () {
+ hideJournees();
+ $('#Journee19').show("fast");
+ hideClassJou();
+ $('#Jou19').addClass("disabled");
+ });
+ $('#J20').click(function () {
+ hideJournees();
+ $('#Journee20').show("fast");
+ hideClassJou();
+ $('#Jou20').addClass("disabled");
+ });
+ $('#J21').click(function () {
+ hideJournees();
+ $('#Journee21').show("fast");
+ hideClassJou();
+ $('#Jou21').addClass("disabled");
+ });
+ $('#J22').click(function () {
+ hideJournees();
+ $('#Journee22').show("fast");
+ hideClassJou();
+ $('#Jou22').addClass("disabled");
+ });*/
 
 function hideJournees() {
     $('#Journee1').hide("fast");

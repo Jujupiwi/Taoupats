@@ -1,3 +1,6 @@
+<?php
+include 'contenu/param.php';
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -57,7 +60,7 @@
                     <li><a href="#"><i class="icon-home">&nbsp;</i>Accueil</a></li>
                     <li class="dropdown"><a href="#" class="dropdown-toggle"
                                             data-toggle="dropdown"><i class="icon-folder-open">&nbsp;</i>Saison
-                        2013-2014 <b class="caret"></b></a>
+                            2013-2014 <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                             <li><a href="calendrier.php"><i class="icon-calendar">&nbsp;</i>Calendrier Taoupats</a></li>
                             <li><a href="resultats.php"><i class="icon-trophy">&nbsp;</i>Calendrier D2</a></li>
@@ -85,7 +88,7 @@
                     <li><a href="trombi.php"><i class="icon-user">&nbsp;&nbsp;</i>Trombi</a></li>
                     <li class="visible-desktop"><a href="sondage.php"><i class="icon-signal">&nbsp;</i>Sondages</a></li>
                     <li class="visible-phone visible-tablet"><a href="sondage-mobile.php"><i class="icon-signal">
-                        &nbsp;</i>Sondages</a></li>
+                                &nbsp;</i>Sondages</a></li>
                     <li><a href="interview.php"><i class="icon-eye-open">&nbsp;</i>Interviews</a></li>
                     <li><a href="contact.php"><i class="icon-envelope">&nbsp;</i>Contact</a></li>
                 </ul>
@@ -158,15 +161,15 @@
                                 <div class="col-r">
                                     <div class="button">
                                         <a
-                                                href="http://www.ladepeche.fr/article/2013/06/25/1657389-daux-foobtall-fin-de-saison-en-beaute.html#xtor=EPR-1"
-                                                target="_blank"><i class="icon-circle-arrow-down"></i>
+                                            href="http://www.ladepeche.fr/article/2013/06/25/1657389-daux-foobtall-fin-de-saison-en-beaute.html#xtor=EPR-1"
+                                            target="_blank"><i class="icon-circle-arrow-down"></i>
                                             Article du 25 Juin 2013</a>
                                     </div>
                                     <br>
                                     <div class="button">
                                         <a
-                                                href="http://www.ladepeche.fr/article/2012/04/19/1334214-daux-les-taoupats-terminent-leur-en-bonne-position.html"
-                                                target="_blank"><i class="icon-circle-arrow-down"></i>
+                                            href="http://www.ladepeche.fr/article/2012/04/19/1334214-daux-les-taoupats-terminent-leur-en-bonne-position.html"
+                                            target="_blank"><i class="icon-circle-arrow-down"></i>
                                             Article du 19 Avril 2012</a>
                                     </div>
                                 </div>
@@ -207,7 +210,8 @@
             <div class="span12">
                 <div class="bor"></div>
                 <h2>Taoupats de Daux</h2>
-                <p><i class="icon-dribbble"></i><i class="icon-minus"></i>Dernier match : Victoire 3-0 à Cologne!! <a
+                <p><i class="icon-dribbble"></i><i class="icon-minus"></i>Dernier match : <?php echo $dernier_match; ?>
+                    !! <a
                         href="match.php">Cliquez ici</a></p>
                 <p class="visible-desktop"><i class="icon-question"></i><i class="icon-minus"></i> Répondez aux sondages
                     de la semaine!! <a href="sondage.php">Cliquez ici</a></p>
@@ -218,7 +222,7 @@
                         href="interview.php">Cliquez ici</a></p>
                 <p><i class="icon-trophy"></i><i class="icon-minus"></i> Nouveau!! Le calendrier du championnat de D2
                     Poule D! <a
-                            href="resultats.php">Cliquez ici</a></p>
+                        href="resultats.php">Cliquez ici</a></p>
 
                 <div class="bor"></div>
                 <hr/>
@@ -230,41 +234,41 @@
                 <div class="bor"></div>
                 <ul class="hover-block">
                     <li><a href="calendrier.php"> <img
-                            src="images/calendrier.jpg" alt=""/>
-                        <div class="hover-content b-red">
-                            <h6>Calendrier</h6>
-                            Consulter le calendrier de la saison 2013-2014 des Taoupats.
-                        </div>
-                    </a></li>
+                                src="images/calendrier.jpg" alt=""/>
+                            <div class="hover-content b-red">
+                                <h6>Calendrier</h6>
+                                Consulter le calendrier de la saison 2013-2014 des Taoupats.
+                            </div>
+                        </a></li>
                     <li><a href="classement.php"> <img
-                            src="images/podium.jpg" alt=""/>
-                        <div class="hover-content b-purple">
-                            <h6>Classement</h6>
-                            Consulter le classement de la poule D division 2.
-                        </div>
-                    </a></li>
+                                src="images/podium.jpg" alt=""/>
+                            <div class="hover-content b-purple">
+                                <h6>Classement</h6>
+                                Consulter le classement de la poule D division 2.
+                            </div>
+                        </a></li>
                     <li class="hidden-phone"><a href="photos.php"> <!-- Image --> <img
-                            src="images/camera.jpg" alt=""/> <!-- Content with background color Class -->
-                        <div class="hover-content b-orange">
-                            <h6>Photos</h6>
-                            Consulter les Photos des Taoupats.
-                        </div>
-                    </a></li>
+                                src="images/camera.jpg" alt=""/> <!-- Content with background color Class -->
+                            <div class="hover-content b-orange">
+                                <h6>Photos</h6>
+                                Consulter les Photos des Taoupats.
+                            </div>
+                        </a></li>
                     <li class="visible-desktop"><a href="sondage.php"> <img
-                            src="images/sondage.jpg" alt=""/>
-                        <div class="hover-content b-lblue">
-                            <h6>Sondages</h6>
-                            Retrouver un sondage par semaine dans cette section.
-                        </div>
-                    </a></li>
+                                src="images/sondage.jpg" alt=""/>
+                            <div class="hover-content b-lblue">
+                                <h6>Sondages</h6>
+                                Retrouver un sondage par semaine dans cette section.
+                            </div>
+                        </a></li>
                     <li class="visible-phone visible-tablet"><a href="sondage-mobile.php"> <img
-                            src="images/sondage.jpg" alt=""/>
+                                src="images/sondage.jpg" alt=""/>
 
-                        <div class="hover-content b-lblue">
-                            <h6>Sondages</h6>
-                            Retrouver un sondage par semaine dans cette section.
-                        </div>
-                    </a></li>
+                            <div class="hover-content b-lblue">
+                                <h6>Sondages</h6>
+                                Retrouver un sondage par semaine dans cette section.
+                            </div>
+                        </a></li>
                 </ul>
                 <div class="clearfix"></div>
             </div>
@@ -367,10 +371,10 @@
                 <p class="big">
                     <span>Rendez-vous sur</span> <a
                         href="https://www.facebook.com/groups/197443846963574/"><i
-                        class="icon-facebook"></i>Facebook</a> <a
+                            class="icon-facebook"></i>Facebook</a> <a
                         href="https://accounts.google.com/ServiceLogin?service=oz&passive=1209600&continue=https://plus.google.com/?hl%3Dfr%26gpsrc%3Dgplp0%26partnerid%3Dgplp0&followup=https://plus.google.com/?hl%3Dfr%26gpsrc%3Dgplp0%26partnerid%3Dgplp0&hl=fr"><i
-                        class="icon-google-plus"></i>Google Plus</a> <a href="https://twitter.com/"><i
-                        class="icon-twitter"></i>Twitter</a>
+                            class="icon-google-plus"></i>Google Plus</a> <a href="https://twitter.com/"><i
+                            class="icon-twitter"></i>Twitter</a>
                 </p>
             </div>
         </div>
@@ -440,13 +444,13 @@
         H_restantes = Math.floor(H_restantes % 24); // Heures restantes
         d_restants = Math.floor(d_restants); // Jours restants
         var mois_fr = new Array('Janvier', 'Février', 'Mars', 'Avril',
-                'Mai', 'Juin', 'Juillet', 'Août', 'Septembre', 'Octobre',
-                'Novembre', 'Décembre');
+            'Mai', 'Juin', 'Juillet', 'Août', 'Septembre', 'Octobre',
+            'Novembre', 'Décembre');
         var texte = "Nous sommes le <strong>" + date_actuelle.getDate()
-                + " " + mois_fr[date_actuelle.getMonth()] + " "
-                + date_actuelle.getFullYear() + "</strong>,"
-                + " et il est <strong>" + date_actuelle.getHours() + "h"
-                + date_actuelle.getMinutes() + "</strong>.<br />";
+            + " " + mois_fr[date_actuelle.getMonth()] + " "
+            + date_actuelle.getFullYear() + "</strong>,"
+            + " et il est <strong>" + date_actuelle.getHours() + "h"
+            + date_actuelle.getMinutes() + "</strong>.<br />";
         if (depasse1) {
             texte += "<strong>Match de Coupe Montaudran le Samedi 14 Septembre 2013 à 19h30:</strong>";
         } else {
@@ -454,13 +458,13 @@
         }
         document.getElementById("affichage").innerHTML = texte;
         document.getElementById("jours").innerHTML = "<strong>"
-                + d_restants + "<br />Jours</strong>";
+            + d_restants + "<br />Jours</strong>";
         document.getElementById("heures").innerHTML = "<strong>"
-                + H_restantes + "<br />Heures</strong>";
+            + H_restantes + "<br />Heures</strong>";
         document.getElementById("minutes").innerHTML = "<strong>"
-                + i_restantes + "<br />Minutes</strong>";
+            + i_restantes + "<br />Minutes</strong>";
         document.getElementById("secondes").innerHTML = "<strong>"
-                + s_restantes + "<br />Secondes</strong>";
+            + s_restantes + "<br />Secondes</strong>";
     }
     setInterval(CompteARebours, 1000);
 </script>

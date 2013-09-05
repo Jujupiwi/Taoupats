@@ -3,15 +3,15 @@
 /*********************************************************
 Connexion à la base
  *********************************************************/
-/*$serv = 'localhost';
+$serv = 'localhost';
 $login = 'root';
 $pwd = '';
-$data = 'taoupats';*/
+$data = 'taoupats';
 
-$serv = 'mysql51-74.perso';
+/*$serv = 'mysql51-74.perso';
 $login = 'taoupats';
 $pwd = 'Audrey65';
-$data = 'taoupats';
+$data = 'taoupats';*/
 
 /*********************************************************
 Liste des joueurs pour le match
@@ -65,6 +65,7 @@ Nom des sondages
 $match = 'cologne';
 $noteMatch = 'note-cologne';
 $commentMatch = 'comment-cologne';
+$dernier_match = 'Victoire 3-0 à Cologne';
 
 /*********************************************************
 Interview de la personne de la semaine

@@ -43,6 +43,21 @@ $joueur21 = 'Florent';
 
 $nbJoueurs = 15;
 $array = array($joueur1, $joueur2, $joueur3, $joueur4, $joueur5, $joueur6, $joueur7, $joueur8, $joueur9, $joueur10, $joueur11, $joueur12, $joueur13, $joueur14, $joueur15);
+/*********************************************************
+Liste des équipes
+ *********************************************************/
+$daux = 'Taoupats de Daux';
+$villaudric = 'Villaudric Forfait';
+$fenouillet = 'Fenouillet UA 2';
+$pompertuzat = 'Pompertuzat ASI 2';
+$fonsegrives = 'Quint Fonsegrives 2';
+$roquette = 'Roquette FC 2';
+$labege = 'Labege FC';
+$nailloux = 'Nailloux US';
+$toulouseentente = 'Toulouse Entente';
+$cadours = 'Cadours O';
+$labastidette = 'Labastidette US';
+$leguevin = 'Leguevin US 2';
 
 /*********************************************************
 Nom des sondages

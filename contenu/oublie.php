@@ -24,7 +24,7 @@ if ($mysqli->connect_errno) {
 <body style="margin-top: 200px;">
 <?php
 // on cr�e la requ�te SQL
-$sql = "select login, prenom, password from user where login = '$_POST[email]'";
+$sql = "select login, prenom, password from user where email = '$_POST[email]';";
 
 $requete = $mysqli->query($sql) or die('Erreur SQL !<br>' . $sql . '<br>' . mysql_error());
 $row = $requete->fetch_assoc();

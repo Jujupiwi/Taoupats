@@ -118,7 +118,7 @@ include 'contenu/param.php';
             ?>
 
             <div class="pagination" id="allers">
-                <ul class="matchs">
+                <ul>
                     <li class="disabled"><a href="#">Matchs Allers</a></li>
                     <li id="Jou1"><a href="#" id="J1">J1</a></li>
                     <li id="Jou2"><a href="#" id="J2">J2</a></li>
@@ -135,7 +135,7 @@ include 'contenu/param.php';
                 </ul>
             </div>
             <div class="pagination hide" id="retours">
-                <ul class="matchs">
+                <ul>
                     <li><a href="#" id="aller">Matchs Allers</a></li>
                     <li id="Jou12"><a href="#" id="J12">J12</a></li>
                     <li id="Jou13"><a href="#" id="J13">J13</a></li>
@@ -231,143 +231,138 @@ $('#aller').click(function () {
     hideClassJou();
     $('#Jou1').addClass("disabled");
 });
-
-$('.matchs').find('li').click(function (e) {
-
-    console.log($(e.target).attr('id'));
+$('#J1').click(function () {
+    hideJournees();
+    $('#Journee1').show("fast");
+    hideClassJou();
+    $('#Jou1').addClass("disabled");
 });
-/*$('#J1').click(function () {
- hideJournees();
- $('#Journee1').show("fast");
- hideClassJou();
- $('#Jou1').addClass("disabled");
- });
- $('#J2').click(function () {
- hideJournees();
- $('#Journee2').show("fast");
- hideClassJou();
- $('#Jou2').addClass("disabled");
- });
- $('#J3').click(function () {
- hideJournees();
- $('#Journee3').show("fast");
- hideClassJou();
- $('#Jou3').addClass("disabled");
- });
- $('#J4').click(function () {
- hideJournees();
- $('#Journee4').show("fast");
- hideClassJou();
- $('#Jou4').addClass("disabled");
- });
- $('#J5').click(function () {
- hideJournees();
- $('#Journee5').show("fast");
- hideClassJou();
- $('#Jou5').addClass("disabled");
- });
- $('#J6').click(function () {
- hideJournees();
- $('#Journee6').show("fast");
- hideClassJou();
- $('#Jou6').addClass("disabled");
- });
- $('#J7').click(function () {
- hideJournees();
- $('#Journee7').show("fast");
- hideClassJou();
- $('#Jou7').addClass("disabled");
- });
- $('#J8').click(function () {
- hideJournees();
- $('#Journee8').show("fast");
- hideClassJou();
- $('#Jou8').addClass("disabled");
- });
- $('#J9').click(function () {
- hideJournees();
- $('#Journee9').show("fast");
- hideClassJou();
- $('#Jou9').addClass("disabled");
- });
- $('#J10').click(function () {
- hideJournees();
- $('#Journee10').show("fast");
- hideClassJou();
- $('#Jou10').addClass("disabled");
- });
- $('#J11').click(function () {
- hideJournees();
- $('#Journee11').show("fast");
- hideClassJou();
- $('#Jou11').addClass("disabled");
- });
- $('#J12').click(function () {
- hideJournees();
- $('#Journee12').show("fast");
- hideClassJou();
- $('#Jou12').addClass("disabled");
- });
- $('#J13').click(function () {
- hideJournees();
- $('#Journee13').show("fast");
- hideClassJou();
- $('#Jou13').addClass("disabled");
- });
- $('#J14').click(function () {
- hideJournees();
- $('#Journee14').show("fast");
- hideClassJou();
- $('#Jou14').addClass("disabled");
- });
- $('#J15').click(function () {
- hideJournees();
- $('#Journee15').show("fast");
- hideClassJou();
- $('#Jou15').addClass("disabled");
- });
- $('#J16').click(function () {
- hideJournees();
- $('#Journee16').show("fast");
- hideClassJou();
- $('#Jou16').addClass("disabled");
- });
- $('#J17').click(function () {
- hideJournees();
- $('#Journee17').show("fast");
- hideClassJou();
- $('#Jou17').addClass("disabled");
- });
- $('#J18').click(function () {
- hideJournees();
- $('#Journee18').show("fast");
- hideClassJou();
- $('#Jou18').addClass("disabled");
- });
- $('#J19').click(function () {
- hideJournees();
- $('#Journee19').show("fast");
- hideClassJou();
- $('#Jou19').addClass("disabled");
- });
- $('#J20').click(function () {
- hideJournees();
- $('#Journee20').show("fast");
- hideClassJou();
- $('#Jou20').addClass("disabled");
- });
- $('#J21').click(function () {
- hideJournees();
- $('#Journee21').show("fast");
- hideClassJou();
- $('#Jou21').addClass("disabled");
- });
- $('#J22').click(function () {
- hideJournees();
- $('#Journee22').show("fast");
- hideClassJou();
- $('#Jou22').addClass("disabled");
- });*/
+$('#J2').click(function () {
+    hideJournees();
+    $('#Journee2').show("fast");
+    hideClassJou();
+    $('#Jou2').addClass("disabled");
+});
+$('#J3').click(function () {
+    hideJournees();
+    $('#Journee3').show("fast");
+    hideClassJou();
+    $('#Jou3').addClass("disabled");
+});
+$('#J4').click(function () {
+    hideJournees();
+    $('#Journee4').show("fast");
+    hideClassJou();
+    $('#Jou4').addClass("disabled");
+});
+$('#J5').click(function () {
+    hideJournees();
+    $('#Journee5').show("fast");
+    hideClassJou();
+    $('#Jou5').addClass("disabled");
+});
+$('#J6').click(function () {
+    hideJournees();
+    $('#Journee6').show("fast");
+    hideClassJou();
+    $('#Jou6').addClass("disabled");
+});
+$('#J7').click(function () {
+    hideJournees();
+    $('#Journee7').show("fast");
+    hideClassJou();
+    $('#Jou7').addClass("disabled");
+});
+$('#J8').click(function () {
+    hideJournees();
+    $('#Journee8').show("fast");
+    hideClassJou();
+    $('#Jou8').addClass("disabled");
+});
+$('#J9').click(function () {
+    hideJournees();
+    $('#Journee9').show("fast");
+    hideClassJou();
+    $('#Jou9').addClass("disabled");
+});
+$('#J10').click(function () {
+    hideJournees();
+    $('#Journee10').show("fast");
+    hideClassJou();
+    $('#Jou10').addClass("disabled");
+});
+$('#J11').click(function () {
+    hideJournees();
+    $('#Journee11').show("fast");
+    hideClassJou();
+    $('#Jou11').addClass("disabled");
+});
+$('#J12').click(function () {
+    hideJournees();
+    $('#Journee12').show("fast");
+    hideClassJou();
+    $('#Jou12').addClass("disabled");
+});
+$('#J13').click(function () {
+    hideJournees();
+    $('#Journee13').show("fast");
+    hideClassJou();
+    $('#Jou13').addClass("disabled");
+});
+$('#J14').click(function () {
+    hideJournees();
+    $('#Journee14').show("fast");
+    hideClassJou();
+    $('#Jou14').addClass("disabled");
+});
+$('#J15').click(function () {
+    hideJournees();
+    $('#Journee15').show("fast");
+    hideClassJou();
+    $('#Jou15').addClass("disabled");
+});
+$('#J16').click(function () {
+    hideJournees();
+    $('#Journee16').show("fast");
+    hideClassJou();
+    $('#Jou16').addClass("disabled");
+});
+$('#J17').click(function () {
+    hideJournees();
+    $('#Journee17').show("fast");
+    hideClassJou();
+    $('#Jou17').addClass("disabled");
+});
+$('#J18').click(function () {
+    hideJournees();
+    $('#Journee18').show("fast");
+    hideClassJou();
+    $('#Jou18').addClass("disabled");
+});
+$('#J19').click(function () {
+    hideJournees();
+    $('#Journee19').show("fast");
+    hideClassJou();
+    $('#Jou19').addClass("disabled");
+});
+$('#J20').click(function () {
+    hideJournees();
+    $('#Journee20').show("fast");
+    hideClassJou();
+    $('#Jou20').addClass("disabled");
+});
+$('#J21').click(function () {
+    hideJournees();
+    $('#Journee21').show("fast");
+    hideClassJou();
+    $('#Jou21').addClass("disabled");
+});
+$('#J22').click(function () {
+    hideJournees();
+    $('#Journee22').show("fast");
+    hideClassJou();
+    $('#Jou22').addClass("disabled");
+});
 
 function hideJournees() {
     $('#Journee1').hide("fast");

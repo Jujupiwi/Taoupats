@@ -33,7 +33,7 @@ include 'contenu/param.php';
             <div class="span6">
                 <div class="logo">
                     <h1>
-                        <a href="index.php">TAOUPATS <span class="color">DE DAUX</span>
+                        <a href="index.html">TAOUPATS <span class="color">DE DAUX</span>
                         </a>
                     </h1>
 
@@ -59,7 +59,7 @@ include 'contenu/param.php';
 
             <div class="nav-collapse collapse">
                 <ul class="nav">
-                    <li><a href="index.php"><i class="icon-home">&nbsp;</i>Accueil</a>
+                    <li><a href="index.html"><i class="icon-home">&nbsp;</i>Accueil</a>
                     </li>
                     <!-- Refer Bootstrap navbar doc -->
                     <li class="dropdown">

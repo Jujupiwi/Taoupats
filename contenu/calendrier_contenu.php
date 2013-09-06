@@ -23,6 +23,13 @@
     <td>D2</td>
 </tr>
 <tr>
+    <td>Montaudran</td>
+    <td>Samedi 14 Septembre à 19h30</td>
+    <td>Montaudran</td>
+    <td></td>
+    <td>Coupe</td>
+</tr>
+<tr>
     <td>Fonsegrives</td>
     <td>Samedi 5 Octobre à 18h30</td>
     <td>Fonsegrives 2</td>

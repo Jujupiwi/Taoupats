@@ -56,7 +56,7 @@
 
             <div class="nav-collapse collapse">
                 <ul class="nav">
-                    <li><a href="index.php"><i class="icon-home">&nbsp;</i>Accueil</a>
+                    <li><a href="index.html"><i class="icon-home">&nbsp;</i>Accueil</a>
                     </li>
                     <!-- Refer Bootstrap navbar doc -->
                     <li class="dropdown"><a href="#" class="dropdown-toggle"

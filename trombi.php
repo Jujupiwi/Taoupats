@@ -30,7 +30,7 @@
             <div class="span6">
                 <div class="logo">
                     <h1>
-                        <a href="index.php">TAOUPATS <span class="color">DE DAUX</span>
+                        <a href="index.html">TAOUPATS <span class="color">DE DAUX</span>
                         </a>
                     </h1>
 
@@ -56,7 +56,7 @@
 
             <div class="nav-collapse collapse">
                 <ul class="nav">
-                    <li><a href="index.php"><i class="icon-home">&nbsp;</i>Accueil</a>
+                    <li><a href="index.html"><i class="icon-home">&nbsp;</i>Accueil</a>
                     </li>
                     <!-- Refer Bootstrap navbar doc -->
                     <li class="dropdown"><a href="#" class="dropdown-toggle"
@@ -260,7 +260,7 @@
 
                     <p>Postes: Gardien</p>
 
-                    <p>Age: 20 ans</p>
+                    <p>Age: 21 ans</p>
                 </div>
             </li>
             <li class="span3">
@@ -273,7 +273,7 @@
 
                     <p>Postes: Gardien</p>
 
-                    <p>Age: 20 ans</p>
+                    <p>Age: 21 ans</p>
                 </div>
             </li>
         </ul>
@@ -301,7 +301,7 @@
 
                     <p>Postes: Gardien, Defenseur, Milieu</p>
 
-                    <p>Age: 19 ans</p>
+                    <p>Age: 20 ans</p>
                 </div>
             </li>
             <li class="span3">
@@ -313,7 +313,7 @@
 
                     <p>Postes: Defenseur, Milieu</p>
 
-                    <p>Age: 19 ans</p>
+                    <p>Age: 20 ans</p>
                 </div>
             </li>
             <li class="span3">
@@ -326,7 +326,7 @@
 
                     <p>Postes: Defenseur</p>
 
-                    <p>Age: 24 ans</p>
+                    <p>Age: 25 ans</p>
                 </div>
             </li>
             <li class="span3">
@@ -339,7 +339,7 @@
 
                     <p>Postes: Defenseur</p>
 
-                    <p>Age: 21 ans</p>
+                    <p>Age: 22 ans</p>
                 </div>
             </li>
         </ul>
@@ -358,7 +358,7 @@
 
                     <p>Postes: Defenseur</p>
 
-                    <p>Age: 23 ans</p>
+                    <p>Age: 24 ans</p>
                 </div>
             </li>
             <li class="span3">
@@ -371,7 +371,7 @@
 
                     <p>Postes: Defenseur</p>
 
-                    <p>Age: 21 ans</p>
+                    <p>Age: 22 ans</p>
                 </div>
             </li>
             <li class="span3">
@@ -384,7 +384,7 @@
 
                     <p>Postes: Defenseur, Milieu</p>
 
-                    <p>Age: 19 ans</p>
+                    <p>Age: 20 ans</p>
                 </div>
             </li>
             <li class="span3">
@@ -397,7 +397,7 @@
 
                     <p>Postes: Defenseur, Milieu</p>
 
-                    <p>Age: 21 ans</p>
+                    <p>Age: 22 ans</p>
                 </div>
             </li>
         </ul>
@@ -425,7 +425,7 @@
 
                     <p>Postes: Milieu, Attaquant</p>
 
-                    <p>Age: 30 ans</p>
+                    <p>Age: 31 ans</p>
                 </div>
             </li>
             <li class="span3">
@@ -438,7 +438,7 @@
 
                     <p>Postes: Milieu, Attaquant</p>
 
-                    <p>Age: 29 ans</p>
+                    <p>Age: 30 ans</p>
                 </div>
             </li>
             <li class="span3">
@@ -451,7 +451,7 @@
 
                     <p>Postes: Milieu, Attaquant</p>
 
-                    <p>Age: 19 ans</p>
+                    <p>Age: 20 ans</p>
                 </div>
             </li>
             <li class="span3">
@@ -464,7 +464,7 @@
 
                     <p>Postes: Milieu</p>
 
-                    <p>Age: 39 ans</p>
+                    <p>Age: 40 ans</p>
                 </div>
             </li>
         </ul>
@@ -483,7 +483,7 @@
 
                     <p>Postes: Milieu</p>
 
-                    <p>Age: 24 ans</p>
+                    <p>Age: 25 ans</p>
                 </div>
             </li>
             <li class="span3">
@@ -496,7 +496,7 @@
 
                     <p>Postes: Defenseur, Milieu, Attaquant</p>
 
-                    <p>Age: 25 ans</p>
+                    <p>Age: 26 ans</p>
                 </div>
             </li>
         </ul>
@@ -524,7 +524,7 @@
 
                     <p>Postes: Attaquant</p>
 
-                    <p>Age: 20 ans</p>
+                    <p>Age: 21 ans</p>
                 </div>
             </li>
             <li class="span3">
@@ -537,7 +537,7 @@
 
                     <p>Postes: Attaquant</p>
 
-                    <p>Age: 21 ans</p>
+                    <p>Age: 22 ans</p>
                 </div>
             </li>
             <li class="span3">
@@ -550,7 +550,7 @@
 
                     <p>Postes: Milieu, Attaquant</p>
 
-                    <p>Age: 24 ans</p>
+                    <p>Age: 25 ans</p>
                 </div>
             </li>
             <li class="span3">
@@ -563,7 +563,7 @@
 
                     <p>Postes: Attaquant</p>
 
-                    <p>Age: 21 ans</p>
+                    <p>Age: 22 ans</p>
                 </div>
             </li>
         </ul>
@@ -591,7 +591,7 @@
 
                     <p>Coach</p>
 
-                    <p>Age: 41 ans</p>
+                    <p>Age: 42 ans</p>
                 </div>
             </li>
             <li class="span3">
@@ -603,7 +603,7 @@
 
                     <p>Coach</p>
 
-                    <p>Age: 51 ans</p>
+                    <p>Age: 52 ans</p>
                 </div>
             </li>
         </ul>

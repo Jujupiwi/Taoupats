@@ -57,7 +57,7 @@ if ($login == 'root') {
     $sujet = 'Autorisation taoupatsdedaux.fr';
     $message = 'Vous pouvez acceder aux sondages sur le site en vous connectant grace a votre login(';
     $message .= $login_user;
-    $message .= 'et mot de passe(';
+    $message .= ') et mot de passe(';
     $message .= $row['password'];
     $message .= ') : www.taoupatsdedaux.fr/sondage-mobile.php';
     $destinataire = $row['email'];
@@ -77,7 +77,7 @@ if ($login == 'root') {
     <center>
         <div class="text-success">
             <h4>
-                <strong>Autorisation effectuée pour <?php echo $login_user;?></strong>
+                <strong>Autorisation effectuée pour <?php echo $login_user; ?></strong>
             </h4>
         </div>
     </center>

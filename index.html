@@ -210,7 +210,7 @@ include 'contenu/param.php';
             <div class="span12">
                 <div class="bor"></div>
                 <h2>Taoupats de Daux</h2>
-                <p><i class="icon-dribbble"></i><i class="icon-minus"></i>Dernier match : Victoire 3-0 à Cologne!! <a
+                <p><i class="icon-dribbble"></i><i class="icon-minus"></i>Dernier match : Match nul 3-3 à Nailloux!! <a
                         href="match.php">Cliquez ici</a></p>
                 <p class="visible-desktop"><i class="icon-question"></i><i class="icon-minus"></i> Répondez aux sondages
                     de la semaine!! <a href="sondage.php">Cliquez ici</a></p>
@@ -430,9 +430,9 @@ include 'contenu/param.php';
         var date_actuelle = new Date(); // On déclare la date d'aujourd'hui.
         var annee = date_actuelle.getFullYear();
         var depasse1 = false;
-        var match = new Date(annee, 8, 7, 20, 0, 0); // On déclare la date du match.
+        var match = new Date(annee, 8, 14, 19, 30, 0); // On déclare la date du match.
         if (match.getTime() < date_actuelle.getTime()) { // Si le match est dépassé, on passe au match suivant !
-            match = new Date(annee, 8, 14, 19, 30, 0); // On re-déclare le Match pour qu'il ne soit pas passé.
+            match = new Date(annee, 9, 5, 18, 30, 0); // On re-déclare le Match pour qu'il ne soit pas passé.
             depasse1 = true;
         }
         var tps_restant = match.getTime() - date_actuelle.getTime(); // Temps restant en millisecondes
@@ -454,9 +454,9 @@ include 'contenu/param.php';
                 + " et il est <strong>" + date_actuelle.getHours() + "h"
                 + date_actuelle.getMinutes() + "</strong>.<br />";
         if (depasse1) {
-            texte += "<strong>Match de Coupe Montaudran le Samedi 14 Septembre 2013 à 19h30:</strong>";
+            texte += "<strong>Deuxième match de championnat le Samedi 5 Octobre 2013 à 18h30:</strong>";
         } else {
-            texte += "<strong>Premier Match de la Saison Nailloux le Samedi 07 Septembre 2013 à 20h:</strong>";
+            texte += "<strong>Match de Coupe Montaudran le Samedi 14 Septembre 2013 à 19h30:</strong>";
         }
         document.getElementById("affichage").innerHTML = texte;
         document.getElementById("jours").innerHTML = "<strong>"

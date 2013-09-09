@@ -19,7 +19,7 @@
     <td>Nailloux</td>
     <td>Samedi 7 Septembre à 20h</td>
     <td>Nailloux Us</td>
-    <td></td>
+    <td style="color: blue;">3-3</td>
     <td>D2</td>
 </tr>
 <tr>

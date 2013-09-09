@@ -228,7 +228,7 @@ include 'contenu/param.php';
     <div class="row-fluid">
         <div class="span12">
             <h2>ARCHIVES SONDAGES</h2>
-            <h4>Derniere Sondage : Rodéo</h4>
+            <h4>Derniere Sondage : Cologne</h4>
             <br> <br>
             <ul class="nav nav-tabs" id="myTab">
                 <li class="active"><a href="#homme" id="homme-match">Homme du match</a>

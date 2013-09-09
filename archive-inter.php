@@ -236,6 +236,13 @@
     </thead>
     <tbody>
     <tr>
+        <td><a href="#enzo" data-toggle="modal"> <i
+                    class="icon-chevron-right" id="nav-inter"></i> <span
+                    id="nav-inter">Enzo Birello</span>
+            </a>
+        </td>
+    </tr>
+    <tr>
         <td><a href="#jordan" data-toggle="modal"> <i
                     class="icon-chevron-right" id="nav-inter"></i> <span
                     id="nav-inter">Jordan Cointe</span>
@@ -314,6 +321,20 @@
     </tr>
 
 </table>
+<div id="enzo" class="modal hide fade" tabindex="-1">
+    <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">x</button>
+        <h3 id="myModalLabel">Interview Enzo</h3>
+    </div>
+    <div class="modal-body">
+        <p>
+            <?php include 'interviews/inter_enzo.php'; ?>
+        </p>
+    </div>
+    <div class="modal-footer">
+        <a href="archive-inter.php" class="btn">Fermer</a>
+    </div>
+</div>
 <div id="jordan" class="modal hide fade" tabindex="-1">
     <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal">x</button>

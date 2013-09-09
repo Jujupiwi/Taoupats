@@ -3,15 +3,15 @@
 /*********************************************************
 Connexion à la base
  *********************************************************/
-$serv = 'localhost';
+/*$serv = 'localhost';
 $login = 'root';
 $pwd = '';
-$data = 'taoupats';
+$data = 'taoupats';*/
 
-/*$serv = 'mysql51-74.perso';
+$serv = 'mysql51-74.perso';
 $login = 'taoupats';
 $pwd = 'Audrey65';
-$data = 'taoupats';*/
+$data = 'taoupats';
 
 /*********************************************************
 Liste des joueurs pour le match
@@ -20,29 +20,31 @@ $joueur1 = 'MaximeP';
 $joueur2 = 'Alexy';
 $joueur3 = 'Tito';
 $joueur4 = 'MaximeD';
-$joueur5 = 'JB';
+$joueur5 = 'MaximeS';
 $joueur6 = 'Jordan';
 $joueur7 = 'JulienB';
 $joueur8 = 'Joffrey';
-$joueur9 = 'Thomas';
+$joueur9 = 'Paul';
 $joueur10 = 'Zizou';
-$joueur11 = 'Dede';
+$joueur11 = 'Gaetan';
 $joueur12 = 'Enzo';
 $joueur13 = 'Tony';
-$joueur14 = 'Paul';
-$joueur15 = 'Laurent';
+
+
 /*********************************************************
 Liste des autres joueurs
  *********************************************************/
+$joueur14 = 'Thomas';
+$joueur15 = 'Dede';
 $joueur16 = 'JulienG';
 $joueur17 = 'Lionel';
 $joueur18 = 'Olivier';
-$joueur19 = 'MaximeS';
-$joueur20 = 'Gaetan';
+$joueur19 = 'JB';
+$joueur20 = 'Laurent';
 $joueur21 = 'Florent';
 
-$nbJoueurs = 15;
-$array = array($joueur1, $joueur2, $joueur3, $joueur4, $joueur5, $joueur6, $joueur7, $joueur8, $joueur9, $joueur10, $joueur11, $joueur12, $joueur13, $joueur14, $joueur15);
+$nbJoueurs = 13;
+$array = array($joueur1, $joueur2, $joueur3, $joueur4, $joueur5, $joueur6, $joueur7, $joueur8, $joueur9, $joueur10, $joueur11, $joueur12, $joueur13);
 /*********************************************************
 Liste des équipes
  *********************************************************/
@@ -62,18 +64,17 @@ $leguevin = 'Leguevin US 2';
 /*********************************************************
 Nom des sondages
  *********************************************************/
-$match = 'cologne';
-$noteMatch = 'note-cologne';
-$commentMatch = 'comment-cologne';
-$dernier_match = 'Victoire 3-0 à Cologne';
+$match = 'nailloux';
+$noteMatch = 'note-nailloux';
+$commentMatch = 'comment-nailloux';
 
 /*********************************************************
 Interview de la personne de la semaine
  *********************************************************/
-$prenom = 'Enzo';
-$nom = 'Birello';
-$np = 'EB';
-$age = '20';
+$prenom = 'MaximeP';
+$nom = 'Para';
+$np = 'MP';
+$age = '21';
 
 /*********************************************************
 Début des questions

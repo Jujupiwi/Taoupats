@@ -2,6 +2,73 @@
     <div class="span12">
         <blockquote>
             <p>
+                <i class="icon-signal icon-white"> </i> Homme du match contre Cologne?
+            </p>
+        </blockquote>
+    </div>
+</div>
+<br>
+<div class="row-fluid">
+    <div class="span12">
+        <table
+            class="table table-bordered table-striped table-condensed table-hover">
+            <thead>
+            <tr>
+                <th width="20%">Joueur</th>
+                <th width="50%">Progression</th>
+                <th width="10%">%</th>
+                <th width="20%">Nb Votes : 10</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>Enzo</td>
+                <td>
+                    <div class="progress progress-striped active active">
+                        <div class="bar bar-success" style="width: 50%;"></div>
+                    </div>
+                </td>
+                <td>50 %</td>
+                <td>5 votes</td>
+            </tr>
+            <tr>
+                <td>Tito</td>
+                <td>
+                    <div class="progress progress-striped active active">
+                        <div class="bar bar-info" style="width: 30%;"></div>
+                    </div>
+                </td>
+                <td>30 %</td>
+                <td>3 votes</td>
+            </tr>
+            <tr>
+                <td>Dédé</td>
+                <td>
+                    <div class="progress progress-striped active active">
+                        <div class="bar bar-danger" style="width: 10%;"></div>
+                    </div>
+                </td>
+                <td>10 %</td>
+                <td>1 vote</td>
+            </tr>
+            <tr>
+                <td>Laurent</td>
+                <td>
+                    <div class="progress progress-striped active active">
+                        <div class="bar bar-danger" style="width: 10%;"></div>
+                    </div>
+                </td>
+                <td>10 %</td>
+                <td>1 vote</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+<div class="row-fluid">
+    <div class="span12">
+        <blockquote>
+            <p>
                 <i class="icon-signal icon-white"> </i> Homme du match contre Rodéo?
             </p>
         </blockquote>

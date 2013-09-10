@@ -87,7 +87,7 @@
                     </li>
                     <li><a href="trombi.php"><i class="icon-user">&nbsp;&nbsp;</i>Trombi</a>
                     </li>
-                    <li class="visible-desktop"><a href="#"><i class="icon-signal">&nbsp;</i>Sondages</a>
+                    <li class="visible-desktop"><a href="sondage.php"><i class="icon-signal">&nbsp;</i>Sondages</a>
                     </li>
                     <li class="visible-phone visible-tablet"><a href="sondage-mobile.php"><i
                                 class="icon-signal">&nbsp;</i>Sondages</a></li>

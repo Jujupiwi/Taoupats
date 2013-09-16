@@ -33,7 +33,7 @@
             <h1>Création Tournoi FiFa</h1><br>
 
             <div class="col-lg-6">
-                <form role="form" id="btnsubmit" method="post" action="choixEquipes">
+                <form role="form" id="formSubmit" method="post" action="choixEquipes.php">
                     <div class="form-group">
                         <label for="nomTournoi">Nom du Tournoi</label>
                         <input type="text" class="form-control input-lg" id="nomTournoi" placeholder="Nom Tournoi">
@@ -54,7 +54,7 @@
                     <a href="index.php">
                         <button type="button" class="btn btn-warning btn-lg">Retour</button>
                     </a>
-                    <a type="button" class="btn btn-primary btn-lg">Valider</a>
+                    <input type="submit" id="btnsubmit" class="btn btn-primary btn-lg" value="Continuer"/>
                 </form>
             </div>
         </div>
@@ -64,11 +64,12 @@
 <script type="text/javascript" src="js/jquery.js"></script>
 <script type="text/javascript" src="js/bootstrap.js"></script>
 <script type="text/javascript">
-    $("#btnsubmit").click(function () {
+    $('#formSubmit').submit(function () {
         if ($('#nomTournoi').val().length == 0) {
             $("#nameTournoi").show('slow');
+            return false;
         } else {
-
+            return true;
         }
     });
     $("#close").click(function () {

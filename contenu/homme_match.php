@@ -87,7 +87,15 @@ if ($isVoted == 1) {
                     </div>
                 </td>
                 <td><?php echo round($arrayResult[$i] * 100 / $total); ?> %</td>
-                <td><?php echo $arrayResult[$i]; ?> votes</td>
+                <td><?php
+                    echo $arrayResult[$i];
+                    if ($arrayResult[$i] == 1 || $arrayResult[$i] == 0) {
+                        echo " vote";
+                    } else {
+                        echo " votes";
+                    }
+                    ?>
+                </td>
             </tr>
         <?php } ?>
         </tbody>

@@ -2,6 +2,103 @@
     <div class="span12">
         <blockquote>
             <p>
+                <i class="icon-signal icon-white"> </i> Homme du match contre Nailloux?
+            </p>
+        </blockquote>
+    </div>
+</div>
+<br>
+<div class="row-fluid">
+    <div class="span12">
+        <table
+            class="table table-bordered table-striped table-condensed table-hover">
+            <thead>
+            <tr>
+                <th width="20%">Joueur</th>
+                <th width="50%">Progression</th>
+                <th width="10%">%</th>
+                <th width="20%">Nb Votes : 16</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>Gaetan</td>
+                <td>
+                    <div class="progress progress-striped active active">
+                        <div class="bar bar-success" style="width: 38%;"></div>
+                    </div>
+                </td>
+                <td>38 %</td>
+                <td>6 votes</td>
+            </tr>
+            <tr>
+                <td>Alexy</td>
+                <td>
+                    <div class="progress progress-striped active active">
+                        <div class="bar bar-info" style="width: 25%;"></div>
+                    </div>
+                </td>
+                <td>25 %</td>
+                <td>4 votes</td>
+            </tr>
+            <tr>
+                <td>MaximeD</td>
+                <td>
+                    <div class="progress progress-striped active active">
+                        <div class="bar bar-warning" style="width: 13%;"></div>
+                    </div>
+                </td>
+                <td>13 %</td>
+                <td>2 votes</td>
+            </tr>
+            <tr>
+                <td>MaximeS</td>
+                <td>
+                    <div class="progress progress-striped active active">
+                        <div class="bar bar-danger" style="width: 6%;"></div>
+                    </div>
+                </td>
+                <td>6 %</td>
+                <td>1 vote</td>
+            </tr>
+            <tr>
+                <td>Jordan</td>
+                <td>
+                    <div class="progress progress-striped active active">
+                        <div class="bar bar-danger" style="width: 6%;"></div>
+                    </div>
+                </td>
+                <td>6 %</td>
+                <td>1 vote</td>
+            </tr>
+            <tr>
+                <td>Joffrey</td>
+                <td>
+                    <div class="progress progress-striped active active">
+                        <div class="bar bar-danger" style="width: 6%;"></div>
+                    </div>
+                </td>
+                <td>6 %</td>
+                <td>1 vote</td>
+            </tr>
+            <tr>
+                <td>Tony</td>
+                <td>
+                    <div class="progress progress-striped active active">
+                        <div class="bar bar-danger" style="width: 6%;"></div>
+                    </div>
+                </td>
+                <td>6 %</td>
+                <td>1 vote</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+<div class="row-fluid">
+    <div class="span12">
+        <blockquote>
+            <p>
                 <i class="icon-signal icon-white"> </i> Homme du match contre Cologne?
             </p>
         </blockquote>

@@ -239,10 +239,10 @@
                     <th width="20%" style="color: #C64646; text-align: center;">Défaites</th>
                 </tr>
                 <tr>
-                    <td style="text-align: center;">2</td>
+                    <td style="text-align: center;">3</td>
                     <td style="color: #5DAF6B; text-align: center;">1</td>
                     <td style="color: #4664C6; text-align: center;">1</td>
-                    <td style="color: #C64646; text-align: center;">0</td>
+                    <td style="color: #C64646; text-align: center;">1</td>
                 </tr>
             </table>
         </div>

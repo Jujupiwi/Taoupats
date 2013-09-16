@@ -26,7 +26,7 @@
     <td>Montaudran</td>
     <td>Samedi 14 Septembre à 19h30</td>
     <td>Montaudran</td>
-    <td></td>
+    <td style="color:#ff0000">2-4</td>
     <td>Coupe</td>
 </tr>
 <tr>

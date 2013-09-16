@@ -223,10 +223,10 @@
     <div class="row-fluid">
         <div class="span12">
             <h2>DERNIER MATCH</h2>
-            <h4>NAILLOUX 3-3 TAOUPATS</h4>
+            <h4>MONTAUDRAN 2-4 TAOUPATS</h4>
 
             <div class="centrage">
-                <img src="images/nailloux.png" width="800px" height="450px"/>
+                <img src="images/montau.png" width="800px" height="450px"/>
             </div>
         </div>
     </div>

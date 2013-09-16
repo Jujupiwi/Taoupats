@@ -3,15 +3,15 @@
 /*********************************************************
 Connexion à la base
  *********************************************************/
-$serv = 'localhost';
+/*$serv = 'localhost';
 $login = 'root';
 $pwd = '';
-$data = 'taoupats';
+$data = 'taoupats';*/
 
-/*$serv = 'mysql51-74.perso';
+$serv = 'mysql51-74.perso';
 $login = 'taoupats';
 $pwd = 'Audrey65';
-$data = 'taoupats';*/
+$data = 'taoupats';
 
 /*********************************************************
 Liste des joueurs pour le match
@@ -20,7 +20,7 @@ $joueur1 = 'MaximeP';
 $joueur2 = 'Alexy';
 $joueur3 = 'Tito';
 $joueur4 = 'MaximeD';
-$joueur5 = 'MaximeS';
+$joueur5 = 'Olivier';
 $joueur6 = 'Jordan';
 $joueur7 = 'JulienB';
 $joueur8 = 'Joffrey';
@@ -28,7 +28,7 @@ $joueur9 = 'Paul';
 $joueur10 = 'Zizou';
 $joueur11 = 'Gaetan';
 $joueur12 = 'Enzo';
-$joueur13 = 'Tony';
+$joueur13 = 'Florent';
 
 
 /*********************************************************
@@ -38,10 +38,10 @@ $joueur14 = 'Thomas';
 $joueur15 = 'Dede';
 $joueur16 = 'JulienG';
 $joueur17 = 'Lionel';
-$joueur18 = 'Olivier';
+$joueur18 = 'MaximeS';
 $joueur19 = 'JB';
 $joueur20 = 'Laurent';
-$joueur21 = 'Florent';
+$joueur21 = 'Tony';
 
 $nbJoueurs = 13;
 $array = array($joueur1, $joueur2, $joueur3, $joueur4, $joueur5, $joueur6, $joueur7, $joueur8, $joueur9, $joueur10, $joueur11, $joueur12, $joueur13);
@@ -64,9 +64,9 @@ $leguevin = 'Leguevin US 2';
 /*********************************************************
 Nom des sondages
  *********************************************************/
-$match = 'nailloux';
-$noteMatch = 'note-nailloux';
-$commentMatch = 'comment-nailloux';
+$match = 'montaudran';
+$noteMatch = 'note-montaudran';
+$commentMatch = 'comment-montaudran';
 
 /*********************************************************
 Interview de la personne de la semaine

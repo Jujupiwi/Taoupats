@@ -47,7 +47,11 @@
                 </div>
             </div>
         </div>
+        <?php
+        foreach ($_POST as $key => $val) echo '$_POST["' . $key . '"]=' . $val . '<br />';
+        ?>
     </div>
 </div>
+
 </body>
 </html>

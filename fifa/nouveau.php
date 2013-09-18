@@ -36,20 +36,21 @@
                 <form role="form" id="formSubmit" method="post" action="choixEquipes.php">
                     <div class="form-group">
                         <label for="nomTournoi">Nom du Tournoi</label>
-                        <input type="text" class="form-control input-lg" id="nomTournoi" placeholder="Nom Tournoi">
+                        <input type="text" class="form-control input-lg" id="nomTournoi" name="nomTournoi"
+                               placeholder="Nom Tournoi">
                     </div>
                     <label for="selectEquipe">Nombre d'équipe</label>
-                    <select class="form-control input-lg" id="selectEquipe">
-                        <option>4</option>
-                        <option>5</option>
-                        <option>6</option>
-                        <option>7</option>
-                        <option>8</option>
-                        <option>9</option>
-                        <option>10</option>
-                        <option>12</option>
-                        <option>14</option>
-                        <option>16</option>
+                    <select name="selectEquipes" class="form-control input-lg" id="selectEquipe">
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        <option value="12">12</option>
+                        <option value="14">14</option>
+                        <option value="16">16</option>
                     </select><br>
                     <a href="index.php">
                         <button type="button" class="btn btn-warning btn-lg">Retour</button>

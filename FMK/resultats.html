@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>FMK</title>
+    <meta charset="UTF-8"/>
+    <link href="css/plugins/bootstrap.css" rel="stylesheet"/>
+    <link href="css/plugins/jquery-dataTables.css" rel="stylesheet"/>
+    <link href="css/plugins/datatables-bootstrap.css" rel="stylesheet"/>
+    <link href="css/plugins/fmk-theme.css" rel="stylesheet"/>
+    <link href="css/plugins/font-awesome.css" rel="stylesheet"/>
+    <link href="css/app.css" rel="stylesheet"/>
+    <link href="css/plugins/bootstrap-datetimepicker.min.css" rel="stylesheet"/>
+    <link href="css/fmk.css" rel="stylesheet"/>
+    <script src="js/plugins/jquery-2.0.3.js"></script>
+    <script src="js/plugins/bootstrap-datetimepicker.min.js"></script>
+    <script src="js/plugins/jquery.dataTables.js"></script>
+    <script src="js/plugins/bootstrap.js"></script>
+    <script src="js/plugins/jquery.dataTables.js"></script>
+    <script src="js/plugins/jquery.validate.js"></script>
+    <script src="js/plugins/custom.dataTables.js"></script>
+    <script src="js/plugins/custom.validate.js"></script>
+    <script src="js/plugins/moment.js"></script>
+    <script src="js/fmk.js"></script>
+    <script type="javascript">
+        /*<![CDATA[*/
+        var defaultFormatDate = "dd-MM-yyyy";
+        var defaultFormatTime = "hh:mm:ss";
+        var defaultFormatDateTime = defaultFormatDate + ' ' + defaultFormatTime;
+        /*]]>*/
+    </script>
+    <script type="text/javascript">
+        $(function () {
+            $('#datetimepicker1').datetimepicker({
+                language: 'pt-BR'
+            });
+        });
+    </script>
+</head>
+<body>
+<header>
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <img src="img/cacp_logo.gif"/>
+            </div>
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="#"><span class="icon-wrench"></span>&nbsp;<span>Administration</span></a>
+                    </li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#"><span>user ca-cp</span></a></li>
+                    <li><a href="#"><span class="icon-signout icon-large"></span></a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+<div id="mainContainer" class="container" style="background-color: #FBFBFB">
+    <h2 id="portal-title">RESULTATS</h2>
+    <br><br>
+    <h4><i class="icon-warning-sign"></i> Le nombre de transactions sélectionnées est inférieur ou égal à <span
+            style="color: red;">1000</span> transactions.</h4>
+    <br>
+    <h4><i class="icon-plus"></i> Ajouter des filtres supplémentaires.</h4>
+    <br>
+    <div class="row">
+        <div class="col-lg-3">
+            <label for="datetimepicker1">Date de début</label>
+            <div class="input-group">
+                <input type="datetime" id="datetimepicker1" class="datepicker form-control" value="13/09/2013"
+                       data-format="dd/MM/yyyy"/>
+                    <span class="input-group-addon">
+                        <i data-time-icon="icon-time" class="icon-calendar" data-date-icon="icon-calendar"></i>
+                    </span>
+            </div>
+        </div>
+        <div class="col-lg-3">
+            <label for="datetimepicker2">Date de fin</label>
+            <div class="input-group">
+                <input type="datetime" id="datetimepicker2" class="datepicker form-control" value="20/09/2013"
+                       data-format="dd/MM/yyyy"/>
+                    <span class="input-group-addon">
+                        <i data-time-icon="icon-time" class="icon-calendar" data-date-icon="icon-calendar"></i>
+                    </span>
+            </div>
+        </div>
+        <div class="col-lg-3">
+            <label for="datetimepicker3">Heure de début</label>
+            <div class="input-group">
+                <input type="datetime" id="datetimepicker3" class="datepicker form-control" value="00:00:00"
+                       data-format="HH:mm:ss"/>
+                    <span class="input-group-addon">
+                        <i data-time-icon="icon-time" class="icon-time" data-date-icon="icon-calendar"></i>
+                    </span>
+            </div>
+        </div>
+        <div class="col-lg-3">
+            <label for="datetimepicker4">Heure de fin</label>
+            <div class="input-group">
+                <input type="datetime" id="datetimepicker4" class="datepicker form-control" value="23:59:59"
+                       data-format="HH:mm:ss"/>
+                    <span class="input-group-addon">
+                        <i data-time-icon="icon-time" class="icon-time" data-date-icon="icon-calendar"></i>
+                    </span>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="row">
+        <div class="col-lg-3">
+            <div class="form-group">
+                <label for="format">Type de transaction</label>
+                <select class="form-control" id="format">
+                    <option value="">Type 1</option>
+                    <option value="">Type 2</option>
+                </select>
+            </div>
+        </div>
+        <div class="col-lg-3">
+            <div class="form-group">
+                <label for="message">Type de message</label>
+                <select class="form-control" id="message">
+                    <option value="">Message 1</option>
+                    <option value="">Message 2</option>
+                </select>
+            </div>
+        </div>
+        <div class="col-lg-3">
+            <div class="form-group">
+                <label for="réseau">Tete de réseau</label>
+                <select class="form-control" id="réseau">
+                    <option value="">Réseau 1</option>
+                    <option value="">Réseau 2</option>
+                </select>
+            </div>
+        </div>
+    </div>
+    <br>
+    <h4><i class="icon-search"></i> Détail des transactions.
+        <button id="liste" type="button" style="margin-left:0px;" class="btn btn-success">
+            <i class="icon-search"></i>
+            <span>Détail</span>
+        </button>
+    </h4>
+    <br>
+    <h4><i class="icon-download-alt"></i> Exporter les données au format Excel.
+        <button type="button" style="margin-left:0px;" class="btn btn-success">
+            <i class="icon-file-text"></i>
+            <span>Exporter</span>
+        </button>
+    </h4>
+    <br>
+    <div class="row">
+        <div class="col-lg-offset-5 col-lg-1">
+            <button id="retour" type="button" class="btn btn-danger">
+                <i class="icon-long-arrow-left"></i>
+                <span>Retour</span>
+            </button>
+        </div>
+    </div>
+    <br><br>
+</div>
+<br><br><br><br>
+<footer>
+    <nav class="navbar navbar-fixed-bottom" role="navigation">
+        <div class="container" style="margin-top: 15px">
+            <span class="pull-left">APP V1.0.0</span>
+            <span class="pull-right"><a id="link" href="mailto:jocelyn.ntakpe@sopragroup.com">
+                <i class="glyphicon glyphicon-envelope"></i> Contact</a>
+            </span>
+        </div>
+    </nav>
+</footer>
+<script type="text/javascript">
+    $("#retour").click(function () {
+        document.location.href = "portal.html";
+    });
+    $("#liste").click(function () {
+        document.location.href = "liste.html";
+    });
+    $(".icon-signout").click(function () {
+        document.location.href = "connexion.html";
+    });
+</script>
+</body>
+</html>

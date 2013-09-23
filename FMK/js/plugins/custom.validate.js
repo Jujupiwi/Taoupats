@@ -1,0 +1,4 @@
+/**
+ * Modifications de jQuery validation
+ */
+

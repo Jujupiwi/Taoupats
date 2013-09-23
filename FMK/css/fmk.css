@@ -1,0 +1,30 @@
+/*! Affichage d'une table sans retour à la ligne dans les cellules */
+table.dataTable.wrap {
+    table-layout: fixed; /* Force la taille de la table */
+}
+
+table.dataTable.wrap td {
+    overflow: hidden; /* Cache ce qui dépasse */
+    text-overflow: ellipsis; /* Affiche ... dès qu'il y a dépassement */
+    white-space: nowrap; /* Bloque les retours à la ligne */
+}
+
+table.dataTable.wrap td.unwrap {
+    overflow: visible;
+    text-overflow: clip;
+    white-space: normal;
+    cursor: pointer;
+}
+
+table.dataTable.wrap .wrap-cell {
+    cursor: pointer;
+}
+
+table.dataTable tr.odd td.sorting_1 {
+    background-color: #F9F9F9;
+}
+
+table.dataTable tr.even td.sorting_1 {
+    background-color: #ffffff;
+}
+

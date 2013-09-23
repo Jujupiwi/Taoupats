@@ -230,7 +230,7 @@
             <h2>CLASSEMENT</h2>
             <h4>Saison 2013-2014</h4>
             <br>
-            <table class="table table-striped table-condensed table-hover table-bordered">
+            <table class="table table-bordered table-striped table-condensed table-hover">
                 <thead>
                 <tr>
                     <td>Pl</td>
@@ -250,33 +250,61 @@
                 <tr>
                     <td>1</td>
                     <td>Fenouillet Ua 2</td>
-                    <td>4</td>
-                    <td>1</td>
-                    <td>1</td>
+                    <td>8</td>
+                    <td>2</td>
+                    <td>2</td>
                     <td>0</td>
                     <td>0</td>
                     <td>0</td>
-                    <td>3</td>
+                    <td>10</td>
                     <td>0</td>
                     <td>0</td>
-                    <td>3</td>
+                    <td>10</td>
                 </tr>
                 <tr>
                     <td>2</td>
                     <td>Labastidette Us</td>
+                    <td>8</td>
+                    <td>2</td>
+                    <td>2</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>5</td>
+                    <td>3</td>
+                    <td>0</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Labege Fc</td>
+                    <td>6</td>
+                    <td>2</td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>0</td>
+                    <td>0</td>
                     <td>4</td>
                     <td>1</td>
-                    <td>1</td>
-                    <td>0</td>
-                    <td>0</td>
                     <td>0</td>
                     <td>3</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Toulouse Entente</td>
+                    <td>5</td>
                     <td>2</td>
+                    <td>1</td>
+                    <td>0</td>
+                    <td>1</td>
+                    <td>0</td>
+                    <td>5</td>
+                    <td>4</td>
                     <td>0</td>
                     <td>1</td>
                 </tr>
                 <tr>
-                    <td>3</td>
+                    <td>5</td>
                     <td>Leguevin Us 2</td>
                     <td>4</td>
                     <td>1</td>
@@ -289,8 +317,36 @@
                     <td>0</td>
                     <td>1</td>
                 </tr>
+                <tr>
+                    <td>6</td>
+                    <td>Pompertuzat Asi 2</td>
+                    <td>3</td>
+                    <td>2</td>
+                    <td>0</td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>7</td>
+                    <td>0</td>
+                    <td>-7</td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>Nailloux Us</td>
+                    <td>2</td>
+                    <td>1</td>
+                    <td>0</td>
+                    <td>1</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>3</td>
+                    <td>3</td>
+                    <td>0</td>
+                    <td>0</td>
+                </tr>
                 <tr class="success">
-                    <td>4</td>
+                    <td>8</td>
                     <td>Taoupats De Daux</td>
                     <td>2</td>
                     <td>1</td>
@@ -304,106 +360,50 @@
                     <td>0</td>
                 </tr>
                 <tr>
-                    <td>5</td>
-                    <td>Nailloux Us</td>
-                    <td>2</td>
-                    <td>1</td>
-                    <td>0</td>
-                    <td>1</td>
-                    <td>0</td>
-                    <td>0</td>
-                    <td>3</td>
-                    <td>3</td>
-                    <td>0</td>
-                    <td>0</td>
-                </tr>
-                <tr>
-                    <td>6</td>
-                    <td>Labege Fc</td>
-                    <td>2</td>
-                    <td>1</td>
-                    <td>0</td>
-                    <td>1</td>
-                    <td>0</td>
-                    <td>0</td>
-                    <td>0</td>
-                    <td>0</td>
-                    <td>0</td>
-                    <td>0</td>
-                </tr>
-                <tr>
-                    <td>7</td>
-                    <td>Pompertuzat Asi 2</td>
-                    <td>2</td>
-                    <td>1</td>
-                    <td>0</td>
-                    <td>1</td>
-                    <td>0</td>
-                    <td>0</td>
-                    <td>0</td>
-                    <td>0</td>
-                    <td>0</td>
-                    <td>0</td>
-                </tr>
-                <tr>
-                    <td>8</td>
-                    <td>Cadours O</td>
-                    <td>1</td>
-                    <td>1</td>
-                    <td>0</td>
-                    <td>0</td>
-                    <td>1</td>
-                    <td>0</td>
-                    <td>2</td>
-                    <td>3</td>
-                    <td>0</td>
-                    <td>-1</td>
-                </tr>
-                <tr>
                     <td>9</td>
-                    <td>Toulouse Entente</td>
-                    <td>1</td>
-                    <td>1</td>
-                    <td>0</td>
-                    <td>0</td>
-                    <td>1</td>
-                    <td>0</td>
-                    <td>1</td>
+                    <td>Cadours O</td>
+                    <td>2</td>
                     <td>2</td>
                     <td>0</td>
-                    <td>-1</td>
+                    <td>0</td>
+                    <td>2</td>
+                    <td>0</td>
+                    <td>4</td>
+                    <td>7</td>
+                    <td>0</td>
+                    <td>-3</td>
                 </tr>
                 <tr>
                     <td>10</td>
                     <td>Roquettes Fc 2</td>
+                    <td>1</td>
+                    <td>1</td>
                     <td>0</td>
                     <td>0</td>
+                    <td>1</td>
                     <td>0</td>
+                    <td>1</td>
+                    <td>4</td>
                     <td>0</td>
-                    <td>0</td>
-                    <td>0</td>
-                    <td>0</td>
-                    <td>0</td>
-                    <td>0</td>
-                    <td>0</td>
+                    <td>-3</td>
                 </tr>
                 <tr>
                     <td>11</td>
                     <td>Quint Fonsegrives 2</td>
-                    <td>-1</td>
+                    <td>0</td>
+                    <td>2</td>
+                    <td>0</td>
+                    <td>0</td>
                     <td>1</td>
-                    <td>0</td>
-                    <td>0</td>
-                    <td>0</td>
                     <td>1</td>
+                    <td>1</td>
+                    <td>5</td>
                     <td>0</td>
-                    <td>3</td>
-                    <td>0</td>
-                    <td>-3</td>
+                    <td>-4</td>
                 </tr>
                 <tr class="error">
                     <td>12</td>
-                    <td>Villaudric Cij Forfait</td>
+                    <td>Villaudric Cij</td>
                     <td>0</td>
                     <td>0</td>
                     <td>0</td>

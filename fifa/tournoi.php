@@ -54,7 +54,7 @@ if (!isset($_GET["array0"])) {
             <h1>Tournoi FiFa : <?php echo $nomTournoi; ?></h1><br>
 
             <form role="form" id="forma"
-                  action="enregistrement.php?nbequipe=<?php echo $nbequipe; ?>&nomTournoi=<?php echo $nomTournoi; ?>"
+                  action="tableau.php?nbequipe=<?php echo $nbequipe; ?>&nomTournoi=<?php echo $nomTournoi; ?>"
                   method="POST">
                 <?php $i = 0;
                 foreach ($array as &$value) {
@@ -70,7 +70,11 @@ if (!isset($_GET["array0"])) {
                     }
                     echo "</div>";
                     echo "<div class='col-lg-6'>";
-                    echo "<input type='text' disabled class='form-control input-lg' name='$team' value='$val'/>";
+                    if (isset($_GET['array0'])) {
+                        echo "<input type='text' disabled class='form-control input-lg' name='$team' value='$val'/>";
+                    } else {
+                        echo "<input type='text' disabled class='form-control input-lg' value='$val'/>";
+                    }
                     echo "</div>";
                     echo "</div>";
                     $i++;

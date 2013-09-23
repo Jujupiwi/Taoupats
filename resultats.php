@@ -211,9 +211,9 @@ include 'contenu/param.php';
 </script>
 <script type="text/javascript">
 $(document).ready(function () {
-    $('#Journee1').show("fast");
+    $('#Journee2').show("fast");
     hideClassJou();
-    $('#Jou1').addClass("disabled");
+    $('#Jou2').addClass("disabled");
 });
 $('#retour').click(function () {
     hideJournees();

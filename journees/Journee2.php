@@ -13,23 +13,23 @@
     <tbody>
     <tr>
         <td style="text-align: center"><?php echo $fenouillet; ?></td>
-        <td style="text-align: center"></td>
+        <td style="text-align: center;color: green">7</td>
         <td style="text-align: center">-</td>
-        <td style="text-align: center"></td>
+        <td style="text-align: center;color: red">0</td>
         <td style="text-align: center"><?php echo $pompertuzat; ?></td>
     </tr>
     <tr>
         <td style="text-align: center"><?php echo $cadours; ?></td>
-        <td style="text-align: center"></td>
+        <td style="text-align: center;color: red">2</td>
         <td style="text-align: center">-</td>
-        <td style="text-align: center"></td>
+        <td style="text-align: center;color: green">4</td>
         <td style="text-align: center"><?php echo $toulouseentente; ?></td>
     </tr>
     <tr>
         <td style="text-align: center"><?php echo $nailloux; ?></td>
-        <td style="text-align: center"></td>
+        <td style="text-align: center">reporté</td>
         <td style="text-align: center">-</td>
-        <td style="text-align: center"></td>
+        <td style="text-align: center">reporté</td>
         <td style="text-align: center"><?php echo $leguevin; ?></td>
     </tr>
     <tr class="error">
@@ -41,16 +41,16 @@
     </tr>
     <tr>
         <td style="text-align: center"><?php echo $roquette; ?></td>
-        <td style="text-align: center"></td>
+        <td style="text-align: center;color: red">1</td>
         <td style="text-align: center">-</td>
-        <td style="text-align: center"></td>
+        <td style="text-align: center;color: green">4</td>
         <td style="text-align: center"><?php echo $labege; ?></td>
     </tr>
     <tr>
         <td style="text-align: center"><?php echo $labastidette; ?></td>
-        <td style="text-align: center"></td>
+        <td style="text-align: center;color: green">2</td>
         <td style="text-align: center">-</td>
-        <td style="text-align: center"></td>
+        <td style="text-align: center;color: red">1</td>
         <td style="text-align: center"><?php echo $fonsegrives; ?></td>
     </tr>
     </tbody>

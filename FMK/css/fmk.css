@@ -28,3 +28,15 @@ table.dataTable tr.even td.sorting_1 {
     background-color: #ffffff;
 }
 
+.icon-floppy {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background-image: url(sprites.png);
+    background-repeat: no-repeat;
+}
+
+.icon-floppy {
+    background-position: 0 0;
+}
+

@@ -30,6 +30,13 @@
     <td>Coupe</td>
 </tr>
 <tr>
+    <td>Aussonne</td>
+    <td>Jeudi 26 Septembre à 20h</td>
+    <td>Aussonne</td>
+    <td></td>
+    <td>D2</td>
+</tr>
+<tr>
     <td>Fonsegrives</td>
     <td>Samedi 5 Octobre à 18h30</td>
     <td>Fonsegrives 2</td>
@@ -38,7 +45,7 @@
 </tr>
 <tr>
     <td>Daux</td>
-    <td>Dimanche 20 Octobre à 15h</td>
+    <td>Samedi 19 Octobre à 18h30</td>
     <td>Leguevin 2</td>
     <td></td>
     <td>D2</td>
@@ -52,7 +59,7 @@
 </tr>
 <tr>
     <td>Daux</td>
-    <td>Dimanche 17 Novembre à 15h</td>
+    <td>Samedi 16 Novembre à 18h30</td>
     <td>Pompertuzat 2</td>
     <td></td>
     <td>D2</td>
@@ -66,7 +73,7 @@
 </tr>
 <tr>
     <td>Daux</td>
-    <td>Dimanche 1 Decembre à 15h</td>
+    <td>Saemdi 30 Novembre à 18h30</td>
     <td>Fenouillet 2</td>
     <td></td>
     <td>D2</td>
@@ -80,7 +87,7 @@
 </tr>
 <tr>
     <td>Daux</td>
-    <td>Dimanche 12 Janvier à 15h</td>
+    <td>Samedi 11 Janvier à 18h30</td>
     <td>Cadours</td>
     <td></td>
     <td>D2</td>
@@ -94,7 +101,7 @@
 </tr>
 <tr>
     <td>Daux</td>
-    <td>Dimanche 6 Fàvrier à 15h</td>
+    <td>Samedi 5 Février à 18h30</td>
     <td>Fonsegrives 2</td>
     <td></td>
     <td>D2</td>
@@ -108,7 +115,7 @@
 </tr>
 <tr>
     <td>Daux</td>
-    <td>Dimanche 23 Fàvrier à 15h</td>
+    <td>Samedi 22 Février à 18h30</td>
     <td>Labege</td>
     <td></td>
     <td>D2</td>
@@ -122,7 +129,7 @@
 </tr>
 <tr>
     <td>Daux</td>
-    <td>Dimanche 30 Mars à 15h</td>
+    <td>Samedi 29 Mars à 18h30</td>
     <td>Toulouse Entente</td>
     <td></td>
     <td>D2</td>
@@ -136,7 +143,7 @@
 </tr>
 <tr>
     <td>Daux</td>
-    <td>Dimanche 13 Avril à 15h</td>
+    <td>Samedi 12 Avril à 18h30</td>
     <td>Roquette 2</td>
     <td></td>
     <td>D2</td>
@@ -150,14 +157,14 @@
 </tr>
 <tr>
     <td>Daux</td>
-    <td>Dimanche 18 Mai à 15h</td>
+    <td>Samedi 17 Mai à 18h30</td>
     <td>Labastidette</td>
     <td></td>
     <td>D2</td>
 </tr>
 <tr>
     <td>Daux</td>
-    <td>Dimanche 25 Mai à 15h</td>
+    <td>Samedi 24 Mai à 18h30</td>
     <td>Nailloux</td>
     <td></td>
     <td>D2</td>

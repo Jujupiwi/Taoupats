@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html xmlns="http://www.w3.org/1999/html">
 <head>
     <title>FMK</title>
     <meta charset="UTF-8"/>
@@ -79,91 +79,104 @@
     </nav>
 </header>
 <div id="mainContainer" class="container" style="background-color: #FBFBFB">
-    <h2 id="portal-title">RESULTATS - FILTRES NIVEAU 2</h2>
-    <br>
-    <h4>Le nombre de transactions sélectionnées est de <span
-            style="color: red;">867</span>.</h4>
+    <h2 id="portal-title">DETAIL D'UNE LISTE DE VALEURS</h2>
     <br><br>
     <div class="row">
-        <div class="col-lg-3">
+        <div class="col-lg-offset-4 col-lg-3" style="margin-left: 430px;">
+            <label>Nom de la liste <span style="color: red">* </span>: </label>
             <div class="form-group">
-                <label for="ope">Type de message</label>
-                <input type="text" class="form-control" id="ope"/>
-            </div>
-        </div>
-        <div class="col-lg-3">
-            <div class="form-group">
-                <label for="code-pays">Code Pays</label>
-                <input type="text" class="form-control" id="code-pays"/>
-            </div>
-        </div>
-        <div class="col-lg-3">
-            <div class="form-group">
-                <label for="code-devise">Code Devise</label>
-                <input type="text" class="form-control" id="code-devise"/>
-            </div>
-        </div>
-        <div class="col-lg-3">
-            <div class="form-group">
-                <label for="num">Numéro du terminal</label>
-                <input type="text" class="form-control" id="num"/>
+                <input type="text" class="form-control" id="message" value="Liste 6"/>
             </div>
         </div>
     </div>
-    <br>
     <div class="row">
-        <div class="col-lg-3">
+        <div class="col-lg-offset-4 col-lg-3" style="margin-left: 430px;">
+            <label>Description de la liste <span style="color: red">* </span>:</label>
             <div class="form-group">
-                <label for="num-auto">Numéro d'automate</label>
-                <input type="text" class="form-control" id="num-auto"/>
+                <textarea class="form-control">Description de la liste 6</textarea>
             </div>
         </div>
     </div>
-    <br>
+    <br><br>
+    <table style="width: 1000px;" aria-describedby="dt_parameter_info" id="dt_parameter"
+           class="table table-striped table-bordered wrap dataTable" data-ajax="false">
+        <thead>
+        <tr role="row">
+            <th aria-label="Code: activer pour trier la colonne par ordre d&amp;eacute;croissant" aria-sort="ascending"
+                style="width: 200px;text-align: center" colspan="1" rowspan="1" aria-controls="dt_parameter"
+                tabindex="0"
+                role="columnheader" class="sorting_asc">Valeur
+            </th>
+            <th aria-label="Libellé: activer pour trier la colonne par ordre croissant"
+                style="width: 200px;text-align: center"
+                colspan="1" rowspan="1" aria-controls="dt_parameter" tabindex="0" role="columnheader" class="sorting">
+                Donnée
+            </th>
+        </tr>
+        </thead>
+
+        <tbody aria-relevant="all" aria-live="polite" role="alert">
+        <tr class="odd" style="text-align: center">
+            <td class=" sorting_1">Valeur 1</td>
+            <td class="">Donnée 1</td>
+
+        </tr>
+        <tr class="even" style="text-align: center">
+            <td class=" sorting_1">Valeur 2</td>
+            <td class="">Donnée 2</td>
+
+        </tr>
+        <tr class="odd" style="text-align: center">
+            <td class=" sorting_1">Valeur 3</td>
+            <td class="">Donnée 3</td>
+
+        </tr>
+        </tbody>
+    </table>
     <div class="row">
-        <div class="col-lg-offset-5" style="margin-left: 520px;">
-            <button id="recherche" type="button" class="btn btn-success">
-                <i class="icon-search"></i>
-                <span>Rechercher</span>
+        <div class="col-lg-1" style="margin-left: 70px;">
+            <button type="button" class="btn btn-success">
+                <i class="icon-plus"></i>
+                <span>Ajouter Valeur</span>
             </button>
         </div>
+        <div class="col-lg-offset-5 col-lg-6" style="margin-left: 350px;">
+            <div id="example_paginate" class="dataTables_paginate paging_full_numbers">
+                <a id="example_first" class="first paginate_button paginate_button_disabled" tabindex="0"><<</a>
+                <a id="example_previous" class="previous paginate_button paginate_button_disabled"
+                   tabindex="0"><</a>
+                <span>
+                <a class="paginate_active" tabindex="0">1</a>
+                </span>
+                <a id="example_next" class="next paginate_button" tabindex="0">></a>
+                <a id="example_last" class="last paginate_button" tabindex="0">>></a>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-offset-10">
+            <div id="dt_parameter_info" style="margin-left: -10px;" class="dataTables_info">Element 1 à 3 sur 3</div>
+        </div>
+
     </div>
     <br>
     <div class="row">
         <div class="col-lg-1">
-            <button id="retour" type="button" class="btn btn-danger">
+            <button type="button" id="retour" class="btn btn-danger">
                 <i class="icon-long-arrow-left"></i>
-                <span>Retour</span>
+                <span>Annuler</span>
             </button>
         </div>
-        <div class="col-lg-1" style="margin-left:-5px;">
+        <div class="col-lg-1" style="margin-left: 930px;">
             <button type="button" class="btn btn-success">
                 <i class="glyphicon glyphicon-floppy-disk"></i>
                 <span>Enregistrer</span>
             </button>
         </div>
-        <div style="margin-left: 22px;" class="col-lg-1">
-            <button type="button" class="btn btn-success">
-                <i class="icon-download-alt"></i>
-                <span>Charger</span>
-            </button>
-        </div>
-        <div class="col-lg-offset-5 col-lg-2">
-            <button id="liste" type="button" style="margin-left:68px;" class="btn btn-success">
-                <i class="icon-list"></i>
-                <span>Liste des transactions</span>
-            </button>
-        </div>
-        <div class="col-lg-1">
-            <button type="button" style="margin-left:60px;" class="btn btn-success">
-                <i class="icon-file-text"></i>
-                <span>Exporter</span>
-            </button>
-        </div>
     </div>
     <br>
 </div>
-<br><br><br><br>
+<br><br>
 <footer>
     <nav class="navbar navbar-fixed-bottom" role="navigation">
         <div class="container" style="margin-top: 15px">
@@ -176,10 +189,10 @@
 </footer>
 <script type="text/javascript">
     $("#retour").click(function () {
-        document.location.href = "portal.html";
+        document.location.href = "liste-valeur.html";
     });
-    $("#liste").click(function () {
-        document.location.href = "liste.html";
+    $(".edit-btn").click(function () {
+        document.location.href = "detail.html";
     });
     $(".icon-signout").click(function () {
         document.location.href = "connexion.html";

@@ -51,8 +51,23 @@
             </div>
             <div class="collapse navbar-collapse navbar-ex1-collapse">
                 <ul class="nav navbar-nav">
-                    <li>
-                        <a href="admin.html"><span class="icon-wrench"></span>&nbsp;<span>Administration</span></a>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="icon-wrench"></span>
+                            Administration <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="admin.html">Affichage des champs</a>
+                            </li>
+                            <li>
+                                <a href="perso.html">Personnalisation affichage liste</a>
+                            </li>
+                            <li>
+                                <a href="perso-detail.html">Personnalisation affichage détail</a>
+                            </li>
+                            <li>
+                                <a href="liste-valeur.html">Liste des valeurs</a>
+                            </li>
+                        </ul>
                     </li>
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
@@ -64,203 +79,206 @@
     </nav>
 </header>
 <div id="mainContainer" class="container" style="background-color: #FBFBFB">
-    <h2 id="portal-title">DETAIL TRANSACTION</h2>
-    <br><br>
+<h2 id="portal-title">DETAIL TRANSACTION</h2>
+<br><br>
 
-    <form role="form" class="search-form client">
-        <div class="row">
-            <h2 style="margin-left: 15px;">Infos Acquéreur</h2>
-            <div class="col-lg-3">
-                <div class="form-group">
-                    <label for="Acquéreur">Acquéreur</label>
-                    <input type="text" disabled class="form-control" value="Monsieur X" id="Acquéreur"/>
-                </div>
-            </div>
-            <div class="col-lg-3">
-                <div class="form-group">
-                    <label for="code-banque">Code banque acquéreur</label>
-                    <input type="text" disabled class="form-control" value="12345" id="code-banque"/>
-                </div>
-            </div>
-            <div class="col-lg-3">
-                <div class="form-group">
-                    <label for="Bin">Bin</label>
-                    <input type="text" disabled class="form-control" value="N" id="Bin"/>
-                </div>
-            </div>
-            <div class="col-lg-3">
-                <div class="form-group">
-                    <label for="pan">Pan</label>
-                    <input type="text" disabled class="form-control" value="123456XXXXXX1234" id="pan"/>
-                </div>
+<form role="form" class="search-form client">
+    <div class="row">
+        <h2 style="margin-left: 15px;">Infos Acquéreur :</h2>
+        <div class="col-lg-3" style="text-align: right">
+            <div class="form-group">
+                <label>Acquéreur : </label>
             </div>
         </div>
-        <br>
-        <div class="row">
-            <h2 style="margin-left: 15px;">Infos Transaction</h2>
-            <div class="col-lg-3">
-                <div class="form-group">
-                    <label for="format">Type de transaction</label>
-                    <select disabled class="form-control" id="format">
-                        <option value="">Type 1</option>
-                        <option value="">Type 2</option>
-                    </select>
-                </div>
-            </div>
-            <div class="col-lg-3">
-                <div class="form-group">
-                    <label for="message">Type de message</label>
-                    <select disabled class="form-control" id="message">
-                        <option value="">Message 1</option>
-                        <option value="">Message 2</option>
-                    </select>
-                </div>
-            </div>
-            <div class="col-lg-3">
-                <div class="form-group">
-                    <label for="réseau">Tete de réseau</label>
-                    <select disabled class="form-control" id="réseau">
-                        <option value="">Réseau 1</option>
-                        <option value="">Réseau 2</option>
-                    </select>
-                </div>
-            </div>
-            <div class="col-lg-3">
-                <div class="form-group">
-                    <label for="Entité">Entité</label>
-                    <select disabled class="form-control" id="Entité">
-                        <option value="">Entité 1</option>
-                        <option value="">Entité 2</option>
-                    </select>
-                </div>
+        <div class="col-lg-3">
+            <div class="form-group">
+                Monsieur X
             </div>
         </div>
-        <br>
-        <div class="row">
-            <div class="col-lg-3">
-                <label for="datetimepicker1">Date de début</label>
-                <div class="input-group">
-                    <input disabled type="datetime" id="datetimepicker1" class="datepicker form-control"
-                           value="13/09/2013"
-                           data-format="dd/MM/yyyy"/>
-                    <span class="input-group-addon">
-                        <i data-time-icon="icon-time" class="icon-calendar" data-date-icon="icon-calendar"></i>
-                    </span>
-                </div>
-            </div>
-            <div class="col-lg-3">
-                <label for="datetimepicker2">Date de fin</label>
-                <div class="input-group">
-                    <input disabled type="datetime" id="datetimepicker2" class="datepicker form-control"
-                           value="20/09/2013"
-                           data-format="dd/MM/yyyy"/>
-                    <span class="input-group-addon">
-                        <i data-time-icon="icon-time" class="icon-calendar" data-date-icon="icon-calendar"></i>
-                    </span>
-                </div>
-            </div>
-            <div class="col-lg-3">
-                <label for="datetimepicker3">Heure de début</label>
-                <div class="input-group">
-                    <input disabled type="datetime" id="datetimepicker3" class="datepicker form-control"
-                           value="00:00:00"
-                           data-format="HH:mm:ss"/>
-                    <span class="input-group-addon">
-                        <i data-time-icon="icon-time" class="icon-time" data-date-icon="icon-calendar"></i>
-                    </span>
-                </div>
-            </div>
-            <div class="col-lg-3">
-                <label for="datetimepicker4">Heure de fin</label>
-                <div class="input-group">
-                    <input disabled type="datetime" id="datetimepicker4" class="datepicker form-control"
-                           value="23:59:59"
-                           data-format="HH:mm:ss"/>
-                    <span class="input-group-addon">
-                        <i data-time-icon="icon-time" class="icon-time" data-date-icon="icon-calendar"></i>
-                    </span>
-                </div>
+        <div class="col-lg-3" style="text-align: right">
+            <div class="form-group">
+                <label>Code banque acquéreur :</label>
             </div>
         </div>
-        <br>
-        <div class="row">
-            <div class="col-lg-3">
-                <div class="form-group">
-                    <label for="Scheme">Scheme</label>
-                    <select disabled class="form-control" id="Scheme">
-                        <option value="">Scheme 1</option>
-                        <option value="">Scheme 2</option>
-                    </select>
-                </div>
-            </div>
-            <div class="col-lg-3">
-                <div class="form-group">
-                    <label for="code-pays">Code Pays</label>
-                    <select disabled class="form-control" id="code-pays">
-                        <option value="">Pays 1</option>
-                        <option value="">Pays 2</option>
-                    </select>
-                </div>
-            </div>
-            <div class="col-lg-3">
-                <div class="form-group">
-                    <label for="code-devise">Code Devise</label>
-                    <select disabled class="form-control" id="code-devise">
-                        <option value="">Devise 1</option>
-                        <option value="">Devise 2</option>
-                    </select>
-                </div>
-            </div>
-            <div class="col-lg-3">
-                <div class="form-group">
-                    <label for="code">Code retour base24</label>
-                    <input disabled type="text" value="505" class="form-control" id="code"/>
-                </div>
+        <div class="col-lg-3">
+            <div class="form-group">
+                12345
             </div>
         </div>
-        <br>
-        <div class="row">
-            <h2 style="margin-left: 15px;">Infos Terminal</h2>
-            <div class="col-lg-3">
-                <div class="form-group">
-                    <label for="num">Numéro du terminal</label>
-                    <input disabled type="text" value="9876543210" class="form-control" id="num"/>
-                </div>
-            </div>
-            <div class="col-lg-3">
-                <div class="form-group">
-                    <label for="num-auto">Numéro d'automate</label>
-                    <input disabled type="text" class="form-control" value="154X3245" id="num-auto"/>
-                </div>
-            </div>
-            <div class="col-lg-3">
-                <div class="form-group">
-                    <label for="mode">Mode lecture de la carte</label>
-                    <select disabled class="form-control" id="mode">
-                        <option value="">Mode 1</option>
-                        <option value="">Mode 2</option>
-                    </select>
-                </div>
-            </div>
-            <div class="col-lg-3">
-                <div class="form-group">
-                    <label for="MCC">MCC</label>
-                    <input disabled type="text" value="XNV 32456" class="form-control" id="MCC"/>
-                </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-3" style="text-align: right">
+            <div class="form-group">
+                <label>Bin :</label>
             </div>
         </div>
-        <br><br>
-        <div class="row">
-            <div class="col-lg-1">
-                <button id="retour" type="button" class="btn btn-danger">
-                    <i class="icon-long-arrow-left"></i>
-                    <span>Retour</span>
-                </button>
+        <div class="col-lg-3">
+            <div class="form-group">
+                N
             </div>
         </div>
-        <br><br><br>
-    </form>
+        <div class="col-lg-3" style="text-align: right">
+            <div class="form-group">
+                <label>Pan :</label>
+            </div>
+        </div>
+        <div class="col-lg-3">
+            <div class="form-group">
+                123456XXXXXX1234
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <h2 style="margin-left: 15px;">Infos Transaction :</h2>
+        <div class="col-lg-3" style="text-align: right">
+            <div class="form-group">
+                <label>Type de transaction :</label>
+            </div>
+        </div>
+        <div class="col-lg-3">
+            <div class="form-group">
+                Type 1
+            </div>
+        </div>
+        <div class="col-lg-3" style="text-align: right">
+            <div class="form-group">
+                <label>Type de message :</label>
+            </div>
+        </div>
+        <div class="col-lg-3">
+            <div class="form-group">
+                Message 1
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-3" style="text-align: right">
+            <div class="form-group">
+                <label>Tete de réseau : </label>
+            </div>
+        </div>
+        <div class="col-lg-3">
+            <div class="form-group">
+                Réseau 1
+            </div>
+        </div>
+        <div class="col-lg-3" style="text-align: right">
+            <div class="form-group">
+                <label>Entité :</label>
+            </div>
+        </div>
+        <div class="col-lg-3">
+            <div class="form-group">
+                Entité 1
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-3" style="text-align: right">
+            <div class="form-group">
+                <label>Date de début : </label>
+            </div>
+        </div>
+        <div class="col-lg-3">
+            <div class="form-group">
+                13/09/2013
+            </div>
+        </div>
+        <div class="col-lg-3" style="text-align: right">
+            <div class="form-group">
+                <label>Date de fin :</label>
+            </div>
+        </div>
+        <div class="col-lg-3">
+            <div class="form-group">
+                20/09/2013
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-3" style="text-align: right">
+            <div class="form-group">
+                <label>Heure de début :</label>
+            </div>
+        </div>
+        <div class="col-lg-3">
+            <div class="form-group">
+                00:00:00
+            </div>
+        </div>
+        <div class="col-lg-3" style="text-align: right">
+            <div class="form-group">
+                <label>Heure de fin :</label>
+            </div>
+        </div>
+        <div class="col-lg-3">
+            <div class="form-group">
+                23:59:59
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <h2 style="margin-left: 15px;">Infos Terminal :</h2>
+        <div class="col-lg-3" style="text-align: right">
+            <div class="form-group">
+                <label>Numéro du terminal :</label>
+            </div>
+        </div>
+        <div class="col-lg-3">
+            <div class="form-group">
+                9876543210
+            </div>
+        </div>
+        <div class="col-lg-3" style="text-align: right">
+            <div class="form-group">
+                <label>Numéro d'automate :</label>
+            </div>
+        </div>
+        <div class="col-lg-3">
+            <div class="form-group">
+                154X3245
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-3" style="text-align: right">
+            <div class="form-group">
+                <label>Mode lecture de la carte :</label>
+            </div>
+        </div>
+        <div class="col-lg-3">
+            <div class="form-group">
+                Mode 1
+            </div>
+        </div>
+        <div class="col-lg-3" style="text-align: right">
+            <div class="form-group">
+                <label>MCC :</label>
+            </div>
+        </div>
+        <div class="col-lg-3">
+            <div class="form-group">
+                XNV 32456
+            </div>
+        </div>
+    </div>
+    <br><br>
+    <div class="row">
+        <div class="col-lg-1">
+            <button id="retour" type="button" class="btn btn-danger">
+                <i class="icon-long-arrow-left"></i>
+                <span>Retour</span>
+            </button>
+        </div>
+        <div class="col-lg-offset-8">
+            <button type="button" style="position:absolute;left:1100px;" class="btn btn-success">
+                <i class="icon-file-text"></i>
+                <span>Exporter</span>
+            </button>
+        </div>
+    </div>
     <br><br><br>
+</form>
 </div>
 <footer>
     <nav class="navbar navbar-fixed-bottom" role="navigation">

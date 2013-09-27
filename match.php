@@ -226,7 +226,7 @@
             <h4>MONTAUDRAN 2-4 TAOUPATS</h4>
 
             <div class="centrage">
-                <img src="images/montau.png" width="800px" height="450px"/>
+                <img src="images/aussonne.png" width="800px" height="450px"/>
             </div>
         </div>
     </div>

@@ -1,6 +1,6 @@
 <?php
 
-/*********************************************************
+/********************************************************
 Connexion à la base
  *********************************************************/
 /*$serv = 'localhost';
@@ -18,33 +18,38 @@ Liste des joueurs pour le match
  *********************************************************/
 $joueur1 = 'MaximeP';
 $joueur2 = 'Alexy';
-$joueur3 = 'Tito';
-$joueur4 = 'MaximeD';
+$joueur3 = 'MaximeS';
+$joueur4 = 'Tony';
 $joueur5 = 'Olivier';
 $joueur6 = 'Jordan';
 $joueur7 = 'JulienB';
 $joueur8 = 'Joffrey';
-$joueur9 = 'Paul';
-$joueur10 = 'Zizou';
-$joueur11 = 'Gaetan';
-$joueur12 = 'Enzo';
-$joueur13 = 'Florent';
-
+$joueur9 = 'Zizou';
+$joueur10 = 'Enzo';
+$joueur11 = 'Julien';
+$joueur12 = 'Florian';
+$joueur13 = 'Johan';
+$joueur14 = 'Francois';
+$joueur15 = 'Thomas';
 
 /*********************************************************
 Liste des autres joueurs
  *********************************************************/
-$joueur14 = 'Thomas';
-$joueur15 = 'Dede';
-$joueur16 = 'JulienG';
-$joueur17 = 'Lionel';
-$joueur18 = 'MaximeS';
-$joueur19 = 'JB';
-$joueur20 = 'Laurent';
-$joueur21 = 'Tony';
+$joueur16 = 'Tito';
+$joueur17 = 'ThomasP';
+$joueur18 = 'Dede';
+$joueur19 = 'JulienG';
+$joueur20 = 'Lionel';
+$joueur21 = 'MaximeD';
+$joueur22 = 'JB';
+$joueur23 = 'Laurent';
+$joueur24 = 'Florent';
+$joueur25 = 'Bastien';
+$joueur26 = 'Gaetan';
+$joueur27 = 'Paul';
 
-$nbJoueurs = 13;
-$array = array($joueur1, $joueur2, $joueur3, $joueur4, $joueur5, $joueur6, $joueur7, $joueur8, $joueur9, $joueur10, $joueur11, $joueur12, $joueur13);
+$nbJoueurs = 15;
+$array = array($joueur1, $joueur2, $joueur3, $joueur4, $joueur5, $joueur6, $joueur7, $joueur8, $joueur9, $joueur10, $joueur11, $joueur12, $joueur13, $joueur14, $joueur15);
 /*********************************************************
 Liste des équipes
  *********************************************************/
@@ -64,9 +69,9 @@ $leguevin = 'Leguevin US 2';
 /*********************************************************
 Nom des sondages
  *********************************************************/
-$match = 'montaudran';
-$noteMatch = 'note-montaudran';
-$commentMatch = 'comment-montaudran';
+$match = 'aussonne';
+$noteMatch = 'note-aussonne';
+$commentMatch = 'comment-aussonne';
 
 /*********************************************************
 Interview de la personne de la semaine

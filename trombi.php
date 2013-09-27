@@ -267,7 +267,7 @@
                 <div class="thumbnail">
                     <img alt="120x180" data-src="bootstrap/js/bootstrap.js/120x180"
                          style="width: 120px; height: 180px;"
-                         src="images/team/Thomas.jpg">
+                         src="images/team/ThomasP.jpg">
 
                     <h3>Thomas</h3>
 

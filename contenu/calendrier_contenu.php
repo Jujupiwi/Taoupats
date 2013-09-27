@@ -33,8 +33,8 @@
     <td>Aussonne</td>
     <td>Jeudi 26 Septembre à 20h</td>
     <td>Aussonne</td>
-    <td></td>
-    <td>D2</td>
+    <td style="color:#ff0000">2-4</td>
+    <td>Amical</td>
 </tr>
 <tr>
     <td>Fonsegrives</td>

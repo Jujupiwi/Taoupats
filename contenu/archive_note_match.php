@@ -2,6 +2,52 @@
     <div class="span12">
         <blockquote>
             <p>
+                2013-2014
+            </p>
+        </blockquote>
+    </div>
+</div>
+<div class="row-fluid">
+    <div class="span12">
+        <blockquote>
+            <p>
+                <i class="icon-signal icon-white"> </i> Note Montaudran?
+            </p>
+        </blockquote>
+    </div>
+</div>
+<br>
+<div class="row-fluid">
+    <div class="span12">
+        <table
+            class="table table-bordered table-striped table-condensed table-hover">
+            <thead>
+            <tr>
+                <th width="20%">Equipe</th>
+                <th width="50%">Progression</th>
+                <th width="10%">/20</th>
+                <th width="20%">Nb Votes</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>Taoupats</td>
+                <td>
+                    <div class="progress progress-striped active">
+                        <div class="bar bar-danger" style="width: <?php echo (8.90) * 100 / 20; ?>%;"></div>
+                    </div>
+                </td>
+                <td><?php echo sprintf('%.2f', 8.90); ?></td>
+                <td><?php echo 10; ?> votes</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+<div class="row-fluid">
+    <div class="span12">
+        <blockquote>
+            <p>
                 <i class="icon-signal icon-white"> </i> Note Nailloux?
             </p>
         </blockquote>
@@ -70,6 +116,15 @@
             </tr>
             </tbody>
         </table>
+    </div>
+</div>
+<div class="row-fluid">
+    <div class="span12">
+        <blockquote>
+            <p>
+                2012-2013
+            </p>
+        </blockquote>
     </div>
 </div>
 <div class="row-fluid">

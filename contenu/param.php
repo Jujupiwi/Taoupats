@@ -3,15 +3,15 @@
 /********************************************************
 Connexion à la base
  *********************************************************/
-/*$serv = 'localhost';
+$serv = 'localhost';
 $login = 'root';
 $pwd = '';
-$data = 'taoupats';*/
+$data = 'taoupats';
 
-$serv = 'mysql51-74.perso';
+/*$serv = 'mysql51-74.perso';
 $login = 'taoupats';
 $pwd = 'Audrey65';
-$data = 'taoupats';
+$data = 'taoupats';*/
 
 /*********************************************************
 Liste des joueurs pour le match
@@ -76,36 +76,36 @@ $commentMatch = 'comment-aussonne';
 /*********************************************************
 Interview de la personne de la semaine
  *********************************************************/
-$prenom = 'Gaetan';
-$nom = 'Casetta';
-$np = 'GC';
-$age = '20';
+$prenom = 'Paul';
+$nom = 'Dardenne';
+$np = 'DP';
+$age = '22';
 
 /*********************************************************
 Début des questions
  *********************************************************/
-$poste = 'Cherche encore';
-$q1 = "Je dirai tpmp et le foot.";
-$q2 = "Le majordome, très belle histoire, a voir. ";
-$q3 = "Choix difficile, je dirai Johnny deep";
-$q4 = "Un peu de tout, mais surtout Patrick Sébastien :-) ";
-$q5 = 'Game of thrones ';
-$q6 = "Ferrari 458 italia :-) mais ce sera clio 3 rs la prochaine";
-$q7 = "Irlande, état unis et Japon.";
-$q8 = "Roquette, endoume, blagnac et les taupes";
-$q9 = "Pif il semblerai ";
-$q10 = "Un peu feignant";
-$q11 = "Ma présence ( à l'apéro) ^^";
-$q12 = "Sans surprise, le PSG et UNITED";
-$q13 = "Marseille et le Barca. ";
-$q14 = "Finale 2006, avec le penalty de Fabio Grosso pour finir, contre pied qui donne la victoire <3 ";
-$q15 = "Je dirai Paul Pierce (dédicace à bibi) :-) ";
-$q16 = "Le 3-3 de nailloux en début de saison.";
-$q17 = 'Aucune que des chèvres.';
-$q18 = "Enzo sans hesitation";
-$q19 = "Coquillage ou le portugais";
-$q20 = "Olivier <3";
-$q21 = "Serre moi le bout :-) ";
-$q22 = "Loyauté, amitié, amour pour mes proches.";
-$q23 = "Continuer dans cette lancée, en essayant de jouer au ballon de mieux en mieux et sa va finir par payer.
-Mais j'y croit, bsx les filles :-) ";
+$poste = 'Attaquant';
+$q1 = "Tpmp, canal football club et le journal du hard.";
+$q2 = "Elysium";
+$q3 = "Will Smith";
+$q4 = "Un peu de tout mais pop rock";
+$q5 = 'La biographie de raymond Domenech';
+$q6 = "Une voiture tout court maintenant que j'ai le permis";
+$q7 = "L'Irlande mais je l'ai déja fait sinon les USA";
+$q8 = "Colomiers, Mondonville, Aussonne et Daux";
+$q9 = "Polo";
+$q10 = "La timidité";
+$q11 = "La gentillesse et générosité";
+$q12 = "Le TFC et le barca";
+$q13 = "Peut etre Madrid, des milliards mais ca gagne plus.";
+$q14 = "Un certain 12 Juillet 1998";
+$q15 = "Mon papy mounet";
+$q16 = "Le match amical contre aussonne l'année derniere, mon premier but avec les taoupats (merci Enzo)";
+$q17 = "Pour l'instant aucune";
+$q18 = "Pour pas dire encore enzo je vais dire mon cousin!";
+$q19 = "Alexy Coquinou";
+$q20 = "Olive";
+$q21 = "Tony";
+$q22 = "L'alcool ne mène à rien, ca tombe bien je compte aller nulle part.";
+$q23 = "Un grand merci à cette grande famille jaune et noire pour c'est deux belles années et les autres à venir.
+Je vous aime mes salopes <3";

@@ -12,28 +12,28 @@
     <td>Cologne</td>
     <td>Samedi 31 Aout à 18h</td>
     <td>Cologne</td>
-    <td style="color: green;">3-0</td>
+    <td><span class="badge badge-success">3-0</span></td>
     <td>Amical</td>
 </tr>
 <tr>
     <td>Nailloux</td>
     <td>Samedi 7 Septembre à 20h</td>
     <td>Nailloux Us</td>
-    <td style="color: blue;">3-3</td>
+    <td><span class="badge badge-info">3-3</span></td>
     <td>D2</td>
 </tr>
 <tr>
     <td>Montaudran</td>
     <td>Samedi 14 Septembre à 19h30</td>
     <td>Montaudran</td>
-    <td style="color:#ff0000">2-4</td>
+    <td><span class="badge badge-important">2-4</span></td>
     <td>Coupe</td>
 </tr>
 <tr>
     <td>Aussonne</td>
     <td>Jeudi 26 Septembre à 20h</td>
     <td>Aussonne</td>
-    <td style="color:#ff0000">2-4</td>
+    <td><span class="badge badge-important">2-4</span></td>
     <td>Amical</td>
 </tr>
 <tr>

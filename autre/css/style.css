@@ -1,0 +1,9 @@
+/*
+Styles ...
+*/
+
+.carousel-inner {
+    border-radius: 5px 5px 5px 5px;
+    border: 5px solid white;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+}

@@ -223,10 +223,10 @@
     <div class="row-fluid">
         <div class="span12">
             <h2>DERNIER MATCH</h2>
-            <h4>MONTAUDRAN 2-4 TAOUPATS</h4>
+            <h4>FONSEGRIVES 0-0 TAOUPATS</h4>
 
             <div class="centrage">
-                <img src="images/aussonne.png" width="800px" height="450px"/>
+                <img src="images/fonsegrives.png" width="800px" height="450px"/>
             </div>
         </div>
     </div>

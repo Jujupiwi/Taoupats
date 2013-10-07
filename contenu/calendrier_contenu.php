@@ -40,7 +40,7 @@
     <td>Fonsegrives</td>
     <td>Samedi 5 Octobre à 18h30</td>
     <td>Fonsegrives 2</td>
-    <td></td>
+    <td><span class="badge badge-info">0-0</span></td>
     <td>D2</td>
 </tr>
 <tr>

@@ -1,2 +1,4 @@
 .idea/*
 Taoupats.iml
+.htaccess
+crawlprotect/*

@@ -80,33 +80,33 @@ Interview de la personne de la semaine
 $prenom = 'JulienB';
 $nom = 'Bonnefous';
 $np = 'JB';
-$age = '22';
+$age = '21';
 
 /*********************************************************
 Début des questions
  *********************************************************/
-$poste = "Voir avec le coach je sais plus trop la";
-$q1 = "Tpmp et confessions intimes";
-$q2 = "Players ( une belle merde ) ";
-$q3 = "Ryan Gosling ou Adam Sandler pour l'humour";
-$q4 = "De la musique forte";
-$q5 = "Replay de Ken Grimwood";
-$q6 = "KITT dans K2000 pour les connaisseurs";
-$q7 = "Le Brésil ou les States";
-$q8 = "Alors Les Taoupats, Mondonville, le FCOuest, Aussonne, Gagnac-Lespinasse et Les Taoupats";
-$q9 = "Smax ou sermoilebou";
-$q10 = "Râleur";
-$q11 = "Passionné";
-$q12 = "Le TFC et Liverpool";
-$q13 = "Le Barca pour Sergio Busquets . La plus grosse pucelle du foot européen";
-$q14 = "Liverpool-Alaves Finale de la coupe de l'UEFA ( oui ça s'appelait comme ça à l'époque ) 2001. 5-4 au bout des prolongations, un scénario de rêve, un public énorme, un génie de Michael Owen ... il y avait tout ce jour la";
-$q15 = "Olivier Atton";
-$q16 = "La victoire 4-1 contre mondonville. La première fois que mon père me dit que j'ai bien joué.";
-$q17 = "Aucune";
-$q18 = "Jo";
-$q19 = "Coquinou et Enzo quand on joue à gauche";
+$poste = "Milieu";
+$q1 = "Canal Football Club et Touche pas à mon poste";
+$q2 = "Fast and Furious";
+$q3 = "Denzel Washington et Will Smith";
+$q4 = "Plutot rap mais j'écoute un peu tous les styles";
+$q5 = "Les fourberies de scapin";
+$q6 = "Un bon J5 !";
+$q7 = "Brésil , Nouvelle Zélande et aussi la France !";
+$q8 = "Daux-mondonville, aussonne, Taoupats de daux !";
+$q9 = "Ju ou portos";
+$q10 = "Je rale pour rien";
+$q11 = "Mes origines portugaise";
+$q12 = "Le TFC et en europe le Sporting Clube de Portugal";
+$q13 = "Peut être Barcelone psk ils se font passer pour des victimes et que ceux sont des enculés";
+$q14 = "Pay-Bas/ Portugal en 2006 la y a eu du spectacle !";
+$q15 = "Sacha de pokémon il avait la belle vie !";
+$q16 = "Le 1er match avec cette équipe des Taoupats contre Cornebarieu le lendemain de la fête a Daux avec en prime un but de moi !";
+$q17 = "Les Taoupats de Daux surtout contre Nailloux";
+$q18 = "Enzo et J-B, ils ont chacun leur style mais ils sont au top !";
+$q19 = "Alex";
 $q20 = "Flo";
-$q21 = "Pif cache bien son jeu ;)";
-$q22 = "Qu'importe le flacon pourvu qu'on ai l'ivresse";
-$q23 = "L'équipe est sur une bonne dynamique autant à l'apéro que sur le terrain et j'espère que ca va continuer.
-En étant sérieux à l'entrainement on peut vraiment arriver à quelque chose et peut être rêver de montée. Quand Thomas nous a appelé pour remonter le club je pensais pas qu'on en serait la 2 ans et des brouettes plus tard et je suis fier de ça. Allez et les taupes, on est chez nous!!! ";
+$q21 = "Tony, il est fort le tonton !";
+$q22 = "'Tant qu'il y aura des comptoirs on aura des héros' Soldat Louis";
+$q23 = "C'est que du bonheur de reporter les couleurs jaune et noire avec des jouerus comme ca, en peu de temps on a pas mal évolué
+ et ca va allé de mieux en mieux en espérant faire une belle saison qui est à notre portée. Un grand merci aux dirigeants et aux personnes qui nous suivent les week end !";

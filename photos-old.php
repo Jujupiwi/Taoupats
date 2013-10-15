@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="ISO-8859-1">
+    <title>Taoupats de Daux</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="">
+
+    <!-- Stylesheets -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.css">
+    <link href="css/photos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/diapositive.css">
+    <link rel="stylesheet" href="css/diapo.css">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/couleur.css" rel="stylesheet">
+    <link href="css/bootstrap-responsive.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/slideshow.css"/>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="img/favicon/favicon.png">
+</head>
+<body>
+<!-- Header Starts -->
+<header>
+    <div class="container">
+        <div class="row">
+            <div class="span6">
+                <div class="logo">
+                    <h1>
+                        <a href="index.html">TAOUPATS <span class="color">DE DAUX</span>
+                        </a>
+                    </h1>
+
+                    <div class="hmeta">Site du Club de Foot de Daux</div>
+                </div>
+            </div>
+            <div class="span6">
+                <div class="form">
+                    <div class="hmeta">Club de Foot de Daux</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- Navigation bar starts -->
+<div class="navbar">
+    <div class="navbar-inner">
+        <div class="container">
+            <a class="btn btn-navbar" data-toggle="collapse"
+               data-target=".nav-collapse"> <span>Menu</span>
+            </a>
+
+            <div class="nav-collapse collapse">
+                <ul class="nav">
+                    <li><a href="index.html"><i class="icon-home">&nbsp;</i>Accueil</a>
+                    </li>
+                    <!-- Refer Bootstrap navbar doc -->
+                    <li class="dropdown"><a href="#" class="dropdown-toggle"
+                                            data-toggle="dropdown"><i class="icon-folder-open">&nbsp;</i>Saison
+                            2013-2014 <b class="caret"></b> </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="calendrier.php"><i class="icon-calendar">&nbsp;</i>Calendrie Taoupatsr</a></li>
+                            <li><a href="resultats.php"><i class="icon-trophy">&nbsp;</i>Calendrier D2</a></li>
+                            <li><a href="classement.php"><i class="icon-list-ol">&nbsp;</i>Classement</a></li>
+                            <li><a href="stats.php"><i class="icon-dribbble">&nbsp;</i>Stats</a></li>
+                            <li><a href="match.php"><i class="icon-info-sign">&nbsp;</i>Dernier Match</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown"><a href="#" class="dropdown-toggle"
+                                            data-toggle="dropdown"><i class="icon-briefcase">&nbsp;</i>Archives<b
+                                class="caret"></b> </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="archive-sondage.php"><i class="icon-signal">&nbsp;</i>Sondages</a></li>
+                            <li class="hidden-phone"><a href="archive-inter.php"><i class="icon-eye-open">&nbsp;</i>Interviews</a>
+                            </li>
+                            <li><a href="archive-calendrier.php"><i class="icon-calendar">&nbsp;</i>Calendrier 2012-2013</a>
+                            </li>
+                            <li><a href="archive-classement.php"><i class="icon-list-ol">&nbsp;</i>Classement 2012-2013</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="dropdown hidden-phone"><a href="#" class="dropdown-toggle"
+                                                         data-toggle="dropdown"><i class="icon-camera">
+                                &nbsp;</i>Photos<b
+                                class="caret"></b> </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="photos.php"><i class="icon-film">&nbsp;</i>D'Aujourd'hui</a></li>
+                            <li class="hidden-phone"><a href="#"><i class="icon-camera-retro">&nbsp;</i>D'Hier</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="trombi.php"><i class="icon-user">&nbsp;&nbsp;</i>Trombi</a></li>
+                    <li class="visible-desktop"><a href="sondage.php"><i
+                                class="icon-signal">&nbsp;</i>Sondages</a></li>
+                    <li class="visible-phone visible-tablet"><a href="sondage-mobile.php"><i
+                                class="icon-signal">&nbsp;</i>Sondages</a></li>
+                    <li><a href="interview.php"><i class="icon-eye-open">&nbsp;</i>Interviews</a>
+                    </li>
+                    <li><a href="contact.php"><i class="icon-envelope">&nbsp;</i>Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<br>
+<!-- Navigation bar ends -->
+<!-- C O N T E N T -->
+<div class="container">
+    <div class="row-fluid">
+        <div class="span12">
+            <h2>PHOTOS</h2>
+            <h4>Saison 1970</h4>
+
+            <div id="show" class="slideshow"></div>
+        </div>
+    </div>
+</div>
+
+<!-- Social -->
+<div class="social-links">
+    <div class="container">
+        <div class="row">
+            <div class="span12">
+                <p class="big">
+                    <span>Rendez-vous sur</span> <a href="#"><i
+                            class="icon-facebook"></i>Facebook</a> <a href="#"><i
+                            class="icon-google-plus"></i>Google Plus</a> <a href="#"><i
+                            class="icon-twitter"></i>Twitter</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="span12">
+                <div class="copy">
+                    <p>Réalisé par julien, @jujupiwi.</p>
+                </div>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+</footer>
+
+<!-- JS -->
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/jquery.isotope.js"></script>
+<script src="js/jquery.photos.js"></script>
+<script src="js/jquery.cslider.js"></script>
+<script src="js/modernizr.custom.28468.js"></script>
+<script src="js/filter.js"></script>
+<script src="js/cycle.js"></script>
+<script src="js/jquery.flexslider-min.js"></script>
+<script src="js/easing.js"></script>
+<script src="js/custom.js"></script>
+<script src="js/mootools.js"></script>
+<script src="js/slideshow.js"></script>
+<script src="js/slideshow.kenburns.js"></script>
+<script>
+    //<![CDATA[
+    window.addEvent('domready', function () {
+        var data = {
+            '1.jpg': { thumbnail: '1.jpg'},
+            '2.jpg': { thumbnail: '2.jpg'},
+            '3.jpg': { thumbnail: '3.jpg'},
+            '4.jpg': { thumbnail: '4.jpg'},
+            '5.jpg': { thumbnail: '5.jpg'},
+            '6.jpg': { thumbnail: '6.jpg'},
+            '7.jpg': { thumbnail: '7.jpg'},
+            '8.jpg': { thumbnail: '8.jpg'},
+            '9.jpg': { thumbnail: '9.jpg'},
+            '10.jpg': {thumbnail: '10.jpg'},
+            '11.jpg': {thumbnail: '11.jpg'},
+            '12.jpg': {thumbnail: '12.jpg'},
+            '13.jpg': {thumbnail: '13.jpg'},
+            '14.jpg': {thumbnail: '14.jpg'},
+            '15.jpg': {thumbnail: '15.jpg'},
+            '16.jpg': {thumbnail: '16.jpg'},
+            '17.jpg': {thumbnail: '17.jpg'},
+            '18.jpg': {thumbnail: '18.jpg'},
+            '19.jpg': {thumbnail: '19.jpg'},
+            '20.jpg': {thumbnail: '20.jpg'},
+            '21.jpg': {thumbnail: '21.jpg'},
+            '22.jpg': {thumbnail: '22.jpg'},
+            '23.jpg': {thumbnail: '23.jpg'},
+            '24.jpg': {thumbnail: '24.jpg'},
+            '25.jpg': {thumbnail: '25.jpg'},
+            '26.jpg': {thumbnail: '26.jpg'},
+            '27.jpg': {thumbnail: '27.jpg'},
+            '28.jpg': {thumbnail: '28.jpg'},
+            '29.jpg': {thumbnail: '29.jpg'},
+            '30.jpg': {thumbnail: '30.jpg'}
+        };
+        var myShow = new Slideshow.KenBurns('show', data, {delay: 2500, controller: true, height: 400, hu: 'images/old/', thumbnails: true, width: 600, captions: true, pan: 100, zoom: [0, 0]});
+    });
+    //]]>
+</script>
+<script type="text/javascript">
+
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-39140201-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function () {
+        var ga = document.createElement('script');
+        ga.type = 'text/javascript';
+        ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(ga, s);
+    })();
+
+</script>
+</body>
+</html>

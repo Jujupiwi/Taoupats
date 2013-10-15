@@ -89,7 +89,16 @@ include 'contenu/param.php';
                             </li>
                         </ul>
                     </li>
-                    <li class="hidden-phone"><a href="photos.php"><i class="icon-camera">&nbsp;</i>Photos</a></li>
+                    <li class="dropdown hidden-phone"><a href="#" class="dropdown-toggle"
+                                                         data-toggle="dropdown"><i class="icon-camera">
+                                &nbsp;</i>Photos<b
+                                class="caret"></b> </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="photos.php"><i class="icon-film">&nbsp;</i>D'Aujourd'hui</a></li>
+                            <li class="hidden-phone"><a href="photos-old.php"><i class="icon-camera-retro">&nbsp;</i>D'Hier</a>
+                            </li>
+                        </ul>
+                    </li>
                     <li><a href="trombi.php"><i class="icon-user">&nbsp;&nbsp;</i>Trombi</a></li>
                     <li class="visible-desktop"><a href="sondage.php"><i class="icon-signal">&nbsp;</i>Sondages</a></li>
                     <li class="visible-phone visible-tablet"><a href="sondage-mobile.php"><i class="icon-signal">

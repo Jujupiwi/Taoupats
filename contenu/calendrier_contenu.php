@@ -44,6 +44,13 @@
     <td>D2</td>
 </tr>
 <tr>
+    <td>Pouvourville</td>
+    <td>Mercredi 16 Octobre à 20h</td>
+    <td>Pouvourville</td>
+    <td></td>
+    <td>Coupe</td>
+</tr>
+<tr>
     <td>Daux</td>
     <td>Samedi 19 Octobre à 18h30</td>
     <td>Leguevin 2</td>

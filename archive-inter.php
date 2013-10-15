@@ -83,7 +83,15 @@
                             </li>
                         </ul>
                     </li>
-                    <li class="hidden-phone"><a href="photos.php"><i class="icon-camera">&nbsp;</i>Photos</a>
+                    <li class="dropdown hidden-phone"><a href="#" class="dropdown-toggle"
+                                                         data-toggle="dropdown"><i class="icon-camera">
+                                &nbsp;</i>Photos<b
+                                class="caret"></b> </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="photos.php"><i class="icon-film">&nbsp;</i>D'Aujourd'hui</a></li>
+                            <li class="hidden-phone"><a href="photos-old.php"><i class="icon-camera-retro">&nbsp;</i>D'Hier</a>
+                            </li>
+                        </ul>
                     </li>
                     <li><a href="trombi.php"><i class="icon-user">&nbsp;&nbsp;</i>Trombi</a>
                     </li>
@@ -225,7 +233,7 @@
 <div class="row-fluid">
 <div class="span12">
 <h2>ARCHIVES INTERVIEWS</h2>
-<h4>Derniere Interview : Paul</h4>
+<h4>Derniere Interview : Maxime S</h4>
 <br> <br>
 <table
     class="table table-bordered table-striped table-condensed table-hover">
@@ -235,6 +243,13 @@
     </tr>
     </thead>
     <tbody>
+    <tr>
+        <td><a href="#maxS" data-toggle="modal"> <i
+                    class="icon-chevron-right" id="nav-inter"></i> <span
+                    id="nav-inter">Maxime Sarlaboux</span>
+            </a>
+        </td>
+    </tr>
     <tr>
         <td><a href="#paul" data-toggle="modal"> <i
                     class="icon-chevron-right" id="nav-inter"></i> <span
@@ -349,6 +364,20 @@
     </tr>
 
 </table>
+<div id="maxS" class="modal hide fade" tabindex="-1">
+    <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">x</button>
+        <h3 id="myModalLabel">Interview Maxime S</h3>
+    </div>
+    <div class="modal-body">
+        <p>
+            <?php include 'interviews/inter_maxs.php'; ?>
+        </p>
+    </div>
+    <div class="modal-footer">
+        <a href="archive-inter.php" class="btn">Fermer</a>
+    </div>
+</div>
 <div id="paul" class="modal hide fade" tabindex="-1">
     <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal">x</button>

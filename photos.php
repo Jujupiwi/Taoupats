@@ -84,7 +84,15 @@
                             </li>
                         </ul>
                     </li>
-                    <li class="hidden-phone"><a href="#"><i class="icon-camera">&nbsp;</i>Photos</a>
+                    <li class="dropdown hidden-phone"><a href="#" class="dropdown-toggle"
+                                                         data-toggle="dropdown"><i class="icon-camera">
+                                &nbsp;</i>Photos<b
+                                class="caret"></b> </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#"><i class="icon-film">&nbsp;</i>D'Aujourd'hui</a></li>
+                            <li class="hidden-phone"><a href="photos-old.php"><i class="icon-camera-retro">&nbsp;</i>D'Hier</a>
+                            </li>
+                        </ul>
                     </li>
                     <li><a href="trombi.php"><i class="icon-user">&nbsp;&nbsp;</i>Trombi</a></li>
                     <li class="visible-desktop"><a href="sondage.php"><i
@@ -162,7 +170,7 @@
     //<![CDATA[
     window.addEvent('domready', function () {
         var data = {
-            '1.JPG': { thumbnail: '1.JPG'},
+            '13.JPG': { thumbnail: '13.JPG'},
             '2.JPG': { thumbnail: '2.JPG'},
             '3.JPG': { thumbnail: '3.JPG'},
             '4.JPG': { thumbnail: '4.JPG'},
@@ -174,7 +182,7 @@
             '10.JPG': {thumbnail: '10.JPG'},
             '11.JPG': {thumbnail: '11.JPG'},
             '12.JPG': {thumbnail: '12.JPG'},
-            '13.JPG': {thumbnail: '13.JPG'},
+            '1.JPG': {thumbnail: '1.JPG'},
             '14.JPG': {thumbnail: '14.JPG'},
             '15.JPG': {thumbnail: '15.JPG'},
             '16.JPG': {thumbnail: '16.JPG'},

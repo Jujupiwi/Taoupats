@@ -77,20 +77,20 @@ $commentMatch = 'comment-fonsegrives';
 /*********************************************************
 Interview de la personne de la semaine
  *********************************************************/
-$prenom = 'MaximeS';
-$nom = 'Sarlaboux';
-$np = 'MS';
-$age = '21';
+$prenom = 'JulienB';
+$nom = 'Bonnefous';
+$np = 'JB';
+$age = '22';
 
 /*********************************************************
 Début des questions
  *********************************************************/
-$poste = 'Voir avec le coach je sais plus trop la';
+$poste = "Voir avec le coach je sais plus trop la";
 $q1 = "Tpmp et confessions intimes";
 $q2 = "Players ( une belle merde ) ";
 $q3 = "Ryan Gosling ou Adam Sandler pour l'humour";
 $q4 = "De la musique forte";
-$q5 = 'Replay de Ken Grimwood';
+$q5 = "Replay de Ken Grimwood";
 $q6 = "KITT dans K2000 pour les connaisseurs";
 $q7 = "Le Brésil ou les States";
 $q8 = "Alors Les Taoupats, Mondonville, le FCOuest, Aussonne, Gagnac-Lespinasse et Les Taoupats";

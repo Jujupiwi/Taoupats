@@ -92,7 +92,7 @@
                             <li><a href="photos.php"><i class="icon-film">&nbsp;</i>D'Aujourd'hui</a></li>
                             <li class="hidden-phone"><a href="#"><i class="icon-camera-retro">&nbsp;</i>D'Hier</a>
                             </li>
-                            <li class="hidden-phone"><a href="photos-annif.php"><i class="icon-gift">&nbsp;</i>40 ans</a>
+                            <li class="hidden-phone"><a href="#"><i class="icon-gift">&nbsp;</i>40 ans</a>
                             </li>
                         </ul>
                     </li>
@@ -117,7 +117,7 @@
     <div class="row-fluid">
         <div class="span12">
             <h2>PHOTOS</h2>
-            <h4>Saison 1970</h4>
+            <h4>40 ans Taoupats</h4>
 
             <div id="show" class="slideshow"></div>
         </div>
@@ -198,12 +198,9 @@
             '24.jpg': {thumbnail: '24.jpg'},
             '25.jpg': {thumbnail: '25.jpg'},
             '26.jpg': {thumbnail: '26.jpg'},
-            '27.jpg': {thumbnail: '27.jpg'},
-            '28.jpg': {thumbnail: '28.jpg'},
-            '29.jpg': {thumbnail: '29.jpg'},
-            '30.jpg': {thumbnail: '30.jpg'}
+            '27.jpg': {thumbnail: '27.jpg'}
         };
-        var myShow = new Slideshow.KenBurns('show', data, {delay: 2500, controller: true, height: 400, hu: 'images/old/', thumbnails: true, width: 600, captions: true, pan: 100, zoom: [0, 0]});
+        var myShow = new Slideshow.KenBurns('show', data, {delay: 2500, controller: true, height: 400, hu: 'images/40ans/', thumbnails: true, width: 600, captions: true, pan: 100, zoom: [0, 0]});
     });
     //]]>
 </script>

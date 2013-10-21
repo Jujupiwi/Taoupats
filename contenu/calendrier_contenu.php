@@ -40,14 +40,14 @@
     <td>Fonsegrives</td>
     <td>Samedi 5 Octobre à 18h30</td>
     <td>Fonsegrives 2</td>
-    <td><span class="badge badge-info">0-0</span></td>
+    <td><span class="badge badge-success">3-0</span></td>
     <td>D2</td>
 </tr>
 <tr>
     <td>Pouvourville</td>
     <td>Mercredi 16 Octobre à 20h</td>
     <td>Pouvourville</td>
-    <td></td>
+    <td><span class="badge badge-important">1-6</span></td>
     <td>Coupe</td>
 </tr>
 <tr>

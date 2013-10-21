@@ -93,6 +93,8 @@ include 'contenu/param.php';
                             <li><a href="photos.php"><i class="icon-film">&nbsp;</i>D'Aujourd'hui</a></li>
                             <li class="hidden-phone"><a href="photos-old.php"><i class="icon-camera-retro">&nbsp;</i>D'Hier</a>
                             </li>
+                            <li class="hidden-phone"><a href="photos-annif.php"><i class="icon-gift">&nbsp;</i>40 ans</a>
+                            </li>
                         </ul>
                     </li>
                     <li><a href="trombi.php"><i class="icon-user">&nbsp;&nbsp;</i>Trombi</a></li>
@@ -240,9 +242,9 @@ include 'contenu/param.php';
                 <div class="bor"></div>
                 <h2>Taoupats de Daux</h2>
 
-                <p style="color: red"><i class="icon-dribbble"></i><i class="icon-minus"></i>Dernier match : Match nul
-                    0-0 à Quint-Fonsegrives!! <a
-                            href="match.php">Cliquez ici</a></p>
+                <p style="color: red"><i class="icon-dribbble"></i><i class="icon-minus"></i>Dernier match : Défaite
+                    1-6 à Pouvourville!! <a
+                            href="#">Cliquez ici</a></p>
                 <p class="visible-desktop"><i class="icon-question"></i><i class="icon-minus"></i> Répondez aux sondages
                     de la semaine!! <a href="sondage.php">Cliquez ici</a></p>
                 <p class="visible-phone visible-tablet"><i class="icon-question"></i><i class="icon-minus"></i> Nouveau
@@ -255,9 +257,8 @@ include 'contenu/param.php';
                     <a
                             href="archive-sondage.php">Cliquez ici</a></p>
                 <p class="visible-desktop"><i class="icon-camera-retro"></i><i class="icon-minus"></i> Nouveau!! Les
-                    photos des Taoupats version
-                    1970...
-                    <a href="photos-old.php">Cliquez ici</a></p>
+                    photos des 40 ans des Taoupats
+                    <a href="photos-annif.php">Cliquez ici</a></p>
                 <p><i class="icon-trophy"></i><i class="icon-minus"></i> Nouveau!! Le calendrier du championnat de D2
                     Poule D! <a
                             href="resultats.php">Cliquez ici</a></p>
@@ -469,9 +470,9 @@ include 'contenu/param.php';
         var date_actuelle = new Date(); // On déclare la date d'aujourd'hui.
         var annee = date_actuelle.getFullYear();
         var depasse1 = false;
-        var match = new Date(annee, 9, 16, 20, 00, 0); // On déclare la date du match.
+        var match = new Date(annee, 9, 19, 18, 30, 0); // On déclare la date du match.
         if (match.getTime() < date_actuelle.getTime()) { // Si le match est dépassé, on passe au match suivant !
-            match = new Date(annee, 9, 19, 18, 30, 0); // On re-déclare le Match pour qu'il ne soit pas passé.
+            match = new Date(annee, 10, 9, 20, 30, 0); // On re-déclare le Match pour qu'il ne soit pas passé.
             depasse1 = true;
         }
         var tps_restant = match.getTime() - date_actuelle.getTime(); // Temps restant en millisecondes
@@ -493,9 +494,9 @@ include 'contenu/param.php';
                 + " et il est <strong>" + date_actuelle.getHours() + "h"
                 + date_actuelle.getMinutes() + "</strong>.<br />";
         if (depasse1) {
-            texte += "<strong>Match de championnat Leguevin le Samedi 19 Octobre 2013 à 18h30:</strong>";
+            texte += "<strong>Match de championnat Labege le Samedi 9 Novembre 2013 à 20h30:</strong>";
         } else {
-            texte += "<strong>Match de coupe Pouvourville le Mercredi 16 Octobre 2013 à 20h00:</strong>";
+            texte += "<strong>Match de championnat Leguevin le Samedi 19 Octobre 2013 à 18h30:</strong>";
         }
         document.getElementById("affichage").innerHTML = texte;
         document.getElementById("jours").innerHTML = "<strong>"

@@ -21,33 +21,32 @@ $joueur2 = 'Alexy';
 $joueur3 = 'MaximeS';
 $joueur4 = 'Tony';
 $joueur5 = 'Olivier';
-$joueur6 = 'Tito';
+$joueur6 = 'Jordan';
 $joueur7 = 'JulienB';
 $joueur8 = 'Dede';
-$joueur9 = 'Zizou';
+$joueur9 = 'Joffrey';
 $joueur10 = 'Enzo';
 $joueur11 = 'Florian';
 $joueur12 = 'MaximeD';
 $joueur13 = 'Florent';
-$joueur14 = 'Gaetan';
-
+$joueur14 = 'Paul';
 
 /*********************************************************
 Liste des autres joueurs
  *********************************************************/
 $joueur15 = 'Thomas';
-$joueur16 = 'Jordan';
+$joueur16 = 'Gaetan';
 $joueur17 = 'ThomasP';
 $joueur18 = 'Francois';
 $joueur19 = 'JulienG';
 $joueur20 = 'Lionel';
-$joueur21 = 'Joffrey';
+$joueur21 = 'Zizou';
 $joueur22 = 'JB';
 $joueur23 = 'Laurent';
 $joueur24 = 'Johan';
 $joueur25 = 'Baptiste';
 $joueur26 = 'Julien';
-$joueur27 = 'Paul';
+$joueur27 = 'Tito';
 
 $nbJoueurs = 14;
 $array = array($joueur1, $joueur2, $joueur3, $joueur4, $joueur5, $joueur6, $joueur7, $joueur8, $joueur9, $joueur10, $joueur11, $joueur12, $joueur13, $joueur14);
@@ -70,9 +69,9 @@ $leguevin = 'Leguevin US 2';
 /*********************************************************
 Nom des sondages
  *********************************************************/
-$match = 'fonsegrives';
-$noteMatch = 'note-fonsegrives';
-$commentMatch = 'comment-fonsegrives';
+$match = 'leguevin';
+$noteMatch = 'note-leguevin';
+$commentMatch = 'comment-leguevin';
 
 /*********************************************************
 Interview de la personne de la semaine

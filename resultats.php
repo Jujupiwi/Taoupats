@@ -222,9 +222,9 @@ include 'contenu/param.php';
 </script>
 <script type="text/javascript">
 $(document).ready(function () {
-    $('#Journee3').show("fast");
+    $('#Journee4').show("fast");
     hideClassJou();
-    $('#Jou3').addClass("disabled");
+    $('#Jou4').addClass("disabled");
 });
 $('#retour').click(function () {
     hideJournees();

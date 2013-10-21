@@ -20,9 +20,9 @@
     </tr>
     <tr class="success">
         <td style="text-align: center"><?php echo $fonsegrives; ?></td>
-        <td style="text-align: center;color:blue;">0</td>
+        <td style="text-align: center;color:red;">0</td>
         <td style="text-align: center">-</td>
-        <td style="text-align: center;color:blue">0</td>
+        <td style="text-align: center;color:green">3</td>
         <td style="text-align: center"><?php echo $daux; ?></td>
     </tr>
     <tr>

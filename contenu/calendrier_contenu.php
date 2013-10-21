@@ -54,7 +54,7 @@
     <td>Daux</td>
     <td>Samedi 19 Octobre à 18h30</td>
     <td>Leguevin 2</td>
-    <td></td>
+    <td><span class="badge badge-success">2-0</span></td>
     <td>D2</td>
 </tr>
 <tr>

@@ -10,7 +10,7 @@
 <tbody>
 <tr>
     <td>Daux</td>
-    <td>Mercredi 29 septembre a 20h</td>
+    <td>Mercredi 29 aout a 20h</td>
     <td>Seilh</td>
     <td style="color:#5DAF6B;">5-2</td>
     <td>Amical</td>

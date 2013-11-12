@@ -90,7 +90,7 @@
                                 class="caret"></b> </a>
                         <ul class="dropdown-menu">
                             <li><a href="photos.php"><i class="icon-film">&nbsp;</i>D'Aujourd'hui</a></li>
-                            <li class="hidden-phone"><a href="#"><i class="icon-camera-retro">&nbsp;</i>D'Hier</a>
+                            <li class="hidden-phone"><a href="photos-old.php"><i class="icon-camera-retro">&nbsp;</i>D'Hier</a>
                             </li>
                             <li class="hidden-phone"><a href="#"><i class="icon-gift">&nbsp;</i>40 ans</a>
                             </li>

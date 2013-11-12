@@ -89,7 +89,8 @@
                             <li><a href="photos.php"><i class="icon-film">&nbsp;</i>D'Aujourd'hui</a></li>
                             <li class="hidden-phone"><a href="photos-old.php"><i class="icon-camera-retro">&nbsp;</i>D'Hier</a>
                             </li>
-                            <li class="hidden-phone"><a href="photos-annif.php"><i class="icon-gift">&nbsp;</i>40 ans</a>
+                            <li class="hidden-phone"><a href="photos-annif.php"><i class="icon-gift">&nbsp;</i>40
+                                    ans</a>
                             </li>
                         </ul>
                     </li>
@@ -249,10 +250,10 @@
                     <th width="20%" style="color: #C64646; text-align: center;">Défaites</th>
                 </tr>
                 <tr>
-                    <td style="text-align: center;">5</td>
-                    <td style="color: #5DAF6B; text-align: center;">1</td>
+                    <td style="text-align: center;">9</td>
+                    <td style="color: #5DAF6B; text-align: center;">3</td>
                     <td style="color: #4664C6; text-align: center;">2</td>
-                    <td style="color: #C64646; text-align: center;">2</td>
+                    <td style="color: #C64646; text-align: center;">4</td>
                 </tr>
             </table>
         </div>

@@ -27,9 +27,9 @@
     </tr>
     <tr>
         <td style="text-align: center"><?php echo $nailloux; ?></td>
-        <td style="text-align: center">reporté</td>
+        <td style="text-align: center;color: blue;">1</td>
         <td style="text-align: center">-</td>
-        <td style="text-align: center">reporté</td>
+        <td style="text-align: center;color:blue;">1</td>
         <td style="text-align: center"><?php echo $leguevin; ?></td>
     </tr>
     <tr class="error">

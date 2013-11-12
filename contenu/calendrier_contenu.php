@@ -58,10 +58,17 @@
     <td>D2</td>
 </tr>
 <tr>
+    <td>Lespinasse</td>
+    <td>Lundi 28 Octobre à 20h00</td>
+    <td>Lespinasse</td>
+    <td><span class="badge badge-important">1-3</span></td>
+    <td>Amical</td>
+</tr>
+<tr>
     <td>Labege</td>
     <td>Samedi 9 Novembre à 20h30</td>
     <td>Labege</td>
-    <td></td>
+    <td><span class="badge badge-info">0-0</span></td>
     <td>D2</td>
 </tr>
 <tr>
@@ -80,7 +87,7 @@
 </tr>
 <tr>
     <td>Daux</td>
-    <td>Saemdi 30 Novembre à 18h30</td>
+    <td>Samedi 30 Novembre à 18h30</td>
     <td>Fenouillet 2</td>
     <td></td>
     <td>D2</td>

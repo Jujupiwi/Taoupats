@@ -261,16 +261,16 @@
                 <tr>
                     <td>1</td>
                     <td>Fenouillet Ua 2</td>
+                    <td>24</td>
+                    <td>6</td>
+                    <td>6</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>25</td>
+                    <td>5</td>
+                    <td>0</td>
                     <td>20</td>
-                    <td>5</td>
-                    <td>5</td>
-                    <td>0</td>
-                    <td>0</td>
-                    <td>0</td>
-                    <td>21</td>
-                    <td>3</td>
-                    <td>0</td>
-                    <td>18</td>
                 </tr>
                 <tr>
                     <td>2</td>
@@ -288,6 +288,48 @@
                 </tr>
                 <tr>
                     <td>3</td>
+                    <td>Toulouse Entente</td>
+                    <td>14</td>
+                    <td>5</td>
+                    <td>3</td>
+                    <td>0</td>
+                    <td>2</td>
+                    <td>0</td>
+                    <td>14</td>
+                    <td>13</td>
+                    <td>0</td>
+                    <td>1</td>
+                </tr>
+                <tr class="success">
+                    <td>4</td>
+                    <td>Taoupats De Daux</td>
+                    <td>13</td>
+                    <td>5</td>
+                    <td>2</td>
+                    <td>2</td>
+                    <td>1</td>
+                    <td>0</td>
+                    <td>10</td>
+                    <td>6</td>
+                    <td>0</td>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>Pompertuzat Asi 2</td>
+                    <td>13</td>
+                    <td>5</td>
+                    <td>2</td>
+                    <td>2</td>
+                    <td>1</td>
+                    <td>0</td>
+                    <td>7</td>
+                    <td>10</td>
+                    <td>0</td>
+                    <td>-3</td>
+                </tr>
+                <tr>
+                    <td>6</td>
                     <td>Leguevin Us 2</td>
                     <td>13</td>
                     <td>4</td>
@@ -301,35 +343,7 @@
                     <td>2</td>
                 </tr>
                 <tr>
-                    <td>4</td>
-                    <td>Pompertuzat Asi 2</td>
-                    <td>13</td>
-                    <td>5</td>
-                    <td>2</td>
-                    <td>2</td>
-                    <td>1</td>
-                    <td>0</td>
-                    <td>6</td>
-                    <td>8</td>
-                    <td>0</td>
-                    <td>-2</td>
-                </tr>
-                <tr class="success">
-                    <td>5</td>
-                    <td>Taoupats De Daux</td>
-                    <td>12</td>
-                    <td>4</td>
-                    <td>2</td>
-                    <td>2</td>
-                    <td>0</td>
-                    <td>0</td>
-                    <td>8</td>
-                    <td>3</td>
-                    <td>0</td>
-                    <td>5</td>
-                </tr>
-                <tr>
-                    <td>6</td>
+                    <td>7</td>
                     <td>Labastidette Us</td>
                     <td>12</td>
                     <td>5</td>
@@ -337,66 +351,52 @@
                     <td>1</td>
                     <td>2</td>
                     <td>0</td>
-                    <td>9</td>
-                    <td>10</td>
-                    <td>0</td>
-                    <td>-1</td>
-                </tr>
-                <tr>
-                    <td>7</td>
-                    <td>Toulouse Entente</td>
-                    <td>10</td>
-                    <td>4</td>
-                    <td>2</td>
-                    <td>0</td>
-                    <td>2</td>
-                    <td>0</td>
-                    <td>10</td>
                     <td>11</td>
+                    <td>12</td>
                     <td>0</td>
                     <td>-1</td>
                 </tr>
                 <tr>
                     <td>8</td>
                     <td>Cadours O</td>
-                    <td>7</td>
-                    <td>4</td>
-                    <td>1</td>
+                    <td>11</td>
+                    <td>5</td>
+                    <td>2</td>
                     <td>0</td>
                     <td>3</td>
                     <td>0</td>
-                    <td>8</td>
                     <td>13</td>
+                    <td>14</td>
                     <td>0</td>
-                    <td>-5</td>
+                    <td>-1</td>
                 </tr>
                 <tr>
                     <td>9</td>
                     <td>Nailloux Us</td>
-                    <td>7</td>
-                    <td>5</td>
+                    <td>8</td>
+                    <td>6</td>
                     <td>0</td>
                     <td>2</td>
-                    <td>3</td>
+                    <td>4</td>
                     <td>0</td>
-                    <td>8</td>
-                    <td>16</td>
+                    <td>10</td>
+                    <td>20</td>
                     <td>0</td>
-                    <td>-8</td>
+                    <td>-10</td>
                 </tr>
                 <tr>
                     <td>10</td>
                     <td>Roquettes Fc 2</td>
+                    <td>2</td>
+                    <td>4</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>3</td>
                     <td>1</td>
                     <td>3</td>
+                    <td>14</td>
                     <td>0</td>
-                    <td>0</td>
-                    <td>2</td>
-                    <td>1</td>
-                    <td>2</td>
-                    <td>9</td>
-                    <td>0</td>
-                    <td>-7</td>
+                    <td>-11</td>
                 </tr>
                 <tr>
                     <td>11</td>

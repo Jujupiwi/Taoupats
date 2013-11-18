@@ -70,9 +70,9 @@ $leguevin = 'Leguevin US 2';
 /*********************************************************
 Nom des sondages
  *********************************************************/
-$match = 'labege';
-$noteMatch = 'note-labege';
-$commentMatch = 'comment-labege';
+$match = 'pompertuzat';
+$noteMatch = 'note-pompertuzat';
+$commentMatch = 'comment-pompertuzat';
 
 /*********************************************************
 Interview de la personne de la semaine

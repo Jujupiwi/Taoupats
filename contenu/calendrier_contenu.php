@@ -75,7 +75,7 @@
     <td>Daux</td>
     <td>Samedi 16 Novembre à 18h30</td>
     <td>Pompertuzat 2</td>
-    <td></td>
+    <td><span class="badge badge-important">2-3</span></td>
     <td>D2</td>
 </tr>
 <tr>

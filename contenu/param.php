@@ -17,19 +17,19 @@ $data = 'taoupats';
 Liste des joueurs pour le match
  *********************************************************/
 $joueur1 = 'MaximeP';
-$joueur2 = 'Alexy';
+$joueur2 = 'Joffrey';
 $joueur3 = 'MaximeS';
 $joueur4 = 'Tony';
 $joueur5 = 'Tito';
 $joueur6 = 'Jordan';
 $joueur7 = 'Gaetan';
-$joueur8 = 'Dede';
+$joueur8 = 'JulienB';
 $joueur9 = 'Zizou';
 $joueur10 = 'Enzo';
 $joueur11 = 'Florian';
 $joueur12 = 'MaximeD';
 $joueur13 = 'Florent';
-$joueur14 = 'Paul';
+$joueur14 = 'Julien';
 
 /*********************************************************
 Liste des autres joueurs
@@ -40,13 +40,13 @@ $joueur17 = 'ThomasP';
 $joueur18 = 'Francois';
 $joueur19 = 'JulienG';
 $joueur20 = 'Lionel';
-$joueur21 = 'JulienB';
+$joueur21 = 'Dede';
 $joueur22 = 'JB';
 $joueur23 = 'Laurent';
 $joueur24 = 'Johan';
 $joueur25 = 'Baptiste';
-$joueur26 = 'Julien';
-$joueur27 = 'Joffrey';
+$joueur26 = 'Paul';
+$joueur27 = 'Alexy';
 
 
 $nbJoueurs = 14;

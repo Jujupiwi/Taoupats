@@ -795,6 +795,22 @@
         }; ?></td>
 </tr>
 </table>
+<table
+    class="table table-bordered table-striped table-condensed table-hover">
+    <tr>
+        <th rowspan="2" width="20%" style="text-align: center; vertical-align: middle">Bilan</th>
+        <th width="20%" style="text-align: center;">Nb Matchs Joués</th>
+        <th width="20%" style="color: #5DAF6B; text-align: center;">Victoires</th>
+        <th width="20%" style="color: #4664C6; text-align: center;">Nuls</th>
+        <th width="20%" style="color: #C64646; text-align: center;">Défaites</th>
+    </tr>
+    <tr>
+        <td style="text-align: center;">10</td>
+        <td style="color: #5DAF6B; text-align: center;">3</td>
+        <td style="color: #4664C6; text-align: center;">2</td>
+        <td style="color: #C64646; text-align: center;">5</td>
+    </tr>
+</table>
 </div>
 </div>
 </div>

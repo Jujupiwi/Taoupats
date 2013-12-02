@@ -94,7 +94,8 @@ include 'contenu/param.php';
                             <li><a href="photos.php"><i class="icon-film">&nbsp;</i>D'Aujourd'hui</a></li>
                             <li class="hidden-phone"><a href="photos-old.php"><i class="icon-camera-retro">&nbsp;</i>D'Hier</a>
                             </li>
-                            <li class="hidden-phone"><a href="photos-annif.php"><i class="icon-gift">&nbsp;</i>40 ans</a>
+                            <li class="hidden-phone"><a href="photos-annif.php"><i class="icon-gift">&nbsp;</i>40
+                                    ans</a>
                             </li>
                         </ul>
                     </li>
@@ -238,7 +239,7 @@ include 'contenu/param.php';
     <div class="row-fluid">
         <div class="span12">
             <h2>ARCHIVES SONDAGES</h2>
-            <h4>Derniere Sondage : Montaudran</h4>
+            <h4>Derniere Sondage : Pompertuzat</h4>
             <br> <br>
             <ul class="nav nav-tabs" id="myTab">
                 <li class="active"><a href="#homme" id="homme-match">Homme du match</a>

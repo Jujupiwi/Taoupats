@@ -82,14 +82,14 @@
     <td>Toulouse Entente</td>
     <td>Dimanche 24 Novembre à 15h</td>
     <td>Toulouse Entente</td>
-    <td></td>
+    <td>Reporté</td>
     <td>D2</td>
 </tr>
 <tr>
     <td>Daux</td>
     <td>Samedi 30 Novembre à 18h30</td>
     <td>Fenouillet 2</td>
-    <td></td>
+    <td><span class="badge badge-important">1-2</span></td>
     <td>D2</td>
 </tr>
 <tr>

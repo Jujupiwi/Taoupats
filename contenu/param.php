@@ -19,13 +19,13 @@ Liste des joueurs pour le match
 $joueur1 = 'MaximeP';
 $joueur2 = 'Joffrey';
 $joueur3 = 'MaximeS';
-$joueur4 = 'Tony';
+$joueur4 = 'Dede';
 $joueur5 = 'Tito';
 $joueur6 = 'Jordan';
-$joueur7 = 'Gaetan';
+$joueur7 = 'Paul';
 $joueur8 = 'JulienB';
 $joueur9 = 'Zizou';
-$joueur10 = 'Enzo';
+$joueur10 = 'Clement';
 $joueur11 = 'Florian';
 $joueur12 = 'MaximeD';
 $joueur13 = 'Florent';
@@ -40,13 +40,14 @@ $joueur17 = 'ThomasP';
 $joueur18 = 'Francois';
 $joueur19 = 'JulienG';
 $joueur20 = 'Lionel';
-$joueur21 = 'Dede';
+$joueur21 = 'Tony';
 $joueur22 = 'JB';
 $joueur23 = 'Laurent';
 $joueur24 = 'Johan';
 $joueur25 = 'Baptiste';
-$joueur26 = 'Paul';
+$joueur26 = 'Gaetan';
 $joueur27 = 'Alexy';
+$joueur28 = 'Enzo';
 
 
 $nbJoueurs = 14;
@@ -70,9 +71,9 @@ $leguevin = 'Leguevin US 2';
 /*********************************************************
 Nom des sondages
  *********************************************************/
-$match = 'pompertuzat';
-$noteMatch = 'note-pompertuzat';
-$commentMatch = 'comment-pompertuzat';
+$match = 'fenouillet';
+$noteMatch = 'note-fenouillet';
+$commentMatch = 'comment-fenouillet';
 
 /*********************************************************
 Interview de la personne de la semaine

@@ -20,9 +20,9 @@
     </tr>
     <tr>
         <td style="text-align: center"><?php echo $fonsegrives; ?></td>
-        <td style="text-align: center"></td>
+        <td style="text-align: center">1</td>
         <td style="text-align: center">-</td>
-        <td style="text-align: center"></td>
+        <td style="text-align: center">1</td>
         <td style="text-align: center"><?php echo $pompertuzat; ?></td>
     </tr>
     <tr>

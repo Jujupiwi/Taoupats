@@ -13,9 +13,9 @@
     <tbody>
     <tr>
         <td style="text-align: center"><?php echo $fonsegrives; ?></td>
-        <td style="text-align: center">reporté</td>
+        <td style="text-align: center">réserve</td>
         <td style="text-align: center">-</td>
-        <td style="text-align: center">reporté</td>
+        <td style="text-align: center">réserve</td>
         <td style="text-align: center"><?php echo $leguevin; ?></td>
     </tr>
     <tr>

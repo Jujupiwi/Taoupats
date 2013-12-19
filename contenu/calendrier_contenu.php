@@ -79,13 +79,6 @@
     <td>D2</td>
 </tr>
 <tr>
-    <td>Toulouse Entente</td>
-    <td>Dimanche 24 Novembre à 15h</td>
-    <td>Toulouse Entente</td>
-    <td>Reporté</td>
-    <td>D2</td>
-</tr>
-<tr>
     <td>Daux</td>
     <td>Samedi 30 Novembre à 18h30</td>
     <td>Fenouillet 2</td>
@@ -96,6 +89,13 @@
     <td>Roquette</td>
     <td>Dimanche 15 Decembre à 15h</td>
     <td>Roquette 2</td>
+    <td><span class="badge badge-success">6-3</span></td>
+    <td>D2</td>
+</tr>
+<tr>
+    <td>Toulouse Entente</td>
+    <td>Dimanche 22 Décembre à 15h</td>
+    <td>Toulouse Entente</td>
     <td></td>
     <td>D2</td>
 </tr>

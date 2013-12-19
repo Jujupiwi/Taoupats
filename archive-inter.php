@@ -91,7 +91,8 @@
                             <li><a href="photos.php"><i class="icon-film">&nbsp;</i>D'Aujourd'hui</a></li>
                             <li class="hidden-phone"><a href="photos-old.php"><i class="icon-camera-retro">&nbsp;</i>D'Hier</a>
                             </li>
-                            <li class="hidden-phone"><a href="photos-annif.php"><i class="icon-gift">&nbsp;</i>40 ans</a>
+                            <li class="hidden-phone"><a href="photos-annif.php"><i class="icon-gift">&nbsp;</i>40
+                                    ans</a>
                             </li>
                         </ul>
                     </li>
@@ -235,7 +236,7 @@
 <div class="row-fluid">
 <div class="span12">
 <h2>ARCHIVES INTERVIEWS</h2>
-<h4>Derniere Interview : Maxime S</h4>
+<h4>Derniere Interview : Julien B</h4>
 <br> <br>
 <table
     class="table table-bordered table-striped table-condensed table-hover">
@@ -245,6 +246,13 @@
     </tr>
     </thead>
     <tbody>
+    <tr>
+        <td><a href="#julienB" data-toggle="modal"> <i
+                    class="icon-chevron-right" id="nav-inter"></i> <span
+                    id="nav-inter">Julien Bonnefous</span>
+            </a>
+        </td>
+    </tr>
     <tr>
         <td><a href="#maxS" data-toggle="modal"> <i
                     class="icon-chevron-right" id="nav-inter"></i> <span
@@ -366,6 +374,20 @@
     </tr>
 
 </table>
+<div id="julienB" class="modal hide fade" tabindex="-1">
+    <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">x</button>
+        <h3 id="myModalLabel">Interview Julien B</h3>
+    </div>
+    <div class="modal-body">
+        <p>
+            <?php include 'interviews/inter_julien.php'; ?>
+        </p>
+    </div>
+    <div class="modal-footer">
+        <a href="archive-inter.php" class="btn">Fermer</a>
+    </div>
+</div>
 <div id="maxS" class="modal hide fade" tabindex="-1">
     <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal">x</button>

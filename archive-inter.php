@@ -236,7 +236,7 @@
 <div class="row-fluid">
 <div class="span12">
 <h2>ARCHIVES INTERVIEWS</h2>
-<h4>Derniere Interview : Julien B</h4>
+<h4>Derniere Interview : Joffrey P</h4>
 <br> <br>
 <table
     class="table table-bordered table-striped table-condensed table-hover">
@@ -246,6 +246,13 @@
     </tr>
     </thead>
     <tbody>
+    <tr>
+        <td><a href="#joff" data-toggle="modal"> <i
+                    class="icon-chevron-right" id="nav-inter"></i> <span
+                    id="nav-inter">Joffrey Peres</span>
+            </a>
+        </td>
+    </tr>
     <tr>
         <td><a href="#julienB" data-toggle="modal"> <i
                     class="icon-chevron-right" id="nav-inter"></i> <span
@@ -374,6 +381,20 @@
     </tr>
 
 </table>
+<div id="joff" class="modal hide fade" tabindex="-1">
+    <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">x</button>
+        <h3 id="myModalLabel">Interview Joffrey P</h3>
+    </div>
+    <div class="modal-body">
+        <p>
+            <?php include 'interviews/inter_joffrey.php'; ?>
+        </p>
+    </div>
+    <div class="modal-footer">
+        <a href="archive-inter.php" class="btn">Fermer</a>
+    </div>
+</div>
 <div id="julienB" class="modal hide fade" tabindex="-1">
     <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal">x</button>

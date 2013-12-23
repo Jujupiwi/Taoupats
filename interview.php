@@ -94,7 +94,8 @@ include 'contenu/param.php';
                             <li><a href="photos.php"><i class="icon-film">&nbsp;</i>D'Aujourd'hui</a></li>
                             <li class="hidden-phone"><a href="photos-old.php"><i class="icon-camera-retro">&nbsp;</i>D'Hier</a>
                             </li>
-                            <li class="hidden-phone"><a href="photos-annif.php"><i class="icon-gift">&nbsp;</i>40 ans</a>
+                            <li class="hidden-phone"><a href="photos-annif.php"><i class="icon-gift">&nbsp;</i>40
+                                    ans</a>
                             </li>
                         </ul>
                     </li>
@@ -269,9 +270,12 @@ include 'contenu/param.php';
 
 <div class="row-fluid">
 <div class="span2">
+    <!--<img alt="120x180" data-src="bootstrap/js/bootstrap.js/120x180"
+         style="width: 120px; height: 180px;"
+         src="images/team/<?php //echo $prenom; ?>.jpg">-->
     <img alt="120x180" data-src="bootstrap/js/bootstrap.js/120x180"
          style="width: 120px; height: 180px;"
-         src="images/team/<?php echo $prenom; ?>.jpg">
+         src="images/team/Zizou.jpg">
 </div>
 <div class="span10">
 <table

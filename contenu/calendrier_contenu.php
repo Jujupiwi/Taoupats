@@ -96,7 +96,7 @@
     <td>Toulouse Entente</td>
     <td>Dimanche 22 Décembre à 15h</td>
     <td>Toulouse Entente</td>
-    <td></td>
+    <td><span class="badge badge-success">2-1</span></td>
     <td>D2</td>
 </tr>
 <tr>

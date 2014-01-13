@@ -64,7 +64,7 @@
                 <td>Jordan</td>
                 <td>
                     <div class="progress progress-striped active active">
-                        <div class="bar bar-danger" style="width: 9%;"></div>
+                        <div class="bar bar-danger" style="width: 6%;"></div>
                     </div>
                 </td>
                 <td>6 %</td>

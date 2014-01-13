@@ -243,8 +243,8 @@ include 'contenu/param.php';
                 <div class="bor"></div>
                 <h2>Taoupats de Daux</h2>
 
-                <p style="color: red"><i class="icon-dribbble"></i><i class="icon-minus"></i>Dernier match : Victoire
-                    2-1 à Toulouse Entente<a
+                <p style="color: red"><i class="icon-dribbble"></i><i class="icon-minus"></i>Dernier match : Défaite
+                    0-1 contre Cadours<a
                             href="match.php">Cliquez ici</a></p>
                 <p class="visible-desktop"><i class="icon-question"></i><i class="icon-minus"></i> Répondez aux sondages
                     de la semaine!! <a href="sondage.php">Cliquez ici</a></p>
@@ -254,8 +254,9 @@ include 'contenu/param.php';
                 <p><i class="icon-eye-open"></i><i class="icon-minus"></i> Cette semaine, interview de Fabrice!!
                     <a
                             href="interview.php">Cliquez ici</a></p>
-                <p><i class="icon-signal"></i><i class="icon-minus"></i> Homme du dernier match contre Roquette :
-                    Baptiste!
+                <p><i class="icon-signal"></i><i class="icon-minus"></i> Homme du dernier match contre Toulouse Entente
+                    :
+                    Alexy!
                     <a
                             href="archive-sondage.php">Cliquez ici</a></p>
                 <p class="visible-desktop"><i class="icon-camera-retro"></i><i class="icon-minus"></i> Nouveau!! Les
@@ -472,9 +473,9 @@ include 'contenu/param.php';
         var date_actuelle = new Date(); // On déclare la date d'aujourd'hui.
         var annee = date_actuelle.getFullYear();
         var depasse1 = false;
-        var match = new Date(2014, 0, 11, 18, 30, 0); // On déclare la date du match.
+        var match = new Date(2014, 0, 19, 15, 00, 0); // On déclare la date du match.
         if (match.getTime() < date_actuelle.getTime()) { // Si le match est dépassé, on passe au match suivant !
-            match = new Date(2014, 0, 19, 15, 00, 0); // On re-déclare le Match pour qu'il ne soit pas passé.
+            match = new Date(2014, 1, 5, 18, 30, 0); // On re-déclare le Match pour qu'il ne soit pas passé.
             depasse1 = true;
         }
         var tps_restant = match.getTime() - date_actuelle.getTime(); // Temps restant en millisecondes
@@ -494,21 +495,37 @@ include 'contenu/param.php';
                 + " " + mois_fr[date_actuelle.getMonth()] + " "
                 + date_actuelle.getFullYear() + "</strong>,"
                 + " et il est <strong>" + date_actuelle.getHours() + "h"
-                + date_actuelle.getMinutes() + "</strong>.<br />";
+                + date_actuelle.getUTCMinutes() + "</strong>.<br />";
         if (depasse1) {
-            texte += "<strong>Match de championnat Cadours le Samedi 11 Janvier 2014 à 18h30:</strong>";
+            texte += "<strong>Match de championnat Fonsegrives le Samedi 5 Février 2014 à 18h30:</strong>";
         } else {
             texte += "<strong>Match de championnat Labastidette le Dimanche 19 Janvier 2014 à 15h00:</strong>";
         }
         document.getElementById("affichage").innerHTML = texte;
+        var jour = "Jours";
+        var heure = "Heures";
+        var minute = "Minutes";
+        var seconde = "Secondes";
+        if (d_restants == 1 || d_restants == 0) {
+            jour = "Jour";
+        }
+        if (H_restantes == 1 || H_restantes == 0) {
+            heure = "Heure";
+        }
+        if (i_restantes == 1 || i_restantes == 0) {
+            minute = "Minute";
+        }
+        if (s_restantes == 1 || s_restantes == 0) {
+            seconde = "Seconde";
+        }
         document.getElementById("jours").innerHTML = "<strong>"
-                + d_restants + "<br />Jours</strong>";
+                + d_restants + "<br />" + jour + "</strong>";
         document.getElementById("heures").innerHTML = "<strong>"
-                + H_restantes + "<br />Heures</strong>";
+                + H_restantes + "<br />" + heure + "</strong>";
         document.getElementById("minutes").innerHTML = "<strong>"
-                + i_restantes + "<br />Minutes</strong>";
+                + i_restantes + "<br />" + minute + "</strong>";
         document.getElementById("secondes").innerHTML = "<strong>"
-                + s_restantes + "<br />Secondes</strong>";
+                + s_restantes + "<br />" + seconde + "</strong>";
     }
     setInterval(CompteARebours, 1000);
 </script>

@@ -21,15 +21,15 @@ $joueur2 = 'Joffrey';
 $joueur3 = 'Clement';
 $joueur4 = 'MaximeD';
 $joueur5 = 'Tito';
-$joueur6 = 'Jordan';
+$joueur6 = 'Alexis';
 $joueur7 = 'Tony';
-$joueur8 = 'Julien';
+$joueur8 = 'Florian';
 $joueur9 = 'Zizou';
 $joueur10 = 'Enzo';
 $joueur11 = 'Paul';
-$joueur12 = 'Pierre';
+$joueur12 = 'MaximeS';
 $joueur13 = 'Florent';
-$joueur14 = 'Baptiste';
+$joueur14 = 'Gaetan';
 
 /*********************************************************
 Liste des autres joueurs
@@ -40,15 +40,15 @@ $joueur17 = 'ThomasP';
 $joueur18 = 'Francois';
 $joueur19 = 'JulienG';
 $joueur20 = 'Lionel';
-$joueur21 = 'MaximeS';
+$joueur21 = 'Pierre';
 $joueur22 = 'JB';
 $joueur23 = 'Laurent';
 $joueur24 = 'Johan';
 $joueur25 = 'JulienB';
-$joueur26 = 'Gaetan';
+$joueur26 = 'Baptiste';
 $joueur27 = 'Dede';
-$joueur28 = 'Florian';
-$joueur29 = 'Pierre';
+$joueur28 = 'Julien';
+$joueur29 = 'Jordan';
 
 
 $nbJoueurs = 14;
@@ -72,9 +72,9 @@ $leguevin = 'Leguevin US 2';
 /*********************************************************
 Nom des sondages
  *********************************************************/
-$match = 'toulouseentente';
-$noteMatch = 'note-toulouseentente';
-$commentMatch = 'comment-toulouseentente';
+$match = 'cadours';
+$noteMatch = 'note-cadours';
+$commentMatch = 'comment-cadours';
 
 /*********************************************************
 Interview de la personne de la semaine

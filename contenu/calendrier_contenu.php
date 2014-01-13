@@ -103,7 +103,7 @@
     <td>Daux</td>
     <td>Samedi 11 Janvier à 18h30</td>
     <td>Cadours</td>
-    <td></td>
+    <td><span class="badge badge-important">0-1</span></td>
     <td>D2</td>
 </tr>
 <tr>

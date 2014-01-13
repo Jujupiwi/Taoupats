@@ -234,7 +234,7 @@
     <div class="row-fluid">
         <div class="span12">
             <h2>DERNIER MATCH</h2>
-            <h4>TOULOUSE ENTENTE 1-2 TAOUPATS</h4>
+            <h4>TAOUPATS 0-1 CADOURS</h4>
 
             <div class="centrage">
                 <img src="#" width="800px" height="450px"/>

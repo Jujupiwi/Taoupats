@@ -270,12 +270,9 @@ include 'contenu/param.php';
 
 <div class="row-fluid">
 <div class="span2">
-    <!--<img alt="120x180" data-src="bootstrap/js/bootstrap.js/120x180"
-         style="width: 120px; height: 180px;"
-         src="images/team/<?php //echo $prenom; ?>.jpg">-->
     <img alt="120x180" data-src="bootstrap/js/bootstrap.js/120x180"
          style="width: 120px; height: 180px;"
-         src="images/team/Zizou.jpg">
+         src="images/team/<?php echo $prenom; ?>.jpg">
 </div>
 <div class="span10">
 <table

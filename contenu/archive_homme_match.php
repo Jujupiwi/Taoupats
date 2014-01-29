@@ -11,6 +11,103 @@
     <div class="span12">
         <blockquote>
             <p>
+                <i class="icon-signal icon-white"> </i> Homme du match contre Cadours?
+            </p>
+        </blockquote>
+    </div>
+</div>
+<br>
+<div class="row-fluid">
+    <div class="span12">
+        <table
+            class="table table-bordered table-striped table-condensed table-hover">
+            <thead>
+            <tr>
+                <th width="20%">Joueur</th>
+                <th width="50%">Progression</th>
+                <th width="10%">%</th>
+                <th width="20%">Nb Votes : 14</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>Florent</td>
+                <td>
+                    <div class="progress progress-striped active active">
+                        <div class="bar bar-success" style="width: 21%;"></div>
+                    </div>
+                </td>
+                <td>21 %</td>
+                <td>3 votes</td>
+            </tr>
+            <tr>
+                <td>Maxime S</td>
+                <td>
+                    <div class="progress progress-striped active active">
+                        <div class="bar bar-success" style="width: 21%;"></div>
+                    </div>
+                </td>
+                <td>21 %</td>
+                <td>3 votes</td>
+            </tr>
+            <tr>
+                <td>Tony</td>
+                <td>
+                    <div class="progress progress-striped active active">
+                        <div class="bar bar-info" style="width: 14%;"></div>
+                    </div>
+                </td>
+                <td>14 %</td>
+                <td>2 votes</td>
+            </tr>
+            <tr>
+                <td>Alexis</td>
+                <td>
+                    <div class="progress progress-striped active active">
+                        <div class="bar bar-info" style="width: 14%;"></div>
+                    </div>
+                </td>
+                <td>14 %</td>
+                <td>2 votes</td>
+            </tr>
+            <tr>
+                <td>Joffrey</td>
+                <td>
+                    <div class="progress progress-striped active active">
+                        <div class="bar bar-info" style="width: 14%;"></div>
+                    </div>
+                </td>
+                <td>14 %</td>
+                <td>2 votes</td>
+            </tr>
+            <tr>
+                <td>Florian</td>
+                <td>
+                    <div class="progress progress-striped active active">
+                        <div class="bar bar-danger" style="width: 7%;"></div>
+                    </div>
+                </td>
+                <td>7 %</td>
+                <td>1 vote</td>
+            </tr>
+            <tr>
+                <td>Zizou</td>
+                <td>
+                    <div class="progress progress-striped active active">
+                        <div class="bar bar-danger" style="width: 6%;"></div>
+                    </div>
+                </td>
+                <td>6 %</td>
+                <td>1 vote</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+<div class="row-fluid">
+    <div class="span12">
+        <blockquote>
+            <p>
                 <i class="icon-signal icon-white"> </i> Homme du match contre Toulouse Entente?
             </p>
         </blockquote>

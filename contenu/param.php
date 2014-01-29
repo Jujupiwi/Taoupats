@@ -21,14 +21,14 @@ $joueur2 = 'Joffrey';
 $joueur3 = 'Clement';
 $joueur4 = 'MaximeD';
 $joueur5 = 'Tito';
-$joueur6 = 'Alexis';
-$joueur7 = 'Tony';
+$joueur6 = 'JulienB';
+$joueur7 = 'Johan';
 $joueur8 = 'Florian';
 $joueur9 = 'Zizou';
-$joueur10 = 'Enzo';
+$joueur10 = 'Baptiste';
 $joueur11 = 'Paul';
-$joueur12 = 'MaximeS';
-$joueur13 = 'Florent';
+$joueur12 = 'Jordan';
+$joueur13 = 'Julien';
 $joueur14 = 'Gaetan';
 
 /*********************************************************
@@ -43,12 +43,12 @@ $joueur20 = 'Lionel';
 $joueur21 = 'Pierre';
 $joueur22 = 'JB';
 $joueur23 = 'Laurent';
-$joueur24 = 'Johan';
-$joueur25 = 'JulienB';
-$joueur26 = 'Baptiste';
+$joueur24 = 'Tony';
+$joueur25 = 'Alexis';
+$joueur26 = 'Enzo';
 $joueur27 = 'Dede';
-$joueur28 = 'Julien';
-$joueur29 = 'Jordan';
+$joueur28 = 'Florent';
+$joueur29 = 'MaximeS';
 
 
 $nbJoueurs = 14;
@@ -72,9 +72,9 @@ $leguevin = 'Leguevin US 2';
 /*********************************************************
 Nom des sondages
  *********************************************************/
-$match = 'cadours';
-$noteMatch = 'note-cadours';
-$commentMatch = 'comment-cadours';
+$match = 'labastidette2';
+$noteMatch = 'note-labastidette2';
+$commentMatch = 'comment-labastidette2';
 
 /*********************************************************
 Interview de la personne de la semaine

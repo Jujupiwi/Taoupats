@@ -244,19 +244,18 @@ include 'contenu/param.php';
                 <h2>Taoupats de Daux</h2>
 
                 <p style="color: red"><i class="icon-dribbble"></i><i class="icon-minus"></i>Dernier match : Défaite
-                    0-1 contre Cadours<a
+                    1-3 contre Labsatidette<a
                             href="match.php">Cliquez ici</a></p>
                 <p class="visible-desktop"><i class="icon-question"></i><i class="icon-minus"></i> Répondez aux sondages
                     de la semaine!! <a href="sondage.php">Cliquez ici</a></p>
                 <p class="visible-phone visible-tablet"><i class="icon-question"></i><i class="icon-minus"></i> Nouveau
                     !!! Répondez aux sondages
                     de la semaine sur votre mobile et tablette!! <a href="sondage-mobile.php">Cliquez ici</a></p>
-                <p><i class="icon-eye-open"></i><i class="icon-minus"></i> Cette semaine, interview de Fabrice!!
+                <p><i class="icon-eye-open"></i><i class="icon-minus"></i> Cette semaine, interview de Florian!!
                     <a
                             href="interview.php">Cliquez ici</a></p>
-                <p><i class="icon-signal"></i><i class="icon-minus"></i> Homme du dernier match contre Toulouse Entente
-                    :
-                    Alexy!
+                <p><i class="icon-signal"></i><i class="icon-minus"></i> Homme du dernier match contre Cadours
+                    :Florent et Maxime S!
                     <a
                             href="archive-sondage.php">Cliquez ici</a></p>
                 <p class="visible-desktop"><i class="icon-camera-retro"></i><i class="icon-minus"></i> Nouveau!! Les
@@ -475,7 +474,7 @@ include 'contenu/param.php';
         var depasse1 = false;
         var match = new Date(2014, 0, 19, 15, 00, 0); // On déclare la date du match.
         if (match.getTime() < date_actuelle.getTime()) { // Si le match est dépassé, on passe au match suivant !
-            match = new Date(2014, 1, 5, 18, 30, 0); // On re-déclare le Match pour qu'il ne soit pas passé.
+            match = new Date(2014, 1, 8, 18, 30, 0); // On re-déclare le Match pour qu'il ne soit pas passé.
             depasse1 = true;
         }
         var tps_restant = match.getTime() - date_actuelle.getTime(); // Temps restant en millisecondes
@@ -497,7 +496,7 @@ include 'contenu/param.php';
                 + " et il est <strong>" + date_actuelle.getHours() + "h"
                 + date_actuelle.getUTCMinutes() + "</strong>.<br />";
         if (depasse1) {
-            texte += "<strong>Match de championnat Fonsegrives le Samedi 5 Février 2014 à 18h30:</strong>";
+            texte += "<strong>Match de championnat Fonsegrives le Samedi 8 Février 2014 à 18h30:</strong>";
         } else {
             texte += "<strong>Match de championnat Labastidette le Dimanche 19 Janvier 2014 à 15h00:</strong>";
         }

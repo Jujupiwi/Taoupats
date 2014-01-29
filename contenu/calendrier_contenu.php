@@ -110,12 +110,12 @@
     <td>Labastidette</td>
     <td>Dimanche 19 Janvier à 15h</td>
     <td>Labastidette</td>
-    <td></td>
+    <td><span class="badge badge-important">1-3</span></td>
     <td>D2</td>
 </tr>
 <tr>
     <td>Daux</td>
-    <td>Samedi 5 Février à 18h30</td>
+    <td>Samedi 8 Février à 18h30</td>
     <td>Fonsegrives 2</td>
     <td></td>
     <td>D2</td>

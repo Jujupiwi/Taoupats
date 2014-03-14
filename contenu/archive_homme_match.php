@@ -11,6 +11,73 @@
     <div class="span12">
         <blockquote>
             <p>
+                <i class="icon-signal icon-white"> </i> Homme du match contre Labastidette?
+            </p>
+        </blockquote>
+    </div>
+</div>
+<br>
+<div class="row-fluid">
+    <div class="span12">
+        <table
+            class="table table-bordered table-striped table-condensed table-hover">
+            <thead>
+            <tr>
+                <th width="20%">Joueur</th>
+                <th width="50%">Progression</th>
+                <th width="10%">%</th>
+                <th width="20%">Nb Votes : 8</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>Clement</td>
+                <td>
+                    <div class="progress progress-striped active active">
+                        <div class="bar bar-success" style="width: 50%;"></div>
+                    </div>
+                </td>
+                <td>50 %</td>
+                <td>4 votes</td>
+            </tr>
+            <tr>
+                <td>Jordan</td>
+                <td>
+                    <div class="progress progress-striped active active">
+                        <div class="bar bar-info" style="width: 25%;"></div>
+                    </div>
+                </td>
+                <td>25 %</td>
+                <td>2 votes</td>
+            </tr>
+            <tr>
+                <td>Zizou</td>
+                <td>
+                    <div class="progress progress-striped active active">
+                        <div class="bar bar-danger" style="width: 13%;"></div>
+                    </div>
+                </td>
+                <td>13 %</td>
+                <td>1 vote</td>
+            </tr>
+            <tr>
+                <td>Baptiste</td>
+                <td>
+                    <div class="progress progress-striped active active">
+                        <div class="bar bar-danger" style="width: 13%;"></div>
+                    </div>
+                </td>
+                <td>13 %</td>
+                <td>1 vote</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+<div class="row-fluid">
+    <div class="span12">
+        <blockquote>
+            <p>
                 <i class="icon-signal icon-white"> </i> Homme du match contre Cadours?
             </p>
         </blockquote>

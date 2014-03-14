@@ -114,29 +114,22 @@
     <td>D2</td>
 </tr>
 <tr>
+    <td>Leguevin</td>
+    <td>Dimanche 9 Mars à 15h</td>
+    <td>Leguevin 2</td>
+    <td><span class="badge badge-important">0-2</span></td>
+    <td>D2</td>
+</tr>
+<tr>
     <td>Daux</td>
-    <td>Samedi 8 Février à 18h30</td>
+    <td>Samedi 15 Mars à 18h30</td>
     <td>Fonsegrives 2</td>
     <td></td>
     <td>D2</td>
 </tr>
 <tr>
-    <td>Leguevin</td>
-    <td>Samedi 15 Fàvrier à 18h</td>
-    <td>Leguevin 2</td>
-    <td></td>
-    <td>D2</td>
-</tr>
-<tr>
-    <td>Daux</td>
-    <td>Samedi 22 Février à 18h30</td>
-    <td>Labege</td>
-    <td></td>
-    <td>D2</td>
-</tr>
-<tr>
     <td>Pompertuzat</td>
-    <td>Dimanche 23 Mars à 15h</td>
+    <td>Samedi 22 Mars à 20h</td>
     <td>Pompertuzat 2</td>
     <td></td>
     <td>D2</td>
@@ -163,7 +156,14 @@
     <td>D2</td>
 </tr>
 <tr>
-    <td>Cadrours</td>
+    <td>Daux</td>
+    <td>Samedi 19 Avril à 18h30</td>
+    <td>Labege</td>
+    <td></td>
+    <td>D2</td>
+</tr>
+<tr>
+    <td>Cadours</td>
     <td>Samedi 3 Mai à 20h</td>
     <td>Cadours</td>
     <td></td>

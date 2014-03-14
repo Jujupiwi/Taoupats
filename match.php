@@ -234,12 +234,11 @@
     <div class="row-fluid">
         <div class="span12">
             <h2>DERNIER MATCH</h2>
-            <h4>LABASTIDETTE 3-1 TAOUPATS</h4>
-
+            <h4>LEGUEVIN 2-0 TAOUPATS</h4>
             <div class="centrage">
-                <img src="#" width="800px" height="450px"/>
                 A Venir
             </div>
+            <img src="" width="800px" height="450px"/>
         </div>
     </div>
 </div>

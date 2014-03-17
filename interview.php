@@ -272,7 +272,7 @@ include 'contenu/param.php';
 <div class="span2">
     <img alt="120x180" data-src="bootstrap/js/bootstrap.js/120x180"
          style="width: 120px; height: 180px;"
-         src="images/team/<?php echo $prenom; ?>.jpg">
+         src="images/team/Dede.jpg">
 </div>
 <div class="span10">
 <table
@@ -393,7 +393,7 @@ include 'contenu/param.php';
 </tr>
 <tr>
     <td style="text-align: left; color: #AEAFAE; font-size: 18px;"><b><i
-                class="icon-eye-open"></i> Celle que tu d&eacute;teste le
+                class="icon-eye-open"></i> Celle que tu d&eacute;testes le
             plus ? </b></td>
 </tr>
 <tr>
@@ -403,7 +403,7 @@ include 'contenu/param.php';
 <tr>
     <td style="text-align: left; color: #AEAFAE; font-size: 18px;"><b><i
                 class="icon-eye-open"></i> Quel est le match de foot qui
-            t&#146;as fait le plus r&ecirc;v&eacute; &agrave; la
+            t&#146;as fait le plus r&ecirc;ver &agrave; la
             t&eacute;l&eacute;? </b></td>
 </tr>
 <tr>

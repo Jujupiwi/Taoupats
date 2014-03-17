@@ -79,35 +79,35 @@ $commentMatch = 'comment-fonsegrives2';
 /*********************************************************
 Interview de la personne de la semaine
  *********************************************************/
-$prenom = 'Florian';
-$nom = 'Prigent';
-$np = 'FP';
-$age = '30';
+$prenom = 'André Filipe';
+$nom = 'Passos Maciel';
+$np = 'AF';
+$age = '22';
 
 /*********************************************************
 Début des questions
  *********************************************************/
-$poste = "Libéro";
-$q1 = "Vendredi tout est permis.";
-$q2 = "Cartel";
-$q3 = "Impossible d'en citer un seul, al pacino, freeman, pitt, snipe,hopkins,mortensen, depp, portman... bref y'en a pas mal.";
-$q4 = "Je ne m'arrête pas à un genre car il y a de bonnes musiques dans chaque style plutôt rap si il faut en citer un.";
-$q5 = "L'ile au trésor quand j'étais mino et penthouse en grandissant.";
-$q6 = "La Bugatti Veyron mais mon range rover c'est déjà pas mal.";
-$q7 = "L'Italie.";
-$q8 = "AsBB (normandie), Le LCBO (normandie), La MOS (normandie),  Fc Lavaur ,Fc Launaguet";
-$q9 = "Flobibi";
-$q10 = "Rancunier";
-$q11 = "Generosite";
-$q12 = "En ligue 1 le PSG et en Europe Manchester United et la Juve (désolé impossible de faire un choix entre les deux)";
-$q13 = "Le Réal Madrid, pour faire chier Tito";
-$q14 = "France-Brésil (champion du monde 1998)";
-$q15 = "Cantona";
-$q16 = "Avec Max P. contre Pompertuzat qui me dit si tu charges, je te suis vieux j'envoie  (moment solidarité)";
-$q17 = "Aucune et pourtant nous ne sommes pas en tête, nous pouvons battre n'importe quelle équipe de la poule, j'espère que toute la team en a conscience.";
-$q18 = "Lolo le coach avec sa veste de Valence, collector trop collector :-)";
-$q19 = "Y'en a un paquet, je vais les citer Max P., Alexis, et Bonnefous J.";
-$q20 = "Flo";
-$q21 = "Julien Bernady ";
-$q22 = "Au feu éteindre uriner est sain, mais y cracher est vain (ou Veni, vidi, vici).";
-$q23 = "Hé les mecs y'a la place pour monter, mais c'est maintenant que tout le monde doit se sentir impliquer, il est temps de se mobiliser. Le seul danger lors de nos matchs c'est nous même, soyons un peu sérieux, ayons confiance en nous et nos coachs et l'aventure n'en sera que plus belle.";
+$poste = "Couteau suisse (défenseur central/milieu de terrain)";
+$q1 = "iTélé au petit déj' et Le Petit Journal à l'apéro.";
+$q2 = "Le Loup de Wall Street. Juste magique.";
+$q3 = "Will Smith, surtout dans 'Je suis une légende'. Leonardo Di Caprio dans 'Shutter Island', 'Inception' et 'Le Loup de Wall Street'.";
+$q4 = "Du fado et 'Apita o comboio'.";
+$q5 = "'Exchange rate and International Finance', de Laurence Copeland. Et en lecture plaisir, 'Hunger Games' de Suzanne Collins.";
+$q6 = "J'aime beaucoup l'Alfa Romeo Giulietta et la Peugeot RCZ.";
+$q7 = "Brazil !";
+$q8 = "J'ai débuté ma carrière au sein de l'Entente Aussonne/Merville dès l'âge de 8 ans, après 2 ans de karaté. Ensuite, l'Entente s'est agrandie avec Daux/Mondonville/Seilh, et ça a été mes plus beaux souvenirs footballistiques (grâce à Julien B., mon amoureux <3). J'ai ensuite rejoint les Seniors de Merville pendant 3 ans, où l'on a été Vice Champion de 3ème série. Puis j'ai rejoint les Taoupats de Daux, grâce aux conseils de mon agent.";
+$q9 = "Dédé pour quasiment tout le monde, Filipe au boulot.";
+$q10 = "La timidité";
+$q11 = "L'écoute.";
+$q12 = "Je n'ai pas d'équipe préférée en Ligue 1 mais je supporte de très loin le TFC. Et sinon, le FC Porto, le meilleur club portugais de tous les temps.";
+$q13 = "le Barça post Eto'o-Henry-Messi. Maintenant, il n'y a que des danseuse, type Sergio Busquets.";
+$q14 = "Portugal - Pays-Bas, Coupe du Monde 2006 en Allemagne. Avec Pauleta, Figo, Deco, Ronaldo, Scolari, etc... Sur le but, mon père s'est jeté par terre sur le ventre comme si c'était lui qui avait marqué.";
+$q15 = "Pedro Miguel Pauleta !";
+$q16 = "Taoupats 2-0 Léguevin, en début d'année. Le match contre Fenouillet était bien aussi, malgré la défaite.";
+$q17 = "Fenouillet est très solide.";
+$q18 = "Enzo Birello l'italien.";
+$q19 = "Coquillat. Quand tu joues 5, tu ne peux pas ne pas l'entendre. Remarque, pas besoin de jouer 5 pour ça en fait.";
+$q20 = "Florent C.";
+$q21 = "Maxime P.";
+$q22 = "'Devegarinho é que se vai ao longe'. C'est en allant doucement qu'on arrive loin.";
+$q23 = "Je suis content de vous avoir rejoint. Grâce à mon agent et moi-même, le nombre du gang des portugais a été multiplié par 2, soit une hausse de 100%, ce qui est important pour la représentativité du paysage socio-multiculturel local. D'un point de vue footballistique, je vais essayer de provoquer plus de pénalties dans la surface adverse que dans la nôtre.";

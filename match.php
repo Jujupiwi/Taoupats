@@ -234,7 +234,7 @@
     <div class="row-fluid">
         <div class="span12">
             <h2>DERNIER MATCH</h2>
-            <h4>LEGUEVIN 2-0 TAOUPATS</h4>
+            <h4>TAOUPATS 2-0 FONSEGRIVES</h4>
             <div class="centrage">
                 A Venir
             </div>

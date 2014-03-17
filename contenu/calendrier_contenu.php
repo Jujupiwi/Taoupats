@@ -124,7 +124,7 @@
     <td>Daux</td>
     <td>Samedi 15 Mars à 18h30</td>
     <td>Fonsegrives 2</td>
-    <td></td>
+    <td><span class="badge badge-success">2-0</span></td>
     <td>D2</td>
 </tr>
 <tr>

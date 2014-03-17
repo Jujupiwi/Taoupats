@@ -18,18 +18,18 @@ Liste des joueurs pour le match
  *********************************************************/
 $joueur1 = 'Alexy';
 $joueur2 = 'Joffrey';
-$joueur3 = 'Enzo';
-$joueur4 = 'MaximeD';
-$joueur5 = 'Tito';
-$joueur6 = 'JulienB';
-$joueur7 = 'Johan';
-$joueur8 = 'Florian';
-$joueur9 = 'Zizou';
-$joueur10 = 'Baptiste';
+$joueur3 = 'Clement';
+$joueur4 = 'Florian';
+$joueur5 = 'Dede';
+$joueur6 = 'Zizou';
+$joueur7 = 'Enzo';
+$joueur8 = 'Florent';
+$joueur9 = 'Baptiste';
+$joueur10 = 'JulienB';
 $joueur11 = 'Tony';
-$joueur12 = 'Florent';
-$joueur13 = 'Dede';
-$joueur14 = 'Alexis';
+$joueur12 = 'Pierre';
+$joueur13 = 'MaximeD';
+$joueur14 = 'JulienG';
 
 /*********************************************************
 Liste des autres joueurs
@@ -38,13 +38,13 @@ $joueur15 = 'Thomas';
 $joueur16 = 'Olivier';
 $joueur17 = 'ThomasP';
 $joueur18 = 'Francois';
-$joueur19 = 'JulienG';
+$joueur19 = 'Alexis';
 $joueur20 = 'Lionel';
-$joueur21 = 'Pierre';
+$joueur21 = 'Johan';
 $joueur22 = 'JB';
 $joueur23 = 'Laurent';
 $joueur24 = 'Paul';
-$joueur25 = 'Clement';
+$joueur25 = 'Tito';
 $joueur26 = 'Gaetan';
 $joueur27 = 'Julien';
 $joueur28 = 'Jordan';
@@ -72,9 +72,9 @@ $leguevin = 'Leguevin US 2';
 /*********************************************************
 Nom des sondages
  *********************************************************/
-$match = 'leguevin2';
-$noteMatch = 'note-leguevin2';
-$commentMatch = 'comment-leguevin2';
+$match = 'fonsegrives2';
+$noteMatch = 'note-fonsegrives2';
+$commentMatch = 'comment-fonsegrives2';
 
 /*********************************************************
 Interview de la personne de la semaine

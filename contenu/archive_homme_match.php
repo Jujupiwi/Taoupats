@@ -11,6 +11,103 @@
     <div class="span12">
         <blockquote>
             <p>
+                <i class="icon-signal icon-white"> </i> Homme du match contre Fonsegrives?
+            </p>
+        </blockquote>
+    </div>
+</div>
+<br>
+<div class="row-fluid">
+    <div class="span12">
+        <table
+            class="table table-bordered table-striped table-condensed table-hover">
+            <thead>
+            <tr>
+                <th width="20%">Joueur</th>
+                <th width="50%">Progression</th>
+                <th width="10%">%</th>
+                <th width="20%">Nb Votes : 12</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>Zizou</td>
+                <td>
+                    <div class="progress progress-striped active active">
+                        <div class="bar bar-success" style="width: 50%;"></div>
+                    </div>
+                </td>
+                <td>50 %</td>
+                <td>6 votes</td>
+            </tr>
+            <tr>
+                <td>Alexy</td>
+                <td>
+                    <div class="progress progress-striped active active">
+                        <div class="bar bar-danger" style="width: 8%;"></div>
+                    </div>
+                </td>
+                <td>8 %</td>
+                <td>1 vote</td>
+            </tr>
+            <tr>
+                <td>Clement</td>
+                <td>
+                    <div class="progress progress-striped active active">
+                        <div class="bar bar-danger" style="width: 8%;"></div>
+                    </div>
+                </td>
+                <td>8 %</td>
+                <td>1 vote</td>
+            </tr>
+            <tr>
+                <td>Dédé</td>
+                <td>
+                    <div class="progress progress-striped active active">
+                        <div class="bar bar-danger" style="width: 8%;"></div>
+                    </div>
+                </td>
+                <td>8 %</td>
+                <td>1 vote</td>
+            </tr>
+            <tr>
+                <td>Enzo</td>
+                <td>
+                    <div class="progress progress-striped active active">
+                        <div class="bar bar-danger" style="width: 8%;"></div>
+                    </div>
+                </td>
+                <td>8 %</td>
+                <td>1 vote</td>
+            </tr>
+            <tr>
+                <td>Baptiste</td>
+                <td>
+                    <div class="progress progress-striped active active">
+                        <div class="bar bar-danger" style="width: 8%;"></div>
+                    </div>
+                </td>
+                <td>8 %</td>
+                <td>1 vote</td>
+            </tr>
+            <tr>
+                <td>JulienG</td>
+                <td>
+                    <div class="progress progress-striped active active">
+                        <div class="bar bar-danger" style="width: 8%;"></div>
+                    </div>
+                </td>
+                <td>8 %</td>
+                <td>1 vote</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+<div class="row-fluid">
+    <div class="span12">
+        <blockquote>
+            <p>
                 <i class="icon-signal icon-white"> </i> Homme du match contre Labastidette?
             </p>
         </blockquote>

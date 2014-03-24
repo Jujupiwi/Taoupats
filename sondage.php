@@ -238,7 +238,7 @@ include 'contenu/param.php';
     <div class="row-fluid">
         <div class="span12">
             <h2>SONDAGES</h2>
-            <h4><?php echo strtoupper('Quint Fonsgrives'); ?></h4>
+            <h4><?php echo strtoupper('Pompertuzat'); ?></h4>
             <br>
             <ul class="nav nav-tabs" id="myTab">
                 <li class="active"><a href="#homme" id="homme-match">Homme du match</a></li>

@@ -131,7 +131,7 @@
     <td>Pompertuzat</td>
     <td>Samedi 22 Mars à 20h</td>
     <td>Pompertuzat 2</td>
-    <td></td>
+    <td><span class="badge badge-important">0-2</span></td>
     <td>D2</td>
 </tr>
 <tr>

@@ -138,7 +138,7 @@
     <td>Daux</td>
     <td>Samedi 29 Mars à 18h30</td>
     <td>Toulouse Entente</td>
-    <td></td>
+    <td><span class="badge badge-info">2-2</span></td>
     <td>D2</td>
 </tr>
 <tr>

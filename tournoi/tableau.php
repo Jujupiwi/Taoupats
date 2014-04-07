@@ -29,7 +29,15 @@ if ($type == "non") {
     <link href="../font-awesome/css/font-awesome-ie7.css" rel="stylesheet" type="text/css">
     <link href="../css/bootstrap-responsive.css" rel="stylesheet" type="text/css">
 </head>
+<style>
+    p {
+        width: 0.9em;
+        height : auto;
+        overflow: hidden;
+        word-wrap:break-word ;}
+</style>
 <body style="padding-top:100px">
+
 <div class="row-fluid">
 <div class="offset3 span6">
 <form class="form-horizontal well" method="post"
@@ -201,6 +209,9 @@ if ($type == "non") {
     if ($result_dom == "Lyon" || $result_dom == "lyon" || $result_dom == "LYON" || $result_dom == "OL" || $result_dom == "ol") {
         echo "<img src='images/lyon.png' width='30px' height='30px'>";
     }
+    if ($result_dom == "Monaco" || $result_dom == "monaco" || $result_dom == "MONACO") {
+        echo "<img src='images/monaco.png' width='30px' height='30px'>";
+    }
     if ($result_dom == "Lille" || $result_dom == "lille" || $result_dom == "LILLE" || $result_dom == "Losc" || $result_dom == "LOSC") {
         echo "<img src='images/lille.png' width='30px' height='30px'>";
     }
@@ -239,6 +250,9 @@ if ($type == "non") {
     }
     if ($result_dom == "Valence" || $result_dom == "valence" || $result_dom == "VALENCE") {
         echo "<img src='images/valence.png' width='30px' height='30px'>";
+    }
+    if ($result_dom == "Sociedad" || $result_dom == "sociedad" || $result_dom == "SOCIEDAD") {
+        echo "<img src='images/sociedad.png' width='30px' height='30px'>";
     }
     if ($result_dom == "Atletico" || $result_dom == "atletico" || $result_dom == "ATLETICO") {
         echo "<img src='images/atletico.png' width='30px' height='30px'>";
@@ -448,6 +462,9 @@ if ($type == "non") {
     if ($result == "Lille" || $result == "lille" || $result == "LILLE" || $result == "Losc" || $result == "LOSC") {
         echo "<img src='images/lille.png' width='30px' height='30px'>";
     }
+    if ($result == "Monaco" || $result == "monaco" || $result == "MONACO") {
+        echo "<img src='images/monaco.png' width='30px' height='30px'>";
+    }
     if ($result == "Dortmund" || $result == "dortmund" || $result == "DORTMUND") {
         echo "<img src='images/dortmund.png' width='30px' height='30px'>";
     }
@@ -483,6 +500,9 @@ if ($type == "non") {
     }
     if ($result == "Valence" || $result == "valence" || $result == "VALENCE") {
         echo "<img src='images/valence.png' width='30px' height='30px'>";
+    }
+    if ($result == "Sociedad" || $result == "sociedad" || $result == "SOCIEDAD") {
+        echo "<img src='images/sociedad.png' width='30px' height='30px'>";
     }
     if ($result == "Atletico" || $result == "atletico" || $result == "ATLETICO") {
         echo "<img src='images/atletico.png' width='30px' height='30px'>";
@@ -698,6 +718,9 @@ while ($ligne = mysql_fetch_array($request)) {
     if ($ligne[0] == "Lille" || $ligne[0] == "lille" || $ligne[0] == "LILLE" || $ligne[0] == "Losc" || $ligne[0] == "LOSC") {
         echo "<img src='images/lille.png' width='30px' height='30px'>";
     }
+    if ($ligne[0] == "Monaco" || $ligne[0] == "monaco" || $ligne[0] == "MONACO") {
+        echo "<img src='images/monaco.png' width='30px' height='30px'>";
+    }
     if ($ligne[0] == "Dortmund" || $ligne[0] == "dortmund" || $ligne[0] == "DORTMUND") {
         echo "<img src='images/dortmund.png' width='30px' height='30px'>";
     }
@@ -727,6 +750,9 @@ while ($ligne = mysql_fetch_array($request)) {
     }
     if ($ligne[0] == "Seville" || $ligne[0] == "seville" || $ligne[0] == "SEVILLE") {
         echo "<img src='images/seville.png' width='30px' height='30px'>";
+    }
+    if ($ligne[0] == "Sociedad" || $ligne[0] == "sociedad" || $ligne[0] == "SOCIEDAD") {
+        echo "<img src='images/sociedad.png' width='30px' height='30px'>";
     }
     if ($ligne[0] == "Bilbao" || $ligne[0] == "bilbao" || $ligne[0] == "BILBAO") {
         echo "<img src='images/bilbao.png' width='30px' height='30px'>";
@@ -872,7 +898,61 @@ while ($ligne = mysql_fetch_array($request)) {
 } ?>
 </tbody>
 </table>
-<br><br><br>
+<br><br>
+<table class="table table-bordered table-striped table-condensed table-hover">
+    <thead>
+    <th>Joueur</th>
+    <?php
+    $sql = "select equipe from classement where nom_tournoi = '$name' order by points desc, diff desc, bp desc, bc, victoire desc, defaite;";
+    $request = mysql_query($sql) or die('Erreur SQL !<br>' . $sqlcount . '<br>' . mysql_error());
+    $i = 1;
+    while ($ligne = mysql_fetch_array($request)) {?>
+    <th>
+        <p>
+    <?php
+    $sql = "select joueur from joueur where nom_tournoi = '$name' and equipe = '$ligne[0]';";
+    $requete = mysql_query($sql) or die('Erreur SQL !<br>' . $sqlcount . '<br>' . mysql_error());
+    $value = mysql_result($requete, 0);
+    echo $value;
+    ?>
+        </p>
+    </th>
+    <?php }?>
+    </thead>
+    <tbody>
+    <?php
+    $sql = "select equipe from classement where nom_tournoi = '$name' order by points desc, diff desc, bp desc, bc, victoire desc, defaite;";
+    $request = mysql_query($sql) or die('Erreur SQL !<br>' . $sqlcount . '<br>' . mysql_error());
+    $i = 1;
+    while ($ligne = mysql_fetch_array($request)) {?>
+    <tr>
+        <td>
+            <?php
+            $sql = "select joueur from joueur where nom_tournoi = '$name' and equipe = '$ligne[0]';";
+            $requete = mysql_query($sql) or die('Erreur SQL !<br>' . $sqlcount . '<br>' . mysql_error());
+            $value = mysql_result($requete, 0);
+            echo $value;
+            ?>
+        </td>
+        <?php
+        $sql2 = "select equipe from classement where nom_tournoi = '$name' order by points desc, diff desc, bp desc, bc, victoire desc, defaite;";
+        $request2 = mysql_query($sql2) or die('Erreur SQL !<br>' . $sqlcount2 . '<br>' . mysql_error());
+        $j = 1;
+        while ($val = mysql_fetch_array($request2)) {?>
+            <?php
+            if($val[0] == $value){
+                echo "<td style='bgcolor:black'></td>";
+            } else {
+                echo "<td></td>";
+            }
+            ?>
+        <?php }?>
+    </tr>
+    <?php }?>
+    </tbody>
+</table>
+
+<br>
 </fieldset>
 </form>
 </div>

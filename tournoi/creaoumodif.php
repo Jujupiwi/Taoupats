@@ -16,7 +16,7 @@ $exist = "exist";
                 <center>
                     <div class="row-fluid">
                         <div class="span12">
-                            <div class="alert alert-block alert-error" id="nameTournoi">
+                            <div class="alert alert-block alert-error hide" id="nameTournoi">
                                 <button type="button" class="close" id="closeNT">x</button>
                                 <h4>Attention!</h4> Le Nom de Tournoi obligatoire!
                             </div>

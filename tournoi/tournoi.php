@@ -173,6 +173,7 @@ if ($mode == "champ") {
                             <option value="real">Real Madrid</option>
                             <option value="seville">FC Seville</option>
                             <option value="valence">Valence</option>
+                            <option value="sociedad">Real Sociedad</option>
                         </select>
                     </div>
                     <div id="serie_a<?php echo $i; ?>" name="serie_a<?php echo $i; ?>" style="display:none">
@@ -203,6 +204,7 @@ if ($mode == "champ") {
                             <option value="rien"></option>
                             <option value="om">OM</option>
                             <option value="ol">OL</option>
+                            <option value="monaco">Monaco</option>
                             <option value="lille">Lille</option>
                             <option value="psg">PSG</option>
                         </select>

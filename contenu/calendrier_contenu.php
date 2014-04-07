@@ -145,7 +145,7 @@
     <td>Fenouillet</td>
     <td>Samedi 5 Avril à 18h</td>
     <td>Fenouillet 2</td>
-    <td></td>
+    <td><span class="badge badge-success">2-1</span></td>
     <td>D2</td>
 </tr>
 <tr>

@@ -93,7 +93,8 @@
                             <li><a href="photos.php"><i class="icon-film">&nbsp;</i>D'Aujourd'hui</a></li>
                             <li class="hidden-phone"><a href="photos-old.php"><i class="icon-camera-retro">&nbsp;</i>D'Hier</a>
                             </li>
-                            <li class="hidden-phone"><a href="photos-annif.php"><i class="icon-gift">&nbsp;</i>40 ans</a>
+                            <li class="hidden-phone"><a href="photos-annif.php"><i class="icon-gift">&nbsp;</i>40
+                                    ans</a>
                             </li>
                         </ul>
                     </li>
@@ -275,6 +276,19 @@
                 <div class="thumbnail">
                     <img alt="120x180" data-src="bootstrap/js/bootstrap.js/120x180"
                          style="width: 120px; height: 180px;"
+                         src="images/team/Alexy.jpg">
+
+                    <h3>Alexy</h3>
+
+                    <p>Postes: Gardien, Defenseur</p>
+
+                    <p>Age: 20 ans</p>
+                </div>
+            </li>
+            <li class="span3">
+                <div class="thumbnail">
+                    <img alt="120x180" data-src="bootstrap/js/bootstrap.js/120x180"
+                         style="width: 120px; height: 180px;"
                          src="images/team/ThomasP.jpg">
 
                     <h3>Thomas</h3>
@@ -299,19 +313,6 @@
 <div class="row-fluid">
     <div class="span12">
         <ul class="thumbnails">
-            <li class="span3">
-                <div class="thumbnail">
-                    <img alt="120x180" data-src="bootstrap/js/bootstrap.js/120x180"
-                         style="width: 120px; height: 180px;"
-                         src="images/team/Alexy.jpg">
-
-                    <h3>Alexy</h3>
-
-                    <p>Postes: Gardien, Defenseur, Milieu</p>
-
-                    <p>Age: 20 ans</p>
-                </div>
-            </li>
             <li class="span3">
                 <div class="thumbnail">
                     <img alt="120x180" data-src="bootstrap/js/bootstrap.js/120x180"
@@ -348,6 +349,19 @@
                     <p>Postes: Defenseur</p>
 
                     <p>Age: 22 ans</p>
+                </div>
+            </li>
+            <li class="span3">
+                <div class="thumbnail">
+                    <img alt="120x180" data-src="bootstrap/js/bootstrap.js/120x180"
+                         style="width: 110px; height: 170px;"
+                         src="images/team/Florian.jpg">
+
+                    <h3>Florian</h3>
+
+                    <p>Postes: Defenseur, Milieu</p>
+
+                    <p>Age: 31 ans</p>
                 </div>
             </li>
         </ul>
@@ -399,9 +413,9 @@
                 <div class="thumbnail">
                     <img alt="120x180" data-src="bootstrap/js/bootstrap.js/120x180"
                          style="width: 110px; height: 170px;"
-                         src="images/team/JulienB.jpg">
+                         src="images/team/Clement.jpg">
 
-                    <h3>Julien B</h3>
+                    <h3>Clement</h3>
 
                     <p>Postes: Defenseur, Milieu</p>
 
@@ -502,9 +516,54 @@
 
                     <h3>Jordan</h3>
 
-                    <p>Postes: Defenseur, Milieu, Attaquant</p>
+                    <p>Postes: Defenseur, Milieu</p>
 
                     <p>Age: 26 ans</p>
+                </div>
+            </li>
+            <li class="span3">
+                <div class="thumbnail">
+                    <img alt="120x180" data-src="bootstrap/js/bootstrap.js/120x180"
+                         style="width: 100px; height: 160px;"
+                         src="images/team/Johan.jpg">
+
+                    <h3>Johan</h3>
+
+                    <p>Postes: Defenseur, Milieu</p>
+
+                    <p>Age: 24 ans</p>
+                </div>
+            </li>
+            <li class="span3">
+                <div class="thumbnail">
+                    <img alt="120x180" data-src="bootstrap/js/bootstrap.js/120x180"
+                         style="width: 110px; height: 170px;"
+                         src="images/team/JulienB.jpg">
+
+                    <h3>Julien B</h3>
+
+                    <p>Postes: Defenseur, Milieu</p>
+
+                    <p>Age: 22 ans</p>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+<div class="row-fluid">
+    <div class="span12">
+        <ul class="thumbnails">
+            <li class="span3">
+                <div class="thumbnail">
+                    <img alt="120x180" data-src="bootstrap/js/bootstrap.js/120x180"
+                         style="width: 100px; height: 160px;"
+                         src="images/team/Pierre.jpg">
+
+                    <h3>Pierre</h3>
+
+                    <p>Postes: Milieu</p>
+
+                    <p>Age: 22 ans</p>
                 </div>
             </li>
         </ul>
@@ -572,6 +631,25 @@
                     <p>Postes: Attaquant</p>
 
                     <p>Age: 22 ans</p>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+<div class="row-fluid">
+    <div class="span12">
+        <ul class="thumbnails">
+            <li class="span3">
+                <div class="thumbnail">
+                    <img alt="120x180" data-src="bootstrap/js/bootstrap.js/120x180"
+                         style="width: 110px; height: 170px;"
+                         src="images/team/Baptiste.jpg">
+
+                    <h3>Baptiste</h3>
+
+                    <p>Postes: Attaquant</p>
+
+                    <p>Age: 24 ans</p>
                 </div>
             </li>
         </ul>

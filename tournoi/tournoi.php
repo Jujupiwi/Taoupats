@@ -180,6 +180,7 @@ if ($mode == "champ") {
                         <select name="lol<?php echo $i; ?>" id="test5" onchange="valid(<?php echo $i; ?>)">
                             <option value="rien"></option>
                             <option value="juventus">Juventus</option>
+                            <option value="fiorentina">Fiorentina</option>
                             <option value="milan">Milan AC</option>
                             <option value="inter">Inter Milan</option>
                             <option value="naples">Naples</option>

@@ -32,9 +32,10 @@ if ($type == "non") {
 <style>
     p {
         width: 0.9em;
-        height : auto;
+        height: auto;
         overflow: hidden;
-        word-wrap:break-word ;}
+        word-wrap: break-word;
+    }
 </style>
 <body style="padding-top:100px">
 
@@ -181,6 +182,9 @@ if ($type == "non") {
     }
     if ($result_dom == "Juventus" || $result_dom == "juventus" || $result_dom == "JUVENTUS") {
         echo "<img src='images/juventus.png' width='30px' height='30px'>";
+    }
+    if ($result_dom == "Fiorentina" || $result_dom == "fiorentina" || $result_dom == "FIORENTINA") {
+        echo "<img src='images/fiorentina.png' width='30px' height='30px'>";
     }
     if ($result_dom == "fenerbahce" || $result_dom == "Fenerbahce" || $result_dom == "FENERBAHCE") {
         echo "<img src='images/fenerbahce.png' width='30px' height='30px'>";
@@ -438,6 +442,9 @@ if ($type == "non") {
     if ($result == "Milan" || $result == "milan" || $result == "MILAN") {
         echo "<img src='images/milan.png' width='30px' height='30px'>";
     }
+    if ($result == "Fiorentina" || $result == "fiorentina" || $result == "FIORENTINA") {
+        echo "<img src='images/fiorentina.png' width='30px' height='30px'>";
+    }
     if ($result == "Roma" || $result == "rome" || $result == "ROMA") {
         echo "<img src='images/rome.png' width='30px' height='30px'>";
     }
@@ -688,6 +695,9 @@ while ($ligne = mysql_fetch_array($request)) {
     if ($ligne[0] == "Juventus" || $ligne[0] == "juventus" || $ligne[0] == "JUVENTUS") {
         echo "<img src='images/juventus.png' width='30px' height='30px'>";
     }
+    if ($ligne[0] == "Fiorentina" || $ligne[0] == "fiorentina" || $ligne[0] == "FIORENTINA") {
+        echo "<img src='images/fiorentina.png' width='30px' height='30px'>";
+    }
     if ($ligne[0] == "fenerbahce" || $ligne[0] == "Fenerbahce" || $ligne[0] == "FENERBAHCE") {
         echo "<img src='images/fenerbahce.png' width='30px' height='30px'>";
     }
@@ -898,61 +908,7 @@ while ($ligne = mysql_fetch_array($request)) {
 } ?>
 </tbody>
 </table>
-<br><br>
-<table class="table table-bordered table-striped table-condensed table-hover">
-    <thead>
-    <th>Joueur</th>
-    <?php
-    $sql = "select equipe from classement where nom_tournoi = '$name' order by points desc, diff desc, bp desc, bc, victoire desc, defaite;";
-    $request = mysql_query($sql) or die('Erreur SQL !<br>' . $sqlcount . '<br>' . mysql_error());
-    $i = 1;
-    while ($ligne = mysql_fetch_array($request)) {?>
-    <th>
-        <p>
-    <?php
-    $sql = "select joueur from joueur where nom_tournoi = '$name' and equipe = '$ligne[0]';";
-    $requete = mysql_query($sql) or die('Erreur SQL !<br>' . $sqlcount . '<br>' . mysql_error());
-    $value = mysql_result($requete, 0);
-    echo $value;
-    ?>
-        </p>
-    </th>
-    <?php }?>
-    </thead>
-    <tbody>
-    <?php
-    $sql = "select equipe from classement where nom_tournoi = '$name' order by points desc, diff desc, bp desc, bc, victoire desc, defaite;";
-    $request = mysql_query($sql) or die('Erreur SQL !<br>' . $sqlcount . '<br>' . mysql_error());
-    $i = 1;
-    while ($ligne = mysql_fetch_array($request)) {?>
-    <tr>
-        <td>
-            <?php
-            $sql = "select joueur from joueur where nom_tournoi = '$name' and equipe = '$ligne[0]';";
-            $requete = mysql_query($sql) or die('Erreur SQL !<br>' . $sqlcount . '<br>' . mysql_error());
-            $value = mysql_result($requete, 0);
-            echo $value;
-            ?>
-        </td>
-        <?php
-        $sql2 = "select equipe from classement where nom_tournoi = '$name' order by points desc, diff desc, bp desc, bc, victoire desc, defaite;";
-        $request2 = mysql_query($sql2) or die('Erreur SQL !<br>' . $sqlcount2 . '<br>' . mysql_error());
-        $j = 1;
-        while ($val = mysql_fetch_array($request2)) {?>
-            <?php
-            if($val[0] == $value){
-                echo "<td style='bgcolor:black'></td>";
-            } else {
-                echo "<td></td>";
-            }
-            ?>
-        <?php }?>
-    </tr>
-    <?php }?>
-    </tbody>
-</table>
-
-<br>
+<br><br><br>
 </fieldset>
 </form>
 </div>
@@ -978,8 +934,13 @@ while ($ligne = mysql_fetch_array($request)) {
 </body>
 <script src="../js/jquery.js"></script>
 <script>
-    jQuery('.numbersOnly').keyup(function () {
+    $('.numbersOnly').keyup(function () {
         this.value = this.value.replace(/[^0-9\.]/g, '');
     });
+    //        $(".numbersOnly").each(function( index ) {
+    //            if($(this).val() != ''){
+    //                $(this).parent().parent().hide();
+    //            }
+    //        });
 </script>
 </html>

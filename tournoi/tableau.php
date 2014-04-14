@@ -53,8 +53,8 @@ if ($type == "non") {
 <th style="text-align:center;">Score Dom</th>
 <th style="text-align:center;">vs</th>
 <th style="text-align:center;">Score Ext</th>
-<th style="text-align:center;">Equipe Ext</th>
 <th style="text-align:center;"></th>
+<th style="text-align:center;">Equipe Ext</th>
 </thead>
 <tbody>
 <?php for ($i = 1; $i <= $nb_match; $i++) {
@@ -322,12 +322,6 @@ if ($type == "non") {
     $sql = "select joueur from joueur where nom_tournoi = '$name' and equipe = '$result';";
     $requete = mysql_query($sql) or die('Erreur SQL !<br>' . $sqlcount . '<br>' . mysql_error());
     $resultat = mysql_result($requete, 0);
-    echo strtoupper($result);
-    echo " (";
-    echo $resultat;
-    echo ")";
-    echo "</td>";
-    echo "<td style='text-align:center;'>";
     if ($result == "France" || $result == "france" || $result == "FRANCE") {
         echo "<img src='images/france.png' width='30px' height='30px'>";
     }
@@ -542,6 +536,12 @@ if ($type == "non") {
         echo "<img src='images/everton.png' width='30px' height='30px'>";
     }
     echo "<input type='hidden' name='equipe_ext_$i' value='$result'>";
+    echo "</td>";
+    echo "<td style='text-align: center'>";
+    echo strtoupper($result);
+    echo " (";
+    echo $resultat;
+    echo ")";
     echo "</td>";
     echo "</tr>";
 }
@@ -937,10 +937,10 @@ while ($ligne = mysql_fetch_array($request)) {
     $('.numbersOnly').keyup(function () {
         this.value = this.value.replace(/[^0-9\.]/g, '');
     });
-    //        $(".numbersOnly").each(function( index ) {
-    //            if($(this).val() != ''){
-    //                $(this).parent().parent().hide();
-    //            }
-    //        });
+    //            $(".numbersOnly").each(function( index ) {
+    //                if($(this).val() != ''){
+    //                    $(this).parent().parent().hide();
+    //                }
+    //            });
 </script>
 </html>

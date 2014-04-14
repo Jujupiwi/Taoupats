@@ -652,6 +652,19 @@
                     <p>Age: 24 ans</p>
                 </div>
             </li>
+            <li class="span3">
+                <div class="thumbnail">
+                    <img alt="120x180" data-src="bootstrap/js/bootstrap.js/120x180"
+                         style="width: 110px; height: 170px;"
+                         src="images/team/Alexis.jpg">
+
+                    <h3>Alexis</h3>
+
+                    <p>Postes: Attaquant</p>
+
+                    <p>Age: 22 ans</p>
+                </div>
+            </li>
         </ul>
     </div>
 </div>

@@ -152,7 +152,7 @@
     <td>Daux</td>
     <td>Samedi 12 Avril à 18h30</td>
     <td>Roquette 2</td>
-    <td></td>
+    <td><span class="badge badge-success">6-1</span></td>
     <td>D2</td>
 </tr>
 <tr>

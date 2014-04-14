@@ -51,9 +51,7 @@ $exist = "exist";
                         <br><br><br>
                         Mode de Tournoi : <span style="color:red;">*</span>
                         <select style="width:250px;" id="mode">
-                            <option value="elim">Elimination Direct</option>
                             <option value="champ" selected="selected">Championnat</option>
-                            <option value="tour">Championnat + Elimination</option>
                         </select>
                         <br><br><br>
                     </div>

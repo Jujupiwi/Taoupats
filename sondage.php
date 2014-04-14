@@ -238,12 +238,11 @@ include 'contenu/param.php';
     <div class="row-fluid">
         <div class="span12">
             <h2>SONDAGES</h2>
-            <h4><?php echo strtoupper('Pompertuzat'); ?></h4>
+            <h4><?php echo strtoupper('Roquette'); ?></h4>
             <br>
             <ul class="nav nav-tabs" id="myTab">
                 <li class="active"><a href="#homme" id="homme-match">Homme du match</a></li>
                 <li><a href="#note" id="note-match">Note du match</a></li>
-                <li><a href="#com" id="com-match">Commentaires sur le match</a></li>
             </ul>
             <div class="tab-content">
                 <div class="tab-pane active" id="homme">
@@ -251,9 +250,6 @@ include 'contenu/param.php';
                 </div>
                 <div class="tab-pane" id="note">
                     <?php include 'contenu/note_match.php'; ?>
-                </div>
-                <div class="tab-pane" id="com">
-                    <?php include 'contenu/com_match.php'; ?>
                 </div>
             </div>
 

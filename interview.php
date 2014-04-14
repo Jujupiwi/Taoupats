@@ -272,7 +272,7 @@ include 'contenu/param.php';
 <div class="span2">
     <img alt="120x180" data-src="bootstrap/js/bootstrap.js/120x180"
          style="width: 120px; height: 180px;"
-         src="images/team/Dede.jpg">
+         src="images/team/Johan.jpg">
 </div>
 <div class="span10">
 <table

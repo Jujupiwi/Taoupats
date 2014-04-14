@@ -79,35 +79,35 @@ $commentMatch = 'comment-roquette2';
 /*********************************************************
 Interview de la personne de la semaine
  *********************************************************/
-$prenom = 'André Filipe';
-$nom = 'Passos Maciel';
-$np = 'AF';
-$age = '22';
+$prenom = 'Johan';
+$nom = 'Guerrini';
+$np = 'JG';
+$age = '23';
 
 /*********************************************************
 Début des questions
  *********************************************************/
-$poste = "Couteau suisse (défenseur central/milieu de terrain)";
-$q1 = "iTélé au petit déj' et Le Petit Journal à l'apéro.";
-$q2 = "Le Loup de Wall Street. Juste magique.";
-$q3 = "Will Smith, surtout dans 'Je suis une légende'. Leonardo Di Caprio dans 'Shutter Island', 'Inception' et 'Le Loup de Wall Street'.";
-$q4 = "Du fado et 'Apita o comboio'.";
-$q5 = "'Exchange rate and International Finance', de Laurence Copeland. Et en lecture plaisir, 'Hunger Games' de Suzanne Collins.";
-$q6 = "J'aime beaucoup l'Alfa Romeo Giulietta et la Peugeot RCZ.";
-$q7 = "Brazil !";
-$q8 = "J'ai débuté ma carrière au sein de l'Entente Aussonne/Merville dès l'âge de 8 ans, après 2 ans de karaté. Ensuite, l'Entente s'est agrandie avec Daux/Mondonville/Seilh, et ça a été mes plus beaux souvenirs footballistiques (grâce à Julien B., mon amoureux <3). J'ai ensuite rejoint les Seniors de Merville pendant 3 ans, où l'on a été Vice Champion de 3ème série. Puis j'ai rejoint les Taoupats de Daux, grâce aux conseils de mon agent.";
-$q9 = "Dédé pour quasiment tout le monde, Filipe au boulot.";
-$q10 = "La timidité";
-$q11 = "L'écoute.";
-$q12 = "Je n'ai pas d'équipe préférée en Ligue 1 mais je supporte de très loin le TFC. Et sinon, le FC Porto, le meilleur club portugais de tous les temps.";
-$q13 = "le Barça post Eto'o-Henry-Messi. Maintenant, il n'y a que des danseuse, type Sergio Busquets.";
-$q14 = "Portugal - Pays-Bas, Coupe du Monde 2006 en Allemagne. Avec Pauleta, Figo, Deco, Ronaldo, Scolari, etc... Sur le but, mon père s'est jeté par terre sur le ventre comme si c'était lui qui avait marqué.";
-$q15 = "Pedro Miguel Pauleta !";
-$q16 = "Taoupats 2-0 Léguevin, en début d'année. Le match contre Fenouillet était bien aussi, malgré la défaite.";
-$q17 = "Fenouillet est très solide.";
-$q18 = "Enzo Birello l'italien.";
-$q19 = "Coquillat. Quand tu joues 5, tu ne peux pas ne pas l'entendre. Remarque, pas besoin de jouer 5 pour ça en fait.";
-$q20 = "Florent C.";
-$q21 = "Maxime P.";
-$q22 = "'Devegarinho é que se vai ao longe'. C'est en allant doucement qu'on arrive loin.";
-$q23 = "Je suis content de vous avoir rejoint. Grâce à mon agent et moi-même, le nombre du gang des portugais a été multiplié par 2, soit une hausse de 100%, ce qui est important pour la représentativité du paysage socio-multiculturel local. D'un point de vue footballistique, je vais essayer de provoquer plus de pénalties dans la surface adverse que dans la nôtre.";
+$poste = "Milieu défenseur";
+$q1 = "Les marseillais a rio ou le cfc le dimanche soir";
+$q2 = "Le crocodile de boutswanga";
+$q3 = "Jordan et mon acteur préfère il me fait rêver cet homme les effets spéciaux qu'il nous propose sont tellement réaliste comme ses roulade au sol et ses plongons avant que la joueur adverse le touche ;-) sans rire Jason statam";
+$q4 = "Un peu de tout a part le rail et la music de bougne ça me sort de par les oreilles";
+$q5 = "Celui de zlatan";
+$q6 = "Déjà jaimerais avoir le permis , sinon une petite r8 me ferai plaisir";
+$q7 = "Oulala pas le Portugal il y en a trop de c foutu pourltougai a daux :-p sinon le Canada me fait rêver";
+$q8 = "Quand jetait jeune je jouer a savenes Verdun puis au mas grenier mes vu que jetais toujours puni ma carrière a réellement commencer a l'âge de 18 ans au fclaunaguet ensuite petite année bien sympa a villaudric , je suis retourné a Launaguet pour ensuite rejoindre ce fabuleux club des taoupats de Daux";
+$q9 = "Le plus fréquent c'est JOJO sinon plusieurs personne mapelle dieu je ne c pas pourquoi :-)";
+$q10 = "Je m'énerve très vite et j'aime pas perdre";
+$q11 = "Je pense la générosité et la franchise";
+$q12 = "En L1 le tef puis le PSG pour mon idole zlatan et en Europe le Barça";
+$q13 = "Je déteste pas plus une équipe qu'une autre mes le réal me gonfle a cause de c 2 trou de cul de défenseur centraux Ramos et pépé que des abruti ce sont de bon joueurs mes ils ont rien dans le crâne";
+$q14 = "Ya pas tre longtemps un classico gagner par le Barça ça cetais du match victoire 4@3";
+$q15 = "Mon idole Fabien Barthez car jai eu la chance de travailler avec ça famille sur Toulouse et de le croiser 2-3 fois";
+$q16 = "Le meilleur c la victoire a fenouillet sinon mon 1er match contre ausonne défaite 4@2 mes avec un but a la clé";
+$q17 = "Toulouse entente ma impressionner jai jamais vu des joueurs fait grève pour pas que lon tire notre penalty .";
+$q18 = "LoLO le Cotch avec c bottes il me fait rêver a chaque fois";
+$q19 = "Alex coquillat meme quand on gagne 6@1 il gueule toujours mes je le kiff ";
+$q20 = "Le plus sérieux ju guerrin et florent";
+$q21 = "Enzo et pas mal dans le style chambreur après max s sinon je donne une médaille a toute l'équipe ";
+$q22 = "Oui un qui vient de ma mère vu que je pisser toujours sur la cuvette ' ce lieu est respectable autant que ta table alors faite que cette cuvette reste aussi nette que ton assiette'";
+$q23 = "Vous etes tous parfait ne changer rien , a par plus de sérieux au entrainement et donnons nous a font jusqu'à la fin de saison sûrement que la monter sera la sinon elle sera pour l'année prochaine bisous les petits choux !!! PS : celui qui me chambre sur mon orthographe l'année prochaine qu'il pense même pas a prendre une license";

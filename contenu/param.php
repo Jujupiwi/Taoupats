@@ -17,19 +17,19 @@ $data = 'taoupats';
 Liste des joueurs pour le match
  *********************************************************/
 $joueur1 = 'Alexy';
-$joueur2 = 'Clement';
+$joueur2 = 'MaximeD';
 $joueur3 = 'Joffrey';
-$joueur4 = 'MaximeD';
+$joueur4 = 'JulienB';
 $joueur5 = 'Dede';
-$joueur6 = 'Johan';
+$joueur6 = 'Enzo';
 $joueur7 = 'Pierre';
-$joueur8 = 'JulienB';
-$joueur9 = 'JulienG';
+$joueur8 = 'Florian';
+$joueur9 = 'Zizou';
 $joueur10 = 'Jordan';
 $joueur11 = 'MaximeS';
-$joueur12 = 'Zizou';
-$joueur13 = 'Alexis';
-$joueur14 = 'Florian';
+$joueur12 = 'Johan';
+$joueur13 = 'Baptiste';
+$joueur14 = 'Paul';
 
 /*********************************************************
 Liste des autres joueurs
@@ -40,11 +40,11 @@ $joueur17 = 'ThomasP';
 $joueur18 = 'Francois';
 $joueur19 = 'Alexis';
 $joueur20 = 'Lionel';
-$joueur21 = 'Enzo';
+$joueur21 = 'JulienG';
 $joueur22 = 'JB';
 $joueur23 = 'Laurent';
 $joueur24 = 'Baptiste';
-$joueur25 = 'Paul';
+$joueur25 = 'Clement';
 $joueur26 = 'Gaetan';
 $joueur27 = 'Julien';
 $joueur28 = 'Tony';
@@ -72,9 +72,9 @@ $leguevin = 'Leguevin US 2';
 /*********************************************************
 Nom des sondages
  *********************************************************/
-$match = 'roquette2';
-$noteMatch = 'note-roquette2';
-$commentMatch = 'comment-roquette2';
+$match = 'labege2';
+$noteMatch = 'note-labege2';
+$commentMatch = 'comment-labege2';
 
 /*********************************************************
 Interview de la personne de la semaine

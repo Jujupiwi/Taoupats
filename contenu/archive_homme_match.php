@@ -11,6 +11,83 @@
     <div class="span12">
         <blockquote>
             <p>
+                <i class="icon-signal icon-white"> </i> Homme du match contre Roquette?
+            </p>
+        </blockquote>
+    </div>
+</div>
+<br>
+<div class="row-fluid">
+    <div class="span12">
+        <table
+            class="table table-bordered table-striped table-condensed table-hover">
+            <thead>
+            <tr>
+                <th width="20%">Joueur</th>
+                <th width="50%">Progression</th>
+                <th width="10%">%</th>
+                <th width="20%">Nb Votes : 19</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>Dédé</td>
+                <td>
+                    <div class="progress progress-striped active active">
+                        <div class="bar bar-success" style="width: 42%;"></div>
+                    </div>
+                </td>
+                <td>42 %</td>
+                <td>8 votes</td>
+            </tr>
+            <tr>
+                <td>Alexis</td>
+                <td>
+                    <div class="progress progress-striped active active">
+                        <div class="bar bar-info" style="width: 37%;"></div>
+                    </div>
+                </td>
+                <td>37 %</td>
+                <td>7 votes</td>
+            </tr>
+            <tr>
+                <td>Pierre</td>
+                <td>
+                    <div class="progress progress-striped active active">
+                        <div class="bar bar-warning" style="width: 11%;"></div>
+                    </div>
+                </td>
+                <td>11 %</td>
+                <td>2 votes</td>
+            </tr>
+            <tr>
+                <td>MaximeD</td>
+                <td>
+                    <div class="progress progress-striped active active">
+                        <div class="bar bar-danger" style="width: 5%;"></div>
+                    </div>
+                </td>
+                <td>5 %</td>
+                <td>1 vote</td>
+            </tr>
+            <tr>
+                <td>Johan</td>
+                <td>
+                    <div class="progress progress-striped active active">
+                        <div class="bar bar-danger" style="width: 5%;"></div>
+                    </div>
+                </td>
+                <td>5 %</td>
+                <td>1 vote</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+<div class="row-fluid">
+    <div class="span12">
+        <blockquote>
+            <p>
                 <i class="icon-signal icon-white"> </i> Homme du match contre Fenouillet?
             </p>
         </blockquote>
@@ -114,7 +191,6 @@
         </table>
     </div>
 </div>
-
 <div class="row-fluid">
     <div class="span12">
         <blockquote>

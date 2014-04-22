@@ -234,7 +234,7 @@
     <div class="row-fluid">
         <div class="span12">
             <h2>DERNIER MATCH</h2>
-            <h4>TAOUPATS 6-1 ROQUETTE</h4>
+            <h4>TAOUPATS 2-3 LABEGE</h4>
             <div class="centrage">
                 A Venir
             </div>

@@ -159,7 +159,7 @@
     <td>Daux</td>
     <td>Samedi 19 Avril à 18h30</td>
     <td>Labege</td>
-    <td></td>
+    <td><span class="badge badge-important">2-3</span></td>
     <td>D2</td>
 </tr>
 <tr>

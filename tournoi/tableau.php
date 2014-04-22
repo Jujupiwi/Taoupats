@@ -937,10 +937,10 @@ while ($ligne = mysql_fetch_array($request)) {
     $('.numbersOnly').keyup(function () {
         this.value = this.value.replace(/[^0-9\.]/g, '');
     });
-    //            $(".numbersOnly").each(function( index ) {
-    //                if($(this).val() != ''){
-    //                    $(this).parent().parent().hide();
-    //                }
-    //            });
+    $(".numbersOnly").each(function (index) {
+        if ($(this).val() != '') {
+            $(this).parent().parent().hide();
+        }
+    });
 </script>
 </html>

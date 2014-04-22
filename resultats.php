@@ -223,9 +223,9 @@ include 'contenu/param.php';
 </script>
 <script type="text/javascript">
 $(document).ready(function () {
-    $('#Journee19').show("fast");
+    $('#Journee20').show("fast");
     hideClassJou();
-    $('#Jou19').addClass("disabled");
+    $('#Jou20').addClass("disabled");
     $('#retours').show("fast");
     $('#allers').hide("fast");
 });

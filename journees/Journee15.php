@@ -34,9 +34,9 @@
     </tr>
     <tr class="success">
         <td style="text-align: center"><?php echo $daux; ?></td>
-        <td style="text-align: center"></td>
+        <td style="text-align: center">2</td>
         <td style="text-align: center">-</td>
-        <td style="text-align: center"></td>
+        <td style="text-align: center">3</td>
         <td style="text-align: center"><?php echo $labege; ?></td>
     </tr>
     <tr>

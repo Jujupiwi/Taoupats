@@ -15,7 +15,8 @@ $login = $_GET['log'];
 $cle = $_GET['cle'];
 
 // Récupération de la clé correspondant au $login dans la base de données
-$stmt = $mysqli->query("SELECT cle,valide FROM membre WHERE login=" . $login . "");
+$requ = "SELECT * FROM membre WHERE login='" . $login . "'";
+$stmt = $mysqli->query($requ);
 $row = $stmt->fetch_array();
 $actif = 0;
 $clebdd = 0;
@@ -34,14 +35,16 @@ if ($actif == '1') // Si le compte est déjà actif on prévient
     {
         // Si elles correspondent on active le compte !
         echo "Votre compte a bien été activé !";
+        echo "<a href='index.php'";
 
         // La requête qui va passer notre champ actif de 0 à 1
-        $stmt = $mysqli->query("UPDATE membres SET actif = 1 WHERE login=" . $login . "");
+        $stmt = $mysqli->query("UPDATE membre SET valide = 1 WHERE login='" . $login . "'");
     } else // Si les deux clés sont différentes on provoque une erreur...
     {
         echo "Erreur ! Votre compte ne peut être activé...";
     }
 }
+
 
 
 //...	

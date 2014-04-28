@@ -22,8 +22,7 @@ $exist = "exist";
                             </div>
                             <div class="alert alert-block alert-error hide" id="nbJoueurs">
                                 <button type="button" class="close" id="closeNB">x</button>
-                                <h4>Attention!</h4> Le Nombre de Joueurs doit etre compris entre 4 et 16 et différent de
-                                11, 13, 15!
+                                <h4>Attention!</h4> Le Nombre de Joueurs doit etre compris entre 4 et 20!
                             </div>
                             <?php
                             if (isset($_GET['nom'])) {
@@ -46,7 +45,7 @@ $exist = "exist";
                         <br><br><br>
                         Nombre de Joueurs : <span style="color:red;">*</span> <input type="text" min="0" max="10"
                                                                                      style="width:50px; height:30px;"
-                                                                                     placeholder="4/16" maxlength=2
+                                                                                     placeholder="4/20" maxlength=2
                                                                                      class="numbersOnly" id="quant"/>
                         <br><br><br>
                         Mode de Tournoi : <span style="color:red;">*</span>
@@ -101,9 +100,7 @@ $exist = "exist";
         if (document.getElementById('name').value == "") {
             $("#nameTournoi").show("slow");
         } else {
-            if (document.getElementById('quant').value > 16 || document.getElementById('quant').value < 4
-                || document.getElementById('quant').value == 11 || document.getElementById('quant').value == 13
-                || document.getElementById('quant').value == 15) {
+            if (document.getElementById('quant').value > 20 || document.getElementById('quant').value < 4) {
                 document.getElementById('quant').value = '';
                 $("#nbJoueurs").show("slow");
             } else {

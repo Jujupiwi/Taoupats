@@ -75,7 +75,7 @@ if (!isset($login) || $row[0] == 0) {
 <!--=== End Breadcrumbs ===-->
 
 <!--=== Content Part ===-->
-<div class="container" style="margin-bottom: 180px;">
+<div class="container" style="margin-bottom: 280px;">
     <div class="row">
         <div class="col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3">
             <form id="valide" class="reg-page" method="post" style="text-align: center" action="tournoi.php">
@@ -108,6 +108,12 @@ if (!isset($login) || $row[0] == 0) {
                 </div>
                 <input class="btn-u" type="submit" id="valide" name="continuer" value="Continuer">
             </form>
+        </div>
+    </div>
+    <br>
+    <div class="row">
+        <div class="col-lg-offset-3 col-lg-4">
+            <a class="btn-u btn-u-red" href="membre.php" width="100px" height="30px">&nbsp;&nbsp;Retour&nbsp;&nbsp;</a>
         </div>
     </div>
     <!--/row-->
@@ -146,6 +152,7 @@ if (!isset($login) || $row[0] == 0) {
         </div>
         <!--/row-->
     </div>
+    <!--/row-->
     <!--/container-->
 </div>
 <!--/footer-->

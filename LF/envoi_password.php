@@ -12,23 +12,38 @@ if (isset($_POST['init']) && $_POST['init'] == 'Envoyer') {
         // on recherche si ce login est déjà utilisé par un autre membre
         $login = $mysqli->real_escape_string($_POST['login']);
         $mail = $mysqli->real_escape_string($_POST['mail']);
-        $res = $mysqli->query('SELECT count(*) FROM membre WHERE login="' . $login . '" or mail="' . $mail . '"');
+        if ($login != '' && $mail != '') {
+            $req = "SELECT count(*) FROM membre WHERE login='" . $login . "' and mail='" . $mail . "'";
+        } elseif ($login != '' && $mail == '') {
+            $req = "SELECT count(*) FROM membre WHERE login='" . $login . "'";
+        } elseif ($login == '' && $mail != '') {
+            $req = "SELECT count(*) FROM membre WHERE mail='" . $mail . "'";
+        }
+        echo $req;
+        $res = $mysqli->query($req);
         $row = $res->fetch_array();
 
         if ($row[0] == 1) {
-
-            $res = $mysqli->query('SELECT pass FROM membre WHERE login="' . $login . '" or mail="' . $mail . '"');
+            if ($login != '' && $mail != '') {
+                $req = "SELECT * FROM membre WHERE login='" . $login . "' and mail='" . $mail . "'";
+            } elseif ($login != '' && $mail == '') {
+                $req = "SELECT * FROM membre WHERE login='" . $login . "'";
+            } elseif ($login == '' && $mail != '') {
+                $req = "SELECT * FROM membre WHERE mail='" . $mail . "'";
+            }
+            $res = $mysqli->query($req);
+            echo $req;
             $row = $res->fetch_array();
 
             // Préparation du mail contenant le lien d'activation
-            $destinataire = $mail;
+            $destinataire = $row['mail'];
             $sujet = "Mot de passe oublie";
             $entete = "From: forgotpassword@tournoisLF.com";
 
             // Le lien d'activation est composé du login(log) et de la clé(cle)
             $message = 'Bienvenue sur TournoisLF,
 
-            Voici votre mot de passe : ' . md5($row[0]) . '
+            Voici votre mot de passe : ' . md5($row['pass']) . '
 
 
             ---------------
@@ -41,6 +56,9 @@ if (isset($_POST['init']) && $_POST['init'] == 'Envoyer') {
             header('Location: password.php?enreg=O');
         }
     } else {
-        $error = 'Au moins un des champs est vide.';
+        echo 'Au moins un des champs est vide.';
     }
+} else {
+    echo "oups";
 }
+

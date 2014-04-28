@@ -40,7 +40,7 @@ if (isset($_POST['inscription']) && $_POST['inscription'] == 'Inscription') {
                 Pour activer votre compte, veuillez cliquer sur le lien ci dessous
                 ou copier/coller dans votre navigateur internet.
 
-                http://127.0.0.1/Taoupats/LF/inscription.php?log=' . urlencode($login) . '&cle=' . urlencode($cle) . '
+                "' . $url . '"/LF/inscription.php?log=' . urlencode($login) . '&cle=' . urlencode($cle) . '
 
 
                 ---------------

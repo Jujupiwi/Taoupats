@@ -10,3 +10,10 @@ $serv = 'localhost';
 $user = 'root';
 $pwd = '';
 $data = 'tournoi';
+
+$url = "http://taoupatsdedaux.fr/";
+
+//$serv = 'mysql51-74.perso';
+//$user = 'taoupats';
+//$pwd = 'Audrey65';
+//$data = 'taoupats';

@@ -276,6 +276,18 @@ if ($row[0] != 0) {
             <option value="naples">Naples</option>
             <option value="lazio">Lazio Rome</option>
             <option value="udinese">Udinese</option>
+            <option value="atalanta">Atalanta</option>
+            <option value="bologne">Bologne</option>
+            <option value="cagliari">Cagliari</option>
+            <option value="catane">Catane</option>
+            <option value="chievo verone">Chievo Verone</option>
+            <option value="genoa">Genoa</option>
+            <option value="hellas verone">Hellas Verone</option>
+            <option value="livourne">Livourne</option>
+            <option value="parme">Parme</option>
+            <option value="sampdoria">Sampdoria</option>
+            <option value="sassuolo">Sassuolo</option>
+            <option value="torino">Torino</option>
         </select>
     </div>
     <div id="bundes<?php echo $i; ?>" name="bundes<?php echo $i; ?>" style="display:none">

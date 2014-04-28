@@ -174,6 +174,42 @@ function ecrireEquipes($result_dom)
     if ($result_dom == "Lazio" || $result_dom == "lazio" || $result_dom == "LAZIO") {
         echo "<img src='images/lazio.png' width='30px' height='30px'>";
     }
+    if ($result_dom == "atalanta") {
+        echo "<img src='images/atalanta.png' width='30px' height='30px'>";
+    }
+    if ($result_dom == "bologne") {
+        echo "<img src='images/bologne.png' width='30px' height='30px'>";
+    }
+    if ($result_dom == "cagliari") {
+        echo "<img src='images/cagliari.png' width='30px' height='30px'>";
+    }
+    if ($result_dom == "catane") {
+        echo "<img src='images/catane.png' width='30px' height='30px'>";
+    }
+    if ($result_dom == "chievo verone") {
+        echo "<img src='images/chievo verone.png' width='30px' height='30px'>";
+    }
+    if ($result_dom == "genoa") {
+        echo "<img src='images/genoa.png' width='30px' height='30px'>";
+    }
+    if ($result_dom == "hellas verone") {
+        echo "<img src='images/hellas verone.png' width='30px' height='30px'>";
+    }
+    if ($result_dom == "livourne") {
+        echo "<img src='images/livourne.png' width='30px' height='30px'>";
+    }
+    if ($result_dom == "parme") {
+        echo "<img src='images/parme.png' width='30px' height='30px'>";
+    }
+    if ($result_dom == "sampdoria") {
+        echo "<img src='images/sampdoria.png' width='30px' height='30px'>";
+    }
+    if ($result_dom == "sassuolo") {
+        echo "<img src='images/sassuolo.png' width='30px' height='30px'>";
+    }
+    if ($result_dom == "torino") {
+        echo "<img src='images/torino.png' width='30px' height='30px'>";
+    }
     if ($result_dom == "PSG" || $result_dom == "psg" || $result_dom == "Paris") {
         echo "<img src='images/psg.png' width='30px' height='30px'>";
     }

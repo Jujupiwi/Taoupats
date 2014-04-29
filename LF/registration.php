@@ -104,7 +104,7 @@ if (isset($_POST['inscription']) && $_POST['inscription'] == 'Inscription') {
 <!--=== End Breadcrumbs ===-->
 
 <!--=== Content Part ===-->
-<div class="container">
+<div class="container" style="margin-bottom: 100px;">
     <div class="row">
         <div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
             <form class="reg-page" method="post" action="registration.php">
@@ -160,7 +160,6 @@ if (isset($_POST['inscription']) && $_POST['inscription'] == 'Inscription') {
                 <div class="headline"><h2>A Propos</h2></div>
                 <p class="margin-bottom-25 md-margin-bottom-40">Outil de gestion de competition FIFA.</p>
                 <p class="margin-bottom-10">Creation de championnats ou de tournois de 4 a 20 joueurs!!</p>
-
 
             </div>
             <!--/col-md-4-->

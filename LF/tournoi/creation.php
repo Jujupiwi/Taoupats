@@ -35,7 +35,7 @@ if (!isset($login) || $row[0] == 0) {
 <!--[if !IE]><!-->
 <html lang="en"> <!--<![endif]-->
 <head>
-    <title>Unify | Welcome...</title>
+    <title>Tournois LF</title>
 
     <!-- Meta -->
     <meta charset="utf-8">

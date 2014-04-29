@@ -1,6 +1,6 @@
 <html>
 <head>
-    <title>Unify | Welcome...</title>
+    <title>Tournois LF</title>
 
     <!-- Meta -->
     <meta charset="utf-8">

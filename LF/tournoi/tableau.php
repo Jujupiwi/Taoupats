@@ -225,6 +225,51 @@ function ecrireEquipes($result_dom)
     if ($result_dom == "Lille" || $result_dom == "lille" || $result_dom == "LILLE" || $result_dom == "Losc" || $result_dom == "LOSC") {
         echo "<img src='images/lille.png' width='30px' height='30px'>";
     }
+    if ($result_dom == "ajaccio") {
+        echo "<img src='images/ajaccio.png' width='30px' height='30px'>";
+    }
+    if ($result_dom == "bastia") {
+        echo "<img src='images/bastia.png' width='30px' height='30px'>";
+    }
+    if ($result_dom == "bordeaux") {
+        echo "<img src='images/bordeaux.png' width='30px' height='30px'>";
+    }
+    if ($result_dom == "evian") {
+        echo "<img src='images/evian.png' width='30px' height='30px'>";
+    }
+    if ($result_dom == "guingamp") {
+        echo "<img src='images/guingamp.png' width='30px' height='30px'>";
+    }
+    if ($result_dom == "lorient") {
+        echo "<img src='images/lorient.png' width='30px' height='30px'>";
+    }
+    if ($result_dom == "montpellier") {
+        echo "<img src='images/montpellier.png' width='30px' height='30px'>";
+    }
+    if ($result_dom == "nantes") {
+        echo "<img src='images/nantes.png' width='30px' height='30px'>";
+    }
+    if ($result_dom == "nice") {
+        echo "<img src='images/nice.png' width='30px' height='30px'>";
+    }
+    if ($result_dom == "reims") {
+        echo "<img src='images/reims.png' width='30px' height='30px'>";
+    }
+    if ($result_dom == "rennes") {
+        echo "<img src='images/rennes.png' width='30px' height='30px'>";
+    }
+    if ($result_dom == "saint etienne") {
+        echo "<img src='images/saint etienne.png' width='30px' height='30px'>";
+    }
+    if ($result_dom == "sochaux") {
+        echo "<img src='images/sochaux.png' width='30px' height='30px'>";
+    }
+    if ($result_dom == "toulouse") {
+        echo "<img src='images/toulouse.png' width='30px' height='30px'>";
+    }
+    if ($result_dom == "valenciennes") {
+        echo "<img src='images/valenciennes.png' width='30px' height='30px'>";
+    }
     if ($result_dom == "Dortmund" || $result_dom == "dortmund" || $result_dom == "DORTMUND") {
         echo "<img src='images/dortmund.png' width='30px' height='30px'>";
     }
@@ -248,6 +293,36 @@ function ecrireEquipes($result_dom)
     }
     if ($result_dom == "gladbach") {
         echo "<img src='images/gladbach.png' width='30px' height='30px'>";
+    }
+    if ($result_dom == "augsbourg") {
+        echo "<img src='images/augsbourg.png' width='30px' height='30px'>";
+    }
+    if ($result_dom == "eintracht brunswick") {
+        echo "<img src='images/eintracht brunswick.png' width='30px' height='30px'>";
+    }
+    if ($result_dom == "eintracht francfort") {
+        echo "<img src='images/eintracht francfort.png' width='30px' height='30px'>";
+    }
+    if ($result_dom == "fribourg") {
+        echo "<img src='images/fribourg.png' width='30px' height='30px'>";
+    }
+    if ($result_dom == "hanovre 96") {
+        echo "<img src='images/hanovre 96.png' width='30px' height='30px'>";
+    }
+    if ($result_dom == "herta berlin") {
+        echo "<img src='images/herta berlin.png' width='30px' height='30px'>";
+    }
+    if ($result_dom == "hoffenheim") {
+        echo "<img src='images/hoffenheim.png' width='30px' height='30px'>";
+    }
+    if ($result_dom == "mayence 05") {
+        echo "<img src='images/mayence 05.png' width='30px' height='30px'>";
+    }
+    if ($result_dom == "nuremberg") {
+        echo "<img src='images/nuremberg.png' width='30px' height='30px'>";
+    }
+    if ($result_dom == "stuttgart") {
+        echo "<img src='images/stuttgart.png' width='30px' height='30px'>";
     }
     if ($result_dom == "Barca" || $result_dom == "barca" || $result_dom == "BARCA") {
         echo "<img src='images/barca.png' width='30px' height='30px'>";
@@ -413,7 +488,7 @@ function ecrireEquipes($result_dom)
 <!--[if !IE]><!-->
 <html lang="en"> <!--<![endif]-->
 <head>
-    <title>Unify | Welcome...</title>
+    <title>Tournois LF</title>
 
     <!-- Meta -->
     <meta charset="utf-8">

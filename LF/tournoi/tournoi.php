@@ -23,7 +23,7 @@ if (!isset($login) || $row[0] == 0) {
     exit();
 }
 
-$res = $mysqli->query("select count(nom_tournoi) from tournoi where nom_tournoi = '$nomTournoi';");
+$res = $mysqli->query("select count(nom_tournoi) from tournoi where nom_tournoi = '$nomTournoi' and login = '$login';");
 $row = $res->fetch_array();
 if ($row[0] != 0) {
     header('Location: creation.php?enreg=I');
@@ -38,7 +38,7 @@ if ($row[0] != 0) {
 <!--[if !IE]><!-->
 <html lang="en"> <!--<![endif]-->
 <head>
-    <title>Unify | Welcome...</title>
+    <title>Tournois LF</title>
 
     <!-- Meta -->
     <meta charset="utf-8">
@@ -294,12 +294,22 @@ if ($row[0] != 0) {
         <select class="form-control" name="lol<?php echo $i; ?>" id="test4"
                 onchange="valid(<?php echo $i; ?>)">
             <option value="rien"></option>
+            <option value="augsbourg">Augsbourg</option>
             <option value="bayern">Bayern Munich</option>
             <option value="dortmund">Borussia Dortmund</option>
+            <option value="eintracht brunswick">Eintracht Brunswick</option>
+            <option value="eintracht francfort">Eintracht Francfort</option>
+            <option value="fribourg">Fribourg</option>
             <option value="gladbach">M'Gladbach</option>
+            <option value="hanovre 96">Hanovre 96</option>
+            <option value="herta berlin">Herta Berlin</option>
+            <option value="hoffenheim">Hoffenheim</option>
+            <option value="mayence 05">Mayence 05</option>
+            <option value="nuremberg">Nuremberg</option>
             <option value="leverkusen">Bayer Leverkusen</option>
             <option value="hambourg">Hambourg</option>
             <option value="shalke">Shalke 04</option>
+            <option value="stuttgart">Stuttgart</option>
             <option value="werder">Werder Breme</option>
             <option value="wolfsburg">Wolfsburg</option>
         </select>
@@ -308,6 +318,21 @@ if ($row[0] != 0) {
         <select class="form-control" name="lol<?php echo $i; ?>" id="test3"
                 onchange="valid(<?php echo $i; ?>)">
             <option value="rien"></option>
+            <option value="ajaccio">Ajaccio</option>
+            <option value="bastia">Bastia</option>
+            <option value="bordeaux">Bordeaux</option>
+            <option value="evian">Evian</option>
+            <option value="guingamp">Guingamp</option>
+            <option value="lorient">Lorient</option>
+            <option value="montpellier">Montpellier</option>
+            <option value="nantes">Nantes</option>
+            <option value="nice">Nice</option>
+            <option value="reims">Reims</option>
+            <option value="rennes">rennes</option>
+            <option value="saint etienne">Saint Etienne</option>
+            <option value="sochaux">Sochaux</option>
+            <option value="toulouse">Toulouse</option>
+            <option value="valenciennes">Valenciennes</option>
             <option value="om">OM</option>
             <option value="ol">OL</option>
             <option value="monaco">Monaco</option>

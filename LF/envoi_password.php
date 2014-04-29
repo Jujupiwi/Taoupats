@@ -22,14 +22,18 @@ if (isset($_POST['init']) && $_POST['init'] == 'Envoyer') {
         echo $req;
         $res = $mysqli->query($req);
         $row = $res->fetch_array();
+        $cle = md5(microtime(TRUE) * 100000);
 
         if ($row[0] == 1) {
             if ($login != '' && $mail != '') {
                 $req = "SELECT * FROM membre WHERE login='" . $login . "' and mail='" . $mail . "'";
+                $mysqli->query("update membre set cle = '" . $cle . "' where login='" . $login . "' and mail ='" . $mail . "'");
             } elseif ($login != '' && $mail == '') {
                 $req = "SELECT * FROM membre WHERE login='" . $login . "'";
+                $mysqli->query("update membre set cle = '" . $cle . "' where login='" . $login . "'");
             } elseif ($login == '' && $mail != '') {
                 $req = "SELECT * FROM membre WHERE mail='" . $mail . "'";
+                $mysqli->query("update membre set cle = '" . $cle . "' where login='" . $mail . "'");
             }
             $res = $mysqli->query($req);
             echo $req;
@@ -43,7 +47,7 @@ if (isset($_POST['init']) && $_POST['init'] == 'Envoyer') {
             // Le lien d'activation est composé du login(log) et de la clé(cle)
             $message = 'Bienvenue sur TournoisLF,
 
-            Voici votre mot de passe : ' . md5($row['pass']) . '
+            Voici le lien pour reinitialiser votre mot de passe : ' . $url . 'LF/init_password.php?login=' . $login . '&cle=' . $cle . '
 
 
             ---------------

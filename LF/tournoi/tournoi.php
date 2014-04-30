@@ -344,18 +344,52 @@ if ($row[0] != 0) {
         <select class="form-control" name="lol<?php echo $i; ?>" id="test2"
                 onchange="valid(<?php echo $i; ?>)">
             <option value="rien"></option>
+            <option value="ankaragucu">Ankaragucu</option>
+            <option value="antalyaspor">Antalyaspor</option>
+            <option value="besiktas">Besiktas</option>
+            <option value="bucaspor">Bucaspor</option>
+            <option value="bursaspor">Bursaspor</option>
+            <option value="eskisehirspor">Eskisehirspor</option>
             <option value="fenerbahce">Fenerbahce</option>
             <option value="galatasaray">Galatasaray</option>
+            <option value="gaziantepspor">Gaziantepspor</option>
+            <option value="genclerbirligi">Genclerbirligi</option>
+            <option value="istanbulbb">Istanbulbb</option>
+            <option value="karabukspor">Karabukspor</option>
+            <option value="kasimpasa">Kasimpasa</option>
+            <option value="kayserispor">Kayserispor</option>
+            <option value="konyaspor">Konyaspor</option>
+            <option value="manisaspor">Manisaspor</option>
+            <option value="mersin">Mersin</option>
+            <option value="ordurspor">Ordurspor</option>
+            <option value="samsunspor">Samsunspor</option>
+            <option value="sivasspor">Sivasspor</option>
+            <option value="trabzonspor">Trabzonspor</option>
         </select>
     </div>
     <div id="d1_portugal<?php echo $i; ?>" name="d1_portugal<?php echo $i; ?>" style="display:none">
         <select class="form-control" name="lol<?php echo $i; ?>" id="test1"
                 onchange="valid(<?php echo $i; ?>);">
             <option value="rien"></option>
+            <option value="academica">Academica</option>
+            <option value="beiramar">Beiramar</option>
+            <option value="estorilpraia">Estorilpraia</option>
+            <option value="feirense">Feirense</option>
+            <option value="gilvicente">Gilvicente</option>
+            <option value="leiria">Leiria</option>
             <option value="benfica">Benfica Lisbonne</option>
             <option value="braga">Braga</option>
+            <option value="maritimo">Maritimo</option>
+            <option value="moreirensefc">Moreirensefc</option>
+            <option value="nacionalm">Nacionalm</option>
+            <option value="olhanense">Olhanense</option>
+            <option value="pacos">Pacos</option>
+            <option value="portimonensesc">Portimonensesc</option>
+            <option value="rioave">Rioave</option>
             <option value="porto">FC Porto</option>
             <option value="sporting">Sporting Portugal</option>
+            <option value="vitoriafc">Vitoriafc</option>
+            <option value="vitoriasc">Vitoriasc</option>
         </select>
     </div>
     <div id="d1_russe<?php echo $i; ?>" name="d1_russe<?php echo $i; ?>" style="display:none">

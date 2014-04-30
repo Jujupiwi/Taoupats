@@ -135,6 +135,51 @@ function ecrireEquipes($result_dom)
     if ($result_dom == "Braga" || $result_dom == "braga" || $result_dom == "BRAGA") {
         echo "<img src='images/braga.png' width='30px' height='30px'>";
     }
+    if ($result_dom == "academica") {
+        echo "<img src='images/academica.png' width='30px' height='30px'>";
+    }
+    if ($result_dom == "beiramar") {
+        echo "<img src='images/beiramar.png' width='30px' height='30px'>";
+    }
+    if ($result_dom == "estorilpraia") {
+        echo "<img src='images/estorilpraia.png' width='30px' height='30px'>";
+    }
+    if ($result_dom == "feirense") {
+        echo "<img src='images/feirense.png' width='30px' height='30px'>";
+    }
+    if ($result_dom == "gilvicente") {
+        echo "<img src='images/gilvicente.png' width='30px' height='30px'>";
+    }
+    if ($result_dom == "leiria") {
+        echo "<img src='images/leiria.png' width='30px' height='30px'>";
+    }
+    if ($result_dom == "maritimo") {
+        echo "<img src='images/maritimo.png' width='30px' height='30px'>";
+    }
+    if ($result_dom == "moreirensefc") {
+        echo "<img src='images/moreirensefc.png' width='30px' height='30px'>";
+    }
+    if ($result_dom == "nacionalm") {
+        echo "<img src='images/nacionalm.png' width='30px' height='30px'>";
+    }
+    if ($result_dom == "olhanense") {
+        echo "<img src='images/olhanense.png' width='30px' height='30px'>";
+    }
+    if ($result_dom == "pacos") {
+        echo "<img src='images/pacos.png' width='30px' height='30px'>";
+    }
+    if ($result_dom == "portimonensesc") {
+        echo "<img src='images/portimonensesc.png' width='30px' height='30px'>";
+    }
+    if ($result_dom == "rioave") {
+        echo "<img src='images/rioave.png' width='30px' height='30px'>";
+    }
+    if ($result_dom == "vitoriafc") {
+        echo "<img src='images/vitoriafc.png' width='30px' height='30px'>";
+    }
+    if ($result_dom == "vitoriasc") {
+        echo "<img src='images/vitoriasc.png' width='30px' height='30px'>";
+    }
     if ($result_dom == "Sporting" || $result_dom == "sporting" || $result_dom == "SPORTING") {
         echo "<img src='images/sporting.png' width='30px' height='30px'>";
     }
@@ -146,6 +191,63 @@ function ecrireEquipes($result_dom)
     }
     if ($result_dom == "Galatasaray" || $result_dom == "galatasaray" || $result_dom == "GALATASARAY") {
         echo "<img src='images/galatasaray.png' width='30px' height='30px'>";
+    }
+    if ($result_dom == "ankaragucu") {
+        echo "<img src='images/ankaragucu.png' width='30px' height='30px'>";
+    }
+    if ($result_dom == "antalyaspor") {
+        echo "<img src='images/antalyaspor.png' width='30px' height='30px'>";
+    }
+    if ($result_dom == "besiktas") {
+        echo "<img src='images/besiktas.png' width='30px' height='30px'>";
+    }
+    if ($result_dom == "bucaspor") {
+        echo "<img src='images/bucaspor.png' width='30px' height='30px'>";
+    }
+    if ($result_dom == "bursaspor") {
+        echo "<img src='images/bursaspor.png' width='30px' height='30px'>";
+    }
+    if ($result_dom == "eskisehirspor") {
+        echo "<img src='images/eskisehirspor.png' width='30px' height='30px'>";
+    }
+    if ($result_dom == "gaziantepspor") {
+        echo "<img src='images/gaziantepspor.png' width='30px' height='30px'>";
+    }
+    if ($result_dom == "genclerbirligi") {
+        echo "<img src='images/genclerbirligi.png' width='30px' height='30px'>";
+    }
+    if ($result_dom == "istanbulbb") {
+        echo "<img src='images/istanbulbb.png' width='30px' height='30px'>";
+    }
+    if ($result_dom == "karabukspor") {
+        echo "<img src='images/karabukspor.png' width='30px' height='30px'>";
+    }
+    if ($result_dom == "kasimpasa") {
+        echo "<img src='images/kasimpasa.png' width='30px' height='30px'>";
+    }
+    if ($result_dom == "kayserispor") {
+        echo "<img src='images/kayserispor.png' width='30px' height='30px'>";
+    }
+    if ($result_dom == "konyaspor") {
+        echo "<img src='images/konyaspor.png' width='30px' height='30px'>";
+    }
+    if ($result_dom == "manisaspor") {
+        echo "<img src='images/manisaspor.png' width='30px' height='30px'>";
+    }
+    if ($result_dom == "mersin") {
+        echo "<img src='images/mersin.png' width='30px' height='30px'>";
+    }
+    if ($result_dom == "ordurspor") {
+        echo "<img src='images/ordurspor.png' width='30px' height='30px'>";
+    }
+    if ($result_dom == "samsunspor") {
+        echo "<img src='images/samsunspor.png' width='30px' height='30px'>";
+    }
+    if ($result_dom == "sivasspor") {
+        echo "<img src='images/sivasspor.png' width='30px' height='30px'>";
+    }
+    if ($result_dom == "trabzonspor") {
+        echo "<img src='images/trabzonspor.png' width='30px' height='30px'>";
     }
     if ($result_dom == "Juventus" || $result_dom == "juventus" || $result_dom == "JUVENTUS") {
         echo "<img src='images/juventus.png' width='30px' height='30px'>";

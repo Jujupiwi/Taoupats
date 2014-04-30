@@ -16,7 +16,7 @@ include 'param.php';
 <!--[if !IE]><!-->
 <html lang="en"> <!--<![endif]-->
 <head>
-    <title>Unify | Welcome...</title>
+    <title>Tournois LF</title>
 
     <!-- Meta -->
     <meta charset="utf-8">
@@ -35,8 +35,8 @@ include 'param.php';
     <!-- CSS Style Page -->
     <link rel="stylesheet" href="assets/css/pages/page_log_reg_v1.css">
     <!-- CSS Theme -->
-    <link rel="stylesheet" href="assets/css/themes/default.css" id="style_color">
-    <link rel="stylesheet" href="assets/css/themes/headers/default.css" id="style_color-header-1">
+    <link rel="stylesheet" href="assets/css/themes/red.css" id="style_color">
+    <link rel="stylesheet" href="assets/css/themes/headers/header1-red.css" id="style_color-header-1">
 </head>
 
 <body>

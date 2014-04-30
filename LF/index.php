@@ -4,9 +4,11 @@ if (isset($_GET['enreg'])) {
     $enreg = $_GET['enreg'];
     if ($enreg == 'E') {
         $error = 'Enregistrement effectue, vous allez recevoir un mail de confirmation.';
-    } else if ($enreg == 'P') {
+    }
+    if ($enreg == 'P') {
         $error = 'Mail de reinitialisation du mot de passe envoye.';
-    } else if ($enreg == 'I') {
+    }
+    if ($enreg == 'O') {
         $error = 'Mot de passe reinitialise';
     }
 }
@@ -61,7 +63,7 @@ if (isset($_POST['connexion']) && $_POST['connexion'] == 'Connexion') {
 <!--[if !IE]><!-->
 <html lang="en"> <!--<![endif]-->
 <head>
-    <title>Unify | Welcome...</title>
+    <title>Tournoi LF</title>
 
     <!-- Meta -->
     <meta charset="utf-8">
@@ -80,8 +82,8 @@ if (isset($_POST['connexion']) && $_POST['connexion'] == 'Connexion') {
     <!-- CSS Style Page -->
     <link rel="stylesheet" href="assets/css/pages/page_log_reg_v1.css">
     <!-- CSS Theme -->
-    <link rel="stylesheet" href="assets/css/themes/default.css" id="style_color">
-    <link rel="stylesheet" href="assets/css/themes/headers/default.css" id="style_color-header-1">
+    <link rel="stylesheet" href="assets/css/themes/red.css" id="style_color">
+    <link rel="stylesheet" href="assets/css/themes/headers/header1-red.css" id="style_color-header-1">
 </head>
 
 <body>

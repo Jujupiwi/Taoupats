@@ -127,7 +127,7 @@ foreach ($rows as $ligne) {
     </div>
     <div class="row">
         <div class="col-lg-offset-4" style="padding-left: 60px;">
-            <a class="btn btn-medium btn-warning" href="../deconnexion.php" width="100px" height="30px">&nbsp;&nbsp;Quitter&nbsp;&nbsp;</a>
+            <a class="btn btn-medium btn-u-red" href="../deconnexion.php" width="100px" height="30px">&nbsp;&nbsp;Quitter&nbsp;&nbsp;</a>
         </div>
     </div>
 </div>

@@ -8,15 +8,19 @@ if (isset($_POST['init'])) {
     $pass = $mysqli->real_escape_string($_POST['pass']);
     $pass = md5($_POST['pass']);
     $login = $_POST['login'];
-    echo $login;
-    echo $pass;
     $mysqli->query("update membre set pass='" . $pass . "' where login= '" . $login . "'");
-    header('Location: index.php?enreg=I');
+    header('Location: index.php?enreg=O');
+    exit();
 }
 $cleRecup = $_GET['cle'];
 $login = $_GET['login'];
+$mail = $_GET['mail'];
 $error = 'E';
-
+if ($login == "") {
+    $res = $mysqli->query('SELECT login FROM membre WHERE mail="' . $mail . '"');
+    $row = $res->fetch_array();
+    $login = $row[0];
+}
 $res = $mysqli->query('SELECT valide, cle FROM membre WHERE login="' . $login . '"');
 $row = $res->fetch_array();
 
@@ -33,7 +37,7 @@ if ($row[0] == 0 || $row[1] != $cleRecup) {
 <!--[if !IE]><!-->
 <html lang="en"> <!--<![endif]-->
 <head>
-    <title>Unify | Welcome...</title>
+    <title>Tournois LF</title>
 
     <!-- Meta -->
     <meta charset="utf-8">
@@ -83,6 +87,10 @@ if ($row[0] == 0 || $row[1] != $cleRecup) {
                 <div class="alert alert-block alert-error" style="color: red; display: none" id="vide">
                     <button type="button" class="close" id="closeVide">x</button>
                     <h4>Attention!</h4> Veuillez renseigner votre mot de passe!
+                </div>
+                <div class="alert alert-block alert-error" style="color: red; display: none" id="long">
+                    <button type="button" class="close" id="closeLong">x</button>
+                    <h4>Attention!</h4> Longueur minimum du mot de passe 4!
                 </div>
                 <div class="alert alert-block alert-error" style="color: red; display: none" id="egaux">
                     <button type="button" class="close" id="closeEgaux">x</button>
@@ -197,6 +205,10 @@ if ($row[0] == 0 || $row[1] != $cleRecup) {
     $("#target").submit(function (event) {
         var pass = $("#pass").val();
         var pass2 = $("#pass2").val();
+        if (pass.length < 4) {
+            $("#long").show("slow");
+            event.preventDefault();
+        }
         if (pass == '' && pass2 == '') {
             $("#vide").show("slow");
             event.preventDefault();
@@ -213,6 +225,9 @@ if ($row[0] == 0 || $row[1] != $cleRecup) {
     });
     $("#closeEgaux").click(function () {
         $("#egaux").hide("slow");
+    });
+    $("#closeLong").click(function () {
+        $("#long").hide("slow");
     });
 </script>
 </body>

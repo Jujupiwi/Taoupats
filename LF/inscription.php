@@ -35,7 +35,7 @@ if ($actif == '1') // Si le compte est déjà actif on prévient
     {
         // Si elles correspondent on active le compte !
         echo "Votre compte a bien été activé !";
-        echo "<a href='index.php'";
+        echo "<a href='index.php'>Retour</a>";
 
         // La requête qui va passer notre champ actif de 0 à 1
         $stmt = $mysqli->query("UPDATE membre SET valide = 1 WHERE login='" . $login . "'");

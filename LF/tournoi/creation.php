@@ -54,8 +54,8 @@ if (!isset($login) || $row[0] == 0) {
     <!-- CSS Style Page -->
     <link rel="stylesheet" href="../assets/css/pages/page_log_reg_v1.css">
     <!-- CSS Theme -->
-    <link rel="stylesheet" href="../assets/css/themes/default.css" id="style_color">
-    <link rel="stylesheet" href="../assets/css/themes/headers/default.css" id="style_color-header-1">
+    <link rel="stylesheet" href="../assets/css/themes/red.css" id="style_color">
+    <link rel="stylesheet" href="../assets/css/themes/headers/header1-red.css" id="style_color-header-1">
 </head>
 
 <body>
@@ -66,7 +66,7 @@ if (!isset($login) || $row[0] == 0) {
         <h1 class="pull-left">Nouveau Tournoi</h1>
         <ul class="pull-right breadcrumb">
             <li class="active">Bienvenue <?php echo htmlentities(trim($_SESSION['login'])); ?> !</li>
-            <li><a class="btn-u btn-u-orange" href="../deconnexion.php">Deconnexion</a></li>
+            <li><a class="btn-u btn-u-red" href="../deconnexion.php">Deconnexion</a></li>
         </ul>
     </div>
     <!--/container-->
@@ -106,7 +106,7 @@ if (!isset($login) || $row[0] == 0) {
                     <input id="nbJoueurs" type="number" placeholder="4/20" name="quant"
                            class="form-control numbersOnly">
                 </div>
-                <input class="btn-u" type="submit" id="valide" name="continuer" value="Continuer">
+                <input class="btn-u btn-u-blue" type="submit" id="valide" name="continuer" value="Continuer">
             </form>
         </div>
     </div>

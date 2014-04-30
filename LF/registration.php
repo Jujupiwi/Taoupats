@@ -32,6 +32,7 @@ if (isset($_POST['inscription']) && $_POST['inscription'] == 'Inscription') {
                 // Préparation du mail contenant le lien d'activation
                 $destinataire = $mail;
                 $sujet = "Activer votre compte";
+                $urlEntier = $url . "inscription.php?log=" . $login . "&cle=" . $cle;
                 $entete = "From: inscription@tournoisLF.com";
 
                 // Le lien d'activation est composé du login(log) et de la clé(cle)
@@ -40,7 +41,7 @@ if (isset($_POST['inscription']) && $_POST['inscription'] == 'Inscription') {
                 Pour activer votre compte, veuillez cliquer sur le lien ci dessous
                 ou copier/coller dans votre navigateur internet.
 
-                "' . $url . '"/LF/inscription.php?log=' . urlencode($login) . '&cle=' . urlencode($cle) . '
+                "' . $urlEntier . '
 
 
                 ---------------
@@ -65,7 +66,7 @@ if (isset($_POST['inscription']) && $_POST['inscription'] == 'Inscription') {
 <!--[if !IE]><!-->
 <html lang="en"> <!--<![endif]-->
 <head>
-    <title>Unify | Welcome...</title>
+    <title>Tournois LF</title>
 
     <!-- Meta -->
     <meta charset="utf-8">
@@ -84,8 +85,8 @@ if (isset($_POST['inscription']) && $_POST['inscription'] == 'Inscription') {
     <!-- CSS Style Page -->
     <link rel="stylesheet" href="assets/css/pages/page_log_reg_v1.css">
     <!-- CSS Theme -->
-    <link rel="stylesheet" href="assets/css/themes/default.css" id="style_color">
-    <link rel="stylesheet" href="assets/css/themes/headers/default.css" id="style_color-header-1">
+    <link rel="stylesheet" href="assets/css/themes/red.css" id="style_color">
+    <link rel="stylesheet" href="assets/css/themes/headers/header1-red.css" id="style_color-header-1">
 </head>
 
 <body>

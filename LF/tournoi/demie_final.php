@@ -1,4 +1,14 @@
-<html>
+<?php
+include '../param.php';
+
+?>
+<!DOCTYPE html>
+<!--[if IE 8]>
+<html lang="en" class="ie8"> <![endif]-->
+<!--[if IE 9]>
+<html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="en"> <!--<![endif]-->
 <head>
     <title>Tournois LF</title>
 
@@ -19,119 +29,181 @@
     <!-- CSS Style Page -->
     <link rel="stylesheet" href="../assets/css/pages/page_log_reg_v1.css">
     <!-- CSS Theme -->
-    <link rel="stylesheet" href="../assets/css/themes/default.css" id="style_color">
-    <link rel="stylesheet" href="../assets/css/themes/headers/default.css" id="style_color-header-1">
+    <link rel="stylesheet" href="../assets/css/themes/red.css" id="style_color">
+    <link rel="stylesheet" href="../assets/css/themes/headers/header1-red.css" id="style_color-header-1">
 </head>
-<body style="padding-top:100px;padding-left:100px;">
-<?php
-include '../param.php';
-$name = $_GET['name'];
 
-$mysqli = new mysqli($serv, $user, $pwd, $data);
-if ($mysqli->connect_errno) {
-    $error = "Echec lors de la connexion a MySQL : (" . $mysqli->connect_errno . ") " . $mysqli->connect_error;
-}
+<body>
 
-session_start();
-$login = $_SESSION['login'];
-$res = $mysqli->query('SELECT valide FROM membre WHERE login="' . $login . '"');
-$row = $res->fetch_array();
-
-if (!isset($login) || $row[0] == 0) {
-    header('Location: ../index.php?enreg=E');
-    exit();
-}
-
-$sql = $mysqli->query("select equipe from classement where nom_tournoi = '$name' and login = '$login' order by points desc, diff desc, bp desc, bc, victoire desc, defaite;");
-while ($row = $sql->fetch_array()) {
-    $rows[] = $row;
-}
-$i = 1;
-foreach ($rows as $ligne) {
-    if ($i == 1) {
-        $equipe1 = $ligne[0];
-    } else if ($i == 2) {
-        $equipe2 = $ligne[0];
-    } else if ($i == 3) {
-        $equipe3 = $ligne[0];
-    } else if ($i == 4) {
-        $equipe4 = $ligne[0];
-    }
-    $i++;
-}
-?>
-<div class="container">
-    <div class="row">
-        <div class="col-lg-6">
-            <div class="row">
-                <label for="<?php echo strtoupper($equipe1); ?>">Demi Finale 1</label>
-                <input type="text" style="width:200px; height:30px;" readonly class="form-control dom_df1"
-                       value="<?php echo strtoupper($equipe1); ?>">
-                <input type="text" style="width:40px; height:30px;" class="form-control score_dom_df1"/>
-            </div>
-            <div class="row">
-                vs
-            </div>
-            <div class="row">
-                <label for="<?php echo strtoupper($equipe4); ?>"></label>
-                <input type="text" style="width:200px; height:30px;" readonly class="form-control ext_df1"
-                       value="<?php echo strtoupper($equipe4); ?>"/>
-                <input type="text" style="width:40px; height:30px;" class="form-control score_ext_df1"/>
-            </div>
-
-        </div>
-        <div class="col-lg-6">
-            <div class="row">
-                <label for="<?php echo strtoupper($equipe2); ?>">Demi Finale 2</label>
-                <input type="text" style="width:200px; height:30px;" readonly class="form-control dom_df2"
-                       value="<?php echo strtoupper($equipe2); ?>"/>
-                <input type="text" style="width:40px; height:30px;" class="form-control score_dom_df2"/>
-            </div>
-            <div class="row">
-                vs
-            </div>
-            <div class="row">
-                <label for="<?php echo strtoupper($equipe3); ?>"></label>
-                <input type="text" style="width:200px; height:30px; " readonly class="form-control ext_df2"
-                       value="<?php echo strtoupper($equipe3); ?>"/>
-                <input type="text" style="width:40px; height:30px;" class="form-control score_ext_df2"/>
-            </div>
-        </div>
+<!--=== Breadcrumbs ===-->
+<div class="breadcrumbs margin-bottom-40">
+    <div class="container">
+        <!--        <h1 class="pull-left">Tournoi --><?php //echo $name; ?><!--</h1>-->
+        <ul class="pull-right breadcrumb">
+            <!--            <li class="active">Bienvenue -->
+            <?php //echo htmlentities(trim($_SESSION['login'])); ?><!-- !</li>-->
+            <li><a class="btn-u btn-u-red" href="../deconnexion.php">Deconnexion</a></li>
+        </ul>
+    </div>
+    <!--/container-->
+</div>
+<!--/breadcrumbs-->
+<!--=== End Breadcrumbs ===-->
+<div class="container" style="margin-bottom: 130px;">
+    <div class="row input-group">
+        <input type="text" style="width: 150px !important;" placeholder="Joueur 1" class="form-control"/>
+        <input type="text" style="margin-left:10px;width: 50px !important;" placeholder="Score 1" class="form-control"/>
+        <input type="text" style="margin-left:10px;width: 50px !important;" placeholder="Score 1" class="form-control"/>
     </div>
     <div class="row">
-        <div class="col-lg-offset-2 col-lg-3">
-            <input type="text" style="width:200px; height:30px;" readonly class="form-control dom_f"/>
-        </div>
-        <div class="col-lg-1" style="padding-left: 20px;">
-            vs
-        </div>
-        <div class="col-lg-3">
-            <input type="text" style="width:200px; height:30px;" readonly class="form-control ext_f"/>
-        </div>
+        <div class="col-md-4">Vs</div>
     </div>
-    <div class="row">
-        <div class="col-lg-offset-3 col-lg-3">
-            <input type="text" style="width:40px; height:30px;" class="form-control score_dom_f"/>
-        </div>
-        <div class="col-lg-1">
+    <div class="row input-group">
+        <input type="text" style="width: 150px !important;" placeholder="Joueur 2" class="form-control"/>
+        <input type="text" style="margin-left:10px;width: 50px !important;" placeholder="Score 1" class="form-control"/>
+        <input type="text" style="margin-left:10px;width: 50px !important;" placeholder="Score 1" class="form-control"/>
+    </div>
 
-        </div>
-        <div class="col-lg-3">
-            <input type="text" style="width:40px; height:30px" class="form-control score_ext_f"/>
-        </div>
+    <div class="row" style="margin-top: 30px;"></div>
+
+    <div class="row input-group">
+        <input type="text" style="width: 150px !important;" placeholder="Joueur 3" class="form-control"/>
+        <input type="text" style="margin-left:10px;width: 50px !important;" placeholder="Score 1" class="form-control"/>
+        <input type="text" style="margin-left:10px;width: 50px !important;" placeholder="Score 1" class="form-control"/>
+
+        <input type="text" style="margin-left:150px;width: 150px !important;" placeholder="Joueur 1"
+               class="form-control"/>
+        <input type="text" style="margin-left:10px;width: 50px !important;" placeholder="Score 1" class="form-control"/>
+        <input type="text" style="margin-left:10px;width: 50px !important;" placeholder="Score 1" class="form-control"/>
     </div>
     <div class="row">
-        <div class="col-lg-offset-1" style="padding-left: 50px;">
-            <img src="images/ldc.jpg">
-        </div>
+        <div class="col-md-4">Vs</div>
+        <div class="col-md-4" style="margin-left: 30px">Vs</div>
+    </div>
+    <div class="row input-group">
+        <input type="text" style="width: 150px !important;" placeholder="Joueur 4" class="form-control"/>
+        <input type="text" style="margin-left:10px;width: 50px !important;" placeholder="Score 1" class="form-control"/>
+        <input type="text" style="margin-left:10px;width: 50px !important;" placeholder="Score 1" class="form-control"/>
+
+        <input type="text" style="margin-left:150px;width: 150px !important;" placeholder="Joueur 2"
+               class="form-control"/>
+        <input type="text" style="margin-left:10px;width: 50px !important;" placeholder="Score 1" class="form-control"/>
+        <input type="text" style="margin-left:10px;width: 50px !important;" placeholder="Score 1" class="form-control"/>
+
+        <input type="text" style="margin-left:150px;width: 150px !important;" placeholder="Joueur 1"
+               class="form-control"/>
+        <input type="text" style="margin-left:10px;width: 50px !important;" placeholder="Score 1" class="form-control"/>
+        <input type="text" style="margin-left:10px;width: 50px !important;" placeholder="Score 1" class="form-control"/>
+    </div>
+    <div class="col-md-8"></div>
+    <div class="col-md-2" style="margin-left: 60px; margin-top: 10px;">Vs</div>
+    <div class="row" style="margin-top: 40px;"></div>
+
+    <div class="row input-group">
+        <input type="text" style="width: 150px !important;" placeholder="Joueur 5" class="form-control"/>
+        <input type="text" style="margin-left:10px;width: 50px !important;" placeholder="Score 1" class="form-control"/>
+        <input type="text" style="margin-left:10px;width: 50px !important;" placeholder="Score 1" class="form-control"/>
+
+        <input type="text" style="margin-left:150px;width: 150px !important;" placeholder="Joueur 3"
+               class="form-control"/>
+        <input type="text" style="margin-left:10px;width: 50px !important;" placeholder="Score 1" class="form-control"/>
+        <input type="text" style="margin-left:10px;width: 50px !important;" placeholder="Score 1" class="form-control"/>
+
+        <input type="text" style="margin-left:150px;width: 150px !important;" placeholder="Joueur 2"
+               class="form-control"/>
+        <input type="text" style="margin-left:10px;width: 50px !important;" placeholder="Score 1" class="form-control"/>
+        <input type="text" style="margin-left:10px;width: 50px !important;" placeholder="Score 1" class="form-control"/>
     </div>
     <div class="row">
-        <div class="col-lg-offset-4" style="padding-left: 60px;">
-            <a class="btn btn-medium btn-u-red" href="../deconnexion.php" width="100px" height="30px">&nbsp;&nbsp;Quitter&nbsp;&nbsp;</a>
-        </div>
+        <div class="col-md-4">Vs</div>
+        <div class="col-md-4" style="margin-left: 30px">Vs</div>
+    </div>
+    <div class="row input-group">
+        <input type="text" style="width: 150px !important;" placeholder="Joueur 6" class="form-control"/>
+        <input type="text" style="margin-left:10px;width: 50px !important;" placeholder="Score 1" class="form-control"/>
+        <input type="text" style="margin-left:10px;width: 50px !important;" placeholder="Score 1" class="form-control"/>
+
+        <input type="text" style="margin-left:150px;width: 150px !important;" placeholder="Joueur 4"
+               class="form-control"/>
+        <input type="text" style="margin-left:10px;width: 50px !important;" placeholder="Score 1" class="form-control"/>
+        <input type="text" style="margin-left:10px;width: 50px !important;" placeholder="Score 1" class="form-control"/>
+    </div>
+    <div class="row" style="margin-top: 30px;"></div>
+
+    <div class="row input-group">
+        <input type="text" style="width: 150px !important;" placeholder="Joueur 7" class="form-control"/>
+        <input type="text" style="margin-left:10px;width: 50px !important;" placeholder="Score 1" class="form-control"/>
+        <input type="text" style="margin-left:10px;width: 50px !important;" placeholder="Score 1" class="form-control"/>
+    </div>
+    <div class="row">
+        <div class="col-md-4">Vs</div>
+    </div>
+    <div class="row input-group">
+        <input type="text" style="width: 150px !important;" placeholder="Joueur 8" class="form-control"/>
+        <input type="text" style="margin-left:10px;width: 50px !important;" placeholder="Score 1" class="form-control"/>
+        <input type="text" style="margin-left:10px;width: 50px !important;" placeholder="Score 1" class="form-control"/>
     </div>
 </div>
-</body>
+
+<!--/container-->
+<!--=== End Content Part ===-->
+
+<!--=== Footer ===-->
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 md-margin-bottom-40">
+                <!-- About -->
+                <div class="headline"><h2>A Propos</h2></div>
+                <p class="margin-bottom-25 md-margin-bottom-40">Outil de gestion de competition FIFA.</p>
+                <p class="margin-bottom-10">Creation de championnats ou de tournois de 4 a 20 joueurs!!</p>
+
+
+            </div>
+            <!--/col-md-4-->
+
+            <div class="col-md-4">
+                <!-- Stay Connected -->
+                <div class="headline"><h2>Reseaux sociaux</h2></div>
+                <ul class="social-icons">
+                    <li><a href="#" data-original-title="Feed" class="social_rss"></a></li>
+                    <li><a href="#" data-original-title="Facebook" class="social_facebook"></a></li>
+                    <li><a href="#" data-original-title="Twitter" class="social_twitter"></a></li>
+                    <li><a href="#" data-original-title="Goole Plus" class="social_googleplus"></a></li>
+                    <li><a href="#" data-original-title="Pinterest" class="social_pintrest"></a></li>
+                    <li><a href="#" data-original-title="Linkedin" class="social_linkedin"></a></li>
+                    <li><a href="#" data-original-title="Vimeo" class="social_vimeo"></a></li>
+                </ul>
+            </div>
+            <!--/col-md-4-->
+        </div>
+        <!--/row-->
+    </div>
+    <!--/container-->
+</div>
+<!--/footer-->
+<!--=== End Footer ===-->
+
+<!--=== Copyright ===-->
+<div class="copyright">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <p class="copyright-space">
+                    2014 @Jujupiwi.
+                </p>
+            </div>
+            <div class="col-md-6">
+
+            </div>
+        </div>
+        <!--/row-->
+    </div>
+    <!--/container-->
+</div>
+<!--/copyright-->
+<!--=== End Copyright ===-->
+
 <!-- JS Global Compulsory -->
 <script type="text/javascript" src="../assets/plugins/jquery-1.10.2.min.js"></script>
 <script type="text/javascript" src="../assets/plugins/jquery-migrate-1.2.1.min.js"></script>
@@ -158,59 +230,5 @@ foreach ($rows as $ligne) {
     //        }
     //    });
 </script>
-<script>
-    jQuery('.score_dom_df1').keyup(function () {
-        this.value = this.value.replace(/[^0-9\.]/g, '');
-    });
-    jQuery('.score_dom_df2').keyup(function () {
-        this.value = this.value.replace(/[^0-9\.]/g, '');
-    });
-    jQuery('.score_ext_df1').keyup(function () {
-        this.value = this.value.replace(/[^0-9\.]/g, '');
-    });
-    jQuery('.score_ext_df2').keyup(function () {
-        this.value = this.value.replace(/[^0-9\.]/g, '');
-    });
-    jQuery('.score_dom_f').keyup(function () {
-        this.value = this.value.replace(/[^0-9\.]/g, '');
-    });
-    jQuery('.score_ext_f').keyup(function () {
-        this.value = this.value.replace(/[^0-9\.]/g, '');
-    });
-    $("input[type='text']").keyup(function () {
-        if ($('input[class=score_dom_df1]').val() > $('input[class=score_ext_df1]').val()) {
-            var text = $('input[class=dom_df1]').val();
-            $('input[class=dom_df1]').css("background-color", "#8AF7A4");
-            $('input[class=ext_df1]').css("background-color", "#F78A8A");
-            $('input[class=dom_f]').val(text);
-        }
-        if ($('input[class=score_dom_df1]').val() < $('input[class=score_ext_df1]').val()) {
-            var text = $('input[class=ext_df1]').val();
-            $('input[class=dom_df1]').css("background-color", "#F78A8A");
-            $('input[class=ext_df1]').css("background-color", "#8AF7A4");
-            $('input[class=dom_f]').val(text);
-        }
-        if ($('input[class=score_dom_df2]').val() > $('input[class=score_ext_df2]').val()) {
-            var text = $('input[class=dom_df2]').val();
-            $('input[class=dom_df2]').css("background-color", "#8AF7A4");
-            $('input[class=ext_df2]').css("background-color", "#F78A8A");
-            $('input[class=ext_f]').val(text);
-        }
-        if ($('input[class=score_dom_df2]').val() < $('input[class=score_ext_df2]').val()) {
-            var text = $('input[class=ext_df2]').val();
-            $('input[class=dom_df2]').css("background-color", "#F78A8A");
-            $('input[class=ext_df2]').css("background-color", "#8AF7A4");
-            $('input[class=ext_f]').val(text);
-        }
-        if ($('input[class=score_dom_f]').val() < $('input[class=score_ext_f]').val()) {
-            $('input[class=dom_f]').css("background-color", "#F78A8A");
-            $('input[class=ext_f]').css("background-color", "#8AF7A4");
-        }
-
-        if ($('input[class=score_dom_f]').val() > $('input[class=score_ext_f]').val()) {
-            $('input[class=dom_f]').css("background-color", "#8AF7A4");
-            $('input[class=ext_f]').css("background-color", "#F78A8A");
-        }
-    });
-</script>
+</body>
 </html>

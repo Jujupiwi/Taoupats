@@ -256,9 +256,49 @@
 </thead>
 <tr>
     <td style="text-align: center">Alexy</td>
-    <td style="text-align: center"><?php $match_1 = 21;
+    <td style="text-align: center"><?php $match_1 = 22;
         echo $match_1; ?></td>
     <td style="text-align: center">1</td>
+    <td style="text-align: center"><?php $but_1 = 0;
+        echo $but_1; ?></td>
+    <td style="text-align: center"><?php if ($match_1 == 0) {
+            echo $match_1;
+        } else {
+            echo number_format($but_1 / $match_1, 2);
+        }; ?></td>
+    <td style="text-align: center"><?php $passe_1 = 1;
+        echo $passe_1; ?></td>
+    <td style="text-align: center"><?php if ($match_1 == 0) {
+            echo $match_1;
+        } else {
+            echo number_format($passe_1 / $match_1, 2);
+        }; ?></td>
+</tr>
+<tr>
+    <td style="text-align: center">JulienB</td>
+    <td style="text-align: center"><?php $match_1 = 20;
+        echo $match_1; ?></td>
+    <td style="text-align: center">0</td>
+    <td style="text-align: center"><?php $but_1 = 2;
+        echo $but_1; ?></td>
+    <td style="text-align: center"><?php if ($match_1 == 0) {
+            echo $match_1;
+        } else {
+            echo number_format($but_1 / $match_1, 2);
+        }; ?></td>
+    <td style="text-align: center"><?php $passe_1 = 0;
+        echo $passe_1; ?></td>
+    <td style="text-align: center"><?php if ($match_1 == 0) {
+            echo $match_1;
+        } else {
+            echo number_format($passe_1 / $match_1, 2);
+        }; ?></td>
+</tr>
+<tr>
+    <td style="text-align: center">MaximeD</td>
+    <td style="text-align: center"><?php $match_1 = 20;
+        echo $match_1; ?></td>
+    <td style="text-align: center">0</td>
     <td style="text-align: center"><?php $but_1 = 0;
         echo $but_1; ?></td>
     <td style="text-align: center"><?php if ($match_1 == 0) {
@@ -286,47 +326,7 @@
         } else {
             echo number_format($but_1 / $match_1, 2);
         }; ?></td>
-    <td style="text-align: center"><i class="icon-star"></i><?php $passe_1 = 5;
-        echo $passe_1; ?></td>
-    <td style="text-align: center"><?php if ($match_1 == 0) {
-            echo $match_1;
-        } else {
-            echo number_format($passe_1 / $match_1, 2);
-        }; ?></td>
-</tr>
-<tr>
-    <td style="text-align: center">JulienB</td>
-    <td style="text-align: center"><?php $match_1 = 19;
-        echo $match_1; ?></td>
-    <td style="text-align: center">0</td>
-    <td style="text-align: center"><?php $but_1 = 2;
-        echo $but_1; ?></td>
-    <td style="text-align: center"><?php if ($match_1 == 0) {
-            echo $match_1;
-        } else {
-            echo number_format($but_1 / $match_1, 2);
-        }; ?></td>
-    <td style="text-align: center"><?php $passe_1 = 0;
-        echo $passe_1; ?></td>
-    <td style="text-align: center"><?php if ($match_1 == 0) {
-            echo $match_1;
-        } else {
-            echo number_format($passe_1 / $match_1, 2);
-        }; ?></td>
-</tr>
-<tr>
-    <td style="text-align: center">MaximeD</td>
-    <td style="text-align: center"><?php $match_1 = 19;
-        echo $match_1; ?></td>
-    <td style="text-align: center">0</td>
-    <td style="text-align: center"><?php $but_1 = 0;
-        echo $but_1; ?></td>
-    <td style="text-align: center"><?php if ($match_1 == 0) {
-            echo $match_1;
-        } else {
-            echo number_format($but_1 / $match_1, 2);
-        }; ?></td>
-    <td style="text-align: center"><?php $passe_1 = 0;
+    <td style="text-align: center"><?php $passe_1 = 5;
         echo $passe_1; ?></td>
     <td style="text-align: center"><?php if ($match_1 == 0) {
             echo $match_1;
@@ -336,7 +336,7 @@
 </tr>
 <tr>
     <td style="text-align: center">Tito</td>
-    <td style="text-align: center"><?php $match_1 = 18;
+    <td style="text-align: center"><?php $match_1 = 19;
         echo $match_1; ?></td>
     <td style="text-align: center">0</td>
     <td style="text-align: center"><?php $but_1 = 1;
@@ -356,9 +356,49 @@
 </tr>
 <tr>
     <td style="text-align: center">Zizou</td>
+    <td style="text-align: center"><?php $match_1 = 19;
+        echo $match_1; ?></td>
+    <td style="text-align: center">1</td>
+    <td style="text-align: center"><?php $but_1 = 0;
+        echo $but_1; ?></td>
+    <td style="text-align: center"><?php if ($match_1 == 0) {
+            echo $match_1;
+        } else {
+            echo number_format($but_1 / $match_1, 2);
+        }; ?></td>
+    <td style="text-align: center"><?php $passe_1 = 0;
+        echo $passe_1; ?></td>
+    <td style="text-align: center"><?php if ($match_1 == 0) {
+            echo $match_1;
+        } else {
+            echo number_format($passe_1 / $match_1, 2);
+        }; ?></td>
+</tr>
+<tr>
+    <td style="text-align: center">Jordan</td>
     <td style="text-align: center"><?php $match_1 = 18;
         echo $match_1; ?></td>
     <td style="text-align: center">1</td>
+    <td style="text-align: center"><?php $but_1 = 6;
+        echo $but_1; ?></td>
+    <td style="text-align: center"><?php if ($match_1 == 0) {
+            echo $match_1;
+        } else {
+            echo number_format($but_1 / $match_1, 2);
+        }; ?></td>
+    <td style="text-align: center"><i class="icon-star"></i><?php $passe_1 = 6;
+        echo $passe_1; ?></td>
+    <td style="text-align: center"><i class="icon-star"></i><?php if ($match_1 == 0) {
+            echo $match_1;
+        } else {
+            echo number_format($passe_1 / $match_1, 2);
+        }; ?></td>
+</tr>
+<tr>
+    <td style="text-align: center">Joffrey</td>
+    <td style="text-align: center"><?php $match_1 = 18;
+        echo $match_1; ?></td>
+    <td style="text-align: center">0</td>
     <td style="text-align: center"><?php $but_1 = 0;
         echo $but_1; ?></td>
     <td style="text-align: center"><?php if ($match_1 == 0) {
@@ -395,7 +435,7 @@
         }; ?></td>
 </tr>
 <tr>
-    <td style="text-align: center">Jordan</td>
+    <td style="text-align: center">MaximeS</td>
     <td style="text-align: center"><?php $match_1 = 17;
         echo $match_1; ?></td>
     <td style="text-align: center">1</td>
@@ -406,47 +446,7 @@
         } else {
             echo number_format($but_1 / $match_1, 2);
         }; ?></td>
-    <td style="text-align: center"><?php $passe_1 = 6;
-        echo $passe_1; ?></td>
-    <td style="text-align: center"><i class="icon-star"></i><?php if ($match_1 == 0) {
-            echo $match_1;
-        } else {
-            echo number_format($passe_1 / $match_1, 2);
-        }; ?></td>
-</tr>
-<tr>
-    <td style="text-align: center">Joffrey</td>
-    <td style="text-align: center"><?php $match_1 = 17;
-        echo $match_1; ?></td>
-    <td style="text-align: center">0</td>
-    <td style="text-align: center"><?php $but_1 = 0;
-        echo $but_1; ?></td>
-    <td style="text-align: center"><?php if ($match_1 == 0) {
-            echo $match_1;
-        } else {
-            echo number_format($but_1 / $match_1, 2);
-        }; ?></td>
-    <td style="text-align: center"><?php $passe_1 = 0;
-        echo $passe_1; ?></td>
-    <td style="text-align: center"><?php if ($match_1 == 0) {
-            echo $match_1;
-        } else {
-            echo number_format($passe_1 / $match_1, 2);
-        }; ?></td>
-</tr>
-<tr>
-    <td style="text-align: center">MaximeS</td>
-    <td style="text-align: center"><?php $match_1 = 16;
-        echo $match_1; ?></td>
-    <td style="text-align: center">1</td>
-    <td style="text-align: center"><?php $but_1 = 5;
-        echo $but_1; ?></td>
-    <td style="text-align: center"><?php if ($match_1 == 0) {
-            echo $match_1;
-        } else {
-            echo number_format($but_1 / $match_1, 2);
-        }; ?></td>
-    <td style="text-align: center"><?php $passe_1 = 0;
+    <td style="text-align: center"><?php $passe_1 = 1;
         echo $passe_1; ?></td>
     <td style="text-align: center"><?php if ($match_1 == 0) {
             echo $match_1;
@@ -456,7 +456,7 @@
 </tr>
 <tr>
     <td style="text-align: center">Tony</td>
-    <td style="text-align: center"><?php $match_1 = 15;
+    <td style="text-align: center"><?php $match_1 = 16;
         echo $match_1; ?></td>
     <td style="text-align: center">1</td>
     <td style="text-align: center"><?php $but_1 = 2;
@@ -498,7 +498,7 @@
     <td style="text-align: center">Paul</td>
     <td style="text-align: center"><?php $match_1 = 14;
         echo $match_1; ?></td>
-    <td style="text-align: center">1</td>
+    <td style="text-align: center">2</td>
     <td style="text-align: center"><?php $but_1 = 2;
         echo $but_1; ?></td>
     <td style="text-align: center"><?php if ($match_1 == 0) {
@@ -516,7 +516,7 @@
 </tr>
 <tr>
     <td style="text-align: center">Dédé</td>
-    <td style="text-align: center"><?php $match_1 = 13;
+    <td style="text-align: center"><?php $match_1 = 14;
         echo $match_1; ?></td>
     <td style="text-align: center">2</td>
     <td style="text-align: center"><?php $but_1 = 2;
@@ -594,6 +594,26 @@
             echo number_format($passe_1 / $match_1, 2);
         }; ?></td>
 </tr>
+<tr class="success">
+    <td style="text-align: center">Baptiste</td>
+    <td style="text-align: center"><?php $match_1 = 10;
+        echo $match_1; ?></td>
+    <td style="text-align: center">1</td>
+    <td style="text-align: center"><i class="icon-star"></i><?php $but_1 = 11;
+        echo $but_1; ?></td>
+    <td style="text-align: center"><i class="icon-star"></i><?php if ($match_1 == 0) {
+            echo number_format($match_1, 2);
+        } else {
+            echo number_format($but_1 / $match_1, 2);
+        }; ?></td>
+    <td style="text-align: center"><?php $passe_1 = 1;
+        echo $passe_1; ?></td>
+    <td style="text-align: center"><?php if ($match_1 == 0) {
+            echo number_format($match_1, 2);
+        } else {
+            echo number_format($passe_1 / $match_1, 2);
+        }; ?></td>
+</tr>
 <tr>
     <td style="text-align: center">Gaetan</td>
     <td style="text-align: center"><?php $match_1 = 9;
@@ -614,31 +634,11 @@
             echo number_format($passe_1 / $match_1, 2);
         }; ?></td>
 </tr>
-<tr class="success">
-    <td style="text-align: center">Baptiste</td>
-    <td style="text-align: center"><?php $match_1 = 9;
+<tr>
+    <td style="text-align: center">Pierre</td>
+    <td style="text-align: center"><?php $match_1 = 8;
         echo $match_1; ?></td>
     <td style="text-align: center">1</td>
-    <td style="text-align: center"><i class="icon-star"></i><?php $but_1 = 10;
-        echo $but_1; ?></td>
-    <td style="text-align: center"><i class="icon-star"></i><?php if ($match_1 == 0) {
-            echo number_format($match_1, 2);
-        } else {
-            echo number_format($but_1 / $match_1, 2);
-        }; ?></td>
-    <td style="text-align: center"><?php $passe_1 = 1;
-        echo $passe_1; ?></td>
-    <td style="text-align: center"><?php if ($match_1 == 0) {
-            echo number_format($match_1, 2);
-        } else {
-            echo number_format($passe_1 / $match_1, 2);
-        }; ?></td>
-</tr>
-<tr>
-    <td style="text-align: center">Julien</td>
-    <td style="text-align: center"><?php $match_1 = 7;
-        echo $match_1; ?></td>
-    <td style="text-align: center">0</td>
     <td style="text-align: center"><?php $but_1 = 0;
         echo $but_1; ?></td>
     <td style="text-align: center"><?php if ($match_1 == 0) {
@@ -655,10 +655,10 @@
         }; ?></td>
 </tr>
 <tr>
-    <td style="text-align: center">Pierre</td>
+    <td style="text-align: center">Julien</td>
     <td style="text-align: center"><?php $match_1 = 7;
         echo $match_1; ?></td>
-    <td style="text-align: center">1</td>
+    <td style="text-align: center">0</td>
     <td style="text-align: center"><?php $but_1 = 0;
         echo $but_1; ?></td>
     <td style="text-align: center"><?php if ($match_1 == 0) {
@@ -696,7 +696,7 @@
 </tr>
 <tr>
     <td style="text-align: center">JulienG</td>
-    <td style="text-align: center"><?php $match_1 = 4;
+    <td style="text-align: center"><?php $match_1 = 5;
         echo $match_1; ?></td>
     <td style="text-align: center">0</td>
     <td style="text-align: center"><?php $but_1 = 1;
@@ -716,7 +716,7 @@
 </tr>
 <tr>
     <td style="text-align: center">Alexis</td>
-    <td style="text-align: center"><?php $match_1 = 4;
+    <td style="text-align: center"><?php $match_1 = 5;
         echo $match_1; ?></td>
     <td style="text-align: center">0</td>
     <td style="text-align: center"><?php $but_1 = 3;
@@ -845,8 +845,8 @@
         <th width="20%" style="color: #C64646; text-align: center;">Défaites</th>
     </tr>
     <tr>
-        <td style="text-align: center;">22</td>
-        <td style="color: #5DAF6B; text-align: center;">8</td>
+        <td style="text-align: center;">23</td>
+        <td style="color: #5DAF6B; text-align: center;">9</td>
         <td style="color: #4664C6; text-align: center;">3</td>
         <td style="color: #C64646; text-align: center;">11</td>
     </tr>

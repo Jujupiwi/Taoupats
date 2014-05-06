@@ -11,6 +11,43 @@
     <div class="span12">
         <blockquote>
             <p>
+                <i class="icon-signal icon-white"> </i> Note Labege?
+            </p>
+        </blockquote>
+    </div>
+</div>
+<br>
+<div class="row-fluid">
+    <div class="span12">
+        <table
+            class="table table-bordered table-striped table-condensed table-hover">
+            <thead>
+            <tr>
+                <th width="20%">Equipe</th>
+                <th width="50%">Progression</th>
+                <th width="10%">/20</th>
+                <th width="20%">Nb Votes</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>Taoupats</td>
+                <td>
+                    <div class="progress progress-striped active">
+                        <div class="bar bar-warning" style="width: <?php echo (11) * 100 / 20; ?>%;"></div>
+                    </div>
+                </td>
+                <td><?php echo sprintf('%.2f', 11); ?></td>
+                <td>4 votes</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+<div class="row-fluid">
+    <div class="span12">
+        <blockquote>
+            <p>
                 <i class="icon-signal icon-white"> </i> Note Roquette?
             </p>
         </blockquote>

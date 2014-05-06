@@ -166,7 +166,7 @@
     <td>Cadours</td>
     <td>Samedi 3 Mai à 20h</td>
     <td>Cadours</td>
-    <td></td>
+    <td><span class="badge badge-success">2-0</span></td>
     <td>D2</td>
 </tr>
 <tr>

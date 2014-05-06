@@ -21,15 +21,15 @@ $joueur2 = 'MaximeD';
 $joueur3 = 'Joffrey';
 $joueur4 = 'JulienB';
 $joueur5 = 'Dede';
-$joueur6 = 'Enzo';
+$joueur6 = 'Tito';
 $joueur7 = 'Pierre';
-$joueur8 = 'Florian';
+$joueur8 = 'Baptiste';
 $joueur9 = 'Zizou';
 $joueur10 = 'Jordan';
-$joueur11 = 'MaximeS';
-$joueur12 = 'Johan';
-$joueur13 = 'Baptiste';
-$joueur14 = 'Paul';
+$joueur11 = 'Tony';
+$joueur12 = 'Alexis';
+$joueur13 = 'MaximeS';
+$joueur14 = 'JulienG';
 
 /*********************************************************
 Liste des autres joueurs
@@ -38,17 +38,17 @@ $joueur15 = 'Thomas';
 $joueur16 = 'Olivier';
 $joueur17 = 'ThomasP';
 $joueur18 = 'Francois';
-$joueur19 = 'Alexis';
+$joueur19 = 'Johan';
 $joueur20 = 'Lionel';
-$joueur21 = 'JulienG';
+$joueur21 = 'Paul';
 $joueur22 = 'JB';
 $joueur23 = 'Laurent';
-$joueur24 = 'Baptiste';
+$joueur24 = 'Florian';
 $joueur25 = 'Clement';
 $joueur26 = 'Gaetan';
 $joueur27 = 'Julien';
 $joueur28 = 'Tony';
-$joueur29 = 'Tito';
+$joueur29 = 'Enzo';
 
 
 $nbJoueurs = 14;
@@ -72,9 +72,9 @@ $leguevin = 'Leguevin US 2';
 /*********************************************************
 Nom des sondages
  *********************************************************/
-$match = 'labege2';
-$noteMatch = 'note-labege2';
-$commentMatch = 'comment-labege2';
+$match = 'cadours2';
+$noteMatch = 'note-cadours2';
+$commentMatch = 'comment-cadours2';
 
 /*********************************************************
 Interview de la personne de la semaine

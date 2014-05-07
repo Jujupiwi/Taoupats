@@ -97,7 +97,7 @@ if (!isset($login) || $row[0] == 0) {
                 </div>
                 <div class="alert alert-block alert-error" id="coupeAlert" style="display: none; color: red">
                     <button type="button" class="close" id="closeCoupe">x</button>
-                    <h4>Attention!</h4> Le nombre de Joueurs pour une coupe doit etre de 8 joueurs!
+                    <h4>Attention!</h4> Le nombre de Joueurs pour une coupe doit etre de 8 ou de 16 joueurs!
                 </div>
                 <div class="input-group margin-bottom-20">
                     <label for="nomTournoi">Nom Tournoi LF <span class="color-red">*</span></label>
@@ -220,8 +220,9 @@ if (!isset($login) || $row[0] == 0) {
             if (document.getElementById('nbJoueurs').value > 20 || document.getElementById('nbJoueurs').value < 2) {
                 document.getElementById('nbJoueurs').value = '';
                 alertNbJoueur.show("slow");
-            } else if (document.getElementById('mode').value == "coupe" &&
-                document.getElementById('nbJoueurs').value != 8) {
+            } else if ((document.getElementById('mode').value == "coupe" &&
+                document.getElementById('nbJoueurs').value != 8) && (document.getElementById('mode').value == "coupe" &&
+                document.getElementById('nbJoueurs').value != 16)) {
                 alertCoupe.show("slow");
             } else {
                 $("#valide").submit();

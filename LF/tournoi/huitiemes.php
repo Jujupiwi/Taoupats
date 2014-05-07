@@ -96,19 +96,21 @@ $nb = $_GET['nb'];
     <span id="finale" style="margin-left: 220px;color: purple;"><b>FINALE</b></span>
 </div>
 <div class="row input-group">
-    <input type="text" style="width: 150px !important;" placeholder="Joueur 1" class="form-control"/>
-    <input type="text" style="margin-left:10px;width: 40px !important;" placeholder="Score 1" class="form-control"/>
+    <input type="text" style="width: 150px !important;" placeholder="Joueur 1" class="form-control match_1"/>
     <input type="text" style="margin-left:10px;width: 40px !important;" placeholder="Score 1"
-           class="form-control retour"/>
+           class="form-control aller_dom_1"/>
+    <input type="text" style="margin-left:10px;width: 40px !important;" placeholder="Score 1"
+           class="form-control retour_dom_1"/>
 </div>
 <div class="row">
     <div class="col-md-4" style="color: red;"><b>Vs</b></div>
 </div>
 <div class="row input-group">
-    <input type="text" style="width: 150px !important;" placeholder="Joueur 2" class="form-control"/>
-    <input type="text" style="margin-left:10px;width: 40px !important;" placeholder="Score 1" class="form-control"/>
+    <input type="text" style="width: 150px !important;" placeholder="Joueur 2" class="form-control match_1"/>
     <input type="text" style="margin-left:10px;width: 40px !important;" placeholder="Score 1"
-           class="form-control retour"/>
+           class="form-control aller_ext_1"/>
+    <input type="text" style="margin-left:10px;width: 40px !important;" placeholder="Score 1"
+           class="form-control retour_ext_1"/>
 
     <input type="text" style="margin-left:40px;width: 150px !important;" placeholder="Joueur 1"
            class="form-control"/>
@@ -120,10 +122,11 @@ $nb = $_GET['nb'];
 <div class="row" style="margin-left: 290px;color: #0000ff;"><b>Vs</b></div>
 
 <div class="row input-group">
-    <input type="text" style="width: 150px !important;" placeholder="Joueur 3" class="form-control"/>
-    <input type="text" style="margin-left:10px;width: 40px !important;" placeholder="Score 1" class="form-control"/>
+    <input type="text" style="width: 150px !important;" placeholder="Joueur 3" class="form-control match_2"/>
     <input type="text" style="margin-left:10px;width: 40px !important;" placeholder="Score 1"
-           class="form-control retour"/>
+           class="form-control aller_dom_2"/>
+    <input type="text" style="margin-left:10px;width: 40px !important;" placeholder="Score 1"
+           class="form-control retour_dom_2"/>
 
     <input type="text" style="margin-left:40px;width: 150px !important;" placeholder="Joueur 2"
            class="form-control"/>
@@ -135,10 +138,11 @@ $nb = $_GET['nb'];
     <div class="col-md-3" style="color: red;"><b>Vs</b></div>
 </div>
 <div class="row input-group">
-    <input type="text" style="width: 150px !important;" placeholder="Joueur 4" class="form-control"/>
-    <input type="text" style="margin-left:10px;width: 40px !important;" placeholder="Score 1" class="form-control"/>
+    <input type="text" style="width: 150px !important;" placeholder="Joueur 4" class="form-control match_2"/>
     <input type="text" style="margin-left:10px;width: 40px !important;" placeholder="Score 1"
-           class="form-control retour"/>
+           class="form-control aller_ext_2"/>
+    <input type="text" style="margin-left:10px;width: 40px !important;" placeholder="Score 1"
+           class="form-control retour_ext_2"/>
 
     <input type="text" style="width: 150px !important;margin-left:320px;" placeholder="Joueur 1"
            class="form-control"/>
@@ -428,6 +432,42 @@ $nb = $_GET['nb'];
         $("#demie").css("margin-left", "180px");
         $("#finale").css("margin-left", "220px");
     }
+
+
+    $("input[type='text']").keyup(function () {
+        for (var i = 1; i < 20; i++) {
+            var aller_dom = $(".aller_dom_" + i);
+            var aller_ext = $(".aller_ext_" + i);
+            var retour_dom = $(".retour_dom_" + i);
+            var retour_ext = $(".retour_ext_" + i);
+            var match = $(".match_" + i);
+            if (aller_dom.val() > aller_ext.val()) {
+                match.css("background-color", "#B2C0BE");
+                aller_dom.css("background-color", "#8AF7A4");
+                aller_ext.css("background-color", "#F78A8A");
+            } else if (aller_dom.val() < aller_ext.val()) {
+                match.css("background-color", "#B2C0BE");
+                aller_dom.css("background-color", "#F78A8A");
+                aller_ext.css("background-color", "#8AF7A4");
+            } else if (aller_dom.val() == aller_ext.val()) {
+                match.css("background-color", "");
+                aller_dom.css("background-color", "");
+                aller_ext.css("background-color", "");
+            }
+
+            if (retour_dom.val() > retour_ext.val()) {
+                retour_dom.css("background-color", "#8AF7A4");
+                retour_ext.css("background-color", "#F78A8A");
+            } else if (retour_dom.val() < retour_ext.val()) {
+                retour_dom.css("background-color", "#F78A8A");
+                retour_ext.css("background-color", "#8AF7A4");
+            } else if (retour_dom.val() == retour_ext.val()) {
+                retour_dom.css("background-color", "");
+                retour_ext.css("background-color", "");
+            }
+        }
+    });
+
 </script>
 </body>
 </html>

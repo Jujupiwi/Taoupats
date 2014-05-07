@@ -7,6 +7,7 @@ include '../param.php';
 
 $nomTournoi = $_POST['name'];
 $nbJoueur = $_POST['quant'];
+$mode = $_POST['mode'];
 
 $mysqli = new mysqli($serv, $user, $pwd, $data);
 if ($mysqli->connect_errno) {
@@ -27,6 +28,17 @@ $res = $mysqli->query("select count(nom_tournoi) from tournoi where nom_tournoi 
 $row = $res->fetch_array();
 if ($row[0] != 0) {
     header('Location: creation.php?enreg=I');
+}
+
+if ($mode == 'coupe') {
+    $sql = $mysqli->query("INSERT INTO tournoi (nom_tournoi, nombre_tournoi, login, mode) VALUES ('$nomTournoi','$nbJoueur','$login', 'coupe');");
+    $sql = $mysqli->query("INSERT INTO `quarts`(`nomTournoi`, `login`) VALUES ('$nomTournoi','$login')");
+    if ($nbJoueur == 8) {
+        header('Location: quarts.php?name=' . $nomTournoi . '&nb=' . $nbJoueur . '');
+    } else {
+        header('Location: huitiemes.php?name=' . $nomTournoi . '&nb=' . $nbJoueur . '');
+    }
+    exit();
 }
 
 ?>
@@ -461,7 +473,7 @@ if ($row[0] != 0) {
             <option value="barcab">Barcab</option>
             <option value="betis">Betis</option>
             <option value="bilbao">Bilbao</option>
-            <option value="celta vigo">Celtavigo</option>
+            <option value="celta vigo">Celta Vigo</option>
             <option value="espanyol">Espanyol</option>
             <option value="getafe">Getafe</option>
             <option value="gijon">Gijon</option>

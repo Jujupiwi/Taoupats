@@ -1,12 +1,5 @@
 <?php
 include '../param.php';
-$error = 'E';
-if (isset($_GET['enreg'])) {
-    $enreg = $_GET['enreg'];
-    if ($enreg == 'I') {
-        $error = 'Un tournoi de ce nom existe deja!';
-    }
-}
 //...
 // Votre code
 //...
@@ -26,6 +19,8 @@ if (!isset($login) || $row[0] == 0) {
     header('Location: ../index.php?enreg=E');
     exit();
 }
+
+$name = $_GET['name'];
 ?>
 <!DOCTYPE html>
 <!--[if IE 8]>
@@ -63,7 +58,7 @@ if (!isset($login) || $row[0] == 0) {
 <!--=== Breadcrumbs ===-->
 <div class="breadcrumbs margin-bottom-40">
     <div class="container">
-        <h1 class="pull-left">Nouveau Tournoi</h1>
+        <h1 class="pull-left">Modifier joueurs</h1>
         <ul class="pull-right breadcrumb">
             <li class="active">Bienvenue <?php echo htmlentities(trim($_SESSION['login'])); ?> !</li>
             <li><a class="btn-u btn-u-red" href="../deconnexion.php">Deconnexion</a></li>
@@ -75,57 +70,37 @@ if (!isset($login) || $row[0] == 0) {
 <!--=== End Breadcrumbs ===-->
 
 <!--=== Content Part ===-->
-<div class="container" style="margin-bottom: 280px;">
+<div class="container" style="margin-bottom: 200px;margin-top: 200px;">
     <div class="row">
-        <div class="col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3">
-            <form id="valide" class="reg-page" method="post" style="text-align: center" action="tournoi.php">
-                <div class="reg-header">
-                    <h1>Nouveau tournoi</h1>
-                </div>
-                <?php
-                if ($error != 'E') {
-                    echo "<label><span class='color-red'>" . $error . "</span></label>";
-                }
-                ?>
-                <div class="alert alert-block alert-error" id="nameTournoiAlert" style="display: none; color: red">
-                    <button type="button" class="close" id="closeNT">x</button>
-                    <h4>Attention!</h4> Le Nom de Tournoi obligatoire!
-                </div>
-                <div class="alert alert-block alert-error" id="nbJoueurAlert" style="display: none; color: red">
-                    <button type="button" class="close" id="closeNB">x</button>
-                    <h4>Attention!</h4> Le Nombre de Joueurs doit etre compris entre 2 et 20!
-                </div>
-                <div class="alert alert-block alert-error" id="coupeAlert" style="display: none; color: red">
-                    <button type="button" class="close" id="closeCoupe">x</button>
-                    <h4>Attention!</h4> Le nombre de Joueurs pour une coupe doit etre de 8 joueurs!
-                </div>
-                <div class="input-group margin-bottom-20">
-                    <label for="nomTournoi">Nom Tournoi LF <span class="color-red">*</span></label>
-                    <span class="input-group-addon"><i class="icon-user"></i></span>
-                    <input id="nomTournoi" type="text" placeholder="Nom Tournoi" name="name" class="form-control">
-                </div>
-                <div class="input-group margin-bottom-20">
-                    <label for="nbJoueurs">Nombre de joueurs LF <span class="color-red">*</span></label>
-                    <span class="input-group-addon"><i class="icon-lock"></i></span>
-                    <input id="nbJoueurs" type="number" placeholder="2/20" name="quant"
-                           class="form-control numbersOnly">
-                </div>
-                <div class="input-group margin-bottom-20">
-                    <label for="mode">Mode de tournoi LF <span class="color-red">*</span></label>
-                    <span class="input-group-addon"><i class="icon-dashboard"></i></span>
-                    <select id="mode" name="mode" class="form-control">
-                        <option value="champ" selected>Championnat</option>
-                        <option value="coupe">Coupe</option>
-                    </select>
-                </div>
-                <input class="btn-u btn-u-blue" type="submit" id="valide" name="continuer" value="Continuer">
-            </form>
-        </div>
+        <form class="form-horizontal" method="post" action="updaterequete.php">
+            <?php
+            $sql = $mysqli->query('SELECT joueur, equipe FROM joueur WHERE login="' . $login . '" and nom_tournoi="' . $name . '" order by id_equipe');
+            $i = 1;
+            while ($row = $sql->fetch_array()) {
+                $rows[] = $row;
+            }
+            foreach ($rows as $ligne) {
+                echo "<div class='col-md-6'>";
+                echo '<input type="text" class="form-control" name="' . $i . '" value="' . $ligne[0] . '"/>';
+                echo "</div>";
+                echo "<div class='col-md-6'>";
+                echo '<input type="text" disabled class="form-control" value="' . $ligne[1] . '"/>';
+                echo "</div>";
+                $i++;
+            }
+            ?>
+            <div class="col-lg-6" style="margin-top: 20px;">
+                <input type="hidden" value="<?php echo $name; ?>" name="name">
+                <input type="hidden" value="<?php echo $i; ?>" name="nb">
+                <input type="submit" value="Modifier" class="btn-u btn-u-blue">
+            </div>
+        </form>
     </div>
     <br>
     <div class="row">
-        <div class="col-lg-offset-3 col-lg-4">
-            <a class="btn-u btn-u-red" href="membre.php" width="100px" height="30px">&nbsp;&nbsp;Retour&nbsp;&nbsp;</a>
+        <div class="col-lg-6">
+            <a class="btn-u btn-u-orange" href="tableau.php?name=<?php echo $name; ?>" width="100px" height="30px">
+                &nbsp;&nbsp;Retour&nbsp;&nbsp;</a>
         </div>
     </div>
     <!--/row-->
@@ -164,7 +139,6 @@ if (!isset($login) || $row[0] == 0) {
         </div>
         <!--/row-->
     </div>
-    <!--/row-->
     <!--/container-->
 </div>
 <!--/footer-->
@@ -206,42 +180,6 @@ if (!isset($login) || $row[0] == 0) {
 <!--[if lt IE 9]>
 <script src="../assets/plugins/respond.js"></script>
 <![endif]-->
-<script>
-    $("#valide").submit(function (event) {
-        var alertNbJoueur = $("#nbJoueurAlert");
-        var alertNomTournoi = $("#nameTournoiAlert");
-        var alertCoupe = $("#coupeAlert");
-        alertNbJoueur.css("display", "none");
-        alertNomTournoi.css("display", "none");
-        alertCoupe.css("display", "none");
-        if (document.getElementById('nomTournoi').value == "") {
-            alertNomTournoi.show("slow");
-        } else {
-            if (document.getElementById('nbJoueurs').value > 20 || document.getElementById('nbJoueurs').value < 2) {
-                document.getElementById('nbJoueurs').value = '';
-                alertNbJoueur.show("slow");
-            } else if (document.getElementById('mode').value == "coupe" &&
-                document.getElementById('nbJoueurs').value != 8) {
-                alertCoupe.show("slow");
-            } else {
-                $("#valide").submit();
-            }
-        }
-        event.preventDefault();
-    });
-    $('.numbersOnly').keyup(function () {
-        this.value = this.value.replace(/[^0-9\.]/g, '');
-    });
-    $("#closeNT").click(function () {
-        $("#nameTournoiAlert").css("display", "none");
-    });
-    $("#closeNB").click(function () {
-        $("#nbJoueurAlert").css("display", "none");
-    });
-    $("#closeCoupe").click(function () {
-        $("#coupeAlert").css("display", "none");
-    });
-</script>
 
 </body>
 </html>

@@ -21,9 +21,19 @@ if (!isset($login) || $row[0] == 0) {
     exit();
 }
 
+$sqlcount = $mysqli->query("select mode from tournoi where nom_tournoi = '$name' and login = '$login';");
+$row = $sqlcount->fetch_array();
+$mode = $row[0];
+
 $sqlcount = $mysqli->query("select nombre_tournoi from tournoi where nom_tournoi = '$name' and login = '$login';");
 $row = $sqlcount->fetch_array();
 $nb = $row[0];
+
+if ($mode == 'coupe' && $nb == 8) {
+    header('Location: quarts.php?name=' . $name . '&nb=' . $nb . '');
+    exit();
+}
+
 $sql = $mysqli->query("select * from matchs where nb_equipe = '$nb';");
 $result = $sql->fetch_array();
 
@@ -867,7 +877,7 @@ function ecrireEquipes($result_dom)
         echo "<img src='images/bilbao.png' width='30px' height='30px'>";
     }
     if ($result_dom == "celta vigo") {
-        echo "<img src='images/celtavigo.png' width='30px' height='30px'>";
+        echo "<img src='images/celta vigo.png' width='30px' height='30px'>";
     }
     if ($result_dom == "espanyol") {
         echo "<img src='images/espanyol.png' width='30px' height='30px'>";
@@ -3340,16 +3350,8 @@ function ecrireEquipes($result_dom)
 <div class="row">
     <div class="col-lg-offset-3 col-lg-6">
         <a class="btn-u btn-u-orange" href="membre.php" width="100px" height="30px">&nbsp;&nbsp;Quitter&nbsp;&nbsp;</a>
-        <!--        --><?php
-        //        if ($nb > 7) {
-        //
-        ?>
-        <!--        <a class="btn-u btn-u-red" href="quart_final.php?name=--><?php //echo $name; ?><!--"-->
-        <!--           width="100px" height="30px">Quart de Finale</a>-->
-        <!--        --><?php //} ?>
-        <!--        <a class="btn-u btn-u-green" href="demie_final.php?name=-->
-        <?php //echo $name; ?><!--" width="100px"-->
-        <!--           height="30px">Demie Finale</a>-->
+        <a class="btn-u btn-u-red" href="updatejoueur.php?name=<?php echo $name; ?>" width="100px" height="30px">&nbsp;&nbsp;Modifier
+            joueurs&nbsp;&nbsp;</a>
     </div>
 </div>
 </div>

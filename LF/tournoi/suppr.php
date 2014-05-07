@@ -17,12 +17,16 @@ if (!isset($login) || $row[0] == 0) {
     header('Location: ../index.php?enreg=E');
     exit();
 }
-$sql = $mysqli->query("DELETE from classement WHERE nom_tournoi = '$name' and login = '$login';");
 
-$sql = $mysqli->query("DELETE from resultats WHERE nom_tournoi = '$name' and login = '$login';");
-
-$sql = $mysqli->query("DELETE from joueur WHERE nom_tournoi = '$name' and login = '$login';");
-
+$res = $mysqli->query("select mode from tournoi WHERE nom_tournoi = '$name' and login = '$login';");
+$row = $res->fetch_array();
+if ($row[0] == 'coupe') {
+    $sql = $mysqli->query("DELETE from quarts WHERE nomTournoi = '$name' and login = '$login';");
+} else {
+    $sql = $mysqli->query("DELETE from classement WHERE nom_tournoi = '$name' and login = '$login';");
+    $sql = $mysqli->query("DELETE from resultats WHERE nom_tournoi = '$name' and login = '$login';");
+    $sql = $mysqli->query("DELETE from joueur WHERE nom_tournoi = '$name' and login = '$login';");
+}
 $sql = $mysqli->query("DELETE from tournoi WHERE nom_tournoi = '$name' and login = '$login';");
 
 header("Refresh: 0;URL=membre.php");

@@ -3352,6 +3352,9 @@ function ecrireEquipes($result_dom)
         <a class="btn-u btn-u-orange" href="membre.php" width="100px" height="30px">&nbsp;&nbsp;Quitter&nbsp;&nbsp;</a>
         <a class="btn-u btn-u-red" href="updatejoueur.php?name=<?php echo $name; ?>" width="100px" height="30px">&nbsp;&nbsp;Modifier
             joueurs&nbsp;&nbsp;</a>
+        <a class="btn-u btn-u-green" href="updatejoueur.php?name=<?php echo $name; ?>" width="100px" height="30px">
+            &nbsp;&nbsp;Modifier
+            joueurs&nbsp;&nbsp;</a>
     </div>
 </div>
 </div>

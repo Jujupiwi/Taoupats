@@ -2486,6 +2486,12 @@ function ecrireEquipes($result_dom)
     if ($result_dom == "fktrepca") {
         echo "<img src='images/fktrepca.png' width='30px' height='30px'>";
     }
+    for ($j = 1; $j < 21; $j++) {
+        $var = "libre" . $j;
+        if ($result_dom == $var) {
+            echo "<img src='images/libre1.png' width='30px' height='30px'>";
+        }
+    }
     if ($result_dom == "fkvrsac") {
         echo "<img src='images/fkvrsac.png' width='30px' height='30px'>";
     }
@@ -3186,6 +3192,12 @@ function ecrireEquipes($result_dom)
                 <input type="hidden" value="<?php echo $name; ?>" name="name">
                 <input type="hidden" value="<?php echo $nb_match; ?>" name="nbmatch">
                 <input type="submit" class="btn-u btn-u-blue" id="bout" value="Mettre a jour">
+                <a class="btn-u btn-u-yellow" href="#" onclick="match();"
+                   style="width: :100px;height: 30px;margin-top: -4px;">
+                    &nbsp;&nbsp;Match Restant&nbsp;&nbsp;</a>
+                <a class="btn-u btn-u-sea" href="#" onclick="matchAll();"
+                   style="width: :100px;height: 30px;margin-top: -4px;">
+                    &nbsp;&nbsp;Tous les Matchs&nbsp;&nbsp;</a>
             </center>
             <br>
     </form>
@@ -3438,11 +3450,26 @@ function ecrireEquipes($result_dom)
     $('.numbersOnly').keyup(function () {
         this.value = this.value.replace(/[^0-9\.]/g, '');
     });
-    //    $(".numbersOnly").each(function (index) {
-    //        if ($(this).val() != '') {
-    //            $(this).parent().parent().hide();
-    //        }
-    //    });
+    //$(".numbersOnly").each(function (index) {
+    //  if ($(this).val() != '') {
+    //    $(this).parent().parent().hide();
+    //}
+    //});
+
+    function match() {
+        $(".numbersOnly").each(function (index) {
+            if ($(this).val() != '') {
+                $(this).parent().parent().hide();
+            }
+        });
+    }
+    function matchAll() {
+        $("table tr").each(function () {
+            if ($(this).val() == '') {
+                $(this).show();
+            }
+        });
+    }
 </script>
 </body>
 </html>

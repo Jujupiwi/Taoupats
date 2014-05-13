@@ -184,6 +184,7 @@ if ($mode == 'coupe') {
             <option value="super_lig">Turquie</option>
             <option value="ukraine">Ukraine</option>
             <option value="uruguay">Uruguay</option>
+
         </select>
     </div>
     <div id="autre<?php echo $i; ?>" style="display:none"
@@ -404,6 +405,7 @@ if ($mode == 'coupe') {
     <option value="zambie">Zambie</option>
     <option value="zanzibar">Zanzibar</option>
     <option value="zimbabwe">Zimbabwe</option>
+    <option value="libre<?php echo $i; ?>">Libre</option>
     </select>
     </div>
     </div>

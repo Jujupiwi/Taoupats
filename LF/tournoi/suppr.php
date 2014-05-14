@@ -22,6 +22,7 @@ $res = $mysqli->query("select mode from tournoi WHERE nom_tournoi = '$name' and 
 $row = $res->fetch_array();
 if ($row[0] == 'coupe') {
     $sql = $mysqli->query("DELETE from quarts WHERE nomTournoi = '$name' and login = '$login';");
+    $sql = $mysqli->query("DELETE from huitiemes WHERE nomTournoi = '$name' and login = '$login';");
 } else {
     $sql = $mysqli->query("DELETE from classement WHERE nom_tournoi = '$name' and login = '$login';");
     $sql = $mysqli->query("DELETE from resultats WHERE nom_tournoi = '$name' and login = '$login';");

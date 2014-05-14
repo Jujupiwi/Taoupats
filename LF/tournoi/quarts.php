@@ -48,6 +48,11 @@ $nb = $_GET['nb'];
     <!-- CSS Theme -->
     <link rel="stylesheet" href="../assets/css/themes/red.css" id="style_color">
     <link rel="stylesheet" href="../assets/css/themes/headers/header1-red.css" id="style_color-header-1">
+    <style>
+        input {
+            font-weight: bold !important;
+        }
+    </style>
 </head>
 
 <body>
@@ -70,7 +75,7 @@ $nb = $_GET['nb'];
 <div class="container" style="margin-bottom: 130px;">
 <h2>Tournoi : <?php echo $name; ?></h2>
 
-<form class="reg-page" method="post" action="quarts_resultats.php">
+<form id="fond" class="reg-page" method="post" action="quarts_resultats.php">
 <div class="radio">
     <label>
         <input type="radio" name="options" id="A" onclick="afficheAller();" value="A">
@@ -283,8 +288,18 @@ $nb = $_GET['nb'];
 </center>
 </form>
 <br>
-<div class="col-lg-6">
+<div class="col-lg-8">
     <a class="btn-u btn-u-orange" href="membre.php" width="100px" height="30px">&nbsp;&nbsp;Quitter&nbsp;&nbsp;</a>
+    <a class="btn-u btn-u-sea" href="#" onclick="fond1();" style="width: :100px;height: 30px;">
+        &nbsp;&nbsp;Fond 1&nbsp;&nbsp;</a>
+    <a class="btn-u btn-u-yellow" href="#" onclick="fond2();" style="width: :100px;height: 30px;">
+        &nbsp;&nbsp;Fond 2&nbsp;&nbsp;</a>
+    <a class="btn-u btn-u-red" href="#" onclick="fond3();" style="width: :100px;height: 30px;">
+        &nbsp;&nbsp;Fond 3&nbsp;&nbsp;</a>
+    <a class="btn-u btn-u-blue" href="#" onclick="fond5();" style="width: :100px;height: 30px;">
+        &nbsp;&nbsp;Fond 4&nbsp;&nbsp;</a>
+    <a class="btn-u btn-u-green" href="#" onclick="fond4();" style="width: :100px;height: 30px;">
+        &nbsp;&nbsp;Aucun fond&nbsp;&nbsp;</a>
 </div>
 </div>
 
@@ -679,6 +694,21 @@ $("input[type='text']").keyup(function () {
 $(document).ready(function () {
     color();
 });
+function fond1() {
+    $("#fond").css("background-image", "url('images/fond4.jpg')");
+}
+function fond2() {
+    $("#fond").css("background-image", "url('images/fond1.jpeg')");
+}
+function fond3() {
+    $("#fond").css("background-image", "url('images/fond2.jpeg')");
+}
+function fond4() {
+    $("#fond").css("background-image", "");
+}
+function fond5() {
+    $("#fond").css("background-image", "url('images/carte-monde.png')");
+}
 </script>
 </body>
 </html>

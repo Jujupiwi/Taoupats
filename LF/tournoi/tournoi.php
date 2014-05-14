@@ -32,10 +32,11 @@ if ($row[0] != 0) {
 
 if ($mode == 'coupe') {
     $sql = $mysqli->query("INSERT INTO tournoi (nom_tournoi, nombre_tournoi, login, mode) VALUES ('$nomTournoi','$nbJoueur','$login', 'coupe');");
-    $sql = $mysqli->query("INSERT INTO `quarts`(`nomTournoi`, `login`) VALUES ('$nomTournoi','$login')");
     if ($nbJoueur == 8) {
+        $sql = $mysqli->query("INSERT INTO `quarts`(`nomTournoi`, `login`) VALUES ('$nomTournoi','$login')");
         header('Location: quarts.php?name=' . $nomTournoi . '&nb=' . $nbJoueur . '');
     } else {
+        $sql = $mysqli->query("INSERT INTO `huitiemes`(`nomTournoi`, `login`) VALUES ('$nomTournoi','$login')");
         header('Location: huitiemes.php?name=' . $nomTournoi . '&nb=' . $nbJoueur . '');
     }
     exit();

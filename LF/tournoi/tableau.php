@@ -32,6 +32,9 @@ $nb = $row[0];
 if ($mode == 'coupe' && $nb == 8) {
     header('Location: quarts.php?name=' . $name . '&nb=' . $nb . '');
     exit();
+} else if ($mode == 'coupe' && $nb == 16) {
+    header('Location: huitiemes.php?name=' . $name . '&nb=' . $nb . '');
+    exit();
 }
 
 $sql = $mysqli->query("select * from matchs where nb_equipe = '$nb';");

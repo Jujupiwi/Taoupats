@@ -50,6 +50,7 @@ $nb = $_GET['nb'];
     <style>
         input {
             height: 30px !important;
+            font-weight: bold !important;
         }
     </style>
 </head>
@@ -88,7 +89,7 @@ $nb = $_GET['nb'];
         </label>
     </div>
 </form>
-<form class="reg-page">
+<form id="fond" class="reg-page" method="post" action="huitiemes_resultats.php">
 <div class="row input-group">
     <span id="huitieme" style="margin-left: 90px;color: red;"><b>1/8 FINALES</b></span>
     <span id="quart" style="margin-left: 220px;color: #0000ff;"><b>1/4 FINALES</b></span>
@@ -96,240 +97,341 @@ $nb = $_GET['nb'];
     <span id="finale" style="margin-left: 220px;color: purple;"><b>FINALE</b></span>
 </div>
 <div class="row input-group">
-    <input type="text" style="width: 150px !important;" placeholder="Joueur 1" class="form-control match_1"/>
-    <input type="text" style="margin-left:10px;width: 40px !important;" placeholder="Score 1"
-           class="form-control aller_dom_1"/>
-    <input type="text" style="margin-left:10px;width: 40px !important;" placeholder="Score 1"
-           class="form-control retour_dom_1"/>
+    <?php
+    $sql = $mysqli->query("select * from huitiemes
+             where nomTournoi = '$name' and login = '$login';");
+    $requete = $sql->fetch_array();
+    ?>
+    <input type="text" style="width: 150px !important;" placeholder="Joueur 1" name="huitieme1J1"
+           class="form-control match_1"
+           value="<?php echo $requete['huitieme1J1']; ?>"/>
+    <input type="text" style="margin-left:10px;width: 40px !important;" placeholder="Score 1" name="huitieme1J1Aller"
+           class="form-control aller_dom_1" value="<?php echo $requete['huitieme1J1Aller']; ?>"/>
+    <input type="text" style="margin-left:10px;width: 40px !important;" placeholder="Score 1" name="huitieme1J1Retour"
+           class="form-control retour_dom_1 retour" value="<?php echo $requete['huitieme1J1Retour']; ?>"/>
 </div>
 <div class="row">
     <div class="col-md-4" style="color: red;"><b>Vs</b></div>
 </div>
 <div class="row input-group">
-    <input type="text" style="width: 150px !important;" placeholder="Joueur 2" class="form-control match_1"/>
-    <input type="text" style="margin-left:10px;width: 40px !important;" placeholder="Score 1"
-           class="form-control aller_ext_1"/>
-    <input type="text" style="margin-left:10px;width: 40px !important;" placeholder="Score 1"
-           class="form-control retour_ext_1"/>
+    <input type="text" style="width: 150px !important;" placeholder="Joueur 2" name="huitieme1J2"
+           class="form-control match_1"
+           value="<?php echo $requete['huitieme1J2']; ?>"/>
+    <input type="text" style="margin-left:10px;width: 40px !important;" placeholder="Score 1" name="huitieme1J2Aller"
+           value="<?php echo $requete['huitieme1J2Aller']; ?>" class="form-control aller_ext_1"/>
+    <input type="text" style="margin-left:10px;width: 40px !important;" placeholder="Score 1" name="huitieme1J2Retour"
+           class="form-control retour_ext_1 retour" value="<?php echo $requete['huitieme1J2Retour']; ?>"/>
 
-    <input type="text" style="margin-left:40px;width: 150px !important;" placeholder="Joueur 1"
-           class="form-control"/>
-    <input type="text" style="margin-left:10px;width: 40px !important;" placeholder="Score 1" class="form-control"/>
-    <input type="text" style="margin-left:10px;width: 40px !important;" placeholder="Score 1"
-           class="form-control retour"/>
+    <input type="text" style="margin-left:40px;width: 150px !important;" name="quart1J1" placeholder="Joueur 1"
+           class="form-control match_9" value="<?php echo $requete['quart1J1']; ?>"/>
+    <input type="text" style="margin-left:10px;width: 40px !important;" name="quart1J1Aller" placeholder="Score 1"
+           class="form-control aller_dom_9" value="<?php echo $requete['quart1J1Aller']; ?>"/>
+    <input type="text" style="margin-left:10px;width: 40px !important;" placeholder="Score 1" name="quart1J1Retour"
+           class="form-control retour retour_dom_9" value="<?php echo $requete['quart1J1Retour']; ?>"/>
 </div>
 
 <div class="row" style="margin-left: 290px;color: #0000ff;"><b>Vs</b></div>
 
 <div class="row input-group">
-    <input type="text" style="width: 150px !important;" placeholder="Joueur 3" class="form-control match_2"/>
-    <input type="text" style="margin-left:10px;width: 40px !important;" placeholder="Score 1"
-           class="form-control aller_dom_2"/>
-    <input type="text" style="margin-left:10px;width: 40px !important;" placeholder="Score 1"
-           class="form-control retour_dom_2"/>
+    <input type="text" style="width: 150px !important;" placeholder="Joueur 3" name="huitieme2J1"
+           class="form-control match_2" value="<?php echo $requete['huitieme2J1']; ?>"/>
+    <input type="text" style="margin-left:10px;width: 40px !important;" placeholder="Score 1" name="huitieme2J1Aller"
+           class="form-control aller_dom_2" value="<?php echo $requete['huitieme2J1Aller']; ?>"/>
+    <input type="text" style="margin-left:10px;width: 40px !important;" placeholder="Score 1" name="huitieme2J1Retour"
+           class="form-control retour_dom_2 retour" value="<?php echo $requete['huitieme2J1Retour']; ?>"/>
 
-    <input type="text" style="margin-left:40px;width: 150px !important;" placeholder="Joueur 2"
-           class="form-control"/>
-    <input type="text" style="margin-left:10px;width: 40px !important;" placeholder="Score 1" class="form-control"/>
+    <input type="text" style="margin-left:40px;width: 150px !important;" placeholder="Joueur 2" name="quart1J2"
+           class="form-control match_9" value="<?php echo $requete['quart1J2']; ?>"/>
     <input type="text" style="margin-left:10px;width: 40px !important;" placeholder="Score 1"
-           class="form-control retour"/>
+           class="form-control aller_ext_9"
+           name="quart1J2Aller" value="<?php echo $requete['quart1J2Aller']; ?>"/>
+    <input type="text" style="margin-left:10px;width: 40px !important;" placeholder="Score 1" name="quart1J2Retour"
+           class="form-control retour retour_ext_9" value="<?php echo $requete['quart1J2Retour']; ?>"/>
 </div>
 <div class="row">
     <div class="col-md-3" style="color: red;"><b>Vs</b></div>
 </div>
 <div class="row input-group">
-    <input type="text" style="width: 150px !important;" placeholder="Joueur 4" class="form-control match_2"/>
-    <input type="text" style="margin-left:10px;width: 40px !important;" placeholder="Score 1"
-           class="form-control aller_ext_2"/>
-    <input type="text" style="margin-left:10px;width: 40px !important;" placeholder="Score 1"
-           class="form-control retour_ext_2"/>
+    <input type="text" style="width: 150px !important;" placeholder="Joueur 4" name="huitieme2J2"
+           value="<?php echo $requete['huitieme2J2']; ?>" class="form-control match_2"/>
+    <input type="text" style="margin-left:10px;width: 40px !important;" placeholder="Score 1" name="huitieme2J2Aller"
+           value="<?php echo $requete['huitieme2J2Aller']; ?>" class="form-control aller_ext_2"/>
+    <input type="text" style="margin-left:10px;width: 40px !important;" placeholder="Score 1" name="huitieme2J2Retour"
+           class="form-control retour_ext_2 retour" value="<?php echo $requete['huitieme2J2Retour']; ?>"/>
 
-    <input type="text" style="width: 150px !important;margin-left:320px;" placeholder="Joueur 1"
-           class="form-control"/>
-    <input type="text" style="margin-left:10px;width: 40px !important;" placeholder="Score 1" class="form-control"/>
+    <input type="text" style="width: 150px !important;margin-left:320px;" placeholder="Joueur 1" name="demi1J1"
+           class="form-control match_10" value="<?php echo $requete['demi1J1']; ?>"/>
     <input type="text" style="margin-left:10px;width: 40px !important;" placeholder="Score 1"
-           class="form-control retour"/>
+           class="form-control aller_dom_10"
+           value="<?php echo $requete['demi1J1Aller']; ?>" name="demi1J1Aller"/>
+    <input type="text" style="margin-left:10px;width: 40px !important;" placeholder="Score 1"
+           value="<?php echo $requete['demi1J1Retour']; ?>" name="demi1J1Retour"
+           class="form-control retour retour_dom_10"/>
 
 </div>
 <div class="row input-group">
     <div class="col-md-8" style="margin-left: 570px;color: #008000;"><b>Vs</b></div>
 </div>
 <div class="row input-group">
-    <input type="text" style="width: 150px !important;" placeholder="Joueur 5" class="form-control"/>
-    <input type="text" style="margin-left:10px;width: 40px !important;" placeholder="Score 1" class="form-control"/>
+    <input type="text" style="width: 150px !important;" placeholder="Joueur 5" name="huitieme3J1"
+           value="<?php echo $requete['huitieme3J1']; ?>" class="form-control match_3"/>
     <input type="text" style="margin-left:10px;width: 40px !important;" placeholder="Score 1"
-           class="form-control retour"/>
+           value="<?php echo $requete['huitieme3J1Aller']; ?>" name="huitieme3J1Aller"
+           class="form-control aller_dom_3"/>
+    <input type="text" style="margin-left:10px;width: 40px !important;" placeholder="Score 1"
+           value="<?php echo $requete['huitieme3J1Retour']; ?>"
+           name="huitieme3J1Retour" class="form-control retour retour_dom_3"/>
 
-    <input type="text" style="width: 150px !important;margin-left:320px;" placeholder="Joueur 2"
-           class="form-control"/>
-    <input type="text" style="margin-left:10px;width: 40px !important;" placeholder="Score 1" class="form-control"/>
-    <input type="text" style="margin-left:10px;width: 40px !important;" placeholder="Score 1"
-           class="form-control retour"/>
+    <input type="text" style="width: 150px !important;margin-left:320px;" placeholder="Joueur 2" name="demi1J2"
+           class="form-control match_10" value="<?php echo $requete['demi1J2']; ?>"/>
+    <input type="text" style="margin-left:10px;width: 40px !important;" placeholder="Score 1" name="demi1J2Aller"
+           value="<?php echo $requete['demi1J2Aller']; ?>" class="form-control aller_ext_10"/>
+    <input type="text" style="margin-left:10px;width: 40px !important;" placeholder="Score 1" name="demi1J2Retour"
+           class="form-control retour retour_ext_10" value="<?php echo $requete['demi1J2Retour']; ?>"/>
 
 </div>
 <div class="row">
     <div class="col-md-3" style="color: red;"><b>Vs</b></div>
 </div>
 <div class="row input-group">
-    <input type="text" style="width: 150px !important;" placeholder="Joueur 6" class="form-control"/>
-    <input type="text" style="margin-left:10px;width: 40px !important;" placeholder="Score 1" class="form-control"/>
+    <input type="text" style="width: 150px !important;" placeholder="Joueur 6" class="form-control match_3"
+           value="<?php echo $requete['huitieme3J2']; ?>"
+           name="huitieme3J2"/>
     <input type="text" style="margin-left:10px;width: 40px !important;" placeholder="Score 1"
-           class="form-control retour"/>
+           value="<?php echo $requete['huitieme3J2Aller']; ?>" name="huitieme3J2Aller"
+           class="form-control aller_ext_3"/>
+    <input type="text" style="margin-left:10px;width: 40px !important;" placeholder="Score 1" name="huitieme3J2Retour"
+           class="form-control retour retour_ext_3" value="<?php echo $requete['huitieme3J2Retour']; ?>"/>
 
-    <input type="text" style="margin-left:40px;width: 150px !important;" placeholder="Joueur 3"
-           class="form-control"/>
-    <input type="text" style="margin-left:10px;width: 40px !important;" placeholder="Score 1" class="form-control"/>
-    <input type="text" style="margin-left:10px;width: 40px !important;" placeholder="Score 1"
-           class="form-control retour"/>
+    <input type="text" style="margin-left:40px;width: 150px !important;" placeholder="Joueur 3" name="quart2J1"
+           class="form-control match_11" value="<?php echo $requete['quart2J1']; ?>"/>
+    <input type="text" style="margin-left:10px;width: 40px !important;" placeholder="Score 1" name="quart2J1Aller"
+           value="<?php echo $requete['quart2J1Aller']; ?>" class="form-control aller_dom_11"/>
+    <input type="text" style="margin-left:10px;width: 40px !important;" placeholder="Score 1" name="quart2J1Retour"
+           class="form-control retour retour_dom_11" value="<?php echo $requete['quart2J1Retour']; ?>"/>
 
 </div>
 <div class="row" style="margin-left: 290px;color: #0000ff;"><b>Vs</b></div>
 
 <div class="row input-group">
-    <input type="text" style="width: 150px !important;" placeholder="Joueur 7" class="form-control"/>
-    <input type="text" style="margin-left:10px;width: 40px !important;" placeholder="Score 1" class="form-control"/>
+    <input type="text" style="width: 150px !important;" placeholder="Joueur 7" class="form-control match_4"
+           name="huitieme4J1"
+           value="<?php echo $requete['huitieme4J1']; ?>"/>
     <input type="text" style="margin-left:10px;width: 40px !important;" placeholder="Score 1"
-           class="form-control retour"/>
+           class="form-control aller_dom_4" name="huitieme4J1Aller"
+           value="<?php echo $requete['huitieme4J1Aller']; ?>"/>
+    <input type="text" style="margin-left:10px;width: 40px !important;" placeholder="Score 1" name="huitieme4J1Retour"
+           class="form-control retour retour_dom_4" value="<?php echo $requete['huitieme4J1Retour']; ?>"/>
 
-    <input type="text" style="margin-left:40px;width: 150px !important;" placeholder="Joueur 4"
-           class="form-control"/>
-    <input type="text" style="margin-left:10px;width: 40px !important;" placeholder="Score 1" class="form-control"/>
+    <input type="text" style="margin-left:40px;width: 150px !important;" placeholder="Joueur 4" name="quart2J2"
+           class="form-control match_11" value="<?php echo $requete['quart2J2']; ?>"/>
     <input type="text" style="margin-left:10px;width: 40px !important;" placeholder="Score 1"
-           class="form-control retour"/>
+           class="form-control aller_ext_11" name="quart2J2Aller"
+           value="<?php echo $requete['quart2J2Aller']; ?>"/>
+    <input type="text" style="margin-left:10px;width: 40px !important;" placeholder="Score 1" name="quart2J2Retour"
+           class="form-control retour retour_ext_11" value="<?php echo $requete['quart2J2Retour']; ?>"/>
 </div>
 <div class="row">
     <div class="col-md-4" style="color: red;"><b>Vs</b></div>
 </div>
 <div class="row input-group">
-    <input type="text" style="width: 150px !important;" placeholder="Joueur 8" class="form-control"/>
-    <input type="text" style="margin-left:10px;width: 40px !important;" placeholder="Score 1" class="form-control"/>
+    <input type="text" style="width: 150px !important;" placeholder="Joueur 8" class="form-control match_4"
+           name="huitieme4J2"
+           value="<?php echo $requete['huitieme4J2']; ?>"/>
     <input type="text" style="margin-left:10px;width: 40px !important;" placeholder="Score 1"
-           class="form-control retour"/>
+           class="form-control aller_ext_4" name="huitieme4J2Aller"
+           value="<?php echo $requete['huitieme4J2Aller']; ?>"/>
+    <input type="text" style="margin-left:10px;width: 40px !important;" placeholder="Score 1" name="huitieme4J2Retour"
+           class="form-control retour retour_ext_4" value="<?php echo $requete['huitieme4J2Retour']; ?>"/>
 
-    <input type="text" style="width: 150px !important;margin-left:580px;" placeholder="Joueur 1"
-           class="form-control"/>
-    <input type="text" style="margin-left:10px;width: 40px !important;" placeholder="Score 1" class="form-control"/>
+    <input type="text" style="width: 150px !important;margin-left:580px;" placeholder="Joueur 1" name="finaleJ1"
+           class="form-control match_12" value="<?php echo $requete['finaleJ1']; ?>"/>
     <input type="text" style="margin-left:10px;width: 40px !important;" placeholder="Score 1"
-           class="form-control retour"/>
+           class="form-control aller_dom_12" name="finaleJ1Aller"
+           value="<?php echo $requete['finaleJ1Aller']; ?>"/>
+    <input type="text" style="margin-left:10px;width: 40px !important;" placeholder="Score 1" name="finaleJ1Retour"
+           class="form-control retour retour_dom_12" value="<?php echo $requete['finaleJ1Retour']; ?>"/>
 </div>
 <div class="row" style="margin-left: 830px;color: purple;"><b>Vs</b></div>
 <div class="row input-group">
-    <input type="text" style="width: 150px !important;" placeholder="Joueur 9" class="form-control"/>
-    <input type="text" style="margin-left:10px;width: 40px !important;" placeholder="Score 1" class="form-control"/>
+    <input type="text" style="width: 150px !important;" placeholder="Joueur 9" class="form-control match_5"
+           name="huitieme5J1"
+           value="<?php echo $requete['huitieme5J1']; ?>"/>
     <input type="text" style="margin-left:10px;width: 40px !important;" placeholder="Score 1"
-           class="form-control retour"/>
+           class="form-control aller_dom_5" name="huitieme5J1Aller"
+           value="<?php echo $requete['huitieme5J1Aller']; ?>"/>
+    <input type="text" style="margin-left:10px;width: 40px !important;" placeholder="Score 1" name="huitieme5J1Retour"
+           class="form-control retour retour_dom_5" value="<?php echo $requete['huitieme5J1Retour']; ?>"/>
 
-    <input type="text" style="width: 150px !important;margin-left:580px;" placeholder="Joueur 2"
-           class="form-control"/>
-    <input type="text" style="margin-left:10px;width: 40px !important;" placeholder="Score 1" class="form-control"/>
+    <input type="text" style="width: 150px !important;margin-left:580px;" placeholder="Joueur 2" name="finaleJ2"
+           class="form-control match_12" value="<?php echo $requete['finaleJ2']; ?>"/>
     <input type="text" style="margin-left:10px;width: 40px !important;" placeholder="Score 1"
-           class="form-control retour"/>
+           class="form-control aller_ext_12" name="finaleJ2Aller"
+           value="<?php echo $requete['finaleJ2Aller']; ?>"/>
+    <input type="text" style="margin-left:10px;width: 40px !important;" placeholder="Score 1" name="finaleJ2Retour"
+           class="form-control retour retour_ext_12" value="<?php echo $requete['finaleJ2Retour']; ?>"/>
 </div>
 <div class="row">
     <div class="col-md-4" style="color: red;"><b>Vs</b></div>
 </div>
 <div class="row input-group">
-    <input type="text" style="width: 150px !important;" placeholder="Joueur 10" class="form-control"/>
-    <input type="text" style="margin-left:10px;width: 40px !important;" placeholder="Score 1" class="form-control"/>
+    <input type="text" style="width: 150px !important;" placeholder="Joueur 10" class="form-control match_5"
+           name="huitieme5J2"
+           value="<?php echo $requete['huitieme5J2']; ?>"/>
     <input type="text" style="margin-left:10px;width: 40px !important;" placeholder="Score 1"
-           class="form-control retour"/>
+           class="form-control aller_ext_5" name="huitieme5J2Aller"
+           value="<?php echo $requete['huitieme5J2Aller']; ?>"/>
+    <input type="text" style="margin-left:10px;width: 40px !important;" placeholder="Score 1" name="huitieme5J2Retour"
+           class="form-control retour retour_ext_5" value="<?php echo $requete['huitieme5J2Retour']; ?>"/>
 
-    <input type="text" style="margin-left:40px;width: 150px !important;" placeholder="Joueur 5"
-           class="form-control"/>
-    <input type="text" style="margin-left:10px;width: 40px !important;" placeholder="Score 1" class="form-control"/>
+    <input type="text" style="margin-left:40px;width: 150px !important;" placeholder="Joueur 5" name="quart3J1"
+           class="form-control match_13" value="<?php echo $requete['quart3J1']; ?>"/>
     <input type="text" style="margin-left:10px;width: 40px !important;" placeholder="Score 1"
-           class="form-control retour"/>
+           class="form-control aller_dom_13" name="quart3J1Aller"
+           value="<?php echo $requete['quart3J1Aller']; ?>"/>
+    <input type="text" style="margin-left:10px;width: 40px !important;" placeholder="Score 1" name="quart3J1Retour"
+           class="form-control retour retour_dom_13" value="<?php echo $requete['quart3J1Retour']; ?>"/>
 </div>
 
 <div class="row" style="margin-left: 290px;color: #0000ff;"><b>Vs</b></div>
 
 <div class="row input-group">
-    <input type="text" style="width: 150px !important;" placeholder="Joueur 11" class="form-control"/>
-    <input type="text" style="margin-left:10px;width: 40px !important;" placeholder="Score 1" class="form-control"/>
+    <input type="text" style="width: 150px !important;" placeholder="Joueur 11" class="form-control match_6"
+           name="huitieme6J1"
+           value="<?php echo $requete['huitieme6J1']; ?>"/>
     <input type="text" style="margin-left:10px;width: 40px !important;" placeholder="Score 1"
-           class="form-control retour"/>
+           class="form-control aller_dom_6" name="huitieme6J1Aller"
+           value="<?php echo $requete['huitieme6J1Aller']; ?>"/>
+    <input type="text" style="margin-left:10px;width: 40px !important;" placeholder="Score 1" name="huitieme6J1Retour"
+           class="form-control retour retour_dom_6" value="<?php echo $requete['huitieme6J1Retour']; ?>"/>
 
-    <input type="text" style="margin-left:40px;width: 150px !important;" placeholder="Joueur 6"
-           class="form-control"/>
-    <input type="text" style="margin-left:10px;width: 40px !important;" placeholder="Score 1" class="form-control"/>
+    <input type="text" style="margin-left:40px;width: 150px !important;" placeholder="Joueur 6" name="quart3J2"
+           class="form-control match_13" value="<?php echo $requete['quart3J2']; ?>"/>
     <input type="text" style="margin-left:10px;width: 40px !important;" placeholder="Score 1"
-           class="form-control retour"/>
+           class="form-control aller_ext_13" name="quart3J2Aller"
+           value="<?php echo $requete['quart3J2Aller']; ?>"/>
+    <input type="text" style="margin-left:10px;width: 40px !important;" placeholder="Score 1" name="quart3J2Retour"
+           class="form-control retour retour_ext_13" value="<?php echo $requete['quart3J2Retour']; ?>"/>
 </div>
 <div class="row">
     <div class="col-md-3" style="color: red;"><b>Vs</b></div>
 </div>
 <div class="row input-group">
-    <input type="text" style="width: 150px !important;" placeholder="Joueur 12" class="form-control"/>
-    <input type="text" style="margin-left:10px;width: 40px !important;" placeholder="Score 1" class="form-control"/>
+    <input type="text" style="width: 150px !important;" placeholder="Joueur 12" class="form-control match_6"
+           name="huitieme6J2"
+           value="<?php echo $requete['huitieme6J2']; ?>"/>
     <input type="text" style="margin-left:10px;width: 40px !important;" placeholder="Score 1"
-           class="form-control retour"/>
+           class="form-control aller_ext_6" name="huitieme6J2Aller"
+           value="<?php echo $requete['huitieme6J2Aller']; ?>"/>
+    <input type="text" style="margin-left:10px;width: 40px !important;" placeholder="Score 1" name="huitieme6J2Retour"
+           class="form-control retour retour_ext_6" value="<?php echo $requete['huitieme6J2Retour']; ?>"/>
 
-    <input type="text" style="width: 150px !important;margin-left:320px;" placeholder="Joueur 3"
-           class="form-control"/>
-    <input type="text" style="margin-left:10px;width: 40px !important;" placeholder="Score 1" class="form-control"/>
+    <input type="text" style="width: 150px !important;margin-left:320px;" placeholder="Joueur 3" name="demi2J1"
+           class="form-control match_14" value="<?php echo $requete['demi2J1']; ?>"/>
     <input type="text" style="margin-left:10px;width: 40px !important;" placeholder="Score 1"
-           class="form-control retour"/>
+           class="form-control aller_dom_14" name="demi2J1Aller"
+           value="<?php echo $requete['demi2J1Aller']; ?>"/>
+    <input type="text" style="margin-left:10px;width: 40px !important;" placeholder="Score 1" name="demi2J1Retour"
+           class="form-control retour retour_dom_14" value="<?php echo $requete['demi2J1Retour']; ?>"/>
 
 </div>
 <div class="row input-group">
     <div class="col-md-8" style="margin-left: 570px;color: #008000;"><b>Vs</b></div>
 </div>
 <div class="row input-group">
-    <input type="text" style="width: 150px !important;" placeholder="Joueur 13" class="form-control"/>
-    <input type="text" style="margin-left:10px;width: 40px !important;" placeholder="Score 1" class="form-control"/>
+    <input type="text" style="width: 150px !important;" placeholder="Joueur 13" class="form-control match_7"
+           name="huitieme7J1"
+           value="<?php echo $requete['huitieme7J1']; ?>"/>
     <input type="text" style="margin-left:10px;width: 40px !important;" placeholder="Score 1"
-           class="form-control retour"/>
+           class="form-control aller_dom_7" name="huitieme7J1Aller"
+           value="<?php echo $requete['huitieme7J1Aller']; ?>"/>
+    <input type="text" style="margin-left:10px;width: 40px !important;" placeholder="Score 1" name="huitieme7J1Retour"
+           class="form-control retour retour_dom_7" value="<?php echo $requete['huitieme7J1Retour']; ?>"/>
 
-    <input type="text" style="width: 150px !important;margin-left:320px;" placeholder="Joueur 4"
-           class="form-control"/>
-    <input type="text" style="margin-left:10px;width: 40px !important;" placeholder="Score 1" class="form-control"/>
+    <input type="text" style="width: 150px !important;margin-left:320px;" placeholder="Joueur 4" name="demi2J2"
+           class="form-control match_14" value="<?php echo $requete['demi2J2']; ?>"/>
     <input type="text" style="margin-left:10px;width: 40px !important;" placeholder="Score 1"
-           class="form-control retour"/>
+           class="form-control aller_ext_14" name="demi2J2Aller"
+           value="<?php echo $requete['demi2J2Aller']; ?>"/>
+    <input type="text" style="margin-left:10px;width: 40px !important;" placeholder="Score 1" name="demi2J2Retour"
+           class="form-control retour retour_ext_14" value="<?php echo $requete['demi2J2Retour']; ?>"/>
 
 </div>
 <div class="row">
     <div class="col-md-3" style="color: red;"><b>Vs</b></div>
 </div>
 <div class="row input-group">
-    <input type="text" style="width: 150px !important;" placeholder="Joueur 14" class="form-control"/>
-    <input type="text" style="margin-left:10px;width: 40px !important;" placeholder="Score 1" class="form-control"/>
+    <input type="text" style="width: 150px !important;" placeholder="Joueur 14" class="form-control match_7"
+           name="huitieme7J2"
+           value="<?php echo $requete['huitieme7J2']; ?>"/>
     <input type="text" style="margin-left:10px;width: 40px !important;" placeholder="Score 1"
-           class="form-control retour"/>
+           class="form-control aller_ext_7" name="huitieme7J2Aller"
+           value="<?php echo $requete['huitieme7J2Aller']; ?>"/>
+    <input type="text" style="margin-left:10px;width: 40px !important;" placeholder="Score 1" name="huitieme7J2Retour"
+           class="form-control retour retour_ext_7" value="<?php echo $requete['huitieme7J2Retour']; ?>"/>
 
-    <input type="text" style="margin-left:40px;width: 150px !important;" placeholder="Joueur 7"
-           class="form-control"/>
-    <input type="text" style="margin-left:10px;width: 40px !important;" placeholder="Score 1" class="form-control"/>
+    <input type="text" style="margin-left:40px;width: 150px !important;" placeholder="Joueur 7" name="quart4J1"
+           class="form-control match_15" value="<?php echo $requete['quart4J1']; ?>"/>
     <input type="text" style="margin-left:10px;width: 40px !important;" placeholder="Score 1"
-           class="form-control retour"/>
+           class="form-control aller_dom_15" name="quart4J1Aller"
+           value="<?php echo $requete['quart4J1Aller']; ?>"/>
+    <input type="text" style="margin-left:10px;width: 40px !important;" placeholder="Score 1" name="quart4J1Retour"
+           class="form-control retour retour_dom_15" value="<?php echo $requete['quart4J1Retour']; ?>"/>
 
 </div>
 <div class="row" style="margin-left: 290px;color: #0000ff;"><b>Vs</b></div>
 
 <div class="row input-group">
-    <input type="text" style="width: 150px !important;" placeholder="Joueur 15" class="form-control"/>
-    <input type="text" style="margin-left:10px;width: 40px !important;" placeholder="Score 1" class="form-control"/>
+    <input type="text" style="width: 150px !important;" placeholder="Joueur 15" class="form-control match_8"
+           name="huitieme8J1"
+           value="<?php echo $requete['huitieme8J1']; ?>"/>
     <input type="text" style="margin-left:10px;width: 40px !important;" placeholder="Score 1"
-           class="form-control retour"/>
+           class="form-control aller_dom_8" name="huitieme8J1Aller"
+           value="<?php echo $requete['huitieme8J1Aller']; ?>"/>
+    <input type="text" style="margin-left:10px;width: 40px !important;" placeholder="Score 1" name="huitieme8J1Retour"
+           class="form-control retour retour_dom_8" value="<?php echo $requete['huitieme8J1Retour']; ?>"/>
 
-    <input type="text" style="margin-left:40px;width: 150px !important;" placeholder="Joueur 8"
-           class="form-control"/>
-    <input type="text" style="margin-left:10px;width: 40px !important;" placeholder="Score 1" class="form-control"/>
+    <input type="text" style="margin-left:40px;width: 150px !important;" placeholder="Joueur 8" name="quart4J2"
+           class="form-control match_15" value="<?php echo $requete['quart4J2']; ?>"/>
     <input type="text" style="margin-left:10px;width: 40px !important;" placeholder="Score 1"
-           class="form-control retour"/>
+           class="form-control aller_ext_15" name="quart4J2Aller"
+           value="<?php echo $requete['quart4J2Aller']; ?>"/>
+    <input type="text" style="margin-left:10px;width: 40px !important;" placeholder="Score 1" name="quart4J2Retour"
+           class="form-control retour retour_ext_15" value="<?php echo $requete['quart4J2Retour']; ?>"/>
 </div>
 <div class="row">
     <div class="col-md-4" style="color: red;"><b>Vs</b></div>
 </div>
 <div class="row input-group">
-    <input type="text" style="width: 150px !important;" placeholder="Joueur 16" class="form-control"/>
-    <input type="text" style="margin-left:10px;width: 40px !important;" placeholder="Score 1" class="form-control"/>
+    <input type="text" style="width: 150px !important;" placeholder="Joueur 16" class="form-control match_8"
+           name="huitieme8J2"
+           value="<?php echo $requete['huitieme8J2']; ?>"/>
     <input type="text" style="margin-left:10px;width: 40px !important;" placeholder="Score 1"
-           class="form-control retour"/>
+           class="form-control aller_ext_8" name="huitieme8J2Aller"
+           value="<?php echo $requete['huitieme8J2Aller']; ?>"/>
+    <input type="text" style="margin-left:10px;width: 40px !important;" placeholder="Score 1" name="huitieme8J2Retour"
+           class="form-control retour retour_ext_8" value="<?php echo $requete['huitieme8J2Retour']; ?>"/>
 </div>
+<br><br>
+<center>
+    <input type="hidden" value="<?php echo $nb; ?>" name="nb">
+    <input type="hidden" value="<?php echo $name; ?>" name="name">
+    <input type="submit" class="btn-u btn-u-blue" id="bout" value="Mettre a jour">
+</center>
 </form>
 <br>
-<div class="col-lg-6">
+<div class="col-lg-8">
     <a class="btn-u btn-u-orange" href="membre.php" width="100px" height="30px">&nbsp;&nbsp;Quitter&nbsp;&nbsp;</a>
+    <a class="btn-u btn-u-sea" href="#" onclick="fond1();" style="width: :100px;height: 30px;">
+        &nbsp;&nbsp;Fond 1&nbsp;&nbsp;</a>
+    <a class="btn-u btn-u-yellow" href="#" onclick="fond2();" style="width: :100px;height: 30px;">
+        &nbsp;&nbsp;Fond 2&nbsp;&nbsp;</a>
+    <a class="btn-u btn-u-red" href="#" onclick="fond3();" style="width: :100px;height: 30px;">
+        &nbsp;&nbsp;Fond 3&nbsp;&nbsp;</a>
+    <a class="btn-u btn-u-blue" href="#" onclick="fond5();" style="width: :100px;height: 30px;">
+        &nbsp;&nbsp;Fond 4&nbsp;&nbsp;</a>
+    <a class="btn-u btn-u-green" href="#" onclick="fond4();" style="width: :100px;height: 30px;">
+        &nbsp;&nbsp;Aucun fond&nbsp;&nbsp;</a>
 </div>
 </div>
 
@@ -433,9 +535,12 @@ $nb = $_GET['nb'];
         $("#finale").css("margin-left", "220px");
     }
 
+    $(document).ready(function () {
+        color();
+    });
 
-    $("input[type='text']").keyup(function () {
-        for (var i = 1; i < 20; i++) {
+    function color() {
+        for (var i = 1; i < 23; i++) {
             var aller_dom = $(".aller_dom_" + i);
             var aller_ext = $(".aller_ext_" + i);
             var retour_dom = $(".retour_dom_" + i);
@@ -466,8 +571,27 @@ $nb = $_GET['nb'];
                 retour_ext.css("background-color", "");
             }
         }
+    }
+
+    $("input[type='text']").keyup(function () {
+        color();
     });
 
+    function fond1() {
+        $("#fond").css("background-image", "url('images/fond4.jpg')");
+    }
+    function fond2() {
+        $("#fond").css("background-image", "url('images/fond1.jpeg')");
+    }
+    function fond3() {
+        $("#fond").css("background-image", "url('images/fond2.jpeg')");
+    }
+    function fond4() {
+        $("#fond").css("background-image", "");
+    }
+    function fond5() {
+        $("#fond").css("background-image", "url('images/carte-monde.png')");
+    }
 </script>
 </body>
 </html>

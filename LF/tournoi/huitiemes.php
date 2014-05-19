@@ -88,6 +88,12 @@ $nb = $_GET['nb'];
             Aller / Retour
         </label>
     </div>
+    <div class="radio">
+        <label>
+            <input type="radio" name="options" id="ARF" onclick="finaleRetour();" value="ARF">
+            Aller / Retour sauf Finale
+        </label>
+    </div>
 </form>
 <form id="fond" class="reg-page" method="post" action="huitiemes_resultats.php">
 <div class="row input-group">
@@ -250,6 +256,7 @@ $nb = $_GET['nb'];
            class="form-control aller_dom_12" name="finaleJ1Aller"
            value="<?php echo $requete['finaleJ1Aller']; ?>"/>
     <input type="text" style="margin-left:10px;width: 40px !important;" placeholder="Score 1" name="finaleJ1Retour"
+           id="finaleJ1Retour"
            class="form-control retour retour_dom_12" value="<?php echo $requete['finaleJ1Retour']; ?>"/>
 </div>
 <div class="row" style="margin-left: 830px;color: purple;"><b>Vs</b></div>
@@ -269,6 +276,7 @@ $nb = $_GET['nb'];
            class="form-control aller_ext_12" name="finaleJ2Aller"
            value="<?php echo $requete['finaleJ2Aller']; ?>"/>
     <input type="text" style="margin-left:10px;width: 40px !important;" placeholder="Score 1" name="finaleJ2Retour"
+           id="finaleJ2Retour"
            class="form-control retour retour_ext_12" value="<?php echo $requete['finaleJ2Retour']; ?>"/>
 </div>
 <div class="row">
@@ -591,6 +599,10 @@ $nb = $_GET['nb'];
     }
     function fond5() {
         $("#fond").css("background-image", "url('images/carte-monde.png')");
+    }
+    function finaleRetour() {
+        $("#finaleJ1Retour").css("display", "none");
+        $("#finaleJ2Retour").css("display", "none");
     }
 </script>
 </body>

@@ -88,6 +88,12 @@ $nb = $_GET['nb'];
         Aller / Retour
     </label>
 </div>
+<div class="radio">
+    <label>
+        <input type="radio" name="options" id="ARF" onclick="finaleRetour();" value="ARF">
+        Aller / Retour sauf Finale
+    </label>
+</div>
 
 <div class="row input-group">
     <span id="quart" style="margin-left: 100px;color: red;"><b>1/4 FINALES</b></span>
@@ -708,6 +714,10 @@ function fond4() {
 }
 function fond5() {
     $("#fond").css("background-image", "url('images/carte-monde.png')");
+}
+function finaleRetour() {
+    $("#F_joueur2_R").css("display", "none");
+    $("#F_joueur1_R").css("display", "none");
 }
 </script>
 </body>

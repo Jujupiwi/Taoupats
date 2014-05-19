@@ -173,7 +173,7 @@
     <td>Daux</td>
     <td>Samedi 17 Mai à 18h30</td>
     <td>Labastidette</td>
-    <td></td>
+    <td><span class="badge badge-success">3-0</span></td>
     <td>D2</td>
 </tr>
 <tr>

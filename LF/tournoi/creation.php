@@ -217,6 +217,10 @@ if (!isset($login) || $row[0] == 0) {
         if (document.getElementById('nomTournoi').value == "") {
             alertNomTournoi.show("slow");
         } else {
+            if (document.getElementById('nbJoueurs').value == 28) {
+                $("#valide").submit();
+                event.preventDefault();
+            }
             if (document.getElementById('nbJoueurs').value > 20 || document.getElementById('nbJoueurs').value < 2) {
                 document.getElementById('nbJoueurs').value = '';
                 alertNbJoueur.show("slow");

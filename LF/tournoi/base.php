@@ -28,4 +28,4 @@ for ($i = 1; $i <= $nb; $i++) {
     $sql = $mysqli->query("INSERT INTO joueur (nom_tournoi, joueur, equipe, id_equipe, login) VALUES ('$name','$joueur','$equipe','$i','$login');");
     $sql = $mysqli->query("INSERT INTO classement (nom_tournoi, mj_classement, equipe, position, victoire, nul, defaite, bp, bc, diff, points, login) VALUES ('$name',0,'$equipe','$i',0,0,0,0,0,0,0,'$login');");
 }
-header("Refresh: 0;URL=tableau.php?name=$name");
+//header("Refresh: 0;URL=tableau.php?name=$name");

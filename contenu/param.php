@@ -17,19 +17,19 @@ $data = 'taoupats';
 Liste des joueurs pour le match
  *********************************************************/
 $joueur1 = 'Alexy';
-$joueur2 = 'MaximeD';
+$joueur2 = 'Clement';
 $joueur3 = 'Joffrey';
-$joueur4 = 'JulienB';
+$joueur4 = 'Gaetan';
 $joueur5 = 'Dede';
-$joueur6 = 'Tito';
-$joueur7 = 'Pierre';
-$joueur8 = 'Baptiste';
-$joueur9 = 'Zizou';
+$joueur6 = 'Zizou';
+$joueur7 = 'Enzo';
+$joueur8 = 'Alexis';
+$joueur9 = 'JulienG';
 $joueur10 = 'Jordan';
 $joueur11 = 'Tony';
-$joueur12 = 'Alexis';
+$joueur12 = 'Baptiste';
 $joueur13 = 'MaximeS';
-$joueur14 = 'JulienG';
+$joueur14 = 'Pierre';
 
 /*********************************************************
 Liste des autres joueurs
@@ -44,11 +44,11 @@ $joueur21 = 'Paul';
 $joueur22 = 'JB';
 $joueur23 = 'Laurent';
 $joueur24 = 'Florian';
-$joueur25 = 'Clement';
-$joueur26 = 'Gaetan';
+$joueur25 = 'MaximeD';
+$joueur26 = 'JulienB';
 $joueur27 = 'Julien';
 $joueur28 = 'Tony';
-$joueur29 = 'Enzo';
+$joueur29 = 'Tito';
 
 
 $nbJoueurs = 14;
@@ -72,9 +72,9 @@ $leguevin = 'Leguevin US 2';
 /*********************************************************
 Nom des sondages
  *********************************************************/
-$match = 'cadours2';
-$noteMatch = 'note-cadours2';
-$commentMatch = 'comment-cadours2';
+$match = 'labastidette3';
+$noteMatch = 'note-labastidette3';
+$commentMatch = 'comment-labastidette3';
 
 /*********************************************************
 Interview de la personne de la semaine

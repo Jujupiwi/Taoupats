@@ -180,7 +180,7 @@
     <td>Daux</td>
     <td>Samedi 24 Mai à 18h30</td>
     <td>Nailloux</td>
-    <td></td>
+    <td><span class="badge badge-success">2-0</span></td>
     <td>D2</td>
 </tr>
 </tbody>

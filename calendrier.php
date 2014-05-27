@@ -250,10 +250,18 @@
                     <th width="20%" style="color: #C64646; text-align: center;">Défaites</th>
                 </tr>
                 <tr>
-                    <td style="text-align: center;">24</td>
-                    <td style="color: #5DAF6B; text-align: center;">10</td>
+                    <td style="text-align: center;">25</td>
+                    <td style="color: #5DAF6B; text-align: center;">11</td>
                     <td style="color: #4664C6; text-align: center;">3</td>
                     <td style="color: #C64646; text-align: center;">11</td>
+                </tr>
+                <tr>
+                    <td style="text-align: center;"><b>Nombre de buts marqués</b></td>
+                    <td colspan="4" style="color: #5DAF6B; text-align: center;vertical-align: middle"><b>49</b></td>
+                </tr>
+                <tr>
+                    <td style="text-align: center;"><b>Nombre de buts encaissés</b></td>
+                    <td colspan="4" style="color: #C64646; text-align: center;vertical-align: middle"><b>44</b></td>
                 </tr>
             </table>
         </div>

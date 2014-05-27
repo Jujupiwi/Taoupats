@@ -20,9 +20,9 @@
     </tr>
     <tr>
         <td style="text-align: center"><?php echo $fonsegrives; ?></td>
-        <td style="text-align: center"></td>
+        <td style="text-align: center">2</td>
         <td style="text-align: center">-</td>
-        <td style="text-align: center"></td>
+        <td style="text-align: center">4</td>
         <td style="text-align: center"><?php echo $roquette; ?></td>
     </tr>
     <tr>
